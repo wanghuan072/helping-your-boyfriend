@@ -1,16 +1,10 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { readGuides, topicPath } from './read-guides.mjs';
 
 const read = file => JSON.parse(fs.readFileSync(file, 'utf8'));
 const registry = read('planning/route-registry.json');
-const main = read('data/games/main-game.json');
-const legal = read('seo/page-lastmod.json');
-const expectedDates = new Map([
-  ['/', main.updatedAt],
-  ...Object.entries(legal).map(([route, state]) => [route, state.lastModified]),
-  ...readGuides().map(guide => [topicPath(guide.id), guide.updatedAt]),
-]);
+const manifest = read('seo/url-manifest.json');
+const expectedDates = new Map(manifest.entries.map(entry => [entry.path, entry.lastModified]));
 const xml = fs.readFileSync('.next/server/app/sitemap.xml.body', 'utf8');
 assert.match(xml, /<urlset xmlns="http:\/\/www.sitemaps.org\/schemas\/sitemap\/0.9">/);
 const entries = [...xml.matchAll(/<url>([\s\S]*?)<\/url>/g)].map(match => match[1]);
@@ -18,6 +12,7 @@ const routes = registry.staticRoutes.filter(route => route.sitemap);
 assert.equal(entries.length, routes.length);
 const seen = new Set();
 for (const entry of entries) {
+  assert.match(entry, /<loc>[^<]+<\/loc>\s*<lastmod>[^<]+<\/lastmod>\s*<changefreq>[^<]+<\/changefreq>\s*<priority>[^<]+<\/priority>/);
   const value = tag => entry.match(new RegExp(`<${tag}>([^<]+)</${tag}>`))?.[1];
   const route = routes.find(route => route.canonical === value('loc'));
   assert.ok(route, `Unexpected URL: ${value('loc')}`);
@@ -36,4 +31,8 @@ for (const entry of entries) {
   assert.ok(['always','hourly','daily','weekly','monthly','yearly','never'].includes(route.changeFrequency));
   assert.ok(route.priority >= 0 && route.priority <= 1);
 }
+const published = read('.next/server/app/.well-known/seo-url-manifest.json.body');
+assert.deepEqual(published, manifest);
+const robots = fs.readFileSync('.next/server/app/robots.txt.body', 'utf8');
+assert.ok(robots.includes(`Sitemap: ${registry.origin}/sitemap.xml`));
 console.log(`Sitemap output passed: ${seen.size} canonical URLs match HTML and social metadata; namespace, page-specific dates, update frequencies and priorities verified.`);

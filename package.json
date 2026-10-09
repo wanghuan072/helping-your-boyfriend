@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run test:paths && npm run validate:publish && npm run sitemap:validate && next build && node scripts/prepare-standalone.mjs",
+    "build": "npm run test:paths && npm run validate:publish && node scripts/seo/build.mjs && node scripts/prepare-standalone.mjs",
     "start": "node .next/standalone/server.js",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
@@ -16,12 +16,18 @@
     "validate:data": "node scripts/validate-data.mjs development",
     "validate:media": "node scripts/validate-data.mjs media",
     "validate:publish": "node scripts/validate-data.mjs publish",
-    "sitemap:update": "node scripts/sitemap-state.mjs update",
-    "sitemap:validate": "node scripts/sitemap-state.mjs validate",
+    "sitemap:update": "npm run build",
+    "sitemap:validate": "node scripts/seo/build.mjs validate",
+    "content:dates:update": "node scripts/sitemap-state.mjs update",
+    "content:dates:validate": "node scripts/sitemap-state.mjs validate",
+    "seo:migrate": "node scripts/seo/build.mjs migrate",
+    "test:seo": "node scripts/seo/test.mjs",
+    "indexnow:verify-key": "node scripts/seo/verify-key.mjs",
     "audit:production": "node scripts/audit-production.mjs",
     "audit:viewports": "node scripts/capture-acceptance-viewports.mjs"
   },
   "dependencies": {
+    "@next/env": "16.4.0",
     "next": "16.4.0",
     "react": "19.3.0",
     "react-dom": "19.3.0"
@@ -33,6 +39,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.0",
+    "parse5": "^8.0.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

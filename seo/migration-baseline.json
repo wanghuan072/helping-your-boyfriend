@@ -1,0 +1,94 @@
+{
+  "source": "https://helpingyourboyfriend.org/sitemap.xml + production HTML (read-only audit)",
+  "observedAt": "2026-10-09T09:36:32.561Z",
+  "purpose": "Local migration recovery only; production builds always fetch the live successful production manifest.",
+  "manifest": {
+    "schemaVersion": 1,
+    "fingerprintVersion": "semantic-html-v1",
+    "siteUrl": "https://helpingyourboyfriend.org",
+    "generatedAt": "2026-10-09T09:36:32.561Z",
+    "entries": [
+      {
+        "path": "/",
+        "canonicalUrl": "https://helpingyourboyfriend.org/",
+        "indexable": true,
+        "contentFingerprint": "sha256:052b4de4cfcb821b262533acb5d329fc09b686f01fa7b9dce508f2ecdfe28f2c",
+        "lastModified": "2026-10-09T00:00:00.000Z",
+        "changeFrequency": "weekly",
+        "priority": 1
+      },
+      {
+        "path": "/about",
+        "canonicalUrl": "https://helpingyourboyfriend.org/about",
+        "indexable": true,
+        "contentFingerprint": "sha256:0c92405ececb52c3e5f201030e641674aa3ee4a40cb1332e8facf6321e1f7fef",
+        "lastModified": "2026-10-09T00:00:00.000Z",
+        "changeFrequency": "monthly",
+        "priority": 0.5
+      },
+      {
+        "path": "/characters",
+        "canonicalUrl": "https://helpingyourboyfriend.org/characters",
+        "indexable": true,
+        "contentFingerprint": "sha256:04a02c3244f19b58c0bad37590971237ce282109d3e7e20861d967c33e585534",
+        "lastModified": "2026-10-09T00:00:00.000Z",
+        "changeFrequency": "monthly",
+        "priority": 0.8
+      },
+      {
+        "path": "/contact",
+        "canonicalUrl": "https://helpingyourboyfriend.org/contact",
+        "indexable": true,
+        "contentFingerprint": "sha256:1d086fb650d28d392120bf20b5804461e0c54174b45daa6a00465011fc2aab6f",
+        "lastModified": "2026-10-09T00:00:00.000Z",
+        "changeFrequency": "yearly",
+        "priority": 0.3
+      },
+      {
+        "path": "/controls",
+        "canonicalUrl": "https://helpingyourboyfriend.org/controls",
+        "indexable": true,
+        "contentFingerprint": "sha256:4730c9c48cf5bac758aece8868073f504587f6371ba7f9285c5d0a8478835f51",
+        "lastModified": "2026-10-09T00:00:00.000Z",
+        "changeFrequency": "monthly",
+        "priority": 0.8
+      },
+      {
+        "path": "/copyright",
+        "canonicalUrl": "https://helpingyourboyfriend.org/copyright",
+        "indexable": true,
+        "contentFingerprint": "sha256:a56001493392095ad664775f3ce18faff989894263297106f335b13ab69af787",
+        "lastModified": "2026-10-09T00:00:00.000Z",
+        "changeFrequency": "yearly",
+        "priority": 0.3
+      },
+      {
+        "path": "/endings",
+        "canonicalUrl": "https://helpingyourboyfriend.org/endings",
+        "indexable": true,
+        "contentFingerprint": "sha256:11bbd6381ff084d02299101f9d036fc0968ce4ef94f9abdbebb52582400e661d",
+        "lastModified": "2026-10-09T00:00:00.000Z",
+        "changeFrequency": "monthly",
+        "priority": 0.8
+      },
+      {
+        "path": "/privacy",
+        "canonicalUrl": "https://helpingyourboyfriend.org/privacy",
+        "indexable": true,
+        "contentFingerprint": "sha256:9dcbea19836646700e9417b2dd4f83b3e0fa26623f5eaa08d70a5506ac1a28ce",
+        "lastModified": "2026-10-09T00:00:00.000Z",
+        "changeFrequency": "yearly",
+        "priority": 0.3
+      },
+      {
+        "path": "/terms",
+        "canonicalUrl": "https://helpingyourboyfriend.org/terms",
+        "indexable": true,
+        "contentFingerprint": "sha256:e6e8120250f79ffbcaca37ddd3e887b2e793d5100e5f479a546274661a8130a9",
+        "lastModified": "2026-10-09T00:00:00.000Z",
+        "changeFrequency": "yearly",
+        "priority": 0.3
+      }
+    ]
+  }
+}

@@ -1,6 +1,8 @@
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 
+// Editorial UI dates only, NOT the production Sitemap/IndexNow baseline.
+// SEO uses normalized prerendered HTML in scripts/seo instead.
 // Page-local content dependencies. Technical assets do not alone constitute
 // a new editorial revision (fonts, compression, metadata or styles).
 export function publicFingerprints(readText = file => fs.readFileSync(file, 'utf8')) {

@@ -3,6 +3,9 @@ import { publicFingerprints } from './page-fingerprints.mjs';
 import { readTopicRoutes } from './read-guides.mjs';
 import { revisionDate } from './revision-date.mjs';
 
+// Legacy filename retained for local editorial month labels. This state is not
+// used as the SEO baseline: app/sitemap.ts reads only seo/url-manifest.json.
+
 const mode = process.argv[2] ?? 'validate';
 if (!['validate', 'update'].includes(mode)) throw new Error(`Unknown mode: ${mode}`);
 // One-time hash-algorithm migration; preserves genuine editorial dates.

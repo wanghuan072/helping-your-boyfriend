@@ -1,0 +1,16 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import { validate, diff } from './manifest.mjs';
+const read = file => JSON.parse(fs.readFileSync(file, 'utf8'));
+const baseline = read('seo/migration-baseline.json').manifest;
+const current = read('seo/url-manifest.json');
+validate(baseline, current.siteUrl); validate(current);
+const changes = diff(baseline, current);
+assert.equal(changes.added.length, 0);
+assert.equal(changes.updated.length, 0);
+assert.equal(changes.deleted.length, 0);
+assert.equal(changes.unchanged.length, 9);
+fs.mkdirSync('reports/runtime', { recursive: true });
+fs.writeFileSync('reports/runtime/seo-production-baseline.json', `${JSON.stringify(baseline,null,2)}\n`);
+fs.writeFileSync('reports/runtime/seo-diff.json', `${JSON.stringify(changes,null,2)}\n`);
+console.log('Migration/repeated builds: all nine production fingerprints and historical dates unchanged. Baseline fixture emitted for the requested skill validators.');

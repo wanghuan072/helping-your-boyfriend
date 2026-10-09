@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 import mainGame from "./data/games/main-game.json";
+import manifest from "./seo/url-manifest.json";
+import { sitemapRewrites } from "./seo/sitemap-policy.js";
 
 const publishedFrameOrigins = Array.from(
   new Set(
@@ -36,6 +38,7 @@ const contentSecurityPolicy = [
 const nextConfig: NextConfig = {
   output: "standalone",
   images: { unoptimized: true },
+  async rewrites() { return sitemapRewrites(manifest); },
   async headers() {
     return [
       {
