@@ -20,7 +20,6 @@ const baselineFile = 'seo/migration-baseline.json';
 const production = process.env.VERCEL_ENV === 'production';
 const mode = process.argv[2] ?? 'build';
 if (!['build', 'migrate', 'validate'].includes(mode)) throw new Error('Unknown SEO build mode');
-if (process.env.SITE_URL && process.env.SITE_URL !== origin) throw new Error('SITE_URL must equal the canonical registry origin');
 const timeout = 15_000;
 const imageCache = new Map();
 const hash = bytes => createHash('sha256').update(bytes).digest('hex');

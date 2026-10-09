@@ -1,28 +1,54 @@
-# IndexNow 配置说明
+# IndexNow 简单配置与使用
 
-目标仓库：`wanghuan072/helping-your-boyfriend`。Vercel 项目：`helping-your-boyfriend-9jzf`。正式域名：`https://helpingyourboyfriend.org`。
+正式域名：`https://helpingyourboyfriend.org`。
 
-## 已完成并核实
+## 需要什么
 
-- GitHub 仓库变量 `VERCEL_PROJECT_ID` 和 `SITE_URL` 已保存。
-- Vercel 生产环境的 `INDEXNOW_KEY` 已保存。线上根目录的密钥验证文件返回 200，内容与现有本地密钥一致。
-- 线上站点地图、robots 文件及公开的 SEO Manifest 均返回 200。
-- 新版提交记录流程仅在本地完成，尚未上传，未创建远程记录分支，也未实际向 IndexNow 提交网址。
+只需要现有的 `INDEXNOW_KEY` 和线上根目录的密钥验证文件。密钥已配置在本地忽略的 `.env.local` 及 Vercel 生产环境中，不需要重新生成。
 
-## 尚需完成的配置
+不需要 Vercel API 令牌、GitHub Actions 密钥、团队 ID、提交记录分支或独立存储服务。
 
-1. 打开 GitHub 仓库的 Settings（设置）→ Secrets and variables（密钥与变量）→ Actions → Secrets（密钥），新增 `INDEXNOW_KEY`。填写现有 `.env.local` 中的密钥，必须与 Vercel 一致。不要重新生成密钥，也不要把 `.env.local` 提交到 Git。
-2. 新增密钥 `VERCEL_READ_TOKEN`，仅授予读取本项目部署、项目及域名信息所需的权限。请在平台安全创建和填写凭证，不要发到聊天里。如果平台无法提供所需的最小权限，应先确认替代方案，不直接使用权限过大的账号令牌。
-3. 如果凭证或项目需要指定团队，在 GitHub 仓库的 Variables（变量）中新增 `VERCEL_TEAM_ID`。填写实际团队 ID，不要用团队页面网址中的名称代替。
-4. 如果经过核实的部署网址受到访问保护，配置本项目专用的密钥 `VERCEL_AUTOMATION_BYPASS_SECRET`，不要关闭部署保护。
-5. 另行授权上传新版流程。流程仅在提交任务中使用临时 `GITHUB_TOKEN` 的 `contents: write` 权限，无需个人 GitHub 令牌、独立存储服务、存储地址或存储令牌。保留主分支保护，确认仓库规则允许任务写入固定的记录分支 `indexnow-checkpoints`。该分支只保存提交记录，应避免让 Vercel 对它进行预览构建。
-6. 前述配置验证通过后，在 GitHub 仓库变量中设置 `INDEXNOW_ENABLED=true`。首次手动运行流程，填写已核实的当前成功生产部署 ID 和项目 ID，并设置 `bootstrap=true`，初始化提交记录。检查实际提交结果及记录分支。之后，成功的生产部署事件会自动触发差异提交。
+## 怎么用
 
-## 验收与故障恢复
+用户已授权后续由助手代为运行：每次用户明确要求上传 GitHub 后，助手确认该次提交已成功部署，再自动提交已上线的变更网址并检查结果，无需用户手动执行。仅本地修改或部署失败时不提交。此约定已记录在项目 `AGENTS.md`，不代表允许自动上传代码。
 
-- `Skipped` 表示任务被跳过，不代表已经提交。首次初始化成功后，应显示已接受的网址数量，并在记录分支中创建 `<project-id>-production.json`。
-- 只有 IndexNow 返回 200 或 202 才算接受请求，不代表已经抓取或收录。
-- 所有提交批次成功后才能保存新记录。更新必须基于此前读取的准确提交版本进行快进更新，禁止强制推送。
-- 遇到并发写入冲突，重新运行以读取最新记录。部分批次提交失败时，旧记录保持不变，可以重试。
-- 不要删除记录分支。如果提交过网址后记录丢失，应先恢复再继续；旧的迁移快照无法恢复之后所有被删除的网址。
-- 记录分支只保存公开的网址元数据，不保存 IndexNow、Vercel 或 GitHub 令牌。
+先正常部署页面更新，再在项目目录运行下面的命令。
+
+只预览全部线上页面，不提交：
+
+```powershell
+npm run indexnow:submit -- --all --dry-run
+```
+
+提交指定的新增、更新或删除网址（通常使用这个）：
+
+```powershell
+npm run indexnow:submit -- /endings /characters
+```
+
+首次提交全部线上页面：
+
+```powershell
+npm run indexnow:submit -- --all
+```
+
+`--all` 读取正式网站的公开 SEO Manifest，只提交其中可索引的规范网址，不使用尚未部署的本地页面列表。日常只提交有变动的网址，不必反复提交全部页面。指定网址支持本站完整网址或以 `/` 开头的路径，不接受其他域名、查询参数、片段或非首页末尾斜杠。
+
+实际提交前，脚本会核对线上密钥文件；匹配后向 IndexNow 官方接口发送一次请求，最多 10,000 个网址。不会写入远程仓库、创建分支、更新页面日期或部署网站，也不会自动重试。
+
+## 如何判断结果
+
+- `dryRun: true`：只预览，没有提交。
+- `status: 200`：提交成功，不代表已经抓取或收录。
+- `status: 202`：请求已接收，密钥验证待完成，不代表已经收录。
+- `403`：IndexNow 无法验证密钥，请检查线上文件。它与旧流程中的 Vercel API 403 是不同问题。
+- `429`：提交过于频繁，稍后再试。
+- 其他错误：命令失败，不显示密钥，不自动重试。
+
+协议说明：[IndexNow 官方文档](https://www.indexnow.org/documentation)。
+
+## 旧流程的处理
+
+本地已删除旧的 GitHub 自动流程及 Vercel 校验、提交记录脚本，保留站点地图、页面日期维护和密钥文件生成。旧 GitHub 配置暂未远程删除；Vercel 的 `INDEXNOW_KEY` 必须保留。
+
+本轮没有提交 Git、上传 GitHub、部署或实际提交网址。旧的远程自动流程要等用户另行授权上传后才会删除；本地删除不等于线上流程已停止。若远程 `INDEXNOW_ENABLED` 仍为 `true`，应在 GitHub 将它改为 `false`，必要时由用户完成身份验证。

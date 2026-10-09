@@ -21,9 +21,10 @@
     "content:dates:update": "node scripts/sitemap-state.mjs update",
     "content:dates:validate": "node scripts/sitemap-state.mjs validate",
     "seo:migrate": "node scripts/seo/build.mjs migrate",
-    "test:seo": "node scripts/seo/test.mjs && node scripts/seo/test-github-checkpoint.mjs",
+    "test:seo": "node scripts/seo/test.mjs && node scripts/seo/test-manual-indexnow.mjs",
     "test:build-artifacts": "node scripts/seo/test-build-artifacts.mjs",
     "indexnow:verify-key": "node scripts/seo/verify-key.mjs",
+    "indexnow:submit": "node scripts/seo/submit-indexnow.mjs",
     "audit:production": "node scripts/audit-production.mjs",
     "audit:viewports": "node scripts/capture-acceptance-viewports.mjs"
   },

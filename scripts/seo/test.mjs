@@ -1,7 +1,6 @@
 import assert from 'node:assert/strict';
 import { fingerprint, seoInputs } from './semantic-html.mjs';
 import { buildManifest, diff, batches, sitemapChunks, validate } from './manifest.mjs';
-import { filterEvent, verifyDeployment, deploymentManifest, loadCheckpoint, submit } from './indexnow.mjs';
 import { sitemapRewrites, sitemapIndexXml } from '../../seo/sitemap-policy.js';
 
 const origin = 'https://helpingyourboyfriend.org';
@@ -45,53 +44,4 @@ assert.ok(!sitemapIndexXml(huge).includes('<priority>'),'Sitemap Index must not 
 assert.deepEqual(sitemapRewrites(first).beforeFiles,[],'Current small site has no rewrite');
 assert.notEqual(fingerprint(html('/'),{'/images/a.png':'original'}),fingerprint(html('/'),{'/images/a.png':'replacement'}),'Core image content replacement tracked');
 
-const projectId = 'prj_abc', id = 'dpl_abc', sha = 'a'.repeat(40), deploymentOrigin = 'https://project-abcd.vercel.app';
-const payload = { id, project: { id: projectId }, environment: 'production', url: deploymentOrigin, git: { sha }, state: { type: 'success' } };
-const config = { projectId, siteUrl: origin, readToken: 'read-only-test', key: 'test-key-123456', checkpointUrl: `https://storage.example/checkpoints/${projectId}/production.json`, storageToken: 'storage-test' };
-assert.ok(filterEvent({action:'vercel.deployment.success',client_payload:payload},config));
-for (const event of [
-  {action:'vercel.deployment.error',client_payload:payload},
-  {action:'vercel.deployment.success',client_payload:{...payload,environment:'preview'}},
-  {action:'vercel.deployment.success',client_payload:{...payload,url:'https://evil.example'}},
-  {action:'vercel.deployment.success',client_payload:{...payload,project:{id:'prj_other'}}},
-]) assert.equal(filterEvent(event,config),null);
-const response = (data, status=200, headers={}) => new Response(typeof data === 'string' ? data : JSON.stringify(data), {status,headers:{'content-type':'application/json',...headers}});
-const controlFetch = async (url, opts) => {
-  assert.equal(new URL(url).origin,'https://api.vercel.com');
-  assert.equal(opts.redirect,'manual');
-  assert.equal(opts.headers.authorization,'Bearer read-only-test');
-  if(url.includes('/deployments/')) return response({id,projectId,url:'project-abcd.vercel.app',target:'production',readyState:'READY',meta:{githubCommitSha:sha},alias:[new URL(origin).hostname]});
-  if(url.includes('/domains/')) return response({projectId,verified:true});
-  return response({id:projectId,targets:{production:{id}}});
-};
-const verified = await verifyDeployment(payload, config, controlFetch);
-assert.equal(verified.origin,deploymentOrigin);
-await assert.rejects(() => verifyDeployment({...payload,git:{sha:'b'.repeat(40)}},config,controlFetch), /SHA/);
-assert.equal(await verifyDeployment(payload,config,async (url,opts) => url.includes('/domains/') || url.includes('/deployments/') ? controlFetch(url,opts) : response({id:projectId,targets:{production:{id:'dpl_newer'}}})),null);
-await assert.rejects(() => deploymentManifest(verified,{...config,bypass:'private-test'},async (url,opts)=> {
-  assert.equal(new URL(url).origin,deploymentOrigin); assert.equal(opts.headers['x-vercel-protection-bypass'],'private-test'); assert.equal(opts.redirect,'manual'); return response('',302,{location:'https://evil.example'});
-}), /JSON/);
-await assert.rejects(() => loadCheckpoint(config,async()=>response({manifest:first})), /ETag/);
-await assert.rejects(() => loadCheckpoint({...config,checkpointUrl:'https://storage.example/wrong.json'}), /scoped/);
-const checkpoint = {schemaVersion:1,projectId,environment:'production',deploymentId:'dpl_old',confirmedAt:t1,manifest:first};
-let puts=0, posts=0, attempts=0;
-const current = { ...same, entries: Array.from({length:10001}, (_,i) => ({...same.entries[0],path:`/z${String(i).padStart(5,'0')}`,canonicalUrl:`${origin}/z${String(i).padStart(5,'0')}`,lastModified:t2})) };
-const submitFetch = async (url,opts={}) => {
-  if(String(url).endsWith('.txt')) return response(config.key);
-  if(opts.method==='POST'){posts++;return response('',posts===2?500:200);}
-  if(opts.method==='PUT'){puts++;return response('',200,{etag:'"new"'});}
-  return response('',404);
-};
-await assert.rejects(() => submit({ current,checkpoint,checkpointEtag:'"old"',verified,config,fetcher:submitFetch,reverify:async()=>true }), /NOT advanced/);
-assert.equal(puts,0,'Partial batch failure must not advance checkpoint');
-posts=0;
-const successFetch=async(url,opts={}) => { if(opts.method==='POST'){posts++;return response('',202);}return submitFetch(url,opts); };
-await submit({current,checkpoint,checkpointEtag:'"old"',verified,config,fetcher:successFetch,reverify:async()=>true});
-assert.equal(posts,2,'Retry sends both batches again');assert.equal(puts,1);
-await assert.rejects(()=>submit({current,checkpoint:null,verified,config,fetcher:successFetch,reverify:async()=>true}),/bootstrap/);
-assert.equal((await submit({current,checkpoint,checkpointEtag:'"old"',verified,config,fetcher:successFetch,reverify:async()=>false})).skipped,'production changed before submission');
-await assert.rejects(()=>submit({current:same,checkpoint,checkpointEtag:'"old"',verified,config,reverify:async()=>true,fetcher:async(url,opts={})=>opts.method==='PUT'?response('',412):submitFetch(url,opts)}), /CAS conflict/);
-await submit({current:independent,checkpoint,checkpointEtag:'"old"',verified,config,reverify:async()=>true,sleep:async()=>{},fetcher:async(url,opts={})=>opts.method==='POST'?response('',++attempts<3?429:202):submitFetch(url,opts)});
-assert.equal(attempts,3,'429 retries are bounded and reusable');
-await assert.rejects(()=>submit({current:same,checkpoint:{...checkpoint,manifest:{...first,generatedAt:'2026-10-10T00:00:00.000Z'}},checkpointEtag:'"old"',verified,config,reverify:async()=>true,fetcher:successFetch}),/Stale/);
-console.log('SEO/IndexNow tests passed: semantic changes, noise, dates, migration, exclusions, deletion, 50,001 sitemap partition, 10,001 notification batch, event/control-plane security, protection redirects, partial failure, retries, stale events and CAS. All requests mocked; no external URLs submitted.');
+console.log('SEO tests passed: semantic changes, noise, dates, migration, exclusions, deletion, and sitemap partition.');
