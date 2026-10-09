@@ -11,5 +11,5 @@ export const siteConfig = {
 } as const;
 
 export function absoluteUrl(path: string) {
-  return path === "/" ? siteConfig.origin : new URL(path, siteConfig.origin).toString();
+  return new URL(path, siteConfig.origin).toString();
 }

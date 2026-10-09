@@ -12,6 +12,7 @@
     "test:content": "node scripts/test-content-contract.mjs",
     "test:dates": "node scripts/test-page-fingerprints.mjs",
     "test:paths": "node scripts/test-path-policy.mjs",
+    "test:sitemap": "node scripts/test-sitemap-output.mjs",
     "validate:data": "node scripts/validate-data.mjs development",
     "validate:media": "node scripts/validate-data.mjs media",
     "validate:publish": "node scripts/validate-data.mjs publish",

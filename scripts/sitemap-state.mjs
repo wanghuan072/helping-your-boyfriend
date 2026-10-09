@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import { publicFingerprints } from './page-fingerprints.mjs';
 import { readTopicRoutes } from './read-guides.mjs';
+import { revisionDate } from './revision-date.mjs';
 
 const mode = process.argv[2] ?? 'validate';
 if (!['validate', 'update'].includes(mode)) throw new Error(`Unknown mode: ${mode}`);
@@ -17,14 +18,15 @@ const changedContent = Object.keys(content).filter(route => contentState[route]?
 
 if (mode === 'update') {
   write('seo/page-lastmod.json', Object.fromEntries(Object.entries(pages).map(([route, fingerprint]) => [route, {
-    lastModified: (preserveDates || !changedPages.includes(route)) ? pageState[route]?.lastModified ?? today : today, fingerprint,
+    lastModified: revisionDate({ previousFingerprint: pageState[route]?.fingerprint, fingerprint, previousDate: pageState[route]?.lastModified, today, preserveDates }), fingerprint,
   }])));
   if (!preserveDates) for (const route of changedContent) {
     const file = route === '/' ? 'data/games/main-game.json' : `data/guides/${readTopicRoutes().find(topic => topic.path === route).id}.json`;
     // Mechanical date-only replacement preserves the author's JSON formatting.
     const text = fs.readFileSync(file, 'utf8');
-    if (!/"updatedAt"\s*:\s*"\d{4}-\d{2}-\d{2}"/.test(text)) throw new Error(`Missing revision date: ${file}`);
-    fs.writeFileSync(file, text.replace(/("updatedAt"\s*:\s*")\d{4}-\d{2}-\d{2}"/, `$1${today}"`));
+    if (!/"updatedAt"\s*:\s*(?:"\d{4}-\d{2}-\d{2}"|null)/.test(text)) throw new Error(`Missing revision date field: ${file}`);
+    const date = revisionDate({ previousFingerprint: contentState[route]?.fingerprint, fingerprint: content[route], previousDate: JSON.parse(text).updatedAt, today });
+    fs.writeFileSync(file, text.replace(/("updatedAt"\s*:\s*)(?:"\d{4}-\d{2}-\d{2}"|null)/, `$1"${date}"`));
   }
   write('seo/content-fingerprints.json', Object.fromEntries(Object.entries(content).map(([route, fingerprint]) => [route, { fingerprint }])));
   console.log(`Updated fingerprints; ${changedPages.length} static and ${changedContent.length} content changes${preserveDates ? ' (migration: dates preserved)' : ''}.`);

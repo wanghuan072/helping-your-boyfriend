@@ -25,7 +25,7 @@ for (const route of routes) {
   const legalRelMatches = [...html.matchAll(/<a[^>]+href="\/(privacy|terms|copyright|about|contact)"[^>]+rel="([^"]+)"/gi)].map((match) => match[2]);
   const record = { route, status: response.status, title, titleLength: [...title].length, descriptionLength: [...description].length, h1s, mains, canonical, ogUrl, jsonLdTypes: jsonLd.flatMap((item) => item["@graph"]?.map((entry) => entry["@type"]) ?? [item["@type"]]), externalAnchors, thirdPartyFrames, legalRelMatches };
   results.push(record);
-  const expectedCanonical = route === "/" ? canonicalOrigin : new URL(route, canonicalOrigin).toString();
+  const expectedCanonical = new URL(route, canonicalOrigin).toString();
   if (response.status !== 200) failures.push(`${route}:status-${response.status}`);
   if (record.titleLength < 40 || record.titleLength > 60) failures.push(`${route}:title-${record.titleLength}`);
   if (record.descriptionLength < 140 || record.descriptionLength > 160) failures.push(`${route}:description-${record.descriptionLength}`);
@@ -41,7 +41,7 @@ const sitemapResponse = await fetch(`${origin}/sitemap.xml`);
 const sitemapText = await sitemapResponse.text();
 const sitemapUrls = [...sitemapText.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 const sitemapLastmod = [...sitemapText.matchAll(/<lastmod>([^<]+)<\/lastmod>/g)].map((match) => match[1]);
-const expectedUrls = routes.map((route) => route === "/" ? canonicalOrigin : new URL(route, canonicalOrigin).toString());
+const expectedUrls = routes.map((route) => new URL(route, canonicalOrigin).toString());
 if (sitemapResponse.status !== 200 || sitemapUrls.length !== routes.length || new Set(sitemapUrls).size !== sitemapUrls.length || expectedUrls.some((url) => !sitemapUrls.includes(url)) || sitemapUrls.some((url) => /\/games(?:\/|$)|\/guides(?:\/|$)/.test(new URL(url).pathname)) || sitemapLastmod.some((date) => !/^\d{4}-\d{2}-\d{2}/.test(date))) failures.push("sitemap-set-or-date");
 const removed = await Promise.all(["/games", "/games/going-live", "/guides"].map((path) => fetch(`${origin}${path}`)));
 if (removed.some((response) => response.status !== 404)) failures.push("removed-routes");

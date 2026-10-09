@@ -38,7 +38,7 @@ for (const [path, seo, kind] of pages) {
   const twitterCard = attr(html, /<meta[^>]+name=["']twitter:card["'][^>]*>/i, "content");
   if (title !== seo.title) errors.push(`${path}: title mismatch (${title})`);
   if (description !== seo.description) errors.push(`${path}: description mismatch`);
-  const expectedCanonical = path === "/" ? origin : new URL(path, origin).toString();
+  const expectedCanonical = new URL(path, origin).toString();
   if (canonical !== expectedCanonical) errors.push(`${path}: canonical mismatch (${canonical})`);
   if (ogImage !== `${origin}/images/og-image.png`) errors.push(`${path}: incorrect OG image`);
   if (twitterCard !== "summary_large_image") errors.push(`${path}: missing Twitter card`);

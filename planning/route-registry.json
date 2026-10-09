@@ -5,14 +5,18 @@
   "staticRoutes": [
     {
       "id": "home",
+      "changeFrequency": "weekly",
+      "priority": 1,
       "path": "/",
       "kind": "main-game",
       "source": "data/games/main-game.json",
-      "canonical": "https://helpingyourboyfriend.org",
+      "canonical": "https://helpingyourboyfriend.org/",
       "sitemap": true
     },
     {
       "id": "privacy",
+      "changeFrequency": "yearly",
+      "priority": 0.3,
       "path": "/privacy",
       "kind": "legal",
       "source": "app/privacy/page.tsx",
@@ -21,6 +25,8 @@
     },
     {
       "id": "terms",
+      "changeFrequency": "yearly",
+      "priority": 0.3,
       "path": "/terms",
       "kind": "legal",
       "source": "app/terms/page.tsx",
@@ -29,6 +35,8 @@
     },
     {
       "id": "copyright",
+      "changeFrequency": "yearly",
+      "priority": 0.3,
       "path": "/copyright",
       "kind": "legal",
       "source": "app/copyright/page.tsx",
@@ -37,6 +45,8 @@
     },
     {
       "id": "about",
+      "changeFrequency": "monthly",
+      "priority": 0.5,
       "path": "/about",
       "kind": "legal",
       "source": "app/about/page.tsx",
@@ -45,6 +55,8 @@
     },
     {
       "id": "contact",
+      "changeFrequency": "yearly",
+      "priority": 0.3,
       "path": "/contact",
       "kind": "legal",
       "source": "app/contact/page.tsx",
@@ -53,6 +65,8 @@
     },
     {
       "id": "endings",
+      "changeFrequency": "monthly",
+      "priority": 0.8,
       "path": "/endings",
       "kind": "topic",
       "source": "data/guides/helping-your-boyfriend-endings-walkthrough.json",
@@ -61,6 +75,8 @@
     },
     {
       "id": "characters",
+      "changeFrequency": "monthly",
+      "priority": 0.8,
       "path": "/characters",
       "kind": "topic",
       "source": "data/guides/helping-your-boyfriend-characters.json",
@@ -69,6 +85,8 @@
     },
     {
       "id": "controls",
+      "changeFrequency": "monthly",
+      "priority": 0.8,
       "path": "/controls",
       "kind": "topic",
       "source": "data/guides/helping-your-boyfriend-controls-minigames.json",

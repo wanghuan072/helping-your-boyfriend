@@ -6,6 +6,9 @@ export function pageMetadata(title: string, description: string, path: string, t
   const canonical = absoluteUrl(path);
   const image = { url: absoluteUrl(siteConfig.socialImage), width: 1200, height: 630, type: "image/png", alt: `${siteConfig.name} player guide` };
   return {
+    // All URLs below are absolute. Preserve the root URL's slash instead of
+    // letting metadataBase normalize it back to a bare origin.
+    ...(path === "/" ? { metadataBase: null } : {}),
     title: { absolute: title },
     description,
     keywords: keywords ?? getPageTdk(path).keywords,
