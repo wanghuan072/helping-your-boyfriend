@@ -5,6 +5,7 @@ import { createHash } from 'node:crypto';
 import { fingerprint, coreImages, seoInputs, fingerprintVersion } from './semantic-html.mjs';
 import { buildManifest, validate } from './manifest.mjs';
 import nextEnv from '@next/env';
+import { readArtifact } from './build-artifacts.mjs';
 
 // This prebuild script runs outside Next, so explicitly load its official env
 // hierarchy. Platform environment variables retain precedence over local files.
@@ -141,7 +142,7 @@ if (mode === 'validate') {
   for (const route of routes) {
     const entry = manifest.entries.find(item => item.path === route.path);
     if (!entry) throw new Error(`Manifest omits ${route.path}`);
-    const html = fs.readFileSync(`.next/server/app/${route.path === '/' ? 'index' : route.path.slice(1)}.html`, 'utf8');
+    const html = readArtifact(route.path);
     if (localFingerprint(html) !== entry.contentFingerprint) throw new Error(`Rendered page differs from manifest: ${route.path}`);
   }
   console.log(`Semantic manifest verified against ${routes.length} rendered pages.`);
@@ -168,7 +169,7 @@ if (mode === 'validate') {
     }
     nextBuild();
     const candidates = routes.map(route => {
-      const html = fs.readFileSync(`.next/server/app/${route.path === '/' ? 'index' : route.path.slice(1)}.html`, 'utf8');
+      const html = readArtifact(route.path);
       const semantic = seoInputs(html);
       if (semantic.canonical !== route.canonical) throw new Error(`Rendered canonical differs from registry: ${route.path}`);
       return { path: route.path, canonicalUrl: route.canonical, indexable: semantic.indexable, contentFingerprint: localFingerprint(html), contentTime: contentTime(route), siteUrl: origin, changeFrequency: route.changeFrequency, priority: route.priority };
@@ -177,7 +178,7 @@ if (mode === 'validate') {
     write(manifestFile, manifest);
     nextBuild();
     for (const entry of manifest.entries) {
-      const html = fs.readFileSync(`.next/server/app/${entry.path === '/' ? 'index' : entry.path.slice(1)}.html`, 'utf8');
+      const html = readArtifact(entry.path);
       if (localFingerprint(html) !== entry.contentFingerprint) throw new Error(`Non-deterministic rendered semantics: ${entry.path}`);
     }
     console.log(`SEO build verified: ${manifest.entries.length} pages; ${manifest.entries.filter(entry => previous.entries.find(old => old.canonicalUrl === entry.canonicalUrl)?.lastModified === entry.lastModified).length} historical dates retained. IndexNow key ${key ? 'injected (not logged)' : 'not configured; remote notifications remain pending'}.`);

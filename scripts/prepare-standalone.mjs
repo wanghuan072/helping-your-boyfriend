@@ -1,8 +1,13 @@
-import { cpSync, existsSync, mkdirSync, rmSync } from "node:fs";
+import { cpSync, existsSync, mkdirSync, rmSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { isWithinDirectory } from './path-policy.mjs';
 
 const standalone = resolve(".next/standalone");
+const config = JSON.parse(readFileSync('.next/required-server-files.json', 'utf8')).config;
+if (config.adapterPath) {
+  console.log('Deployment adapter owns output packaging; standalone asset copying is not required.');
+  process.exit(0);
+}
 if (!existsSync(standalone)) throw new Error("Standalone output is missing. Run next build first.");
 for (const [source, target] of [["public", ".next/standalone/public"], [".next/static", ".next/standalone/.next/static"]]) {
   if (!existsSync(source)) continue;
