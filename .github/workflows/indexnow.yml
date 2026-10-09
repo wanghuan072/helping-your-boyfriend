@@ -57,6 +57,8 @@ jobs:
   submit:
     needs: verify
     if: needs.verify.outputs.verified == 'true'
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
@@ -68,5 +70,4 @@ jobs:
           VERCEL_READ_TOKEN: ${{ secrets.VERCEL_READ_TOKEN }}
           VERCEL_AUTOMATION_BYPASS_SECRET: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
-          INDEXNOW_CHECKPOINT_URL: ${{ vars.INDEXNOW_CHECKPOINT_URL }}
-          INDEXNOW_CHECKPOINT_TOKEN: ${{ secrets.INDEXNOW_CHECKPOINT_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}

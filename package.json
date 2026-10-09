@@ -21,7 +21,7 @@
     "content:dates:update": "node scripts/sitemap-state.mjs update",
     "content:dates:validate": "node scripts/sitemap-state.mjs validate",
     "seo:migrate": "node scripts/seo/build.mjs migrate",
-    "test:seo": "node scripts/seo/test.mjs",
+    "test:seo": "node scripts/seo/test.mjs && node scripts/seo/test-github-checkpoint.mjs",
     "test:build-artifacts": "node scripts/seo/test-build-artifacts.mjs",
     "indexnow:verify-key": "node scripts/seo/verify-key.mjs",
     "audit:production": "node scripts/audit-production.mjs",

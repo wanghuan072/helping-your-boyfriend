@@ -1,4 +1,5 @@
 import { diff, batches, validate } from './manifest.mjs';
+import { loadGitHubCheckpoint, saveGitHubCheckpoint } from './github-checkpoint.mjs';
 
 export function filterEvent(event, config, manual = false) {
   const p = manual ? { id: event.inputs?.deployment_id, project: { id: event.inputs?.project_id }, environment: 'production' } : event.client_payload;
@@ -80,6 +81,10 @@ export async function submit({ current, checkpoint, checkpointEtag, bootstrapBas
   }
   if (!await reverify()) throw new Error('Production changed during submission; checkpoint NOT advanced');
   const next = { schemaVersion: 1, projectId: verified.projectId, environment: 'production', deploymentId: verified.id, confirmedAt: new Date().toISOString(), manifest: current };
+  if (config.checkpointBackend === 'github') {
+    await saveGitHubCheckpoint(next, checkpointEtag, config, fetcher);
+    return { accepted: urls.length, changes, checkpoint: 'github', message: 'Protocol receipt only; not a crawling/indexing guarantee' };
+  }
   const stored = await fetcher(config.checkpointUrl, {
     method: 'PUT', headers: { authorization: `Bearer ${config.storageToken}`, 'content-type': 'application/json', ...(checkpointEtag ? { 'if-match': checkpointEtag } : { 'if-none-match': '*' }) },
     redirect: 'manual', signal: AbortSignal.timeout(15_000), body: JSON.stringify(next),
@@ -90,6 +95,7 @@ export async function submit({ current, checkpoint, checkpointEtag, bootstrapBas
 }
 
 export async function loadCheckpoint(config, fetcher = fetch) {
+  if (config.checkpointBackend === 'github') return loadGitHubCheckpoint(config, fetcher);
   const url = new URL(config.checkpointUrl);
   if (url.protocol !== 'https:' || url.username || url.password || url.search || url.hash || !url.pathname.endsWith(`/${config.projectId}/production.json`)) throw new Error('Checkpoint endpoint must be fixed HTTPS, project/environment scoped, and support conditional PUT');
   if (!config.storageToken) throw new Error('Persistent checkpoint credential missing');

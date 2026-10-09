@@ -7,7 +7,8 @@ const config = {
   projectId: process.env.VERCEL_PROJECT_ID, teamId: process.env.VERCEL_TEAM_ID,
   siteUrl: process.env.SITE_URL, readToken: process.env.VERCEL_READ_TOKEN,
   key: process.env.INDEXNOW_KEY, bypass: process.env.VERCEL_AUTOMATION_BYPASS_SECRET,
-  checkpointUrl: process.env.INDEXNOW_CHECKPOINT_URL, storageToken: process.env.INDEXNOW_CHECKPOINT_TOKEN,
+  checkpointBackend: 'github', checkpointRepository: process.env.GITHUB_REPOSITORY,
+  githubToken: process.env.GITHUB_TOKEN,
 };
 const manual = process.env.GITHUB_EVENT_NAME === 'workflow_dispatch';
 const candidate = filterEvent(event, config, manual);
