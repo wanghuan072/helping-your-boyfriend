@@ -1,0 +1,44 @@
+project:
+  keyword: 'Helping Your Boyfriend'
+  language: 'en'
+  language_basis: 'The exact-match query, official itch.io page, creator description, controls, and most current gameplay coverage are primarily in English; the game also offers Thai, but the supplied keyword is English.'
+  target_market: 'global-English'
+  target_market_basis: 'The official release serves English-speaking players globally, uses platform-neutral English controls, and has no verified country-exclusive distribution or terminology.'
+paths:
+  workflow_dir: 'D:\wh\Agent\Game-Agent'
+  project_dir: 'D:\wh\202610\Helping Your Boyfriend\Helping Your Boyfriend\helping-your-boyfriend'
+  research_dir: 'research'
+  planning_dir: 'planning'
+  reports_dir: 'reports'
+  handoff_dir: 'handoff'
+runtime:
+  frontend_framework: 'Next.js 16.4.0 App Router'
+  package_manager: 'npm'
+  has_existing_code: true
+game:
+  config_path: 'data/games/main-game.json'
+domain:
+  value: 'helpingyourboyfriend.org'
+  origin: 'https://helpingyourboyfriend.org'
+  status: 'configured'
+deployment:
+  target: 'portable Node.js server'
+  production_output: 'Next.js standalone output (.next/standalone)'
+  runtime_requirement: 'Node.js runtime compatible with Next.js 16.4.0'
+  origin: 'https://helpingyourboyfriend.org'
+  decision_basis: 'Standalone preserves App Router metadata, generated route handling, security response headers, and a portable minimal runtime; static export was rejected because its server-feature and header support is limited.'
+execution:
+  network_research: true
+  code_changes: true
+  install_needed_dependencies: true
+  run_checks_and_build: true
+  deploy: false
+  git_commit: false
+boundaries:
+  forbidden_operations:
+    - 'read_other_game_projects'
+    - 'deploy_without_explicit_authorization'
+    - 'git_commit_without_explicit_authorization'
+notes:
+  - 'The existing code is a minimally customized Next.js starter and must be preserved until implementation begins in flow 06.'
+  - 'The supplied main-game iframeSrc is provisional and must remain byte-for-byte unchanged until the user supplies a replacement.'

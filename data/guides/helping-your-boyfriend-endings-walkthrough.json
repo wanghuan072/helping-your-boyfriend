@@ -1,0 +1,874 @@
+{
+  "id": "helping-your-boyfriend-endings-walkthrough",
+  "slug": "helping-your-boyfriend-endings-walkthrough",
+  "title": "Helping Your Boyfriend Endings",
+  "summary": "We follow the choices, collect the clues and compare all four endings. Start at the first-night pill, then follow our shared investigation or jump to an outcome.",
+  "status": "published",
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-09",
+  "authorId": null,
+  "tags": [
+    "Four endings",
+    "Choices & checkpoints",
+    "Full spoilers"
+  ],
+  "spoilerPolicy": "full",
+  "sections": [
+    {
+      "id": "spoiler-boundary",
+      "title": "Spoilers ahead",
+      "blocks": [
+        {
+          "type": "callout",
+          "tone": "warning",
+          "label": "Spoilers ahead",
+          "body": "This page reveals the choices, hidden rooms and outcomes of all four routes. We recommend finishing one blind run before following the tree."
+        }
+      ]
+    },
+    {
+      "id": "first-night-pill",
+      "title": "The visitor’s first-night pill",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/helping-your-boyfriend-endings-walkthrough-step-3.webp",
+          "alt": "The first-night visitor offers two options: Does not take it and Take the pill",
+          "width": 1222,
+          "height": 720,
+          "caption": "First night: this is Ian’s pill, not Adrian’s later medication."
+        },
+        {
+          "type": "paragraph",
+          "text": "The visitor interrupts our first night and offers a pill. We save before answering: this is the earliest useful fork, and it leaves us room to compare staying with Adrian against investigating the house."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Take the pill",
+              "body": "For the investigation route, we accept it. The next morning brings the number on our arm, and later we can move around when Adrian leaves."
+            },
+            {
+              "title": "Doesn’t take it",
+              "body": "For the short staying route, we refuse it and continue Adrian’s storyline. We keep that run separate from the rescue attempt; refusing this offer is not a shortcut to Oliver."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "number-clue",
+      "title": "Record the number before it fades",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/helping-your-boyfriend-endings-walkthrough-step-2.webp",
+          "alt": "A telephone number written in three groups on the protagonist’s arm",
+          "width": 1280,
+          "height": 704,
+          "caption": "The arm clue appears the morning after accepting the visitor’s pill."
+        },
+        {
+          "type": "paragraph",
+          "text": "When we wake, the writing on our arm looks like a telephone number. We note all the digits now, before the story smears the ink. Seeing the clue is useful; remembering only the two digits left later is not enough."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Keep the complete number",
+              "body": "The number we use at the telephone is 015767438. We check it digit by digit rather than trusting the shapes of the handwritten groups."
+            },
+            {
+              "title": "Continue the Day 2 scenes",
+              "body": "The phone is not accessible yet. This is preparation for a later room search, not a call we can make from the bedroom."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "package-address",
+      "title": "Inspect the package in Adrian’s room",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/route-package.webp",
+          "alt": "The package scene displays 742 Silverwood Creek Lane, Silverwood Springs, CA 95401",
+          "width": 980,
+          "height": 551,
+          "caption": "Day 2 exploration: the package reveals the house’s address."
+        },
+        {
+          "type": "paragraph",
+          "text": "When Adrian leaves and our legs allow us to explore, we inspect the package in his room. We read its label instead of rushing through the rooms: Oliver will need a location, not just a successful phone connection."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Write down the full address",
+              "body": "742 Silverwood Creek Lane, Silverwood Springs, CA 95401. We keep the street, town and ZIP together so that the later near-matching answers do not trip us up."
+            },
+            {
+              "title": "Return with both clues recorded",
+              "body": "The arm number and this address serve different jobs. One reaches Oliver; the other tells him where to find us. Finding either clue alone does not complete the rescue route."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adrian-medicine",
+      "title": "Adrian’s medication: pretend, then spit it out",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/route-medicine.webp",
+          "alt": "Adrian offers Take the medicine or Pretend to swallow the pill and spit it out",
+          "width": 980,
+          "height": 551,
+          "caption": "Second evening: the investigation choice is the lower option."
+        },
+        {
+          "type": "paragraph",
+          "text": "Adrian’s medicine is a separate decision from the visitor’s first-night pill. We do not treat every pill as interchangeable: accepting Ian’s help does not mean we should swallow Adrian’s medication as well."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "“Pretend to swallow the pill and spit it out”",
+              "body": "We choose the pretend option to keep the investigation going. This preserves the next nighttime conversation and the opportunity to act on what we learn."
+            },
+            {
+              "title": "“Take the medicine”",
+              "body": "This belongs to the staying-with-Adrian route rather than our rescue checklist. If the investigation scenes disappear, we return to this checkpoint before changing unrelated choices."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ian-relationship",
+      "title": "How we respond to Ian matters later",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/route-ian-relationship.webp",
+          "alt": "Ian apologises during his early nighttime conversation with the protagonist",
+          "width": 980,
+          "height": 551,
+          "caption": "Early replies shape Ian’s later outcome; there is no final friendship button."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ian’s disclosures are unsettling, but we can answer with warmth or distance. For Moving Forward, we build the supportive direction here and keep it consistent through later conversations. For The Empty Cage, we keep our replies distant while still following the investigation."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Supportive direction: “I’m your friend”",
+              "body": "We reassure him and respond kindly when he talks about himself. These early exchanges matter more than trying to change the relationship after calling Oliver."
+            },
+            {
+              "title": "Distant direction",
+              "body": "We do not pursue the affectionate responses. Accepting the useful pill or receiving the scalpel is not, on its own, the same as building a supportive relationship."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "We also keep Adrian’s relationship direction separate. A warm Adrian run can restrict the later search of his body. For the full rescue routes, we avoid reinforcing his reassuring version of events. We focus on our replies and the available scene, not on a hidden point total."
+        }
+      ]
+    },
+    {
+      "id": "scalpel-choice",
+      "title": "Use Ian’s scalpel—or leave it unused",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/route-scalpel.webp",
+          "alt": "The Day 3 decision offers using the scalpel or leaving it unused",
+          "width": 980,
+          "height": 551,
+          "caption": "Day 3: possessing the scalpel is not the same as choosing to act."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ian gives us a miniature scalpel before the next confrontation. We make a new save before Adrian’s Day 3 scene, then decide whether to use it. This is an action fork, not an affection reset."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "“Use it”",
+              "body": "We act when the opportunity appears, then complete the confrontation prompts. Choosing to use it starts the dangerous escape path; it does not instantly finish an ending."
+            },
+            {
+              "title": "“Don’t”",
+              "body": "We leave the weapon unused and continue to My Boyfriend Is the Best. The newspaper outcome is different from being interrupted by a failed timed task."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ending-one",
+      "title": "Ending 1: My Boyfriend Is the Best",
+      "summary": "We stay with Adrian while his secret remains hidden. Refuse the first-night pill, or leave the Day 3 scalpel unused.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/route-ending-one.webp",
+          "alt": "Ending 01 title card reads My boyfriend is the best",
+          "width": 980,
+          "height": 551,
+          "caption": "The completed Ending 1 title card."
+        },
+        {
+          "type": "paragraph",
+          "text": "We stay with Adrian while his public reputation remains intact. The final newspaper praises his work and describes him as a bachelor, a sharp contrast with the relationship we thought we were living. The title sounds reassuring; the closing report makes it uncomfortable."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Staying route",
+              "body": "Refuse the first-night visitor’s pill and continue Adrian’s storyline. Keep the staying attempt separate from the clue-and-rescue run."
+            },
+            {
+              "title": "Alternative from the late save",
+              "body": "If we already accepted the first pill and received Ian’s scalpel, leave the scalpel unused when the Day 3 choice appears."
+            },
+            {
+              "title": "Confirm the result",
+              "body": "Finish the remaining scenes and look for the Ending 01 title card. A minigame failure before it is not this ending."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Unlike Nobody’s Home, the house’s secret has not turned into a disappearance report. For our next replay, we change the pill or scalpel fork instead of repeating the same choices faster."
+        }
+      ]
+    },
+    {
+      "id": "survive-confrontation",
+      "title": "Finish the confrontation before investigating",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/route-confrontation.webp",
+          "alt": "A timed confrontation displays its input prompt during the escape attempt",
+          "width": 980,
+          "height": 551,
+          "caption": "Follow the on-screen prompt; a failed task is a game over, not another ending."
+        },
+        {
+          "type": "paragraph",
+          "text": "Once we use the scalpel, dialogue alone cannot carry us to the next room. We watch the input prompt and finish the struggle rather than letting Auto or Skip hide what the game is asking us to do."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Match the visible input",
+              "body": "We use the key shown by the game. The later struggle also uses a timed input, so we keep a working save before each mechanical section."
+            },
+            {
+              "title": "Retry without rewriting the route",
+              "body": "If we fail, we reload the task checkpoint. There is no reason to change Ian’s early replies merely because one timed prompt went wrong."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "In builds that offer a gameplay difficulty setting, we can reduce the timing pressure. Surviving the confrontation only opens the next investigation opportunity; it does not mean the rescue is complete."
+        }
+      ]
+    },
+    {
+      "id": "body-key",
+      "title": "Search Adrian’s body for the key",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/route-key.webp",
+          "alt": "The post-confrontation investigation shows Adrian’s body in the room",
+          "width": 980,
+          "height": 551,
+          "caption": "After surviving: search the body before taking the exit."
+        },
+        {
+          "type": "paragraph",
+          "text": "We pause during Investigation Time and inspect Adrian’s body. The key is the missing link between surviving the confrontation and opening the locked room. Running straight outside skips that opportunity."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "If the search is available",
+              "body": "We inspect the body and collect the key, then use it on the previously inaccessible room. We wait for the pickup feedback before leaving the scene."
+            },
+            {
+              "title": "If we cannot search",
+              "body": "We return to our earlier relationship save and take a less trusting direction with Adrian. Reloading the same late save does not undo the replies that led us here."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A successful struggle is not proof that the body-search option will appear in every relationship state. For the rescue routes, we prepare that earlier direction as well as recording both clues."
+        }
+      ]
+    },
+    {
+      "id": "locked-room",
+      "title": "Open the locked room before leaving",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/route-locked-room.webp",
+          "alt": "The investigation route reaches the locked door inside the house",
+          "width": 980,
+          "height": 551,
+          "caption": "Use the collected key and continue through the room-entry sequence."
+        },
+        {
+          "type": "paragraph",
+          "text": "With the key collected, we go to the locked room instead of following the exit outside. We finish the intervening confrontation and enter the room; the phone on its desk is why this detour matters."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Key first, room second",
+              "body": "We cannot replace the key search with random room clicks. If the door will not open, we check the pickup and the earlier body-search state."
+            },
+            {
+              "title": "Stay until we reach the desk phone",
+              "body": "We keep a checkpoint around the door sequence. After entering, we inspect the telephone rather than assuming that unlocking the door has already summoned help."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phone-call",
+      "title": "Dial Oliver’s number",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/route-phone.webp",
+          "alt": "The telephone puzzle uses individual arrows to set its nine digits",
+          "width": 980,
+          "height": 551,
+          "caption": "The phone needs the earlier arm clue: 015767438."
+        },
+        {
+          "type": "paragraph",
+          "text": "The telephone lets us set the missing digits with arrows. We enter 015767438 and confirm the number. We move one digit at a time: the similar-looking handwritten marks are easy to misread when we are rushing."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Reach Oliver",
+              "body": "We wait for Oliver Freeman to answer. A correct number opens the conversation, but the rescue still needs our next answer."
+            },
+            {
+              "title": "Do not leave midway",
+              "body": "For a rescue attempt, we stay through the address exchange. Leaving without completing the useful call follows the unresolved escape direction instead."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ending-two",
+      "title": "Ending 2: Nobody’s Home",
+      "summary": "We leave without completing Oliver’s rescue. The newspaper reports Adrian missing and his house empty, rather than showing our hospital recovery.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/route-ending-two.webp",
+          "alt": "Ending 02 title card reads Nobody’s Home",
+          "width": 980,
+          "height": 551,
+          "caption": "The completed Ending 2 title card."
+        },
+        {
+          "type": "paragraph",
+          "text": "We reach the outside path without completing Oliver’s rescue. The closing newspaper reports Adrian’s disappearance: his colleagues cannot reach him, and the house is empty when they visit. That empty-house report is the defining outcome, not the hospital recovery seen in the next two routes."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Open the escape path",
+              "body": "Accept the first-night pill, pretend to swallow Adrian’s later medicine, use the scalpel and survive the confrontation."
+            },
+            {
+              "title": "Leave without the completed rescue",
+              "body": "A run that does not follow the key, room and correct-location call through to rescue can finish here. The warmer Adrian route also differs from the body-search route used for Endings 3 and 4."
+            },
+            {
+              "title": "Confirm the report and title",
+              "body": "Continue to the newspaper and Ending 02 card. Reaching a door or surviving a struggle is not an ending confirmation by itself."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For our next replay, we prepare a less trusting Adrian run, collect the key and complete the call before leaving. If the body search is unavailable, we need an earlier save—not just the one at the telephone."
+        }
+      ]
+    },
+    {
+      "id": "address-answer",
+      "title": "Give Oliver the package address",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/route-address.webp",
+          "alt": "Oliver’s address question offers three answers; the third matches the package label",
+          "width": 980,
+          "height": 551,
+          "caption": "Choose the address from the package, not either near-matching alternative."
+        },
+        {
+          "type": "paragraph",
+          "text": "When Oliver asks where we are, we choose the answer that matches the package: 742 Silverwood Creek Lane, Silverwood Springs, CA 95401. In the English scene shown above it is the third option; matching the text is safer than remembering its position."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Check the whole line",
+              "body": "The alternatives change the street, town or ZIP. We compare the complete label rather than clicking the first answer that contains Silverwood."
+            },
+            {
+              "title": "Wait for his response",
+              "body": "We let Oliver acknowledge the location and continue the scene. We have now supplied both pieces the call needs: whom to contact and where to come."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rescue-outcome",
+      "title": "The rescue is shared; Ian’s future is not",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/route-rescue.webp",
+          "alt": "Oliver speaks to the protagonist during hospital recovery after the completed rescue",
+          "width": 980,
+          "height": 551,
+          "caption": "The hospital recovery is shared; Ian’s aftermath reflects our earlier replies."
+        },
+        {
+          "type": "paragraph",
+          "text": "After the completed call, we continue the outside sequence and its remaining prompts. Both rescue endings lead to a hospital recovery with Oliver. What changes is Ian’s place in the epilogue."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Earlier distant replies",
+              "body": "The investigation still matters, but we have not built the supportive connection with Ian. Follow this accumulated direction to The Empty Cage."
+            },
+            {
+              "title": "Earlier supportive replies",
+              "body": "We have reassured Ian through the earlier conversations. Follow that accumulated direction to Moving Forward."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These are descriptions of the state we brought into the ending—not two new choices that appear after the phone call. A late reload cannot turn one relationship history into the other."
+        }
+      ]
+    },
+    {
+      "id": "ending-three",
+      "title": "Ending 3: The Empty Cage",
+      "summary": "Oliver helps us reach hospital, but Adrian and Ian remain missing. Complete the investigation and rescue while keeping our relationship with Ian distant.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/route-ending-three.webp",
+          "alt": "Ending 03 title card reads The Empty Cage",
+          "width": 980,
+          "height": 551,
+          "caption": "The completed Ending 3 title card."
+        },
+        {
+          "type": "paragraph",
+          "text": "We recover in hospital with Oliver’s support, but the aftermath remains unsettled. Adrian and Ian are missing, and a figure outside the window keeps the sense of danger alive. Escaping the house has not neatly resolved everything that happened there."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Finish the shared investigation above",
+              "body": "We follow the main trunk through to Oliver’s acknowledgement, keeping our earlier less trusting direction with Adrian."
+            },
+            {
+              "title": "Do not substitute an exit for the rescue",
+              "body": "The hospital outcome depends on completing the call before leaving. Surviving a struggle or unlocking a door alone is not enough."
+            },
+            {
+              "title": "Keep Ian’s direction distant",
+              "body": "We carry the less supportive relationship history into the epilogue, then continue until the Ending 03 title confirms the result."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The difference from Moving Forward is not another number or another address. We replay from before Ian’s relationship choices if we want to compare his later care and continued contact."
+        }
+      ]
+    },
+    {
+      "id": "ending-four",
+      "title": "Ending 4: Moving Forward",
+      "summary": "The rescue leads to hospital recovery while Ian receives care and stays in contact. Use the shared investigation route and build a supportive relationship with him.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/route-ending-four.webp",
+          "alt": "Ending 04 title card reads Moving Forward",
+          "width": 980,
+          "height": 551,
+          "caption": "The completed Ending 4 title card."
+        },
+        {
+          "type": "paragraph",
+          "text": "We still recover in hospital, but Ian’s aftermath changes: he is receiving psychiatric care, and we keep in touch by telephone. Adrian remains missing. It is a more hopeful direction for Ian and our recovery, not a promise that every danger has disappeared."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Use the same rescue preparation",
+              "body": "We follow the same main-trunk investigation above, through Oliver’s acknowledgement. We do not need a different telephone solution from The Empty Cage."
+            },
+            {
+              "title": "Build the supportive relationship early",
+              "body": "We answer Ian kindly and maintain that direction through the earlier exchanges. One late interaction is not a replacement for the history of the run."
+            },
+            {
+              "title": "Read the distinct epilogue",
+              "body": "Continue through the hospital scenes and Ian’s care-and-contact account to the Ending 04 card. Those details distinguish this route from Ending 3."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For comparison, we load the early Ian checkpoint and change our replies while keeping the investigation steps steady. We keep both finished saves so that the difference is visible without reconstructing a row of nearly identical late slots."
+        }
+      ]
+    },
+    {
+      "id": "replay-notes",
+      "title": "Our three useful replay saves",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Early choices",
+              "body": "Before the first-night pill and Ian’s relationship conversations. This is the save we need when an earlier relationship state blocks the route."
+            },
+            {
+              "title": "Before the scalpel and timed tasks",
+              "body": "We separate action comparisons from input retries. A mechanical failure should not cost the whole run."
+            },
+            {
+              "title": "Before the room and phone",
+              "body": "We compare leaving with completing the rescue while holding the earlier choices steady. This slot cannot repair a clue we never read."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "After an ending, we preserve its completed slot and work from a copy of the relevant checkpoint. We change one route ingredient at a time: the action, the investigation or the relationship direction. That makes a different outcome easier to understand."
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "title": "Questions before our next run",
+      "blocks": [
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "Does finding the key complete the rescue?",
+          "body": "No. We still need the locked-room phone, the correct number and the package address. We stay through Oliver’s acknowledgement before leaving."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "Why did the same call give us Ending 3 again?",
+          "body": "The two hospital endings share the investigation. We change Ian’s earlier relationship replies, not the number or the location answer."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "Do failed minigames add more endings?",
+          "body": "No. A game over interrupts the route. We retry the input and use the four numbered ending cards to confirm completion."
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "label": "What if our version shows different wording?",
+          "body": "We follow the choice’s meaning and the visible clue, not a remembered button position. Keep the number and package label from the run we are actually playing."
+        }
+      ]
+    }
+  ],
+  "relatedGuideIds": [
+    "helping-your-boyfriend-controls-minigames",
+    "helping-your-boyfriend-characters"
+  ],
+  "cover": {
+    "src": "/images/guides/helping-your-boyfriend-endings-walkthrough-step-3.webp",
+    "alt": "The first-night visitor’s pill choice in Helping Your Boyfriend",
+    "width": 1222,
+    "height": 720
+  },
+  "routeMap": {
+    "entry": "first-night-pill",
+    "nodes": [
+      {
+        "sectionId": "first-night-pill",
+        "kind": "choice",
+        "lane": "center",
+        "row": 1,
+        "label": "01 / First night",
+        "checkpoint": "before the visitor offers the pill"
+      },
+      {
+        "sectionId": "number-clue",
+        "kind": "investigation",
+        "lane": "center",
+        "row": 2,
+        "label": "02 / Save this clue",
+        "checkpoint": "before the Day 2 morning"
+      },
+      {
+        "sectionId": "package-address",
+        "kind": "investigation",
+        "lane": "center",
+        "row": 3,
+        "label": "03 / Day 2 exploration",
+        "checkpoint": "before exploring Adrian’s room"
+      },
+      {
+        "sectionId": "adrian-medicine",
+        "kind": "choice",
+        "lane": "center",
+        "row": 4,
+        "label": "04 / A different pill",
+        "checkpoint": "before Adrian’s second-evening medication"
+      },
+      {
+        "sectionId": "ian-relationship",
+        "kind": "relationship",
+        "lane": "center",
+        "row": 5,
+        "label": "05 / Early relationship direction",
+        "checkpoint": "before Ian’s nighttime conversation"
+      },
+      {
+        "sectionId": "scalpel-choice",
+        "kind": "choice",
+        "lane": "center",
+        "row": 6,
+        "label": "06 / Day 3 action",
+        "checkpoint": "before the scalpel decision"
+      },
+      {
+        "sectionId": "ending-one",
+        "kind": "ending",
+        "lane": "left",
+        "row": 6,
+        "label": "Ending 01 / Stay",
+        "checkpoint": "before the first-night pill or the scalpel choice"
+      },
+      {
+        "sectionId": "survive-confrontation",
+        "kind": "choice",
+        "lane": "center",
+        "row": 7,
+        "label": "07 / Complete the timed task",
+        "checkpoint": "before the confrontation input"
+      },
+      {
+        "sectionId": "body-key",
+        "kind": "investigation",
+        "lane": "center",
+        "row": 8,
+        "label": "08 / Search before leaving",
+        "checkpoint": "before Investigation Time; earlier if the search is absent"
+      },
+      {
+        "sectionId": "locked-room",
+        "kind": "investigation",
+        "lane": "center",
+        "row": 9,
+        "label": "09 / Key → Locked room",
+        "checkpoint": "after collecting the key, before the door sequence"
+      },
+      {
+        "sectionId": "phone-call",
+        "kind": "investigation",
+        "lane": "center",
+        "row": 10,
+        "label": "10 / Number → Oliver",
+        "checkpoint": "before setting the telephone digits"
+      },
+      {
+        "sectionId": "ending-two",
+        "kind": "ending",
+        "lane": "right",
+        "row": 10,
+        "label": "Ending 02 / Leave without rescue",
+        "checkpoint": "before the investigation exit; earlier if the key is unavailable"
+      },
+      {
+        "sectionId": "address-answer",
+        "kind": "choice",
+        "lane": "center",
+        "row": 11,
+        "label": "11 / Address → Rescue",
+        "checkpoint": "before answering Oliver; before Day 2 exploration if the clue is missing"
+      },
+      {
+        "sectionId": "rescue-outcome",
+        "kind": "relationship",
+        "lane": "center",
+        "row": 12,
+        "label": "12 / Earlier choices come together",
+        "checkpoint": "before Ian’s early replies to change the relationship direction"
+      },
+      {
+        "sectionId": "ending-three",
+        "kind": "ending",
+        "lane": "left",
+        "row": 13,
+        "label": "Ending 03 / Distant Ian direction",
+        "checkpoint": "before Ian’s early conversation, not only the final phone call"
+      },
+      {
+        "sectionId": "ending-four",
+        "kind": "ending",
+        "lane": "right",
+        "row": 13,
+        "label": "Ending 04 / Supportive Ian direction",
+        "checkpoint": "before Ian’s early conversation, keeping the rescue preparation"
+      }
+    ],
+    "edges": [
+      {
+        "from": "first-night-pill",
+        "to": "number-clue",
+        "label": "Take the pill · investigate"
+      },
+      {
+        "from": "first-night-pill",
+        "to": "ending-one",
+        "label": "Doesn’t take it · stay with Adrian"
+      },
+      {
+        "from": "number-clue",
+        "to": "package-address",
+        "label": "Number recorded · explore when Adrian leaves"
+      },
+      {
+        "from": "package-address",
+        "to": "adrian-medicine",
+        "label": "Address recorded · continue Day 2"
+      },
+      {
+        "from": "adrian-medicine",
+        "to": "ian-relationship",
+        "label": "Pretend to swallow, then spit it out"
+      },
+      {
+        "from": "adrian-medicine",
+        "to": "ending-one",
+        "label": "Take the medicine · staying route"
+      },
+      {
+        "from": "ian-relationship",
+        "to": "scalpel-choice",
+        "label": "Keep our relationship direction · receive the scalpel"
+      },
+      {
+        "from": "scalpel-choice",
+        "to": "ending-one",
+        "label": "Don’t use it"
+      },
+      {
+        "from": "scalpel-choice",
+        "to": "survive-confrontation",
+        "label": "Use the scalpel"
+      },
+      {
+        "from": "survive-confrontation",
+        "to": "body-key",
+        "label": "Survive · begin Investigation Time"
+      },
+      {
+        "from": "body-key",
+        "to": "locked-room",
+        "label": "Search available · collect the key"
+      },
+      {
+        "from": "body-key",
+        "to": "ending-two",
+        "label": "Skip the rescue investigation · leave"
+      },
+      {
+        "from": "locked-room",
+        "to": "phone-call",
+        "label": "Enter the room · inspect the desk phone"
+      },
+      {
+        "from": "phone-call",
+        "to": "ending-two",
+        "label": "Leave without completing Oliver’s rescue"
+      },
+      {
+        "from": "phone-call",
+        "to": "address-answer",
+        "label": "015767438 · Oliver answers"
+      },
+      {
+        "from": "address-answer",
+        "to": "rescue-outcome",
+        "label": "Package address · Oliver acknowledges"
+      },
+      {
+        "from": "rescue-outcome",
+        "to": "ending-three",
+        "label": "Earlier distant replies to Ian"
+      },
+      {
+        "from": "rescue-outcome",
+        "to": "ending-four",
+        "label": "Earlier supportive replies to Ian"
+      }
+    ],
+    "afterTree": [
+      "replay-notes",
+      "questions"
+    ]
+  }
+}

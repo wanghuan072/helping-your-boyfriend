@@ -1,0 +1,137 @@
+[
+  {
+    "gameId": "going-live",
+    "expectedSrc": "https://itch.io/embed-upload/10201466?color=222222",
+    "contextReset": "cookies, cache, and local/itch/html-classic storage cleared before launch",
+    "count": 1,
+    "src": "https://itch.io/embed-upload/10201466?color=222222",
+    "title": "Going Live! game",
+    "box": {
+      "x": 33,
+      "y": 365.96875,
+      "width": 970,
+      "height": 545.625
+    },
+    "pageUrl": "http://127.0.0.1:3139/games/going-live"
+  },
+  {
+    "gameId": "first-base",
+    "expectedSrc": "https://itch.io/embed-upload/15391003?color=222222",
+    "contextReset": "cookies, cache, and local/itch/html-classic storage cleared before launch",
+    "count": 1,
+    "src": "https://itch.io/embed-upload/15391003?color=222222",
+    "title": "First Base game",
+    "box": {
+      "x": 33,
+      "y": 365.96875,
+      "width": 970,
+      "height": 545.625
+    },
+    "pageUrl": "http://127.0.0.1:3139/games/first-base"
+  },
+  {
+    "gameId": "the-stranger-from-the-bus-stop",
+    "expectedSrc": "https://itch.io/embed-upload/7958696?color=222222",
+    "contextReset": "cookies, cache, and local/itch/html-classic storage cleared before launch",
+    "count": 1,
+    "src": "https://itch.io/embed-upload/7958696?color=222222",
+    "title": "The stranger from the bus stop game",
+    "box": {
+      "x": 33,
+      "y": 402.53125,
+      "width": 970,
+      "height": 545.625
+    },
+    "pageUrl": "http://127.0.0.1:3139/games/the-stranger-from-the-bus-stop"
+  },
+  {
+    "gameId": "trapped-with-jester",
+    "expectedSrc": "https://itch.io/embed-upload/16906628?color=222222",
+    "contextReset": "cookies, cache, and local/itch/html-classic storage cleared before launch",
+    "count": 1,
+    "src": "https://itch.io/embed-upload/16906628?color=222222",
+    "title": "Trapped with Jester game",
+    "box": {
+      "x": 33,
+      "y": 365.96875,
+      "width": 970,
+      "height": 545.625
+    },
+    "pageUrl": "http://127.0.0.1:3139/games/trapped-with-jester"
+  },
+  {
+    "gameId": "today-im-harvesting-you",
+    "expectedSrc": "https://itch.io/embed-upload/7132574?color=222222",
+    "contextReset": "cookies, cache, and local/itch/html-classic storage cleared before launch",
+    "count": 1,
+    "src": "https://itch.io/embed-upload/7132574?color=222222",
+    "title": "Today, I'm Harvesting You! game",
+    "box": {
+      "x": 33,
+      "y": 402.53125,
+      "width": 970,
+      "height": 545.625
+    },
+    "pageUrl": "http://127.0.0.1:3139/games/today-im-harvesting-you"
+  },
+  {
+    "gameId": "my-own-sweet-dionaea",
+    "expectedSrc": "https://itch.io/embed-upload/15246546?color=222222",
+    "contextReset": "cookies, cache, and local/itch/html-classic storage cleared before launch",
+    "count": 1,
+    "src": "https://itch.io/embed-upload/15246546?color=222222",
+    "title": "My Own Sweet Dionaea game",
+    "box": {
+      "x": 33,
+      "y": 336.953125,
+      "width": 970,
+      "height": 545.625
+    },
+    "pageUrl": "http://127.0.0.1:3139/games/my-own-sweet-dionaea"
+  },
+  {
+    "gameId": "overdose",
+    "expectedSrc": "https://itch.io/embed-upload/19307243?color=222222",
+    "contextReset": "cookies, cache, and local/itch/html-classic storage cleared before launch",
+    "count": 1,
+    "src": "https://itch.io/embed-upload/19307243?color=222222",
+    "title": "OVERD0SE game",
+    "box": {
+      "x": 33,
+      "y": 365.96875,
+      "width": 970,
+      "height": 545.625
+    },
+    "pageUrl": "http://127.0.0.1:3139/games/overdose"
+  },
+  {
+    "gameId": "devour-me-gently",
+    "expectedSrc": "https://itch.io/embed-upload/17653831?color=222222",
+    "contextReset": "cookies, cache, and local/itch/html-classic storage cleared before launch",
+    "count": 1,
+    "src": "https://itch.io/embed-upload/17653831?color=222222",
+    "title": "Devour Me Gently game",
+    "box": {
+      "x": 33,
+      "y": 365.96875,
+      "width": 970,
+      "height": 545.625
+    },
+    "pageUrl": "http://127.0.0.1:3139/games/devour-me-gently"
+  },
+  {
+    "gameId": "dystopia-the-jesters-obsession",
+    "expectedSrc": "https://itch.io/embed-upload/16788516?color=222222",
+    "contextReset": "cookies, cache, and local/itch/html-classic storage cleared before launch",
+    "count": 1,
+    "src": "https://itch.io/embed-upload/16788516?color=222222",
+    "title": "Dystopia: The Jester's Obsession game",
+    "box": {
+      "x": 33,
+      "y": 402.53125,
+      "width": 970,
+      "height": 545.625
+    },
+    "pageUrl": "http://127.0.0.1:3139/games/dystopia-the-jesters-obsession"
+  }
+]

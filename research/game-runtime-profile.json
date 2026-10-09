@@ -1,0 +1,47 @@
+{
+  "gameName": "Helping Your Boyfriend",
+  "primaryKeyword": "Helping Your Boyfriend",
+  "observedAt": "2026-10-08",
+  "gameUrlStatus": "configured",
+  "officialDistribution": {
+    "browserBuildObserved": false,
+    "platforms": ["Windows", "macOS", "Android"],
+    "officialPage": "https://zieelane.itch.io/helping-your-boyfriend",
+    "notes": ["The official creator page currently presents downloadable builds rather than an HTML5 launch button."]
+  },
+  "embed": {
+    "configuredIframeSrc": "test.com",
+    "conclusion": "not_embeddable",
+    "deliveryStatus": "provisional",
+    "finalUrlStatus": "unknown",
+    "httpsCompatible": "unknown",
+    "xFrameOptions": "unknown",
+    "frameAncestors": "unknown",
+    "iframeVisualTest": "failed",
+    "testedFromSiteOrigin": "yes",
+    "cleanBrowserContext": "no",
+    "cleanContextLimitation": "Only the Codex in-app browser was available. A new temporary tab was used, but a separately isolated browser profile was unavailable.",
+    "effectiveReferrerPolicy": null,
+    "finalFrameUrlStatus": "error_document",
+    "criticalNetworkErrors": ["The configured value is a single-label string without an allowed URL scheme and is blocked before iframe creation."],
+    "interactiveInputTest": "not_run",
+    "crossSiteStorage": "unknown",
+    "notes": ["The value was not rewritten to https://test.com because the workflow requires byte-for-byte preservation.", "The official game identity was researched independently; no replacement iframe address was searched for or written.", "The final player must enter an explicit safe failure state without creating an iframe and must offer retry."]
+  },
+  "orientation": "unknown",
+  "aspectRatio": null,
+  "inputs": {
+    "mouse": "supported",
+    "keyboard": "supported",
+    "touch": "partial",
+    "gamepad": "unknown"
+  },
+  "inputBasis": ["Official controls specify left click, Enter, mouse pointing/dragging, Space, L, A, Ctrl, Tab, arrow keys and Space for QTEs.", "Android is an official platform, but the full minigame/QTE touch mapping was not verified; touch remains partial rather than fully supported."],
+  "audio": "helpful",
+  "storage": "required",
+  "fullscreen": "unknown",
+  "iframeCapabilities": [],
+  "mobilePlayability": "partial",
+  "knownLimits": ["Official release is downloadable, not verified as a browser game.", "Physical keyboard controls are part of the documented QTE and reading shortcuts.", "Flashing images, loud sounds and jumpscares require a visible warning.", "The configured first-version iframe is not safe to instantiate."],
+  "needsSecondaryCheck": ["If the user replaces player.iframeSrc, rerun safe URL parsing, CSP origin derivation, headers, redirect, visual, input, storage, audio and fullscreen checks.", "Verify current official build number and exact Android touch mappings.", "Measure the official game viewport or a replacement browser runtime before setting aspectRatio or orientation as a game fact."]
+}

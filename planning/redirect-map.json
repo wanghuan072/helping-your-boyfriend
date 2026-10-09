@@ -1,0 +1,9 @@
+{
+  "trailingSlash": false,
+  "redirects": [],
+  "retiredPaths": [],
+  "notes": [
+    "The project has no existing public content routes to migrate.",
+    "The main game is canonical only at /; no /games/helping-your-boyfriend alias will be created."
+  ]
+}

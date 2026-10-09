@@ -1,0 +1,136 @@
+{
+  "navigation": [
+    { "from": "all public pages", "to": "/", "purpose": "Return to the main game player and complete overview", "anchor_direction": "Home" },
+    { "from": "all public pages", "to": "/guides", "purpose": "Choose a task-specific guide", "anchor_direction": "Guides" },
+    { "from": "all public pages", "to": "/games", "purpose": "Browse all verified additional games", "anchor_direction": "More Games" }
+  ],
+  "contentLinks": [
+    { "from": "/", "to": "/guides/helping-your-boyfriend-controls-minigames", "purpose": "Move detailed input and minigame troubleshooting out of the overview", "anchor_direction": "Helping Your Boyfriend controls and minigames" },
+    { "from": "/", "to": "/guides/helping-your-boyfriend-endings-walkthrough", "purpose": "Offer a clearly spoiler-marked next step after a blind run", "anchor_direction": "four-endings walkthrough" },
+    { "from": "/guides/helping-your-boyfriend-controls-minigames", "to": "/", "purpose": "Return to the player after resolving an input task", "anchor_direction": "play Helping Your Boyfriend" },
+    { "from": "/guides/helping-your-boyfriend-controls-minigames", "to": "/guides/helping-your-boyfriend-endings-walkthrough", "purpose": "Continue from mechanical execution to route completion", "anchor_direction": "spoiler-marked endings walkthrough" },
+    { "from": "/guides/helping-your-boyfriend-endings-walkthrough", "to": "/guides/helping-your-boyfriend-controls-minigames", "purpose": "Resolve a failed QTE or drag action that blocks a route", "anchor_direction": "controls and minigames guide" },
+    { "from": "/guides/helping-your-boyfriend-endings-walkthrough", "to": "/", "purpose": "Return to the player after choosing an ending path", "anchor_direction": "return to Helping Your Boyfriend" }
+  ],
+  "homeCollections": {
+    "recommended": ["going-live", "first-base", "the-stranger-from-the-bus-stop", "trapped-with-jester", "my-own-sweet-dionaea", "overdose"],
+    "featured": ["going-live", "first-base", "the-stranger-from-the-bus-stop", "trapped-with-jester", "my-own-sweet-dionaea", "overdose"],
+    "new": ["the-stranger-from-the-bus-stop", "today-im-harvesting-you", "my-own-sweet-dionaea", "overdose", "devour-me-gently", "dystopia-the-jesters-obsession"],
+    "rules": "Read flags from Game JSON, exclude the main game, keep each group unique, and prefer cross-group variety without inventing Hot or rating claims."
+  },
+  "gameRelations": [
+    {
+      "from_game_id": "going-live",
+      "links": [
+        { "to_game_id": "first-base", "reason": "Both use affection-like choices that can hide lethal consequences." },
+        { "to_game_id": "the-stranger-from-the-bus-stop", "reason": "Both are compact cute-to-creepy stories designed around replaying endings." },
+        { "to_game_id": "trapped-with-jester", "reason": "Both reframe a charming performer-like character as a source of danger." },
+        { "to_game_id": "overdose", "reason": "Both expose obsessive control through visible relationship feedback." },
+        { "to_game_id": "dystopia-the-jesters-obsession", "reason": "Both turn attention and popularity/affection signals into route consequences." },
+        { "to_game_id": "devour-me-gently", "reason": "Both ask the player to question apparently helpful behavior." }
+      ]
+    },
+    {
+      "from_game_id": "first-base",
+      "links": [
+        { "to_game_id": "going-live", "reason": "Both have repeated runs with dangerous consequences hidden behind social choices." },
+        { "to_game_id": "the-stranger-from-the-bus-stop", "reason": "Both center on interpreting romantic attention that becomes threatening." },
+        { "to_game_id": "trapped-with-jester", "reason": "Both offer several survival-sensitive endings through dialogue." },
+        { "to_game_id": "my-own-sweet-dionaea", "reason": "Both contrast relationship maintenance with personal safety." },
+        { "to_game_id": "overdose", "reason": "Both support deeper route planning through customization and relationship state." },
+        { "to_game_id": "devour-me-gently", "reason": "Both frame affection around coercion, confinement, or survival." }
+      ]
+    },
+    {
+      "from_game_id": "the-stranger-from-the-bus-stop",
+      "links": [
+        { "to_game_id": "first-base", "reason": "Both turn a seemingly romantic encounter into a survival decision." },
+        { "to_game_id": "trapped-with-jester", "reason": "Both are short, replayable encounters with multiple adverse outcomes." },
+        { "to_game_id": "going-live", "reason": "Both use compact route choices and sudden tonal escalation." },
+        { "to_game_id": "devour-me-gently", "reason": "Both ask players to read danger cues from a single controlling stranger." },
+        { "to_game_id": "dystopia-the-jesters-obsession", "reason": "Both use four endings and ambiguous attention from an unfamiliar figure." },
+        { "to_game_id": "my-own-sweet-dionaea", "reason": "Both hide escalating risk beneath care or attraction." }
+      ]
+    },
+    {
+      "from_game_id": "trapped-with-jester",
+      "links": [
+        { "to_game_id": "dystopia-the-jesters-obsession", "reason": "Both use a jester figure, uncertain trust, and replayed dialogue outcomes." },
+        { "to_game_id": "the-stranger-from-the-bus-stop", "reason": "Both are short encounter games with identity uncertainty." },
+        { "to_game_id": "first-base", "reason": "Both combine dangerous affection with multiple survival outcomes." },
+        { "to_game_id": "going-live", "reason": "Both use a playful presentation before threatening consequences." },
+        { "to_game_id": "my-own-sweet-dionaea", "reason": "Both require judging whether apparent warmth is safe." },
+        { "to_game_id": "devour-me-gently", "reason": "Both compress trust and confinement questions into a short encounter." }
+      ]
+    },
+    {
+      "from_game_id": "today-im-harvesting-you",
+      "links": [
+        { "to_game_id": "going-live", "reason": "Both use hands-on management actions to expose horror consequences." },
+        { "to_game_id": "first-base", "reason": "Both connect romance choices with violent failure states." },
+        { "to_game_id": "overdose", "reason": "Both expose progression through item or state feedback rather than dialogue alone." },
+        { "to_game_id": "my-own-sweet-dionaea", "reason": "Both combine care or cultivation imagery with body-horror risk." },
+        { "to_game_id": "devour-me-gently", "reason": "Both use disturbing physical stakes beneath intimate conversation." },
+        { "to_game_id": "dystopia-the-jesters-obsession", "reason": "Both are demos where choice feedback shapes several possible outcomes." }
+      ]
+    },
+    {
+      "from_game_id": "my-own-sweet-dionaea",
+      "links": [
+        { "to_game_id": "first-base", "reason": "Both ask whether relationship maintenance is worth personal danger." },
+        { "to_game_id": "overdose", "reason": "Both use workplace or medical systems and deterioration feedback." },
+        { "to_game_id": "devour-me-gently", "reason": "Both explore dependency and care that may conceal control." },
+        { "to_game_id": "dystopia-the-jesters-obsession", "reason": "Both are demos with affection-linked decisions and uncertain future scope." },
+        { "to_game_id": "going-live", "reason": "Both show an attractive public surface deteriorating through choices." },
+        { "to_game_id": "today-im-harvesting-you", "reason": "Both join cultivation imagery, romance, and body-horror mechanics." }
+      ]
+    },
+    {
+      "from_game_id": "overdose",
+      "links": [
+        { "to_game_id": "first-base", "reason": "Both have longer replay structures, customization, and lethal route consequences." },
+        { "to_game_id": "going-live", "reason": "Both make relationship state visible through management feedback." },
+        { "to_game_id": "my-own-sweet-dionaea", "reason": "Both combine care, workplace/medical context, and mental deterioration." },
+        { "to_game_id": "devour-me-gently", "reason": "Both begin with an injured dependent protagonist and a suspicious caretaker." },
+        { "to_game_id": "today-im-harvesting-you", "reason": "Both add inventory-like or direct-action systems to horror choices." },
+        { "to_game_id": "dystopia-the-jesters-obsession", "reason": "Both use hidden or visible relationship points to unlock dialogue and outcomes." }
+      ]
+    },
+    {
+      "from_game_id": "devour-me-gently",
+      "links": [
+        { "to_game_id": "first-base", "reason": "Both ask the player to survive obsessive affection." },
+        { "to_game_id": "the-stranger-from-the-bus-stop", "reason": "Both are compact encounters centered on reading a stranger's threat." },
+        { "to_game_id": "going-live", "reason": "Both reveal dangerous control under seemingly supportive behavior." },
+        { "to_game_id": "overdose", "reason": "Both use injury, dependence, and an uncertain caretaker." },
+        { "to_game_id": "my-own-sweet-dionaea", "reason": "Both examine care, confinement, and relationship safety." },
+        { "to_game_id": "dystopia-the-jesters-obsession", "reason": "Both use protagonist naming and short affection-driven decisions." }
+      ]
+    },
+    {
+      "from_game_id": "dystopia-the-jesters-obsession",
+      "links": [
+        { "to_game_id": "trapped-with-jester", "reason": "Both use a jester figure and replayable trust decisions." },
+        { "to_game_id": "first-base", "reason": "Both combine affection points or signals with survival-sensitive endings." },
+        { "to_game_id": "the-stranger-from-the-bus-stop", "reason": "Both have four outcomes around an unfamiliar threatening figure." },
+        { "to_game_id": "overdose", "reason": "Both expose route state through point or affinity systems." },
+        { "to_game_id": "devour-me-gently", "reason": "Both use name entry and uncertain care in a current demo." },
+        { "to_game_id": "my-own-sweet-dionaea", "reason": "Both distinguish current demo systems from announced future content." }
+      ]
+    }
+  ],
+  "gamePageRules": {
+    "indexReturn": { "to": "/games", "purpose": "Return to the complete published collection", "anchor_direction": "browse More Games" },
+    "recommendedPlacement": "Immediately after the player and before the independent article",
+    "recommendedCount": 6,
+    "detailsSidebar": "Featured and New each exclude the current game, remain unique within the group, and use the same Game JSON objects.",
+    "guideLink": { "to": "/guides", "purpose": "Reach main-game task help without claiming the Guide covers the additional title", "anchor_direction": "Helping Your Boyfriend Guides" }
+  },
+  "legalFooterLinks": [
+    { "to": "/privacy", "anchor_direction": "Privacy Policy", "rel": "noopener noreferrer nofollow" },
+    { "to": "/terms", "anchor_direction": "Terms of Service", "rel": "noopener noreferrer nofollow" },
+    { "to": "/copyright", "anchor_direction": "Copyright", "rel": "noopener noreferrer nofollow" },
+    { "to": "/about", "anchor_direction": "About Us", "rel": "noopener noreferrer nofollow" },
+    { "to": "/contact", "anchor_direction": "Contact Us", "rel": "noopener noreferrer nofollow" }
+  ]
+}

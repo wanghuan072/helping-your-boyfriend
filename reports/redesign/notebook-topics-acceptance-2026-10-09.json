@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-09",
+  "scope": "Implement the approved Characters dossier and Controls manual designs. No new routes, service control, deployment or Git changes.",
+  "implementation": {
+    "renderer": "components/guide/NotebookTopic.tsx",
+    "presentation": "components/guide/notebook-topic.css",
+    "data": "Existing two Guide JSON files remain the single source of character and control content.",
+    "characters": "Four first-screen profile cards, one spoiler notice, character dossiers, relationship diagram, protagonist customisation and compact voice credits.",
+    "controls": "Four first-screen input cards, illustrated dialogue and doll-work tasks, contextual QTE key diagrams, save/retry sequence, troubleshooting and version notes.",
+    "images": "Existing original game media reused; AI-generated concept sheets are not rendered by either page.",
+    "unchanged": "Navigation, TDK, Endings data/tree, homepage layout, iframe configuration and additional-game records."
+  },
+  "verification": {
+    "lint": "passed",
+    "types": "passed",
+    "contentContracts": "passed",
+    "media": "passed",
+    "publish": "passed",
+    "sitemap": "passed",
+    "productionBuild": "passed",
+    "serverHtml": "All prose and section anchors present in production HTML, with no collapsed sections. Checked by scripts/audit-notebook-topics.mjs.",
+    "characters": { "sections": 6, "visibleNonWhitespaceCharacters": 5695, "titleCharacters": 56, "descriptionCharacters": 160 },
+    "controls": { "sections": 7, "visibleNonWhitespaceCharacters": 7180, "titleCharacters": 54, "descriptionCharacters": 156 },
+    "viewports": [390, 768, 1024, 1440],
+    "layout": "Both pages have no document horizontal overflow, no first-screen card overlaps, one H1 and valid local anchor destinations at all four widths.",
+    "navigation": "Desktop and mobile Characters-to-Controls links produce Document requests, not client route swaps; browser back restores Characters. Mobile doll-work anchor verified.",
+    "productionRuntime": "Not started; visual checks used the user's existing development service on localhost:3002.",
+    "analyticsAndAds": "Not tested; no integrations changed."
+  },
+  "sources": [
+    { "url": "https://zieelane.itch.io/helping-your-boyfriend", "use": "Official shortcuts, bell menu, opening premise, customisation, platforms, warnings and voice credits." },
+    { "url": "https://zieelane.itch.io/helping-your-boyfriend/devlog/1686354/update-101-choose-your-gameplay-difficulty", "use": "Difficulty selection introduced in official 1.0.1; not proof of the iframe build." }
+  ],
+  "limitations": [
+    "No complete current-iframe input test across every minigame or device. Official shortcuts are contextualised rather than claimed as exhaustively tested in the embed.",
+    "No invented character ages, numeric affection thresholds or unconfirmed touch mappings.",
+    "QTE diagrams are instructional HTML keycaps, not fabricated gameplay screenshots.",
+    "Existing media republication permissions still require review before public launch."
+  ],
+  "screenshots": {
+    "charactersDesktop": "reports/redesign/characters-implemented-desktop.jpg",
+    "charactersMobile": "reports/redesign/characters-implemented-mobile.jpg",
+    "controlsDesktop": "reports/redesign/controls-implemented-desktop.jpg",
+    "controlsMobile": "reports/redesign/controls-implemented-mobile.jpg"
+  }
+}

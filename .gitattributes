@@ -1,0 +1,3 @@
+# Keep disposable browser state out of source archives, even when older commits
+# contain it. This does not alter working files or rewrite repository history.
+/reports/runtime export-ignore

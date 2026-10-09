@@ -1,0 +1,233 @@
+{
+  "observedAt": "2026-10-08",
+  "records": [
+    {
+      "guide_id": "helping-your-boyfriend-controls-minigames",
+      "unique_player_task": "Choose the correct input for dialogue, dragging, and directional QTEs, then recover when an interaction does not register.",
+      "completion_result": "The player can finish each input family without revealing route outcomes.",
+      "must_answer": [
+        "Quick reference",
+        "Dialogue & the bell menu",
+        "Doll work: tools, pieces & slots",
+        "Timed tasks",
+        "Save, retry & continue",
+        "Version & device notes",
+        "Common issues"
+      ],
+      "steps_or_decisions": [
+        "Set version 1.0.1 gameplay difficulty",
+        "Create a checkpoint before the task",
+        "Identify click, drag, or QTE mode from the visible prompt",
+        "Wait for game feedback before retrying",
+        "Use the log or menu to diagnose a pause"
+      ],
+      "verified_cases": [
+        "A compact keyboard makes dedicated-arrow QTEs harder",
+        "Fast skip can pass a new interaction cue"
+      ],
+      "failure_and_recovery": [
+        "Re-center the draggable object and keep the button held",
+        "Lower gameplay difficulty rather than forcing inaccessible timing",
+        "Reload the nearest task checkpoint instead of the route opening"
+      ],
+      "version_scope": "Official creator control list and 1.0.1 difficulty announcement rechecked 2026-10-09. Current third-party iframe input equivalence is not established.",
+      "screenshot_tasks": [
+        {
+          "slot_id": "helping-your-boyfriend-controls-minigames-dialogue-and-menu",
+          "purpose": "A dialogue scene offers three labelled responses.",
+          "adopted_media_id": "media-guide-controls-step-2"
+        },
+        {
+          "slot_id": "helping-your-boyfriend-controls-minigames-drag-actions",
+          "purpose": "A doll-workspace minigame with tools and instructions.",
+          "adopted_media_id": "media-guide-controls-step-1"
+        }
+      ],
+      "video_use": "Optional short control sequence only; the written steps remain complete without it.",
+      "boundary": "Does not prescribe the four ending routes; those belong to the endings walkthrough.",
+      "evidence_ids": [
+        "evidence-001",
+        "evidence-003"
+      ],
+      "unsupported_claims": [
+        "All Android touch mappings exactly mirror desktop keys"
+      ],
+      "content_status": "media-complete",
+      "media_limitations": [
+        "No screenshot labelled as a QTE or Save/Load screen unless visibly present."
+      ],
+      "public_path": "/controls"
+    },
+    {
+      "guide_id": "helping-your-boyfriend-endings-walkthrough",
+      "unique_player_task": "Use checkpoints, relationship direction, investigated clues, and late item decisions to reach all four endings.",
+      "completion_result": "The player can deliberately reproduce each ending and understand which earlier state to change after a mismatch.",
+      "must_answer": [
+        "The visitor’s first-night pill",
+        "Record the number before it fades",
+        "Inspect the package in Adrian’s room",
+        "Adrian’s medication: pretend, then spit it out",
+        "How we respond to Ian matters later",
+        "Use Ian’s scalpel—or leave it unused",
+        "Ending 1: My Boyfriend Is the Best",
+        "Finish the confrontation before investigating",
+        "Search Adrian’s body for the key",
+        "Open the locked room before leaving",
+        "Dial Oliver’s number",
+        "Ending 2: Nobody’s Home",
+        "Give Oliver the package address",
+        "The rescue is shared; Ian’s future is not",
+        "Ending 3: The Empty Cage",
+        "Ending 4: Moving Forward"
+      ],
+      "steps_or_decisions": [
+        "First-night pill → morning number → Day 2 package → second-evening medicine → Ian relationship direction → Day 3 scalpel → confrontation → body key → locked room → telephone → correct address → epilogue",
+        "Four ending anchors and node content are shared by every consumer",
+        "Final Ian split is accumulated earlier state, not a new final button"
+      ],
+      "verified_cases": [
+        "High Adrian with low Ian follows a different late decision chain from low Adrian with low Ian",
+        "The investigation path needs earlier clue and room state, not only a final dialogue choice",
+        "High Ian changes the fourth outcome while the earlier investigation remains similar"
+      ],
+      "failure_and_recovery": [
+        "If the ending arrives early, reload before the relationship split",
+        "If the investigation branch is absent, verify both recorded clues and the locked-room visit",
+        "If the wrong character dominates the ending, revise one approval choice rather than repeating identical late inputs"
+      ],
+      "version_scope": "English walkthrough uploaded 2026-10-03; current creator release 1.0.1. Exact filmed and iframe builds unconfirmed.",
+      "screenshot_tasks": [
+        {
+          "slot_id": "endings-route-first-night-pill",
+          "purpose": "The first-night visitor offers two options: Does not take it and Take the pill",
+          "adopted_media_id": "media-guide-endings-step-3"
+        },
+        {
+          "slot_id": "endings-route-number-clue",
+          "purpose": "A telephone number written in three groups on the protagonist’s arm",
+          "adopted_media_id": "media-guide-endings-step-2"
+        },
+        {
+          "slot_id": "endings-route-package-address",
+          "purpose": "The package scene displays 742 Silverwood Creek Lane, Silverwood Springs, CA 95401",
+          "adopted_media_id": "media-endings-route-package"
+        },
+        {
+          "slot_id": "endings-route-adrian-medicine",
+          "purpose": "Adrian offers Take the medicine or Pretend to swallow the pill and spit it out",
+          "adopted_media_id": "media-endings-route-medicine"
+        },
+        {
+          "slot_id": "endings-route-ian-relationship",
+          "purpose": "Ian’s early conversation includes a friendly response during his visit",
+          "adopted_media_id": "media-endings-route-ian-relationship"
+        },
+        {
+          "slot_id": "endings-route-scalpel-choice",
+          "purpose": "The Day 3 decision offers using the scalpel or leaving it unused",
+          "adopted_media_id": "media-endings-route-scalpel"
+        },
+        {
+          "slot_id": "endings-route-ending-one",
+          "purpose": "Ending 01 title card reads My boyfriend is the best",
+          "adopted_media_id": "media-endings-route-ending-one"
+        },
+        {
+          "slot_id": "endings-route-survive-confrontation",
+          "purpose": "A timed confrontation displays its input prompt during the escape attempt",
+          "adopted_media_id": "media-endings-route-confrontation"
+        },
+        {
+          "slot_id": "endings-route-body-key",
+          "purpose": "The post-confrontation investigation shows Adrian’s body in the room",
+          "adopted_media_id": "media-endings-route-key"
+        },
+        {
+          "slot_id": "endings-route-locked-room",
+          "purpose": "The investigation route reaches the locked door inside the house",
+          "adopted_media_id": "media-endings-route-locked-room"
+        },
+        {
+          "slot_id": "endings-route-phone-call",
+          "purpose": "The telephone puzzle uses individual arrows to set its nine digits",
+          "adopted_media_id": "media-endings-route-phone"
+        },
+        {
+          "slot_id": "endings-route-ending-two",
+          "purpose": "Ending 02 title card reads Nobody’s Home",
+          "adopted_media_id": "media-endings-route-ending-two"
+        },
+        {
+          "slot_id": "endings-route-address-answer",
+          "purpose": "Oliver’s address question offers three answers; the third matches the package label",
+          "adopted_media_id": "media-endings-route-address"
+        },
+        {
+          "slot_id": "endings-route-rescue-outcome",
+          "purpose": "Ian speaks during the outside sequence after the completed call",
+          "adopted_media_id": "media-endings-route-rescue"
+        },
+        {
+          "slot_id": "endings-route-ending-three",
+          "purpose": "Ending 03 title card reads The Empty Cage",
+          "adopted_media_id": "media-endings-route-ending-three"
+        },
+        {
+          "slot_id": "endings-route-ending-four",
+          "purpose": "Ending 04 title card reads Moving Forward",
+          "adopted_media_id": "media-endings-route-ending-four"
+        }
+      ],
+      "video_use": "No additional public video embed; annotated source timecodes are kept internally.",
+      "boundary": "Assumes the controls guide for input execution and focuses on route state and checkpoint planning.",
+      "evidence_ids": [
+        "evidence-001",
+        "evidence-003"
+      ],
+      "unsupported_claims": [
+        "Numeric affection thresholds",
+        "A single final button decides Ian's outcome",
+        "Every relationship state makes the body searchable",
+        "Exact equivalence between the filmed English build and the site's third-party iframe build",
+        "Express image-republication permission"
+      ],
+      "content_status": "media-complete",
+      "media_limitations": [
+        "Streamer overlay and watermark preserved in limited gameplay excerpts",
+        "Phone/clue values verified in filmed English run; other versions should be matched against their own visible clues"
+      ],
+      "verification_boundary": "Four title cards, actual medicine/scalpel choices, package address, correctly entered phone number, door and hospital scenes visibly checked in Sammi's public walkthrough. No local end-to-end playthrough; no exact affection threshold or complete choice-to-score mapping established. Blue-pill refusal and alternative medicine branch are secondary-guide directions, not exhaustive build-level proofs.",
+      "public_path": "/endings"
+    },
+    {
+      "guide_id": "helping-your-boyfriend-characters",
+      "unique_player_task": "Read Adrian, Ian, Oliver and the customisable protagonist without confusing interpretation with route conditions.",
+      "must_answer": [
+        "Who is connected to us?",
+        "Our protagonist, our perspective",
+        "Dr. Adrian Winchester",
+        "Ian",
+        "Oliver",
+        "The voices behind the story"
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "characters-protagonist",
+          "purpose": "The actual body-type selection supports the customisable point of view.",
+          "adopted_media_id": "media-guide-controls-step-3"
+        }
+      ],
+      "evidence_ids": [
+        "evidence-001",
+        "evidence-003"
+      ],
+      "unsupported_claims": [
+        "Exact affection thresholds",
+        "Unconfirmed ages, diagnoses and romantic routes"
+      ],
+      "content_status": "media-complete",
+      "version_scope": "1.0.1; credits and opening checked on creator page; later reading suggestions marked as spoilers.",
+      "public_path": "/characters"
+    }
+  ]
+}

@@ -1,0 +1,1172 @@
+{
+  "version": 1,
+  "slots": [
+    {
+      "slot_id": "home-cover",
+      "page_id": "home",
+      "section_id": "start-and-safety",
+      "player_question": "Can I start this version safely, and what happens if the provisional address is unusable?",
+      "fact_to_show": "Identify helping-your-boyfriend and visually establish this page task without exposing excluded spoilers.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "The player understands why no dangerous frame appears and how to retry after a future address change.",
+      "candidate_evidence_ids": [
+        "claim-hyb-002",
+        "claim-hyb-006"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different clean current-game title or opening frame; do not use another game's art or a generic fallback.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-helping-your-boyfriend-cover"
+      ]
+    },
+    {
+      "slot_id": "home-interface",
+      "page_id": "home",
+      "section_id": "controls-and-minigames",
+      "player_question": "Which inputs move dialogue, drag objects, and complete the timed tasks?",
+      "fact_to_show": "Show one successful drag and one QTE feedback cycle plus recovery from a missed input.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "A first-time player can identify the right input family before each task and recover from a miss.",
+      "candidate_evidence_ids": [
+        "claim-hyb-003"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-helping-your-boyfriend-interface"
+      ]
+    },
+    {
+      "slot_id": "home-drag-task",
+      "page_id": "home",
+      "section_id": "controls-and-minigames",
+      "player_question": "Which inputs move dialogue, drag objects, and complete the timed tasks?",
+      "fact_to_show": "Show one successful drag and one QTE feedback cycle plus recovery from a missed input.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "A first-time player can identify the right input family before each task and recover from a miss.",
+      "candidate_evidence_ids": [
+        "claim-hyb-003"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-helping-your-boyfriend-mechanic"
+      ]
+    },
+    {
+      "slot_id": "home-qte",
+      "page_id": "home",
+      "section_id": "controls-and-minigames",
+      "player_question": "Which inputs move dialogue, drag objects, and complete the timed tasks?",
+      "fact_to_show": "Show one successful drag and one QTE feedback cycle plus recovery from a missed input.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "A first-time player can identify the right input family before each task and recover from a miss.",
+      "candidate_evidence_ids": [
+        "claim-hyb-003"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-helping-your-boyfriend-feedback"
+      ]
+    },
+    {
+      "slot_id": "home-video",
+      "page_id": "home",
+      "section_id": "main-video",
+      "player_question": "What does a complete current-version session look like after I have read the guide?",
+      "fact_to_show": "Show the observed action, state change, failure or progress process for: Record visible action, game response, success/failure reason, and unsupported conclusions for each adopted range.",
+      "preferred_format": "youtube-video",
+      "adjacent_copy_task": "One accurate youtube-nocookie embed and original adjacent copy trace to observed segments.",
+      "candidate_evidence_ids": [
+        "claim-hyb-001",
+        "claim-hyb-003"
+      ],
+      "rights_check_needed": false,
+      "fallback_if_unavailable": "Research and verify another current-version video for the same game and task; do not publish an empty required video section.",
+      "process_to_show": "Review F-ouLW_MDkY in full and adopt only verified, non-graphic ranges.",
+      "why_static_is_insufficient": "The player must see timing, input, feedback, or route progression across more than one state.",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "youtube-helping-your-boyfriend"
+      ]
+    },
+    {
+      "slot_id": "going-live-cover",
+      "page_id": "game-going-live",
+      "section_id": "prototype-and-start",
+      "player_question": "What am I starting, and is it a complete continuing game?",
+      "fact_to_show": "Identify going-live and visually establish this page task without exposing excluded spoilers.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player understands prototype scope and reaches the first controllable state.",
+      "candidate_evidence_ids": [
+        "claim-going-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different clean current-game title or opening frame; do not use another game's art or a generic fallback.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-going-live-cover"
+      ]
+    },
+    {
+      "slot_id": "going-live-shot-warning",
+      "page_id": "game-going-live",
+      "section_id": "prototype-and-start",
+      "player_question": "What am I starting, and is it a complete continuing game?",
+      "fact_to_show": "Start from the warning choice and reach the fan interface.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player understands prototype scope and reaches the first controllable state.",
+      "candidate_evidence_ids": [
+        "claim-going-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-going-live-interface"
+      ]
+    },
+    {
+      "slot_id": "going-live-shot-interface",
+      "page_id": "game-going-live",
+      "section_id": "fan-management-feedback",
+      "player_question": "Which actions change popularity and how can I read the result?",
+      "fact_to_show": "Compare one cautious and one escalating fan action with the immediate on-screen response.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player can identify an action, its immediate feedback, and when to reconsider escalation.",
+      "candidate_evidence_ids": [
+        "claim-going-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-going-live-mechanic"
+      ]
+    },
+    {
+      "slot_id": "going-live-shot-feedback",
+      "page_id": "game-going-live",
+      "section_id": "fan-management-feedback",
+      "player_question": "Which actions change popularity and how can I read the result?",
+      "fact_to_show": "Compare one cautious and one escalating fan action with the immediate on-screen response.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player can identify an action, its immediate feedback, and when to reconsider escalation.",
+      "candidate_evidence_ids": [
+        "claim-going-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-going-live-feedback"
+      ]
+    },
+    {
+      "slot_id": "going-live-video",
+      "page_id": "game-going-live",
+      "section_id": "going-live-video",
+      "player_question": "Can I see a verified full run after reading the independent guide?",
+      "fact_to_show": "Show the observed action, state change, failure or progress process for: Map observable fan action, response, and route result.",
+      "preferred_format": "youtube-video",
+      "adjacent_copy_task": "Adopt at least one accurate, non-graphic embed with original explanation.",
+      "candidate_evidence_ids": [
+        "claim-going-001"
+      ],
+      "rights_check_needed": false,
+      "fallback_if_unavailable": "Research and verify another current-version video for the same game and task; do not publish an empty required video section.",
+      "process_to_show": "Watch O4b30uS8QL0 segment by segment.",
+      "why_static_is_insufficient": "The player must see timing, input, feedback, or route progression across more than one state.",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "youtube-going-live"
+      ]
+    },
+    {
+      "slot_id": "first-base-cover",
+      "page_id": "game-first-base",
+      "section_id": "version-customization-start",
+      "player_question": "How do I start version 1.6 and set up the protagonist?",
+      "fact_to_show": "Identify first-base and visually establish this page task without exposing excluded spoilers.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player reaches the first choice with the intended protagonist setup.",
+      "candidate_evidence_ids": [
+        "claim-first-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different clean current-game title or opening frame; do not use another game's art or a generic fallback.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-first-base-cover"
+      ]
+    },
+    {
+      "slot_id": "first-base-shot-start",
+      "page_id": "game-first-base",
+      "section_id": "version-customization-start",
+      "player_question": "How do I start version 1.6 and set up the protagonist?",
+      "fact_to_show": "Enter a name and continue to the first college dialogue.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player reaches the first choice with the intended protagonist setup.",
+      "candidate_evidence_ids": [
+        "claim-first-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-first-base-interface"
+      ]
+    },
+    {
+      "slot_id": "first-base-shot-customize",
+      "page_id": "game-first-base",
+      "section_id": "version-customization-start",
+      "player_question": "How do I start version 1.6 and set up the protagonist?",
+      "fact_to_show": "Enter a name and continue to the first college dialogue.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player reaches the first choice with the intended protagonist setup.",
+      "candidate_evidence_ids": [
+        "claim-first-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-first-base-mechanic"
+      ]
+    },
+    {
+      "slot_id": "first-base-shot-choice",
+      "page_id": "game-first-base",
+      "section_id": "choice-survival-loop",
+      "player_question": "How should I read affectionate choices when some routes can be fatal?",
+      "fact_to_show": "Contrast one boundary-setting response with one escalating response and record immediate feedback.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player knows how to read immediate feedback and preserve a reusable save.",
+      "candidate_evidence_ids": [
+        "claim-first-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-first-base-feedback"
+      ]
+    },
+    {
+      "slot_id": "first-base-video",
+      "page_id": "game-first-base",
+      "section_id": "first-base-video",
+      "player_question": "Which footage accurately demonstrates First Base without mislabeling an older build?",
+      "fact_to_show": "Show the observed action, state change, failure or progress process for: Record version differences and adopt only stable mechanics.",
+      "preferred_format": "youtube-video",
+      "adjacent_copy_task": "At least one accurate embed is paired with a plain version boundary.",
+      "candidate_evidence_ids": [
+        "claim-first-001"
+      ],
+      "rights_check_needed": false,
+      "fallback_if_unavailable": "Research and verify another current-version video for the same game and task; do not publish an empty required video section.",
+      "process_to_show": "Watch T_BrGwWYwDI and compare startup, UI, and route behavior with 1.6.",
+      "why_static_is_insufficient": "The player must see timing, input, feedback, or route progression across more than one state.",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "youtube-first-base"
+      ]
+    },
+    {
+      "slot_id": "bus-stop-cover",
+      "page_id": "game-the-stranger-from-the-bus-stop",
+      "section_id": "short-run-start",
+      "player_question": "What should I expect from a 15–20 minute run?",
+      "fact_to_show": "Identify the-stranger-from-the-bus-stop and visually establish this page task without exposing excluded spoilers.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player understands the compact attempt loop and reaches the first decision.",
+      "candidate_evidence_ids": [
+        "claim-bus-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different clean current-game title or opening frame; do not use another game's art or a generic fallback.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-the-stranger-from-the-bus-stop-cover"
+      ]
+    },
+    {
+      "slot_id": "bus-stop-shot-location",
+      "page_id": "game-the-stranger-from-the-bus-stop",
+      "section_id": "short-run-start",
+      "player_question": "What should I expect from a 15–20 minute run?",
+      "fact_to_show": "Start the bus-stop encounter and identify the first high-impact choice.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player understands the compact attempt loop and reaches the first decision.",
+      "candidate_evidence_ids": [
+        "claim-bus-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-the-stranger-from-the-bus-stop-interface"
+      ]
+    },
+    {
+      "slot_id": "bus-stop-shot-choice",
+      "page_id": "game-the-stranger-from-the-bus-stop",
+      "section_id": "choices-and-clue-reading",
+      "player_question": "How do choices and the number clue affect progress without giving the answer away?",
+      "fact_to_show": "Show where the clue is presented and how an incorrect interpretation behaves, while withholding the value.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player knows what evidence to watch and how to retry without receiving the solution.",
+      "candidate_evidence_ids": [
+        "claim-bus-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-the-stranger-from-the-bus-stop-mechanic"
+      ]
+    },
+    {
+      "slot_id": "bus-stop-shot-clue",
+      "page_id": "game-the-stranger-from-the-bus-stop",
+      "section_id": "choices-and-clue-reading",
+      "player_question": "How do choices and the number clue affect progress without giving the answer away?",
+      "fact_to_show": "Show where the clue is presented and how an incorrect interpretation behaves, while withholding the value.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player knows what evidence to watch and how to retry without receiving the solution.",
+      "candidate_evidence_ids": [
+        "claim-bus-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-the-stranger-from-the-bus-stop-feedback"
+      ]
+    },
+    {
+      "slot_id": "bus-stop-video",
+      "page_id": "game-the-stranger-from-the-bus-stop",
+      "section_id": "bus-stop-video",
+      "player_question": "Can a verified playthrough demonstrate the clue and choice flow after the article?",
+      "fact_to_show": "Show the observed action, state change, failure or progress process for: Map action, feedback, and outcome while marking spoilers.",
+      "preferred_format": "youtube-video",
+      "adjacent_copy_task": "Embed and description accurately match observed version and nearby copy.",
+      "candidate_evidence_ids": [
+        "claim-bus-001"
+      ],
+      "rights_check_needed": false,
+      "fallback_if_unavailable": "Research and verify another current-version video for the same game and task; do not publish an empty required video section.",
+      "process_to_show": "Watch f2dXK0nw5zE segment by segment.",
+      "why_static_is_insufficient": "The player must see timing, input, feedback, or route progression across more than one state.",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "youtube-the-stranger-from-the-bus-stop"
+      ]
+    },
+    {
+      "slot_id": "jester-cover",
+      "page_id": "game-trapped-with-jester",
+      "section_id": "single-scene-voice",
+      "player_question": "What kind of session is this and how should I use the voice presentation?",
+      "fact_to_show": "Identify trapped-with-jester and visually establish this page task without exposing excluded spoilers.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player reaches the encounter with expected audio behavior.",
+      "candidate_evidence_ids": [
+        "claim-jester-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different clean current-game title or opening frame; do not use another game's art or a generic fallback.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-trapped-with-jester-cover"
+      ]
+    },
+    {
+      "slot_id": "jester-shot-card",
+      "page_id": "game-trapped-with-jester",
+      "section_id": "single-scene-voice",
+      "player_question": "What kind of session is this and how should I use the voice presentation?",
+      "fact_to_show": "Start the game, enable audio intentionally, and reach the first response.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player reaches the encounter with expected audio behavior.",
+      "candidate_evidence_ids": [
+        "claim-jester-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-trapped-with-jester-interface"
+      ]
+    },
+    {
+      "slot_id": "jester-shot-encounter",
+      "page_id": "game-trapped-with-jester",
+      "section_id": "single-scene-voice",
+      "player_question": "What kind of session is this and how should I use the voice presentation?",
+      "fact_to_show": "Start the game, enable audio intentionally, and reach the first response.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player reaches the encounter with expected audio behavior.",
+      "candidate_evidence_ids": [
+        "claim-jester-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-trapped-with-jester-mechanic"
+      ]
+    },
+    {
+      "slot_id": "jester-shot-choice",
+      "page_id": "game-trapped-with-jester",
+      "section_id": "decision-and-six-outcomes",
+      "player_question": "How do I read decisions and plan six outcomes?",
+      "fact_to_show": "Compare two response tones and immediate character reaction without stating ending identity.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player can preserve a checkpoint and choose a materially different response next run.",
+      "candidate_evidence_ids": [
+        "claim-jester-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-trapped-with-jester-feedback"
+      ]
+    },
+    {
+      "slot_id": "jester-video",
+      "page_id": "game-trapped-with-jester",
+      "section_id": "jester-video",
+      "player_question": "Which observed sequence demonstrates the encounter without replacing the guide?",
+      "fact_to_show": "Show the observed action, state change, failure or progress process for: Record action and immediate response for each adopted segment.",
+      "preferred_format": "youtube-video",
+      "adjacent_copy_task": "Accurate lazy embed and original description are present after the article.",
+      "candidate_evidence_ids": [
+        "claim-jester-001"
+      ],
+      "rights_check_needed": false,
+      "fallback_if_unavailable": "Research and verify another current-version video for the same game and task; do not publish an empty required video section.",
+      "process_to_show": "Watch smqy6ZgsZXU, approximately 17:50 total, segment by segment.",
+      "why_static_is_insufficient": "The player must see timing, input, feedback, or route progression across more than one state.",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "youtube-trapped-with-jester"
+      ]
+    },
+    {
+      "slot_id": "harvest-cover",
+      "page_id": "game-today-im-harvesting-you",
+      "section_id": "jam-build-and-input",
+      "player_question": "How do I start and what uses clicking?",
+      "fact_to_show": "Identify today-im-harvesting-you and visually establish this page task without exposing excluded spoilers.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player reaches the active harvest UI and understands pointer roles.",
+      "candidate_evidence_ids": [
+        "claim-harvest-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different clean current-game title or opening frame; do not use another game's art or a generic fallback.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-today-im-harvesting-you-cover"
+      ]
+    },
+    {
+      "slot_id": "harvest-shot-opening",
+      "page_id": "game-today-im-harvesting-you",
+      "section_id": "jam-build-and-input",
+      "player_question": "How do I start and what uses clicking?",
+      "fact_to_show": "Advance dialogue, make a safe early choice, and pick up the first required item.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player reaches the active harvest UI and understands pointer roles.",
+      "candidate_evidence_ids": [
+        "claim-harvest-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-today-im-harvesting-you-interface"
+      ]
+    },
+    {
+      "slot_id": "harvest-shot-choice",
+      "page_id": "game-today-im-harvesting-you",
+      "section_id": "jam-build-and-input",
+      "player_question": "How do I start and what uses clicking?",
+      "fact_to_show": "Advance dialogue, make a safe early choice, and pick up the first required item.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player reaches the active harvest UI and understands pointer roles.",
+      "candidate_evidence_ids": [
+        "claim-harvest-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-today-im-harvesting-you-mechanic"
+      ]
+    },
+    {
+      "slot_id": "harvest-shot-ui",
+      "page_id": "game-today-im-harvesting-you",
+      "section_id": "placement-failure-recovery",
+      "player_question": "Why does an item fail to place, and how do I recover?",
+      "fact_to_show": "Capture failed placement, corrective cursor position or reload step, and successful visible result.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player can tell input failure from game state and recover without unsafe advice.",
+      "candidate_evidence_ids": [
+        "claim-harvest-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-today-im-harvesting-you-feedback"
+      ]
+    },
+    {
+      "slot_id": "harvest-video",
+      "page_id": "game-today-im-harvesting-you",
+      "section_id": "harvest-video",
+      "player_question": "Can I see the interaction flow in non-graphic footage?",
+      "fact_to_show": "Show the observed action, state change, failure or progress process for: Document safe action and placement result.",
+      "preferred_format": "youtube-video",
+      "adjacent_copy_task": "At least one accurate embed follows the article with a clear content note.",
+      "candidate_evidence_ids": [
+        "claim-harvest-001"
+      ],
+      "rights_check_needed": false,
+      "fallback_if_unavailable": "Research and verify another current-version video for the same game and task; do not publish an empty required video section.",
+      "process_to_show": "Watch EAAR2KzU43s and select only accurate, non-graphic segments.",
+      "why_static_is_insufficient": "The player must see timing, input, feedback, or route progression across more than one state.",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "youtube-today-im-harvesting-you"
+      ]
+    },
+    {
+      "slot_id": "dionaea-cover",
+      "page_id": "game-my-own-sweet-dionaea",
+      "section_id": "demo-scope-and-controls",
+      "player_question": "What is available in demo 1.01 and how do I navigate it?",
+      "fact_to_show": "Identify my-own-sweet-dionaea and visually establish this page task without exposing excluded spoilers.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player knows the demo boundary and can reach the first decision.",
+      "candidate_evidence_ids": [
+        "claim-dionaea-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different clean current-game title or opening frame; do not use another game's art or a generic fallback.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-my-own-sweet-dionaea-cover"
+      ]
+    },
+    {
+      "slot_id": "dionaea-shot-menu",
+      "page_id": "game-my-own-sweet-dionaea",
+      "section_id": "demo-scope-and-controls",
+      "player_question": "What is available in demo 1.01 and how do I navigate it?",
+      "fact_to_show": "Start the demo with keyboard and mouse and reach the first laboratory dialogue.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player knows the demo boundary and can reach the first decision.",
+      "candidate_evidence_ids": [
+        "claim-dionaea-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-my-own-sweet-dionaea-interface"
+      ]
+    },
+    {
+      "slot_id": "dionaea-shot-lab",
+      "page_id": "game-my-own-sweet-dionaea",
+      "section_id": "demo-scope-and-controls",
+      "player_question": "What is available in demo 1.01 and how do I navigate it?",
+      "fact_to_show": "Start the demo with keyboard and mouse and reach the first laboratory dialogue.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player knows the demo boundary and can reach the first decision.",
+      "candidate_evidence_ids": [
+        "claim-dionaea-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-my-own-sweet-dionaea-mechanic"
+      ]
+    },
+    {
+      "slot_id": "dionaea-shot-choice",
+      "page_id": "game-my-own-sweet-dionaea",
+      "section_id": "care-versus-risk",
+      "player_question": "Which visible signals suggest care, professional pressure, or danger?",
+      "fact_to_show": "Compare one care-oriented and one risk-oriented response with immediate dialogue feedback.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player can articulate the tradeoff before selecting a response.",
+      "candidate_evidence_ids": [
+        "claim-dionaea-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-my-own-sweet-dionaea-feedback"
+      ]
+    },
+    {
+      "slot_id": "dionaea-video",
+      "page_id": "game-my-own-sweet-dionaea",
+      "section_id": "dionaea-video",
+      "player_question": "Which current-demo footage supports the care and control explanation?",
+      "fact_to_show": "Show the observed action, state change, failure or progress process for: Record visible player choice and immediate result.",
+      "preferred_format": "youtube-video",
+      "adjacent_copy_task": "Accurate embed and original description follow the article.",
+      "candidate_evidence_ids": [
+        "claim-dionaea-001"
+      ],
+      "rights_check_needed": false,
+      "fallback_if_unavailable": "Research and verify another current-version video for the same game and task; do not publish an empty required video section.",
+      "process_to_show": "Watch x-zH-44dWqQ segment by segment.",
+      "why_static_is_insufficient": "The player must see timing, input, feedback, or route progression across more than one state.",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "youtube-my-own-sweet-dionaea"
+      ]
+    },
+    {
+      "slot_id": "overdose-cover",
+      "page_id": "game-overdose",
+      "section_id": "current-build-customization",
+      "player_question": "Which current build am I playing and what do I set before Day 1?",
+      "fact_to_show": "Identify overdose and visually establish this page task without exposing excluded spoilers.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player enters Day 1 and understands which choices affect presentation versus progress.",
+      "candidate_evidence_ids": [
+        "claim-overdose-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different clean current-game title or opening frame; do not use another game's art or a generic fallback.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-overdose-cover"
+      ]
+    },
+    {
+      "slot_id": "overdose-shot-customize",
+      "page_id": "game-overdose",
+      "section_id": "current-build-customization",
+      "player_question": "Which current build am I playing and what do I set before Day 1?",
+      "fact_to_show": "Complete setup and reach the Day 1 state without treating cosmetic options as route facts.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player enters Day 1 and understands which choices affect presentation versus progress.",
+      "candidate_evidence_ids": [
+        "claim-overdose-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-overdose-interface"
+      ]
+    },
+    {
+      "slot_id": "overdose-shot-awareness",
+      "page_id": "game-overdose",
+      "section_id": "affinity-inventory-awareness",
+      "player_question": "How do affinity, inventory, anxiety, and awareness change what I can do?",
+      "fact_to_show": "Track one choice through its immediate state change and later available action.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player can distinguish the four systems and predict the next check to make.",
+      "candidate_evidence_ids": [
+        "claim-overdose-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-overdose-mechanic"
+      ]
+    },
+    {
+      "slot_id": "overdose-shot-inventory",
+      "page_id": "game-overdose",
+      "section_id": "affinity-inventory-awareness",
+      "player_question": "How do affinity, inventory, anxiety, and awareness change what I can do?",
+      "fact_to_show": "Track one choice through its immediate state change and later available action.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player can distinguish the four systems and predict the next check to make.",
+      "candidate_evidence_ids": [
+        "claim-overdose-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-overdose-feedback"
+      ]
+    },
+    {
+      "slot_id": "overdose-video",
+      "page_id": "game-overdose",
+      "section_id": "overdose-video",
+      "player_question": "Can older footage still explain a current system?",
+      "fact_to_show": "Show the observed action, state change, failure or progress process for: Record stable mechanic versus changed UI or route content.",
+      "preferred_format": "youtube-video",
+      "adjacent_copy_task": "At least one supported embed remains with precise version language.",
+      "candidate_evidence_ids": [
+        "claim-overdose-001"
+      ],
+      "rights_check_needed": false,
+      "fallback_if_unavailable": "Research and verify another current-version video for the same game and task; do not publish an empty required video section.",
+      "process_to_show": "Watch yKAlXh4ZToU and compare every adopted observation with the current web build.",
+      "why_static_is_insufficient": "The player must see timing, input, feedback, or route progression across more than one state.",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "youtube-overdose"
+      ]
+    },
+    {
+      "slot_id": "devour-cover",
+      "page_id": "game-devour-me-gently",
+      "section_id": "demo-name-start",
+      "player_question": "How do I enter a name and begin this short demo?",
+      "fact_to_show": "Identify devour-me-gently and visually establish this page task without exposing excluded spoilers.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player reaches the first decision with the correct input focus.",
+      "candidate_evidence_ids": [
+        "claim-devour-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different clean current-game title or opening frame; do not use another game's art or a generic fallback.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-devour-me-gently-cover"
+      ]
+    },
+    {
+      "slot_id": "devour-shot-name",
+      "page_id": "game-devour-me-gently",
+      "section_id": "demo-name-start",
+      "player_question": "How do I enter a name and begin this short demo?",
+      "fact_to_show": "Focus the name field, submit a valid name, and reach the first caretaker exchange.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player reaches the first decision with the correct input focus.",
+      "candidate_evidence_ids": [
+        "claim-devour-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-devour-me-gently-interface"
+      ]
+    },
+    {
+      "slot_id": "devour-shot-caretaker",
+      "page_id": "game-devour-me-gently",
+      "section_id": "demo-name-start",
+      "player_question": "How do I enter a name and begin this short demo?",
+      "fact_to_show": "Focus the name field, submit a valid name, and reach the first caretaker exchange.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player reaches the first decision with the correct input focus.",
+      "candidate_evidence_ids": [
+        "claim-devour-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-devour-me-gently-mechanic"
+      ]
+    },
+    {
+      "slot_id": "devour-shot-choice",
+      "page_id": "game-devour-me-gently",
+      "section_id": "caretaker-choice-signals",
+      "player_question": "Which dialogue signals show care, control, or danger?",
+      "fact_to_show": "Compare one compliant and one boundary-setting answer with immediate response.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player can identify the tradeoff and preserve a retry point.",
+      "candidate_evidence_ids": [
+        "claim-devour-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-devour-me-gently-feedback"
+      ]
+    },
+    {
+      "slot_id": "devour-video",
+      "page_id": "game-devour-me-gently",
+      "section_id": "devour-video",
+      "player_question": "Does the video accurately show the same current demo and input flow?",
+      "fact_to_show": "Show the observed action, state change, failure or progress process for: Record name entry, early choice, and visible feedback.",
+      "preferred_format": "youtube-video",
+      "adjacent_copy_task": "Accurate embed with original, non-romanticizing adjacent copy.",
+      "candidate_evidence_ids": [
+        "claim-devour-001"
+      ],
+      "rights_check_needed": false,
+      "fallback_if_unavailable": "Research and verify another current-version video for the same game and task; do not publish an empty required video section.",
+      "process_to_show": "Watch v4_QrTQxdvc segment by segment.",
+      "why_static_is_insufficient": "The player must see timing, input, feedback, or route progression across more than one state.",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "youtube-devour-me-gently"
+      ]
+    },
+    {
+      "slot_id": "dystopia-cover",
+      "page_id": "game-dystopia",
+      "section_id": "demo-name-current-scope",
+      "player_question": "What does demo v1 include and how do I begin?",
+      "fact_to_show": "Identify dystopia-the-jesters-obsession and visually establish this page task without exposing excluded spoilers.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player reaches the first point-affecting decision with correct scope expectations.",
+      "candidate_evidence_ids": [
+        "claim-dystopia-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different clean current-game title or opening frame; do not use another game's art or a generic fallback.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-dystopia-the-jesters-obsession-cover"
+      ]
+    },
+    {
+      "slot_id": "dystopia-shot-name",
+      "page_id": "game-dystopia",
+      "section_id": "demo-name-current-scope",
+      "player_question": "What does demo v1 include and how do I begin?",
+      "fact_to_show": "Enter a name and reach the first jester dialogue choice.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player reaches the first point-affecting decision with correct scope expectations.",
+      "candidate_evidence_ids": [
+        "claim-dystopia-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-dystopia-the-jesters-obsession-interface"
+      ]
+    },
+    {
+      "slot_id": "dystopia-shot-encounter",
+      "page_id": "game-dystopia",
+      "section_id": "demo-name-current-scope",
+      "player_question": "What does demo v1 include and how do I begin?",
+      "fact_to_show": "Enter a name and reach the first jester dialogue choice.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player reaches the first point-affecting decision with correct scope expectations.",
+      "candidate_evidence_ids": [
+        "claim-dystopia-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-dystopia-the-jesters-obsession-mechanic"
+      ]
+    },
+    {
+      "slot_id": "dystopia-shot-choice",
+      "page_id": "game-dystopia",
+      "section_id": "affection-points-dialogue",
+      "player_question": "How do affection and hidden points change dialogue?",
+      "fact_to_show": "Compare one choice and its immediate dialogue response; track whether a visible meter exists.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player understands that dialogue state accumulates and can test a different response.",
+      "candidate_evidence_ids": [
+        "claim-dystopia-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-dystopia-the-jesters-obsession-feedback"
+      ]
+    },
+    {
+      "slot_id": "dystopia-video",
+      "page_id": "game-dystopia",
+      "section_id": "dystopia-video",
+      "player_question": "Does the selected footage show demo v1's point-driven flow?",
+      "fact_to_show": "Show the observed action, state change, failure or progress process for: Record choice, dialogue response, and route state.",
+      "preferred_format": "youtube-video",
+      "adjacent_copy_task": "Accurate embed and original copy follow the complete article.",
+      "candidate_evidence_ids": [
+        "claim-dystopia-001"
+      ],
+      "rights_check_needed": false,
+      "fallback_if_unavailable": "Research and verify another current-version video for the same game and task; do not publish an empty required video section.",
+      "process_to_show": "Watch f_Ti-tCX5Lo segment by segment.",
+      "why_static_is_insufficient": "The player must see timing, input, feedback, or route progression across more than one state.",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "youtube-dystopia-the-jesters-obsession"
+      ]
+    },
+    {
+      "slot_id": "guide-controls-cover",
+      "page_id": "guide-controls",
+      "section_id": "prepare-interface",
+      "player_question": "What should I check before the first task?",
+      "fact_to_show": "Identify helping-your-boyfriend-controls-minigames and visually establish this page task without exposing excluded spoilers.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player can prepare and return to dialogue safely.",
+      "candidate_evidence_ids": [
+        "claim-hyb-003",
+        "claim-hyb-005"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different clean current-game title or opening frame; do not use another game's art or a generic fallback.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-guide-controls-cover"
+      ]
+    },
+    {
+      "slot_id": "guide-controls-dialogue",
+      "page_id": "guide-controls",
+      "section_id": "prepare-interface",
+      "player_question": "What should I check before the first task?",
+      "fact_to_show": "Open settings, choose safe audio/display preferences, and return without losing progress.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player can prepare and return to dialogue safely.",
+      "candidate_evidence_ids": [
+        "claim-hyb-003",
+        "claim-hyb-005"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-guide-controls-step-1"
+      ]
+    },
+    {
+      "slot_id": "guide-controls-drag",
+      "page_id": "guide-controls",
+      "section_id": "dialogue-drag-keys",
+      "player_question": "When should I click, press Enter, drag, or use L, A, Ctrl, and Tab?",
+      "fact_to_show": "Demonstrate one dialogue advance and one drag from start to accepted target, then diagnose a rejected drop.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player selects the correct input and recognizes accepted versus rejected feedback.",
+      "candidate_evidence_ids": [
+        "claim-hyb-003"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-guide-controls-step-2"
+      ]
+    },
+    {
+      "slot_id": "guide-controls-qte",
+      "page_id": "guide-controls",
+      "section_id": "qte-and-recovery",
+      "player_question": "How do arrow and Space QTEs work, and what should I do after a miss?",
+      "fact_to_show": "Record prompt, input, visible success, visible miss, and exact retry path for each distinct QTE.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player can complete or intentionally retry every confirmed QTE pattern.",
+      "candidate_evidence_ids": [
+        "claim-hyb-001",
+        "claim-hyb-003"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-guide-controls-step-3"
+      ]
+    },
+    {
+      "slot_id": "guide-endings-cover",
+      "page_id": "guide-endings",
+      "section_id": "spoiler-boundary-checkpoint",
+      "player_question": "When should I stop reading blindly and where should I save before routes split?",
+      "fact_to_show": "Identify helping-your-boyfriend-endings-walkthrough and visually establish this page task without exposing excluded spoilers.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player has a verified reusable save and consents before opening route details.",
+      "candidate_evidence_ids": [
+        "claim-hyb-001",
+        "claim-hyb-003"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different clean current-game title or opening frame; do not use another game's art or a generic fallback.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-guide-endings-cover"
+      ]
+    },
+    {
+      "slot_id": "guide-endings-checkpoint",
+      "page_id": "guide-endings",
+      "section_id": "spoiler-boundary-checkpoint",
+      "player_question": "When should I stop reading blindly and where should I save before routes split?",
+      "fact_to_show": "Create, load, and verify a save before the first irreversible route split.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Player has a verified reusable save and consents before opening route details.",
+      "candidate_evidence_ids": [
+        "claim-hyb-001",
+        "claim-hyb-003"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-guide-endings-step-1"
+      ]
+    },
+    {
+      "slot_id": "guide-endings-route",
+      "page_id": "guide-endings",
+      "section_id": "four-route-map",
+      "player_question": "Which verified decisions lead to each of the four endings?",
+      "fact_to_show": "For each route, start from the common save, record each required decision, visible feedback, and final confirmation; distinguish required from irrelevant choices.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Each path is reproducible from the checkpoint and has an observed confirmation.",
+      "candidate_evidence_ids": [
+        "claim-hyb-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-guide-endings-step-2"
+      ]
+    },
+    {
+      "slot_id": "guide-endings-confirmation",
+      "page_id": "guide-endings",
+      "section_id": "four-route-map",
+      "player_question": "Which verified decisions lead to each of the four endings?",
+      "fact_to_show": "For each route, start from the common save, record each required decision, visible feedback, and final confirmation; distinguish required from irrelevant choices.",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Each path is reproducible from the checkpoint and has an observed confirmation.",
+      "candidate_evidence_ids": [
+        "claim-hyb-001"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Capture a different current-game frame that demonstrates the same action and result; do not substitute decorative art.",
+      "process_to_show": "",
+      "why_static_is_insufficient": "",
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "media-guide-endings-step-3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 3,
+  "updatedAt": "2026-10-08T14:57:13+08:00",
+  "buildIdentity": "Next.js 16.4.0 standalone production build; 24 generated pages and 19 canonical public routes",
+  "commands": [
+    {
+      "stage": "10",
+      "command": "npm run validate:publish",
+      "kind": "one-shot",
+      "exitCode": 0,
+      "result": "passed",
+      "measured": {
+        "mainGames": 1,
+        "additionalGames": 9,
+        "guides": 2
+      }
+    },
+    {
+      "stage": "10",
+      "command": "npm run validate:media",
+      "kind": "one-shot",
+      "exitCode": 0,
+      "result": "passed",
+      "measured": {
+        "adoptedImages": 48,
+        "adoptedVideos": 10,
+        "unadoptedPublicMediaRemoved": 42
+      }
+    },
+    {
+      "stage": "10",
+      "command": "npm run sitemap:validate",
+      "kind": "one-shot",
+      "exitCode": 0,
+      "result": "passed",
+      "measured": {
+        "canonicalRoutes": 19
+      }
+    },
+    {
+      "stage": "10",
+      "command": "npm run typecheck",
+      "kind": "one-shot",
+      "exitCode": 0,
+      "result": "passed"
+    },
+    {
+      "stage": "10",
+      "command": "npm run lint",
+      "kind": "one-shot",
+      "exitCode": 0,
+      "result": "passed"
+    },
+    {
+      "stage": "10",
+      "command": "npm run build",
+      "kind": "one-shot",
+      "firstExitCode": 1,
+      "firstResult": "owned preview locked .next/standalone",
+      "exitCode": 0,
+      "result": "passed after stopping the verified preview process",
+      "measured": {
+        "consecutivePasses": 2,
+        "stableSitemapSha256": "817BEE8120FD33D0DE2A3ADE465C0794BBE5D53E81EA3EC21B31E157782160E9"
+      }
+    },
+    {
+      "stage": "10",
+      "command": "npm run audit:production -- http://127.0.0.1:3139",
+      "kind": "one-shot",
+      "exitCode": 0,
+      "result": "passed",
+      "measured": {
+        "publicPages": 19,
+        "sitemapEntries": 19,
+        "expected404s": 3
+      }
+    },
+    {
+      "stage": "10",
+      "command": "npm run audit:viewports -- http://127.0.0.1:3139 --viewports-only",
+      "kind": "one-shot",
+      "firstExitCode": 1,
+      "firstResult": "mobile reading-order and inner-H1 issues detected",
+      "exitCode": 0,
+      "result": "passed after CSS fixes",
+      "measured": {
+        "routeViewportPairs": 48
+      }
+    },
+    {
+      "stage": "10",
+      "command": "npm run audit:viewports -- http://127.0.0.1:3139 --players-only",
+      "kind": "one-shot",
+      "exitCode": 0,
+      "result": "passed",
+      "measured": {
+        "cleanContextGameFrames": 9,
+        "identityMismatches": 0
+      }
+    },
+    {
+      "stage": "10",
+      "command": "Lighthouse 13.0.1 mobile, three final-build runs",
+      "kind": "one-shot",
+      "exitCode": 0,
+      "result": "passed",
+      "measured": {
+        "runs": [
+          {
+            "run": 1,
+            "performance": 99,
+            "accessibility": 100,
+            "bestPractices": 100,
+            "seo": 100,
+            "lcpMs": 2029.4546999999998,
+            "cls": 0,
+            "tbtMs": 12.5,
+            "transferBytes": 728681
+          },
+          {
+            "run": 2,
+            "performance": 99,
+            "accessibility": 100,
+            "bestPractices": 100,
+            "seo": 100,
+            "lcpMs": 2105.4814,
+            "cls": 0,
+            "tbtMs": 12,
+            "transferBytes": 728681
+          },
+          {
+            "run": 3,
+            "performance": 99,
+            "accessibility": 100,
+            "bestPractices": 100,
+            "seo": 100,
+            "lcpMs": 2030.6371,
+            "cls": 0,
+            "tbtMs": 12.5,
+            "transferBytes": 728681
+          }
+        ],
+        "median": {
+          "performance": 99,
+          "lcpMs": 2030.6371,
+          "cls": 0,
+          "tbtMs": 12.5,
+          "transferBytes": 728681
+        }
+      }
+    },
+    {
+      "stage": "10",
+      "command": "Lighthouse 13.0.1 desktop, three final-build runs",
+      "kind": "one-shot",
+      "exitCode": 0,
+      "result": "passed",
+      "measured": {
+        "runs": [
+          {
+            "run": 1,
+            "performance": 100,
+            "accessibility": 100,
+            "bestPractices": 100,
+            "seo": 100,
+            "lcpMs": 526.0098,
+            "cls": 0,
+            "tbtMs": 0,
+            "transferBytes": 895665
+          },
+          {
+            "run": 2,
+            "performance": 99,
+            "accessibility": 100,
+            "bestPractices": 100,
+            "seo": 100,
+            "lcpMs": 835.4913750000001,
+            "cls": 0,
+            "tbtMs": 0,
+            "transferBytes": 895665
+          },
+          {
+            "run": 3,
+            "performance": 100,
+            "accessibility": 100,
+            "bestPractices": 100,
+            "seo": 100,
+            "lcpMs": 524.1948,
+            "cls": 0,
+            "tbtMs": 0,
+            "transferBytes": 895665
+          }
+        ],
+        "median": {
+          "performance": 100,
+          "lcpMs": 526.0098,
+          "cls": 0,
+          "tbtMs": 0,
+          "transferBytes": 895665
+        }
+      }
+    },
+    {
+      "stage": "10",
+      "command": "node .next/standalone/server.js",
+      "kind": "long-running",
+      "pid": 6448,
+      "port": 3139,
+      "readinessUrl": "http://127.0.0.1:3139/",
+      "readiness": "HTTP 200",
+      "result": "stopped_after_acceptance",
+      "stopMethod": "verified owned PID stopped; no standalone server process remained"
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "observedAt": "2026-10-08",
+  "records": [
+    {
+      "id": "evidence-001",
+      "kind": "official-public-web",
+      "location": "https://zieelane.itch.io/helping-your-boyfriend",
+      "title": "Helping Your Boyfriend by Zieelane",
+      "accessedAt": "2026-10-08",
+      "language": "en,th",
+      "market": "global",
+      "claims": [
+        "Official title and creator",
+        "Download-only release for Windows, macOS, and Android",
+        "Four endings and five minigames",
+        "English and Thai",
+        "Mouse, keyboard, QTE, save and load controls",
+        "Detailed content warnings"
+      ],
+      "confidence": "high",
+      "versionScope": "Official page observed after the 1.0 launch; exact current build number needs flow-07 recheck",
+      "conflictStatus": "none",
+      "notes": "Primary source. The page did not expose an official browser build."
+    },
+    {
+      "id": "evidence-002",
+      "kind": "official-public-web",
+      "location": "https://zieelane.itch.io/helping-your-boyfriend/devlog/1685435/thank-you-for-10000-downloads-in-just-24-hours",
+      "title": "Helping Your Boyfriend launch devlog",
+      "accessedAt": "2026-10-08",
+      "language": "en,th",
+      "market": "global",
+      "claims": [
+        "Official downloadable file set",
+        "Release timing",
+        "Creator-reported early download milestone"
+      ],
+      "confidence": "high",
+      "versionScope": "Launch period",
+      "conflictStatus": "none",
+      "notes": "Milestone is creator-reported and will not be presented as an independent popularity statistic."
+    },
+    {
+      "id": "evidence-003",
+      "kind": "public-video",
+      "location": "https://www.youtube.com/watch?v=F-ouLW_MDkY",
+      "title": "My Perfect Doctor Boyfriend Is A Yandere Serial Killer?! | Helping My Boyfriend - All Endings",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "Video visibly shows Helping Your Boyfriend",
+        "Current visible build includes dialogue, affection UI and illustrated scenes"
+      ],
+      "confidence": "medium",
+      "versionScope": "Video published during the 2026 launch window",
+      "conflictStatus": "none",
+      "notes": "55:38. youtube-nocookie embed displayed and playback began in the local preflight page. Full segment analysis is reserved for flow 07."
+    },
+    {
+      "id": "evidence-004",
+      "kind": "project-file",
+      "location": "data/games/main-game.json",
+      "title": "User-supplied main player configuration",
+      "accessedAt": "2026-10-08",
+      "language": "n/a",
+      "market": "n/a",
+      "claims": [
+        "The configured main iframe string is exactly test.com"
+      ],
+      "confidence": "high",
+      "versionScope": "Initial project configuration",
+      "conflictStatus": "open",
+      "notes": "The value is not a safe absolute iframe URL and does not match the official download page. It remains provisional by explicit workflow rule."
+    },
+    {
+      "id": "evidence-005",
+      "kind": "controlled-browser-test",
+      "location": "http://127.0.0.1:8765/iframe-preflight.html",
+      "title": "Local controlled iframe preflight",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "local-test",
+      "claims": [
+        "Direct html-classic.itch.zone hotlinks are replaced by an itch.io anti-hotlink page",
+        "Official itch.io embed-upload endpoints load from a third-party site origin",
+        "Sandbox without popups or top navigation still permits the selected games to load"
+      ],
+      "confidence": "high",
+      "versionScope": "Observed 2026-10-08 from localhost",
+      "conflictStatus": "resolved",
+      "notes": "The temporary page and server are removed/stopped before handoff. Production candidates must use embed-upload URLs, not html-classic URLs."
+    },
+    {
+      "id": "evidence-006",
+      "kind": "official-public-web",
+      "location": "https://jennyvipham.itch.io/going-live",
+      "title": "Going Live! by Jenny Vi Pham and collaborators",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "HTML5 visual novel",
+        "Approximately 14k words, three endings and voice acting",
+        "Horror content warnings",
+        "Project is canceled but browser build remains available"
+      ],
+      "confidence": "high",
+      "versionScope": "Current itch.io browser build",
+      "conflictStatus": "none",
+      "notes": "Primary creator page."
+    },
+    {
+      "id": "evidence-007",
+      "kind": "official-public-web",
+      "location": "https://try-froggery.itch.io/first-base",
+      "title": "First Base by Frogcake and collaborators",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "HTML5 horror visual novel",
+        "25k words and six endings",
+        "Keyboard and mouse",
+        "17+ warning without explicit sexual content"
+      ],
+      "confidence": "high",
+      "versionScope": "Full release 1.6 listed on the creator page",
+      "conflictStatus": "none",
+      "notes": "Primary creator page."
+    },
+    {
+      "id": "evidence-008",
+      "kind": "official-public-web",
+      "location": "https://daijubudef.itch.io/the-stranger-from-the-bus-stop",
+      "title": "The stranger from the bus stop by Daijubudef",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "HTML5 psychological horror dating visual novel",
+        "Four endings and four CGs",
+        "Typical play length 15–20 minutes",
+        "Stalking, mild blood, death and suicide warnings"
+      ],
+      "confidence": "high",
+      "versionScope": "Browser version 1.1 page",
+      "conflictStatus": "none",
+      "notes": "Primary creator page and browser-release devlog."
+    },
+    {
+      "id": "evidence-009",
+      "kind": "official-public-web",
+      "location": "https://ant-san.itch.io/jester",
+      "title": "Trapped with Jester by Anta",
+      "accessedAt": "2026-10-08",
+      "language": "multilingual",
+      "market": "global",
+      "claims": [
+        "HTML5 visual novel",
+        "Six endings including alternates",
+        "Mouse, keyboard and touchscreen",
+        "Web build may stutter or distort sound"
+      ],
+      "confidence": "high",
+      "versionScope": "Current creator page",
+      "conflictStatus": "none",
+      "notes": "Primary creator page."
+    },
+    {
+      "id": "evidence-010",
+      "kind": "official-public-web",
+      "location": "https://robobarbie.itch.io/today-im-harvesting-you",
+      "title": "Today, I'm Harvesting You! by robobarbie and Jenny Vi Pham",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "HTML5 horror dating visual novel",
+        "Click advances text, choices and harvest interactions",
+        "Known web SFX and point-and-click issues",
+        "Violence, gore and suggestive-language warnings"
+      ],
+      "confidence": "high",
+      "versionScope": "Jam release 1.0 browser build",
+      "conflictStatus": "none",
+      "notes": "Primary creator page."
+    },
+    {
+      "id": "evidence-011",
+      "kind": "official-public-web",
+      "location": "https://ossuario.itch.io/my-own-sweet-dionaea",
+      "title": "My Own Sweet Dionaea by Ossuario",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "HTML5 psychological/body-horror romance visual novel",
+        "5–6k words",
+        "Keyboard and mouse",
+        "17+ warning and current demo status"
+      ],
+      "confidence": "high",
+      "versionScope": "Web demo 1.01",
+      "conflictStatus": "none",
+      "notes": "Primary creator page."
+    },
+    {
+      "id": "evidence-012",
+      "kind": "official-public-web",
+      "location": "https://mookichuu.itch.io/overdose",
+      "title": "OVERD0SE by Mooki !!",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "HTML5 psychological-horror visual novel",
+        "Affinity, inventory and customization systems",
+        "Current browser build restored",
+        "Extensive severe content warnings"
+      ],
+      "confidence": "high",
+      "versionScope": "Current web version observed after the September 2026 restoration",
+      "conflictStatus": "none",
+      "notes": "Primary creator page."
+    },
+    {
+      "id": "evidence-013",
+      "kind": "official-public-web",
+      "location": "https://sy1luxs.itch.io/devour-me-gently",
+      "title": "Devour Me Gently by SY1LUXS",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "HTML5 yandere horror visual novel",
+        "Keyboard, mouse and smartphone input listed",
+        "Short in-development demo",
+        "Kidnapping/confinement premise requires careful framing"
+      ],
+      "confidence": "high",
+      "versionScope": "Current demo page",
+      "conflictStatus": "none",
+      "notes": "Primary creator page."
+    },
+    {
+      "id": "evidence-014",
+      "kind": "official-public-web",
+      "location": "https://kingcrib.itch.io/dystopia-the-jesters-obsession",
+      "title": "Dystopia: The Jester's Obsession by kingcrib/kris",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "Browser-playable demo",
+        "Four endings",
+        "Affection and points unlock dialogue",
+        "Psychological-horror romance theme"
+      ],
+      "confidence": "high",
+      "versionScope": "Demo v1 browser build",
+      "conflictStatus": "none",
+      "notes": "Primary creator page."
+    },
+    {
+      "id": "evidence-015",
+      "kind": "official-public-web",
+      "location": "https://spicaze.itch.io/silver-thread",
+      "title": "Silver Thread : Episode I by Spica",
+      "accessedAt": "2026-10-08",
+      "language": "en,ja",
+      "market": "global",
+      "claims": [
+        "HTML5 RPG Maker horror mystery",
+        "Keyboard controls",
+        "Two endings",
+        "Creator warns the web version is janky"
+      ],
+      "confidence": "high",
+      "versionScope": "Current Episode I web build",
+      "conflictStatus": "none",
+      "notes": "Visual embed loaded, but the current preflight did not confirm a successful menu selection."
+    },
+    {
+      "id": "evidence-016",
+      "kind": "official-public-web",
+      "location": "https://justacarrot.itch.io/my-vampire-boyfriend-smokes-lucky-strikes",
+      "title": "My Vampire Boyfriend Smokes Lucky Strikes by justacarrot",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "HTML5 horror-romance visual novel",
+        "Episode 1 has about 20k words and two endings",
+        "Keyboard, mouse and touchscreen",
+        "Creator documents possible web-version errors"
+      ],
+      "confidence": "high",
+      "versionScope": "Episode 1 web build",
+      "conflictStatus": "open",
+      "notes": "The controlled embed remained black during the initial observation, so the candidate needs a secondary runtime check."
+    },
+    {
+      "id": "evidence-017",
+      "kind": "official-public-web",
+      "location": "https://ronkad.itch.io/welcome-dear-human",
+      "title": "Welcome, Dear Human [Demo] by Ronkad and KikiCan",
+      "accessedAt": "2026-10-08",
+      "language": "multilingual",
+      "market": "global",
+      "claims": [
+        "Godot web demo",
+        "Sleep-paralysis horror-romance premise",
+        "Current build requires cross-origin isolation"
+      ],
+      "confidence": "high",
+      "versionScope": "Current itch.io web demo",
+      "conflictStatus": "resolved",
+      "notes": "Excluded: the official external embed displayed a missing Cross-Origin Isolation/SharedArrayBuffer error under the planned third-party sandbox."
+    },
+    {
+      "id": "evidence-018",
+      "kind": "controlled-browser-test",
+      "location": "https://itch.io/embed-upload/10201466",
+      "title": "Going Live! official external embed",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "local-test",
+      "claims": [
+        "Real game warning screen and title UI loaded",
+        "Pointer input advanced past the warning"
+      ],
+      "confidence": "high",
+      "versionScope": "Upload 10201466",
+      "conflictStatus": "none",
+      "notes": "Tested from 127.0.0.1 with popups and top navigation omitted from sandbox tokens."
+    },
+    {
+      "id": "evidence-019",
+      "kind": "controlled-browser-test",
+      "location": "https://itch.io/embed-upload/15391003",
+      "title": "First Base official external embed",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "local-test",
+      "claims": [
+        "Correct title screen loaded",
+        "Pointer input reached the player-name prompt"
+      ],
+      "confidence": "high",
+      "versionScope": "Upload 15391003",
+      "conflictStatus": "none",
+      "notes": "Controlled localhost preflight."
+    },
+    {
+      "id": "evidence-020",
+      "kind": "controlled-browser-test",
+      "location": "https://itch.io/embed-upload/7958696",
+      "title": "The stranger from the bus stop official external embed",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "local-test",
+      "claims": [
+        "Correct title screen loaded",
+        "Pointer input began the opening narration"
+      ],
+      "confidence": "high",
+      "versionScope": "Upload 7958696",
+      "conflictStatus": "none",
+      "notes": "Controlled localhost preflight."
+    },
+    {
+      "id": "evidence-021",
+      "kind": "controlled-browser-test",
+      "location": "https://itch.io/embed-upload/16906628",
+      "title": "Trapped with Jester official external embed",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "local-test",
+      "claims": [
+        "Correct creator splash loaded",
+        "Pointer input advanced to the opening information card"
+      ],
+      "confidence": "high",
+      "versionScope": "Upload 16906628",
+      "conflictStatus": "none",
+      "notes": "Controlled localhost preflight."
+    },
+    {
+      "id": "evidence-022",
+      "kind": "controlled-browser-test",
+      "location": "https://itch.io/embed-upload/7132574",
+      "title": "Today, I'm Harvesting You! official external embed",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "local-test",
+      "claims": [
+        "Correct menu loaded",
+        "Pointer input began the opening narration"
+      ],
+      "confidence": "high",
+      "versionScope": "Upload 7132574",
+      "conflictStatus": "none",
+      "notes": "Controlled localhost preflight."
+    },
+    {
+      "id": "evidence-023",
+      "kind": "controlled-browser-test",
+      "location": "https://itch.io/embed-upload/15246546",
+      "title": "My Own Sweet Dionaea official external embed",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "local-test",
+      "claims": [
+        "Correct title screen loaded",
+        "Pointer input began the demo text"
+      ],
+      "confidence": "high",
+      "versionScope": "Upload 15246546",
+      "conflictStatus": "none",
+      "notes": "Controlled localhost preflight."
+    },
+    {
+      "id": "evidence-024",
+      "kind": "controlled-browser-test",
+      "location": "https://itch.io/embed-upload/19307243",
+      "title": "OVERD0SE official external embed",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "local-test",
+      "claims": [
+        "Current creator splash loaded",
+        "Pointer input advanced into Day 1 dialogue"
+      ],
+      "confidence": "high",
+      "versionScope": "Upload 19307243",
+      "conflictStatus": "none",
+      "notes": "Controlled localhost preflight."
+    },
+    {
+      "id": "evidence-025",
+      "kind": "controlled-browser-test",
+      "location": "https://itch.io/embed-upload/17653831",
+      "title": "Devour Me Gently official external embed",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "local-test",
+      "claims": [
+        "Correct title screen loaded",
+        "Pointer input reached the name prompt"
+      ],
+      "confidence": "high",
+      "versionScope": "Upload 17653831",
+      "conflictStatus": "none",
+      "notes": "Controlled localhost preflight."
+    },
+    {
+      "id": "evidence-026",
+      "kind": "controlled-browser-test",
+      "location": "https://itch.io/embed-upload/16788516",
+      "title": "Dystopia: The Jester's Obsession official external embed",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "local-test",
+      "claims": [
+        "Correct title screen loaded",
+        "Pointer input reached the player-name prompt"
+      ],
+      "confidence": "high",
+      "versionScope": "Upload 16788516",
+      "conflictStatus": "none",
+      "notes": "Controlled localhost preflight."
+    },
+    {
+      "id": "evidence-027",
+      "kind": "controlled-browser-test",
+      "location": "https://www.youtube-nocookie.com/embed/",
+      "title": "Local youtube-nocookie embed checks",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "local-test",
+      "claims": [
+        "Main-game and nine candidate videos rendered a play control from the local site origin",
+        "Playback began and visible game identity matched each named game for the main game and nine runtime-qualified candidates"
+      ],
+      "confidence": "medium",
+      "versionScope": "Observed 2026-10-08; detailed timestamps not yet analyzed",
+      "conflictStatus": "none",
+      "notes": "Full viewing, version comparison, claim extraction and final adoption remain flow-07/08 work."
+    },
+    {
+      "id": "evidence-video-01",
+      "kind": "public-video-playback",
+      "location": "https://www.youtube.com/watch?v=F-ouLW_MDkY",
+      "title": "Helping Your Boyfriend selected video opening",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "The visible opening matches Helping Your Boyfriend",
+        "Playback began on the public watch page"
+      ],
+      "confidence": "high",
+      "versionScope": "Official 1.0.1 checked 2026-10-08; configured browser source remains provisional",
+      "conflictStatus": "none",
+      "notes": "See video-analysis-helping-your-boyfriend; only the recorded visual range supports video-derived claims."
+    },
+    {
+      "id": "evidence-video-02",
+      "kind": "public-video-playback",
+      "location": "https://www.youtube.com/watch?v=O4b30uS8QL0",
+      "title": "Going Live! selected video opening",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "The visible opening matches Going Live!",
+        "Playback began on the public watch page"
+      ],
+      "confidence": "high",
+      "versionScope": "Current canceled HTML5 prototype checked 2026-10-08",
+      "conflictStatus": "none",
+      "notes": "See video-analysis-going-live; only the recorded visual range supports video-derived claims."
+    },
+    {
+      "id": "evidence-video-03",
+      "kind": "public-video-playback",
+      "location": "https://www.youtube.com/watch?v=T_BrGwWYwDI",
+      "title": "First Base selected video opening",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "The visible opening matches First Base",
+        "Playback began on the public watch page"
+      ],
+      "confidence": "medium",
+      "versionScope": "Full release 1.6 checked 2026-10-08; selected video shows an older build",
+      "conflictStatus": "older-video-current-page-boundary",
+      "notes": "See video-analysis-first-base; only the recorded visual range supports video-derived claims."
+    },
+    {
+      "id": "evidence-video-04",
+      "kind": "public-video-playback",
+      "location": "https://www.youtube.com/watch?v=f2dXK0nw5zE",
+      "title": "The stranger from the bus stop selected video opening",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "The visible opening matches The stranger from the bus stop",
+        "Playback began on the public watch page"
+      ],
+      "confidence": "high",
+      "versionScope": "Browser version 1.1 checked 2026-10-08",
+      "conflictStatus": "none",
+      "notes": "See video-analysis-the-stranger-from-the-bus-stop; only the recorded visual range supports video-derived claims."
+    },
+    {
+      "id": "evidence-video-05",
+      "kind": "public-video-playback",
+      "location": "https://www.youtube.com/watch?v=smqy6ZgsZXU",
+      "title": "Trapped with Jester selected video opening",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "The visible opening matches Trapped with Jester",
+        "Playback began on the public watch page"
+      ],
+      "confidence": "high",
+      "versionScope": "Current itch browser release checked 2026-10-08",
+      "conflictStatus": "none",
+      "notes": "See video-analysis-trapped-with-jester; only the recorded visual range supports video-derived claims."
+    },
+    {
+      "id": "evidence-video-06",
+      "kind": "public-video-playback",
+      "location": "https://www.youtube.com/watch?v=EAAR2KzU43s",
+      "title": "Today, I'm Harvesting You! selected video opening",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "The visible opening matches Today, I'm Harvesting You!",
+        "Playback began on the public watch page"
+      ],
+      "confidence": "high",
+      "versionScope": "Current jam browser build checked 2026-10-08",
+      "conflictStatus": "none",
+      "notes": "See video-analysis-today-im-harvesting-you; only the recorded visual range supports video-derived claims."
+    },
+    {
+      "id": "evidence-video-07",
+      "kind": "public-video-playback",
+      "location": "https://www.youtube.com/watch?v=x-zH-44dWqQ",
+      "title": "My Own Sweet Dionaea selected video opening",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "The visible opening matches My Own Sweet Dionaea",
+        "Playback began on the public watch page"
+      ],
+      "confidence": "high",
+      "versionScope": "Demo 1.01 checked 2026-10-08",
+      "conflictStatus": "none",
+      "notes": "See video-analysis-my-own-sweet-dionaea; only the recorded visual range supports video-derived claims."
+    },
+    {
+      "id": "evidence-video-08",
+      "kind": "public-video-playback",
+      "location": "https://www.youtube.com/watch?v=yKAlXh4ZToU",
+      "title": "OVERD0SE selected video opening",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "The visible opening matches OVERD0SE",
+        "Playback began on the public watch page"
+      ],
+      "confidence": "medium",
+      "versionScope": "Current September 2026 web upload checked 2026-10-08; selected video is an earlier 2026 demo",
+      "conflictStatus": "older-video-current-page-boundary",
+      "notes": "See video-analysis-overdose; only the recorded visual range supports video-derived claims."
+    },
+    {
+      "id": "evidence-video-09",
+      "kind": "public-video-playback",
+      "location": "https://www.youtube.com/watch?v=v4_QrTQxdvc",
+      "title": "Devour Me Gently selected video opening",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "The visible opening matches Devour Me Gently",
+        "Playback began on the public watch page"
+      ],
+      "confidence": "high",
+      "versionScope": "Current short in-development demo checked 2026-10-08",
+      "conflictStatus": "none",
+      "notes": "See video-analysis-devour-me-gently; only the recorded visual range supports video-derived claims."
+    },
+    {
+      "id": "evidence-video-10",
+      "kind": "public-video-playback",
+      "location": "https://www.youtube.com/watch?v=f_Ti-tCX5Lo",
+      "title": "Dystopia: The Jester's Obsession selected video opening",
+      "accessedAt": "2026-10-08",
+      "language": "en",
+      "market": "global-English",
+      "claims": [
+        "The visible opening matches Dystopia: The Jester's Obsession",
+        "Playback began on the public watch page"
+      ],
+      "confidence": "high",
+      "versionScope": "Demo v1 checked 2026-10-08",
+      "conflictStatus": "none",
+      "notes": "See video-analysis-dystopia-the-jesters-obsession; only the recorded visual range supports video-derived claims."
+    }
+  ]
+}

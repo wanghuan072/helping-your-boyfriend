@@ -1,0 +1,2931 @@
+{
+  "main": {
+    "id": "helping-your-boyfriend",
+    "slug": "helping-your-boyfriend",
+    "title": "Helping Your Boyfriend",
+    "shortDescription": "Help a wounded stranger through a cute-looking routine that shifts into psychological horror, five minigames, and four replayable endings.",
+    "status": "published",
+    "publishedAt": "2026-10-08",
+    "updatedAt": "2026-10-08",
+    "tags": [
+      "visual novel",
+      "psychological horror",
+      "point and click",
+      "multiple endings"
+    ],
+    "categories": [
+      "horror-visual-novels"
+    ],
+    "spoilerPolicy": "marked",
+    "flags": {
+      "isNewHome": false,
+      "isFeaturedHome": false,
+      "isRecommendedHome": false
+    },
+    "image": {
+      "src": "/images/games/helping-your-boyfriend-cover.webp",
+      "alt": "Helping Your Boyfriend character card introducing Adrian in the clinic",
+      "width": 1280,
+      "height": 720
+    },
+    "player": {
+      "iframeSrc": "test.com",
+      "aspectRatio": null,
+      "orientation": "adaptive",
+      "permissionsPolicy": [],
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "sandbox": null,
+      "loadTimeoutMs": 30000
+    },
+    "seo": {
+      "title": "Play Helping Your Boyfriend Online | Game Guide",
+      "description": "Play Helping Your Boyfriend online or troubleshoot the player, then learn verified controls, five minigames, warnings, choices, and four-ending replay tips.",
+      "keywords": [
+        "Helping Your Boyfriend",
+        "Helping Your Boyfriend game",
+        "Helping Your Boyfriend controls"
+      ]
+    },
+    "content": [
+      {
+        "id": "what-you-are-playing",
+        "heading": "What You Are Playing",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Helping Your Boyfriend is a roughly half-hour psychological-horror visual novel about a protagonist who cannot walk and depends on Adrian, a doctor presented as a caring boyfriend. The nightly routine begins with dialogue and a peculiar job dismantling old dolls, then shifts into a survival problem when a stranger appears and forces an immediate choice. The game mixes reading with five hands-on minigames, so progress depends on both relationship decisions and correctly completing short physical tasks."
+          },
+          {
+            "type": "paragraph",
+            "text": "The current official release is version 1.0.1 for Windows, macOS, and Android. It contains more than 8,000 English words, an English and Thai language option, four endings, 115 character sprites and CGs, and 30 backgrounds. Browser play is not currently available on this page, so Play Now shows a clear unavailable state instead of opening an unrelated destination. The official downloadable editions and the browser player are separate; the guidance below applies to the released game."
+          }
+        ]
+      },
+      {
+        "id": "start-with-a-clean-checkpoint",
+        "heading": "Start With a Clean Checkpoint",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Before the opening scene, choose a name, pronouns, and body type, then decide how demanding the interactive sequences should be. Version 1.0.1 added gameplay difficulty choices, which matter if directional QTEs or rapid timing are uncomfortable. Keep the first run spoiler-light: read each line, notice when Adrian's language conflicts with the room or another character's account, and save before a decision that changes how much the protagonist trusts either man."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/helping-your-boyfriend-interface.webp",
+            "alt": "The protagonist's marked hand during an investigation scene",
+            "width": 1280,
+            "height": 704,
+            "caption": "The protagonist's marked hand during an investigation scene",
+            "purpose": "opening state",
+            "status": "adopted"
+          },
+          {
+            "type": "paragraph",
+            "text": "The bell at the top of the game opens Save, Load, and Settings. Make a manual save before the nightly routine changes and another before a sequence that asks for repeated directional input. Those two checkpoints separate narrative experimentation from mechanical retries. If a minigame result sends the story somewhere unexpected, reload the closer checkpoint rather than skipping the entire opening again."
+          }
+        ]
+      },
+      {
+        "id": "read-the-controls-and-feedback",
+        "heading": "Read the Controls and Feedback",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Left click or Enter advances text and confirms a visible choice. Move the mouse to inspect point-and-click targets, and hold the button while dragging during tasks that require an object to travel to a destination. Space hides or restores the dialogue box, L opens the history log, A toggles auto-play, and holding Ctrl or pressing Tab skips previously seen text. Arrow keys plus Space are used for quick-time events; watch the prompt itself instead of pressing a memorized sequence because the demanded direction can change."
+          },
+          {
+            "type": "paragraph",
+            "text": "A drag can fail even when the pointer reaches the target if the object itself has not crossed the active area. Begin near the center of the movable piece, keep the button held, move steadily, and release only after the receiving area reacts. During QTEs, return your fingers to the arrow cluster and rest the other hand on Space before the sequence begins. Compact keyboards without dedicated arrow keys can make those moments impractical, and the game currently does not advertise a remapping option."
+          }
+        ]
+      },
+      {
+        "id": "understand-the-core-system",
+        "heading": "Understand the Core System",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The game continually contrasts what a character says with what the protagonist can observe. Dialogue approval is important, but obedience alone is not the same as safety. When a room search exposes an address, a number, a locked space, or a useful object, treat it as actionable state rather than decoration. Later choices can depend on whether the protagonist noticed that information, kept access to it, and built enough trust with the person who can use it."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/helping-your-boyfriend-mechanic.webp",
+            "alt": "A late pill decision in Helping Your Boyfriend",
+            "width": 1222,
+            "height": 720,
+            "caption": "A late pill decision in Helping Your Boyfriend",
+            "purpose": "core mechanic",
+            "status": "adopted"
+          },
+          {
+            "type": "paragraph",
+            "text": "Minigames are not isolated score challenges. Their results can alter the pressure surrounding a later decision, so a failed sequence may be a deliberate branch rather than a conventional game-over screen. After a result, read the next reaction before reloading. If the scene continues and the tone changes, the failure probably belongs to the route. If the interface stops responding, open the log or menu to distinguish a narrative pause from an input problem."
+          }
+        ]
+      },
+      {
+        "id": "recover-from-a-bad-result",
+        "heading": "Recover From a Bad Result",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The four endings arise from a combination of approval, investigation, item access, and late decisions. A common mistake is to optimize every answer for Adrian simply because he is introduced as the boyfriend. Another is to skip familiar dialogue so aggressively that a new clickable clue or QTE prompt is missed. For a blind run, accept the first coherent result. For completion, change one relationship direction at a time and keep notes about who approved, which clue was inspected, and whether a key action succeeded."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/helping-your-boyfriend-feedback.webp",
+            "alt": "An opened notebook showing an investigated address",
+            "width": 1280,
+            "height": 720,
+            "caption": "An opened notebook showing an investigated address",
+            "purpose": "feedback and recovery",
+            "status": "adopted"
+          },
+          {
+            "type": "paragraph",
+            "text": "If an ending seems to arrive too early, return to the checkpoint before the last major branch and verify three things: the relationship balance you intended, the clues you physically inspected, and the usable objects you collected. Do not assume the final dialogue option alone determines the outcome. Ending-specific details belong in the dedicated walkthrough; the useful rule here is that observation and preparation can matter as much as the visible choice wording."
+          }
+        ]
+      },
+      {
+        "id": "plan-your-first-run",
+        "heading": "Plan Your First Run",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "For the first run, use normal text speed, keep sound at a comfortable level, and avoid auto-play during scenes with flashing images or sudden audio. Try each minigame once before changing difficulty so you understand the intended interaction, but lower the demand rather than repeatedly forcing an inaccessible sequence. Save before experimenting with skip mode because Ctrl and Tab can move through text quickly enough to pass a new interaction cue."
+          },
+          {
+            "type": "paragraph",
+            "text": "On Android, the release is official, but every keyboard-style QTE mapping has not been confirmed on every device. Keep the phone in the orientation the game requests, avoid system gesture edges during drag tasks, and use the in-game difficulty option if touch timing feels inconsistent. On desktop, close software that captures arrow keys, Space, or Tab. If audio disappears after the window loses focus, return to Settings and confirm volume before restarting the whole route."
+          }
+        ]
+      },
+      {
+        "id": "content-and-comfort",
+        "heading": "Content and Comfort",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "This game includes jumpscares, loud sounds, flashing and disturbing imagery, blood, cartoon gore, violence, drug use, crude language, obsessive behavior, and toxic relationships. The contrast between cute art and sudden threat is intentional. Stop before a QTE or lower the volume if those transitions are difficult, and use manual saves so stepping away does not erase route progress. The story is fictional and its controlling behavior should be read as danger, not relationship advice."
+          }
+        ]
+      },
+      {
+        "id": "questions-players-ask",
+        "heading": "Questions Players Ask",
+        "blocks": [
+          {
+            "type": "faq",
+            "items": [
+              {
+                "question": "Why does Play Now not open Helping Your Boyfriend here?",
+                "answer": "A verified browser build is not currently available on this page, so the player stops with a clear message instead of opening an unrelated destination. The current official release is downloadable for Windows, macOS, and Android."
+              },
+              {
+                "question": "How many endings and minigames are in Helping Your Boyfriend?",
+                "answer": "The current official release lists four endings and five minigames. Relationship choices, observed clues, item access, and interactive results can all shape a run."
+              },
+              {
+                "question": "Which keys should I keep ready during a QTE?",
+                "answer": "Use the arrow keys for directional prompts and Space for the matching action. A compact keyboard without dedicated arrows may need an external keyboard or a lower gameplay difficulty."
+              },
+              {
+                "question": "Where are Save and Load?",
+                "answer": "Click the bell at the top of the game to open the in-game menu. Save before major choices and before difficult interactive sequences so narrative and mechanical retries stay separate."
+              },
+              {
+                "question": "Can I skip dialogue I have already read?",
+                "answer": "Hold Ctrl or use Tab to skip, but slow down near a branch, room search, or minigame. Fast skipping can carry you past a new clue or prompt."
+              },
+              {
+                "question": "Is the Android version controlled exactly like desktop?",
+                "answer": "Android is an official platform, but the complete touch mapping for every keyboard-style sequence has not been independently confirmed. Follow the on-screen prompt and use the difficulty options when necessary."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "watch-the-current-game",
+        "heading": "Watch the Game in Action",
+        "blocks": [
+          {
+            "type": "video",
+            "youtubeId": "F-ouLW_MDkY",
+            "title": "Helping Your Boyfriend gameplay and visible decision flow",
+            "description": "This full-session walkthrough shows the Helping Your Boyfriend interface, player decisions, and on-screen responses discussed in the article. It may reveal route outcomes.",
+            "status": "adopted"
+          }
+        ]
+      }
+    ],
+    "relatedGameIds": []
+  },
+  "games": [
+    {
+      "id": "going-live",
+      "slug": "going-live",
+      "title": "Going Live!",
+      "shortDescription": "Manage an idol's fanbase in a bright streaming story where attention, pressure, and three endings turn increasingly dangerous.",
+      "status": "published",
+      "publishedAt": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "tags": [
+        "visual novel",
+        "psychological horror",
+        "multiple endings"
+      ],
+      "categories": [
+        "horror-visual-novels"
+      ],
+      "spoilerPolicy": "marked",
+      "flags": {
+        "isNewHome": false,
+        "isFeaturedHome": true,
+        "isRecommendedHome": true
+      },
+      "image": {
+        "src": "/images/games/going-live-cover.webp",
+        "alt": "Going Live title scene in the fan-account prototype",
+        "width": 1280,
+        "height": 720
+      },
+      "player": {
+        "iframeSrc": "https://itch.io/embed-upload/10201466?color=222222",
+        "aspectRatio": "16 / 9",
+        "orientation": "landscape",
+        "permissionsPolicy": [
+          "fullscreen"
+        ],
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "sandbox": [
+          "allow-scripts",
+          "allow-same-origin",
+          "allow-forms",
+          "allow-pointer-lock",
+          "allow-downloads"
+        ],
+        "loadTimeoutMs": 30000
+      },
+      "seo": {
+        "title": "Going Live! Online — Manage the Fan Account",
+        "description": "Play Going Live! in its verified browser prototype, manage Jenny's fan account, read popularity feedback, avoid escalation traps, and explore three endings.",
+        "keywords": []
+      },
+      "content": [
+        {
+          "id": "what-you-are-playing",
+          "heading": "What You Are Playing",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Going Live! is a canceled but playable 14,000-word prototype about secretly dating an idol who wants more attention. The protagonist is already a more successful streamer and uses a stan account to keep interest moving, enter the fan community, and influence what people say about him. That setup makes the central task more specific than a normal romance route: you are managing perception while deciding whether each escalation still feels like support."
+            },
+            {
+              "type": "paragraph",
+              "text": "The prototype contains three endings, five CGs, an original soundtrack, and substantial English voice work. Its cheerful streaming language sits beside suicide, homicide, flashing lights, jumpscares, and animal gore. Because the project is canceled, play it as a complete prototype with boundaries, not as the opening chapter of a guaranteed future release. The browser build passed identity and input checks through its own itch upload."
+            }
+          ]
+        },
+        {
+          "id": "start-with-a-clean-checkpoint",
+          "heading": "Start With a Clean Checkpoint",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Press Play Now, wait for the itch frame to finish loading, and use the visible content-warning decision before entering the story. Keep sound on if you want the voiced performance, but set it low enough that sudden effects are manageable. The first useful mental checkpoint is the moment the boyfriend asks for help with popularity: separate actions that increase reach from actions that manipulate individual fans, because the story deliberately narrows that gap."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/going-live-interface.webp",
+              "alt": "Jenny's online fan interface in Going Live",
+              "width": 1280,
+              "height": 720,
+              "caption": "Jenny's online fan interface in Going Live",
+              "purpose": "opening state",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "Read the chat and narration instead of treating every fan response as a score notification. A positive reaction may improve momentum while also normalizing behavior that will matter later. If you intend to compare endings, save before a major campaign choice and label the slot by your strategy, such as cautious support or aggressive intervention. That produces a clearer experiment than saving after every line."
+            }
+          ]
+        },
+        {
+          "id": "read-the-controls-and-feedback",
+          "heading": "Read the Controls and Feedback",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "This is a dialogue-and-choice visual novel rather than a reflex game. Pointer activation advances text, selects choices, and navigates the interface; keyboard confirmation may work where the Ren'Py-style interface exposes it, but the visible button is the reliable guide. Let voiced lines finish at least once because tone supplies information that short choice labels do not contain. If the frame has focus, browser shortcuts and game shortcuts can compete, so click once inside the player before using keys."
+            },
+            {
+              "type": "paragraph",
+              "text": "The stan-account premise depends on reading several layers of feedback: what the idol requests, what the public appears to reward, and what the narration signals about the protagonist's control. When a choice seems to offer a quick popularity gain, ask which group it targets and what behavior it encourages. The game is short enough that choosing a coherent strategy is more informative than trying to make every single response look optimal."
+            }
+          ]
+        },
+        {
+          "id": "understand-the-core-system",
+          "heading": "Understand the Core System",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Popularity is the surface goal, but the playable tension is whether the protagonist can shape a fandom without crossing into coercion. Fan chatter acts as immediate feedback; later character reactions reveal the personal cost. A useful way to read the system is to keep two informal tracks: reach, meaning how visible the idol becomes, and pressure, meaning how much control or harm the plan creates. The interface does not need to display those labels for the distinction to help."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/going-live-mechanic.webp",
+              "alt": "A popularity decision in the Going Live browser prototype",
+              "width": 1280,
+              "height": 720,
+              "caption": "A popularity decision in the Going Live browser prototype",
+              "purpose": "core mechanic",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "For example, a plan that keeps discussion active can look successful in the moment while making later boundaries weaker. Do not reload only because one line sounds negative. Continue until the scene shows whether the reaction reduced reach, exposed the account, or pushed the relationship toward a dangerous conclusion. That visible consequence is more valuable than guessing from the wording alone."
+            }
+          ]
+        },
+        {
+          "id": "recover-from-a-bad-result",
+          "heading": "Recover From a Bad Result",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "There is no lives counter or conventional score screen. Failure is narrative: the campaign, relationship, or people around it can reach a severe outcome. The easiest mistake is to assume the player should always maximize attention because the boyfriend asked for popularity. Another is to treat the protagonist's existing success as proof that their judgment is safe. The story uses those assumptions to test how far a player will continue."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/going-live-feedback.webp",
+              "alt": "Going Live feedback after a fan-management choice",
+              "width": 1279,
+              "height": 720,
+              "caption": "Going Live feedback after a fan-management choice",
+              "purpose": "feedback and recovery",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "To recover from an unwanted ending, reload the save before the campaign direction changed and reverse a pattern, not a single cosmetic phrase. If the run was consistently aggressive, try protecting boundaries earlier. If it was passive, identify the point where silence allowed someone else to define the situation. With three endings, a small route log—major tactic, notable fan response, final result—is enough to prevent repeated identical runs."
+            }
+          ]
+        },
+        {
+          "id": "plan-your-first-run",
+          "heading": "Plan Your First Run",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A strong first run uses a single standard: help without treating fans as disposable pieces. That does not promise the safest ending, but it creates a readable baseline. On the second run, deliberately choose the opposite tactic at the first major pressure point and observe how much downstream dialogue changes. The comparison explains the prototype's design better than random choice flipping."
+            },
+            {
+              "type": "paragraph",
+              "text": "If the web build appears frozen, first check whether a voiced line is still playing or the frame lost focus. Click in the text area, wait briefly, and avoid double-clicking because queued input can skip a response. Reload only after the interface remains unchanged. Web saves belong to the external game host and browser context, so private browsing, cleared storage, or a different browser may not retain them."
+            }
+          ]
+        },
+        {
+          "id": "content-and-comfort",
+          "heading": "Content and Comfort",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The warning is functional, not decorative: the prototype includes suicide, homicide, flashing effects, jumpscares, and animal gore. Do not use the bright character art as a measure of intensity. Lower volume and avoid the game if those subjects are unsuitable, and stop before continuing past the warning rather than relying on a later filter that is not documented."
+            }
+          ]
+        },
+        {
+          "id": "questions-players-ask",
+          "heading": "Questions Players Ask",
+          "blocks": [
+            {
+              "type": "faq",
+              "items": [
+                {
+                  "question": "Is Going Live! a finished full release?",
+                  "answer": "No. It is a playable prototype that the creator identifies as canceled. Its three endings and existing scenes can be completed, but future expansion should not be assumed."
+                },
+                {
+                  "question": "What am I managing in the story?",
+                  "answer": "You run a stan account and influence an idol's fanbase to increase his visibility. The important decisions concern both popularity and the pressure used to achieve it."
+                },
+                {
+                  "question": "Does the game have traditional failure screens?",
+                  "answer": "The main failures are story outcomes rather than depleted lives. Continue after an uncomfortable response long enough to see the consequence before deciding where to reload."
+                },
+                {
+                  "question": "How many endings are there?",
+                  "answer": "The prototype lists three endings. Save before a campaign-defining choice and vary a consistent strategy between runs."
+                },
+                {
+                  "question": "Why can audio or input feel delayed?",
+                  "answer": "The external web frame may lose focus or wait on voiced delivery. Click once inside it, avoid rapid double-clicking, and reload only if the interface stays unresponsive."
+                },
+                {
+                  "question": "Should I maximize popularity on every choice?",
+                  "answer": "Not automatically. Popularity is the request, but the story also tracks the cost of manipulation and how the relationship changes under pressure."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "watch-the-current-game",
+          "heading": "Watch the Game in Action",
+          "blocks": [
+            {
+              "type": "video",
+              "youtubeId": "O4b30uS8QL0",
+              "title": "Going Live! gameplay and visible decision flow",
+              "description": "This full-session walkthrough shows the Going Live! interface, player decisions, and on-screen responses discussed in the article. It may reveal route outcomes.",
+              "status": "adopted"
+            }
+          ]
+        }
+      ],
+      "relatedGameIds": [
+        "first-base",
+        "the-stranger-from-the-bus-stop",
+        "trapped-with-jester",
+        "overdose",
+        "dystopia-the-jesters-obsession",
+        "devour-me-gently"
+      ]
+    },
+    {
+      "id": "first-base",
+      "slug": "first-base",
+      "title": "First Base",
+      "shortDescription": "Shape a college romance, customize the protagonist, and read each choice carefully across six survival-sensitive endings.",
+      "status": "published",
+      "publishedAt": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "tags": [
+        "visual novel",
+        "yandere",
+        "multiple endings"
+      ],
+      "categories": [
+        "horror-visual-novels"
+      ],
+      "spoilerPolicy": "marked",
+      "flags": {
+        "isNewHome": false,
+        "isFeaturedHome": true,
+        "isRecommendedHome": true
+      },
+      "image": {
+        "src": "/images/games/first-base-cover.webp",
+        "alt": "First Base current release opening scene",
+        "width": 1280,
+        "height": 720
+      },
+      "player": {
+        "iframeSrc": "https://itch.io/embed-upload/15391003?color=222222",
+        "aspectRatio": "16 / 9",
+        "orientation": "landscape",
+        "permissionsPolicy": [
+          "fullscreen"
+        ],
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "sandbox": [
+          "allow-scripts",
+          "allow-same-origin",
+          "allow-forms",
+          "allow-pointer-lock",
+          "allow-downloads"
+        ],
+        "loadTimeoutMs": 30000
+      },
+      "seo": {
+        "title": "Play First Base Online — Six-Ending Survival",
+        "description": "Play First Base 1.6 online, set up the protagonist, read campus warning signs, plan reusable saves, and separate three survival from three death endings.",
+        "keywords": []
+      },
+      "content": [
+        {
+          "id": "what-you-are-playing",
+          "heading": "What You Are Playing",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "First Base is a 25,000-word college yandere visual novel centered on Dakota Cly, the ace of the baseball team. A strange meet-cute near the field develops into a route where attraction and personal safety can point in opposite directions. The current release offers six endings—three survival outcomes and three deaths—plus five CGs, a renamable protagonist, and custom pronouns."
+            },
+            {
+              "type": "paragraph",
+              "text": "The game is rated 17+ for suggestive themes, blood, murder, kidnapping, other crimes, social deviance, and flashing images; the creator states that it does not contain explicit sexual content. Version 1.6 is the relevant current-play boundary for this page. The browser upload loaded its correct title and accepted name-entry input during preflight."
+            }
+          ]
+        },
+        {
+          "id": "start-with-a-clean-checkpoint",
+          "heading": "Start With a Clean Checkpoint",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Begin by entering the protagonist name and choosing pronouns. Those settings shape presentation, not a secret difficulty mode, so choose what keeps the text easy to follow. When the story reaches the baseball-field encounter, resist reading charm as a safety signal. Track whether Dakota respects a refusal, how quickly he acts entitled to personal information, and whether another character's behavior supports or contradicts his version of events."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/first-base-interface.webp",
+              "alt": "First Base protagonist setup and name entry",
+              "width": 1280,
+              "height": 720,
+              "caption": "First Base protagonist setup and name entry",
+              "purpose": "opening state",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "Create a save after customization and a second one before the first high-stakes response. The first saves time on later runs; the second isolates the branch. Six endings make completely random replay inefficient. Give each run a purpose—cooperative, guarded, confrontational—then adjust only when the result shows which kind of decision mattered."
+            }
+          ]
+        },
+        {
+          "id": "read-the-controls-and-feedback",
+          "heading": "Read the Controls and Feedback",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "First Base is controlled through the visual-novel interface. Use the pointer to advance lines, select answers, manage saves, and move through menus. Keyboard confirmation and rollback behavior can depend on the embedded Ren'Py build, so trust the visible controls if a key produces no response. Click inside the game once after the frame loads so the browser does not keep focus on the surrounding page."
+            },
+            {
+              "type": "paragraph",
+              "text": "Choice wording often describes tone rather than the full consequence. Before clicking, connect the answer to the current state: are you alone, has a boundary already been ignored, and do you have a safer exit? The same friendly response can mean something different early in a public setting than later in an isolated one. Read the preceding narration rather than choosing from the button text alone."
+            }
+          ]
+        },
+        {
+          "id": "understand-the-core-system",
+          "heading": "Understand the Core System",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Customization helps establish ownership of the protagonist, while the route repeatedly pressures that ownership. The practical mechanic is not an exposed affection meter; it is a sequence of boundary tests. A useful play log records the first ignored refusal, the first time the protagonist loses a safe option, and the choice immediately before an ending. That shows whether the route changed because of accumulated trust or a direct survival decision."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/first-base-mechanic.webp",
+              "alt": "A campus conversation choice in First Base",
+              "width": 1280,
+              "height": 720,
+              "caption": "A campus conversation choice in First Base",
+              "purpose": "core mechanic",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "One concrete comparison is to replay the same early encounter with a firm answer and then with an accommodating answer. Continue both runs past the next consequence instead of reloading immediately. If the later scene changes access, information, or isolation, the choice was structural. If only one line changes, save your larger experiments for a later branch."
+            }
+          ]
+        },
+        {
+          "id": "recover-from-a-bad-result",
+          "heading": "Recover From a Bad Result",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Three endings explicitly involve death, so the absence of a traditional health bar does not make every conversation recoverable. Common mistakes include equating politeness with safety, skipping warning signs because a romance scene appears to be progressing, and overwriting the only save before a dangerous branch. Keep at least one untouched checkpoint from before the relationship locks into its late direction."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/first-base-feedback.webp",
+              "alt": "Route feedback during the First Base visual novel",
+              "width": 1280,
+              "height": 720,
+              "caption": "Route feedback during the First Base visual novel",
+              "purpose": "feedback and recovery",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "After a death ending, do not simply reverse the final button and expect a new route. Return to the last point where the protagonist could preserve distance, seek information, or refuse isolation. If that still reaches the same outcome, move one checkpoint earlier and change the relationship pattern. This branch-by-branch method finds six endings faster than restarting with arbitrary answers."
+            }
+          ]
+        },
+        {
+          "id": "plan-your-first-run",
+          "heading": "Plan Your First Run",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "For a first run, prioritize information and exits over approval. Read every new scene at normal speed, especially when another character mentions Dakota or when the location changes. Save before leaving a public place. A survival result is useful, but do not treat it as proof that every earlier warning was harmless; compare the sequence on a later run."
+            },
+            {
+              "type": "paragraph",
+              "text": "If the player stays black after activation, wait for the external load and click once inside the frame. If name entry does not accept typing, confirm the field is focused and that a browser extension is not intercepting keys. The web build's local save can disappear when storage is cleared or a private session closes, so finish a route in the same browser context when possible."
+            }
+          ]
+        },
+        {
+          "id": "content-and-comfort",
+          "heading": "Content and Comfort",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "First Base combines romantic framing with stalking, kidnapping, blood, murder, and flashing imagery. The safest public descriptions avoid revealing which responses lead to death, but players should know that affectionate presentation does not remove those risks. Stop if the material is unsuitable and avoid playing flashing scenes in a dark room."
+            }
+          ]
+        },
+        {
+          "id": "questions-players-ask",
+          "heading": "Questions Players Ask",
+          "blocks": [
+            {
+              "type": "faq",
+              "items": [
+                {
+                  "question": "How many endings does First Base have?",
+                  "answer": "There are six: three survival outcomes and three death outcomes. Use separate checkpoints and change a decision pattern rather than only the final answer."
+                },
+                {
+                  "question": "Can I customize the protagonist?",
+                  "answer": "Yes. The protagonist can be renamed and uses custom pronouns. Those choices are part of the opening setup."
+                },
+                {
+                  "question": "Is First Base sexually explicit?",
+                  "answer": "The official warning labels the game 17+ and includes suggestive themes, but explicitly says there is no explicit sexual content."
+                },
+                {
+                  "question": "Why did a friendly choice still lead to danger?",
+                  "answer": "The route judges the surrounding pattern and situation, not just whether one answer sounds kind. Watch whether boundaries, information, and exits have already narrowed."
+                },
+                {
+                  "question": "What is the best first-run strategy?",
+                  "answer": "Favor information, public settings, and preserved exits. Save before isolation or a major commitment so you can investigate another route without replaying customization."
+                },
+                {
+                  "question": "Will web saves follow me to another browser?",
+                  "answer": "Do not rely on that. External web-game saves normally belong to the current browser storage, which private mode or data clearing can remove."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "watch-the-current-game",
+          "heading": "Watch the Game in Action",
+          "blocks": [
+            {
+              "type": "video",
+              "youtubeId": "T_BrGwWYwDI",
+              "title": "First Base gameplay and visible decision flow",
+              "description": "This walkthrough shows First Base in an earlier build. Use it to recognize the interface and decision rhythm; the current-version boundaries in the article remain authoritative.",
+              "status": "adopted"
+            }
+          ]
+        }
+      ],
+      "relatedGameIds": [
+        "going-live",
+        "the-stranger-from-the-bus-stop",
+        "trapped-with-jester",
+        "my-own-sweet-dionaea",
+        "overdose",
+        "devour-me-gently"
+      ]
+    },
+    {
+      "id": "the-stranger-from-the-bus-stop",
+      "slug": "the-stranger-from-the-bus-stop",
+      "title": "The stranger from the bus stop",
+      "shortDescription": "Read a compact chance encounter, inspect its unsettling clues, and replay careful choices to find four endings.",
+      "status": "published",
+      "publishedAt": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "tags": [
+        "visual novel",
+        "stalking horror",
+        "short game"
+      ],
+      "categories": [
+        "horror-visual-novels"
+      ],
+      "spoilerPolicy": "marked",
+      "flags": {
+        "isNewHome": true,
+        "isFeaturedHome": true,
+        "isRecommendedHome": true
+      },
+      "image": {
+        "src": "/images/games/the-stranger-from-the-bus-stop-cover.webp",
+        "alt": "The stranger from the bus stop opening location",
+        "width": 1280,
+        "height": 720
+      },
+      "player": {
+        "iframeSrc": "https://itch.io/embed-upload/7958696?color=222222",
+        "aspectRatio": "16 / 9",
+        "orientation": "landscape",
+        "permissionsPolicy": [
+          "fullscreen"
+        ],
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "sandbox": [
+          "allow-scripts",
+          "allow-same-origin",
+          "allow-forms",
+          "allow-pointer-lock",
+          "allow-downloads"
+        ],
+        "loadTimeoutMs": 30000
+      },
+      "seo": {
+        "title": "The stranger from the bus stop — Play Online",
+        "description": "Play The stranger from the bus stop online, follow its compact encounter, preserve the number clue, fix mobile text entry, and work toward four endings.",
+        "keywords": []
+      },
+      "content": [
+        {
+          "id": "what-you-are-playing",
+          "heading": "What You Are Playing",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The stranger from the bus stop is a short dating-sim-shaped psychological horror story about a chance encounter that turns into stalking. It uses a gender-neutral protagonist, four CGs, and four endings in a complete exploration that can fit into roughly 15–20 minutes. Every choice matters, which makes careful replay more useful than treating the story as a long linear novel."
+            },
+            {
+              "type": "paragraph",
+              "text": "The visible warnings cover mild blood in one CG, stalking, and references to death and suicide. The current HTML5 build and version 1.1 framing are the boundary for this guidance. The creator also notes a launcher-language quirk: Help and About can appear in French even when the story itself is in English. That menu issue is not evidence that the main route selected the wrong language."
+            }
+          ]
+        },
+        {
+          "id": "start-with-a-clean-checkpoint",
+          "heading": "Start With a Clean Checkpoint",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Press Play Now and let the opening establish the ordinary bus-stop scene before deciding what the stranger's attention means. The story is short enough to read without skip mode on the first run. Save before answering a question that shares personal information or changes whether the protagonist encourages another meeting. A second checkpoint belongs before the number clue becomes actionable."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/the-stranger-from-the-bus-stop-interface.webp",
+              "alt": "The first bus-stop conversation in the short horror story",
+              "width": 1280,
+              "height": 720,
+              "caption": "The first bus-stop conversation in the short horror story",
+              "purpose": "opening state",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "Aim for one blind ending first. The game expects replay, and the four outcomes together explain more than a single route. After the ending, write down the social boundary you chose, whether you investigated the numbers, and the last response. Those three observations give the next run a clear variable without exposing the clue answer in advance."
+            }
+          ]
+        },
+        {
+          "id": "read-the-controls-and-feedback",
+          "heading": "Read the Controls and Feedback",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Use the pointer to advance dialogue, activate menu buttons, and select choices. The interface follows a compact Ren'Py visual-novel flow; click inside the frame before typing into any field so the outer page does not keep focus. If Help or About appears in French, return to the story instead of changing browser language, because the creator identifies those launcher items as a packaging mistake."
+            },
+            {
+              "type": "paragraph",
+              "text": "The number-related clue is easy to mishandle if you skim. Read where it appears, preserve the order exactly, and distinguish noticing it from understanding it. On a phone, text fields and small targets may be less comfortable even if the frame loads. Rotate only when the game requests it, zoom the browser back to 100 percent, and avoid translating the page automatically because that can interfere with canvas or form input."
+            }
+          ]
+        },
+        {
+          "id": "understand-the-core-system",
+          "heading": "Understand the Core System",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "This game's core mechanic is compression: a small number of choices carry a large share of the route. The stranger's behavior, repeated numbers, and changes around the protagonist's home are linked signals. A seemingly minor response can decide whether the protagonist investigates, dismisses, or encourages the pattern. Continue at least one scene after a choice so the story can show which interpretation it used."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/the-stranger-from-the-bus-stop-mechanic.webp",
+              "alt": "A choice state in The stranger from the bus stop",
+              "width": 1280,
+              "height": 720,
+              "caption": "A choice state in The stranger from the bus stop",
+              "purpose": "core mechanic",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "For a useful comparison, replay the first encounter with a different boundary while keeping later curiosity consistent. Then compare access to information and the tone of the next meeting. On another run, keep the first response and change whether you act on the clue. This two-axis method separates relationship choices from investigation choices and reaches new material faster than selecting random opposites."
+            }
+          ]
+        },
+        {
+          "id": "recover-from-a-bad-result",
+          "heading": "Recover From a Bad Result",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Some branches end in death or distress, but the game does not use lives or a combat failure screen. The common trap is to assume a short route must have only one decisive final choice. In practice, an earlier response can determine what information or opportunity exists later. Another trap is entering a remembered number incorrectly and then changing unrelated dialogue choices when the real problem was transcription."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/the-stranger-from-the-bus-stop-feedback.webp",
+              "alt": "The number-clue interface without revealing the solution",
+              "width": 1280,
+              "height": 720,
+              "caption": "The number-clue interface without revealing the solution",
+              "purpose": "feedback and recovery",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "If two runs reach the same ending, return to the earliest repeated boundary rather than the final scene. Verify the clue order and whether you acted on it. Keep a clean save before clue entry; typing errors should be retried without rebuilding the whole relationship path. If mobile input refuses to register, finish that interaction with a physical keyboard on desktop rather than assuming the route is locked."
+            }
+          ]
+        },
+        {
+          "id": "plan-your-first-run",
+          "heading": "Plan Your First Run",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A good first run is cautious but observant: do not reveal more than necessary, yet inspect the strange details the story emphasizes. That combination exposes the game's cause-and-effect without immediately chasing a specific ending. Afterward, pursue all four outcomes because the creator designed the set to clarify the whole story."
+            },
+            {
+              "type": "paragraph",
+              "text": "If the frame loads but no click advances, click near the center of the dialogue area once and wait for the browser to focus it. Disable page translation and text-selection extensions for the frame. Web progress can be browser-local, so use named manual saves and do not clear site data midway through the four-ending run."
+            }
+          ]
+        },
+        {
+          "id": "content-and-comfort",
+          "heading": "Content and Comfort",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The game treats stalking as danger, not romantic persistence. It also includes mild blood and references to death and suicide. Keep clue explanations spoiler-light outside marked sections, and avoid the game if those subjects are unsuitable. A cute stranger and dating-sim presentation do not guarantee a safe route."
+            }
+          ]
+        },
+        {
+          "id": "questions-players-ask",
+          "heading": "Questions Players Ask",
+          "blocks": [
+            {
+              "type": "faq",
+              "items": [
+                {
+                  "question": "How long is The stranger from the bus stop?",
+                  "answer": "A complete first route is short, and the creator describes the game as roughly 15–20 minutes. Seeing all four endings takes additional replay."
+                },
+                {
+                  "question": "How many endings are there?",
+                  "answer": "There are four. Early boundaries and later clue handling both matter, so preserve checkpoints for each part."
+                },
+                {
+                  "question": "Why are Help and About in French?",
+                  "answer": "The creator notes that English was not selected for those launcher items. The story can still be in English; it is a menu packaging quirk."
+                },
+                {
+                  "question": "Do I need the number clue?",
+                  "answer": "The numbers are an intentional part of the investigation. Record their order, but keep the solution outside spoiler-free notes."
+                },
+                {
+                  "question": "Why do two different runs reach the same ending?",
+                  "answer": "You may have changed a late response while preserving the earlier state that controls the branch. Move to the earliest repeated boundary or clue decision."
+                },
+                {
+                  "question": "Is phone play reliable?",
+                  "answer": "The HTML5 frame can open on a phone, but precise text entry and small interface targets may be less reliable. Desktop is safer for clue input."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "watch-the-current-game",
+          "heading": "Watch the Game in Action",
+          "blocks": [
+            {
+              "type": "video",
+              "youtubeId": "f2dXK0nw5zE",
+              "title": "The stranger from the bus stop gameplay and visible decision flow",
+              "description": "This full-session walkthrough shows the The stranger from the bus stop interface, player decisions, and on-screen responses discussed in the article. It may reveal route outcomes.",
+              "status": "adopted"
+            }
+          ]
+        }
+      ],
+      "relatedGameIds": [
+        "first-base",
+        "trapped-with-jester",
+        "going-live",
+        "devour-me-gently",
+        "dystopia-the-jesters-obsession",
+        "my-own-sweet-dionaea"
+      ]
+    },
+    {
+      "id": "trapped-with-jester",
+      "slug": "trapped-with-jester",
+      "title": "Trapped with Jester",
+      "shortDescription": "Question a fully voiced stranger in one tense fantasy encounter and replay the dialogue toward six compact outcomes.",
+      "status": "published",
+      "publishedAt": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "tags": [
+        "visual novel",
+        "voiced",
+        "multiple endings"
+      ],
+      "categories": [
+        "horror-visual-novels"
+      ],
+      "spoilerPolicy": "marked",
+      "flags": {
+        "isNewHome": false,
+        "isFeaturedHome": true,
+        "isRecommendedHome": true
+      },
+      "image": {
+        "src": "/images/games/trapped-with-jester-cover.webp",
+        "alt": "Trapped with Jester illustrated title artwork",
+        "width": 630,
+        "height": 500
+      },
+      "player": {
+        "iframeSrc": "https://itch.io/embed-upload/16906628?color=222222",
+        "aspectRatio": "16 / 9",
+        "orientation": "landscape",
+        "permissionsPolicy": [
+          "fullscreen"
+        ],
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "sandbox": [
+          "allow-scripts",
+          "allow-same-origin",
+          "allow-forms",
+          "allow-pointer-lock",
+          "allow-downloads"
+        ],
+        "loadTimeoutMs": 30000
+      },
+      "seo": {
+        "title": "Play Trapped with Jester — Six Voiced Endings",
+        "description": "Play Trapped with Jester online, follow the voiced carriage exchange, distinguish pauses from web lag, preserve checkpoints, and explore six outcomes.",
+        "keywords": []
+      },
+      "content": [
+        {
+          "id": "what-you-are-playing",
+          "heading": "What You Are Playing",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Trapped with Jester is a fully voiced, roughly 1,000-word visual novel set inside a moving carriage. The protagonist wakes with a headache, broken memory, and an unfamiliar jester watching them. Four main endings and two alternate endings fit into a very short exchange, so the central play is not exploration but deciding which account of identity and danger to trust."
+            },
+            {
+              "type": "paragraph",
+              "text": "The web version is convenient but the creator warns that it may stutter, distort sound, or lag; the downloadable edition is recommended for the best experience. English voice acting carries important tone, and the game has many language options. This page discusses the current short release without naming the identities or ending labels that the conversation is designed to reveal."
+            }
+          ]
+        },
+        {
+          "id": "start-with-a-clean-checkpoint",
+          "heading": "Start With a Clean Checkpoint",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "After Play Now, click inside the frame and let the opening information card and first voiced lines finish. The sound of the carriage and the jester's delivery establish whether a pause is dramatic timing or a web-performance problem. Create a save before the first answer that defines how the protagonist responds to the stranger, then keep the rest of that run internally consistent."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/trapped-with-jester-interface.webp",
+              "alt": "The jester speaking during the enclosed carriage encounter",
+              "width": 1280,
+              "height": 576,
+              "caption": "The jester speaking during the enclosed carriage encounter",
+              "purpose": "opening state",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "Because the entire story is compact, do not use skip on the first attempt. Pay attention to what the jester claims to know, what the protagonist can actually remember, and when the voice becomes less playful. Those discrepancies are the route map. A later run can skip repeated lines carefully, but stop before each choice to hear the changed setup."
+            }
+          ]
+        },
+        {
+          "id": "read-the-controls-and-feedback",
+          "heading": "Read the Controls and Feedback",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Use mouse or touch to advance dialogue and select responses. Keyboard confirmation can also work in the visual-novel interface, but clicking the visible choice is clearest when the web frame has been slow. Avoid rapid repeated activation: lag can queue several advances and skip the line that explains why a response changed."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sound is part of the evidence. If voices crackle or cut out in the browser build, pause, confirm the tab is not muted, and reload from a manual save. Switching to the downloadable build is the reliable answer when distortion persists. A temporary audio fault should not be interpreted as a silent route or missing scene."
+            }
+          ]
+        },
+        {
+          "id": "understand-the-core-system",
+          "heading": "Understand the Core System",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The game uses uncertainty rather than a visible meter. Each answer positions the protagonist toward trust, hostility, curiosity, or control, and the jester reacts to the pattern. Four main endings resolve the core encounter; two alternates reward less obvious combinations. Treat the stranger's performance and the carriage setting as information, not just decoration."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/trapped-with-jester-mechanic.webp",
+              "alt": "Trapped with Jester title menu before the voiced encounter",
+              "width": 1184,
+              "height": 666,
+              "caption": "Trapped with Jester title menu before the voiced encounter",
+              "purpose": "core mechanic",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "One useful experiment is to keep the first answer skeptical, then vary whether the protagonist asks for facts or attacks the speaker. Both can sound distrustful, but one seeks information while the other closes conversation. Continue to the outcome and compare what the jester reveals. The difference demonstrates why selecting every rudest option is not the same as pursuing a coherent resistance route."
+            }
+          ]
+        },
+        {
+          "id": "recover-from-a-bad-result",
+          "heading": "Recover From a Bad Result",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "An adverse outcome is a completed branch, not a lost life. The most common replay mistake is changing every answer after one bad ending, which hides the decision that mattered. Reload the save before the first defining response and alter one stance at a time. If a new line appears, keep that run intact until the end before changing another variable."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/trapped-with-jester-feedback.webp",
+              "alt": "Trapped with Jester ending gallery showing six route slots",
+              "width": 1184,
+              "height": 666,
+              "caption": "Trapped with Jester ending gallery showing six route slots",
+              "purpose": "feedback and recovery",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "If the interface seems stuck, distinguish performance from story state. Wait for voice playback, move the pointer to reveal an expected button, and press once. If nothing changes and sound is broken, reload. If dialogue continues but you dislike the result, that is narrative feedback; use a save rather than refreshing the entire embed and risking browser-local progress."
+            }
+          ]
+        },
+        {
+          "id": "plan-your-first-run",
+          "heading": "Plan Your First Run",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "For the first run, ask questions and preserve ambiguity rather than trying to identify the stranger immediately. On the second, commit to distrust; on the third, test a more receptive pattern. This sequence makes the six outcomes legible without revealing which combination earns each one."
+            },
+            {
+              "type": "paragraph",
+              "text": "Headphones make the voice work clearer, but keep volume moderate because a sudden change in delivery can be intense. On mobile, use deliberate single taps. On desktop, close audio enhancement software if voices distort. The frame may need a moment after returning to the tab, so do not stack inputs during that pause."
+            }
+          ]
+        },
+        {
+          "id": "content-and-comfort",
+          "heading": "Content and Comfort",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The story involves confinement, threat, memory uncertainty, and betrayal. Its joking surface should not be read as proof that the situation is harmless. Ending identities remain outside card text and unmarked sections; players who want the surprise should stop before walkthrough-style discussion and rely on the route method above."
+            }
+          ]
+        },
+        {
+          "id": "questions-players-ask",
+          "heading": "Questions Players Ask",
+          "blocks": [
+            {
+              "type": "faq",
+              "items": [
+                {
+                  "question": "How many endings does Trapped with Jester have?",
+                  "answer": "It has four main endings and two alternate endings, for six total outcomes."
+                },
+                {
+                  "question": "Why does the web version stutter?",
+                  "answer": "The creator warns that browser play can lag or distort sound. Save, reload once, and use the downloadable version if the problem continues."
+                },
+                {
+                  "question": "Is voice acting important?",
+                  "answer": "Yes. The English release is fully voiced, and delivery helps distinguish performance, threat, and hesitation."
+                },
+                {
+                  "question": "How long is the game?",
+                  "answer": "The script is around 1,000 words, so one run is brief. Replaying six outcomes is the larger task."
+                },
+                {
+                  "question": "How should I search for a different ending?",
+                  "answer": "Change one attitude pattern at a time from the earliest major response, then continue until the result instead of randomizing every answer."
+                },
+                {
+                  "question": "Can I play on touch?",
+                  "answer": "Touch input is supported by the simple visual-novel interface, but deliberate single taps are safer when the web build lags."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "watch-the-current-game",
+          "heading": "Watch the Game in Action",
+          "blocks": [
+            {
+              "type": "video",
+              "youtubeId": "smqy6ZgsZXU",
+              "title": "Trapped with Jester gameplay and visible decision flow",
+              "description": "This full-session walkthrough shows the Trapped with Jester interface, player decisions, and on-screen responses discussed in the article. It may reveal route outcomes.",
+              "status": "adopted"
+            }
+          ]
+        }
+      ],
+      "relatedGameIds": [
+        "dystopia-the-jesters-obsession",
+        "the-stranger-from-the-bus-stop",
+        "first-base",
+        "going-live",
+        "my-own-sweet-dionaea",
+        "devour-me-gently"
+      ]
+    },
+    {
+      "id": "today-im-harvesting-you",
+      "slug": "today-im-harvesting-you",
+      "title": "Today, I'm Harvesting You!",
+      "shortDescription": "Choose targets and complete an unusual point-and-click harvest activity in a short romance-horror jam game.",
+      "status": "published",
+      "publishedAt": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "tags": [
+        "point and click",
+        "horror romance",
+        "jam game"
+      ],
+      "categories": [
+        "horror-games"
+      ],
+      "spoilerPolicy": "marked",
+      "flags": {
+        "isNewHome": true,
+        "isFeaturedHome": false,
+        "isRecommendedHome": false
+      },
+      "image": {
+        "src": "/images/games/today-im-harvesting-you-cover.webp",
+        "alt": "Today, I'm Harvesting You title and harvest setting",
+        "width": 901,
+        "height": 507
+      },
+      "player": {
+        "iframeSrc": "https://itch.io/embed-upload/7132574?color=222222",
+        "aspectRatio": "16 / 9",
+        "orientation": "landscape",
+        "permissionsPolicy": [
+          "fullscreen"
+        ],
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "sandbox": [
+          "allow-scripts",
+          "allow-same-origin",
+          "allow-forms",
+          "allow-pointer-lock",
+          "allow-downloads"
+        ],
+        "loadTimeoutMs": 30000
+      },
+      "seo": {
+        "title": "Today, I'm Harvesting You! — Play Online",
+        "description": "Play Today, I'm Harvesting You! online, choose harvest targets, place items precisely, read action feedback, and recover from known jam-build faults.",
+        "keywords": []
+      },
+      "content": [
+        {
+          "id": "what-you-are-playing",
+          "heading": "What You Are Playing",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Today, I'm Harvesting You! is a short Ludum Dare 52 romance-horror jam game about a tired, broke protagonist trying to change both their finances and love life at any cost. It combines visual-novel dialogue with a click-driven harvest activity. The player does not merely witness danger; selecting items and placing them makes the protagonist an active participant in the violent premise."
+            },
+            {
+              "type": "paragraph",
+              "text": "The web release lists suggestive language, violence, and gore. Its jam deadline also left known defects: some sound effects may not play, sprite placement can be wrong, point-and-click targets can behave inconsistently, and the instructions inside the game can be incorrect. Those flaws define the useful troubleshooting strategy rather than proving the player misunderstood the task."
+            }
+          ]
+        },
+        {
+          "id": "start-with-a-clean-checkpoint",
+          "heading": "Start With a Clean Checkpoint",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "After Play Now, click once inside the frame and read the opening goal. The only documented control is click: it advances text, selects dialogue choices, and selects items during harvesting. Save before the story moves from conversation to direct interaction, because the same pointer now serves a different purpose and the jam instructions may not accurately describe placement."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/today-im-harvesting-you-interface.webp",
+              "alt": "The point-and-click target selection interface",
+              "width": 900,
+              "height": 506,
+              "caption": "The point-and-click target selection interface",
+              "purpose": "opening state",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "On the first attempt, choose an item, observe whether it visibly attaches to the pointer or changes state, then move to the intended region and click once. Do not spray clicks across the scene. When the hit area is imperfect, uncontrolled input makes it impossible to tell whether the item, destination, or sequence was wrong."
+            }
+          ]
+        },
+        {
+          "id": "read-the-controls-and-feedback",
+          "heading": "Read the Controls and Feedback",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A normal dialogue click and a harvest click are context-sensitive. During text, activate the text area or visible choice. During harvesting, select the tool or item first, wait for feedback, then activate the destination. If nothing changes, move slightly within the illustrated target instead of assuming a different item is required. The creator specifically notes that placement can be buggy."
+            },
+            {
+              "type": "paragraph",
+              "text": "Missing sound is a known web-build issue. Use visual feedback—highlight, cursor state, item disappearance, or scene change—as the authoritative result. Raising volume or repeating an action will not restore a sound effect that the browser build failed to play. If the interface advances visually, continue; if neither image nor state changes, reload the checkpoint and retry the placement deliberately."
+            }
+          ]
+        },
+        {
+          "id": "understand-the-core-system",
+          "heading": "Understand the Core System",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The game connects romance and money to harvest decisions, making the target-selection process part of the character's moral direction. A choice in dialogue may determine what is available, while the point-and-click scene asks whether you can carry out the selected plan. That means a failed placement and an unwanted story branch are different problems: one is interface execution, the other is the consequence of the choice."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/today-im-harvesting-you-mechanic.webp",
+              "alt": "An item placement step in Today, I'm Harvesting You",
+              "width": 899,
+              "height": 505,
+              "caption": "An item placement step in Today, I'm Harvesting You",
+              "purpose": "core mechanic",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "For example, if an item appears selected but clicking the obvious illustrated edge does nothing, search inward toward the central shape before changing the story route. Conversely, if the scene accepts the placement and produces an outcome you dislike, the interface worked; reload before the earlier selection. Keeping those diagnoses separate prevents unnecessary full restarts."
+            }
+          ]
+        },
+        {
+          "id": "recover-from-a-bad-result",
+          "heading": "Recover From a Bad Result",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "There is no polished tutorial recovery because this was made for a jam. The wrong in-game instructions are a known issue, so prioritize the current visible state and the documented click-only scheme. Common mistakes are clicking a destination before selecting an item, dropping on decorative edges outside the hit box, and interpreting absent SFX as failure even when the scene changed."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/today-im-harvesting-you-feedback.webp",
+              "alt": "Visible feedback after a harvest action",
+              "width": 900,
+              "height": 503,
+              "caption": "Visible feedback after a harvest action",
+              "purpose": "feedback and recovery",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "When stuck, follow a three-step reset. First, move the pointer away and identify which item still appears available. Second, click that item once and look for selection feedback. Third, click near the center of the intended target. If the state remains unchanged, reload the pre-harvest save. Avoid refreshing the whole page until a save reload fails, because browser-local progress may be lost."
+            }
+          ]
+        },
+        {
+          "id": "plan-your-first-run",
+          "heading": "Plan Your First Run",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A useful first run accepts the story's first consequence instead of chasing an ideal romance result. The unusual value of the game is seeing how the desire for money and connection turns into direct action. On a later run, change the target decision while using the same careful input method; that isolates narrative variation from the known placement defect."
+            },
+            {
+              "type": "paragraph",
+              "text": "Desktop pointer control is preferable for the harvest scene. On touch, a small hit area and browser gestures can make placement less predictable. Keep browser zoom at 100 percent, do not drag unless the game visibly shows a drag state, and allow a moment after each accepted click. If sprites are misplaced but choices remain usable, continue; placement polish and route state are separate."
+            }
+          ]
+        },
+        {
+          "id": "content-and-comfort",
+          "heading": "Content and Comfort",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Violence and gore are central to the harvest concept, with suggestive language around the romance framing. Images and guidance should avoid showing a graphic result when a clean interface state can teach the same action. Players who do not want active participation in violent choices should skip this title rather than expecting a non-graphic route."
+            }
+          ]
+        },
+        {
+          "id": "questions-players-ask",
+          "heading": "Questions Players Ask",
+          "blocks": [
+            {
+              "type": "faq",
+              "items": [
+                {
+                  "question": "What controls does Today, I'm Harvesting You! use?",
+                  "answer": "The documented control is click for dialogue, choices, item selection, and harvest interactions."
+                },
+                {
+                  "question": "Why is there no sound after an action?",
+                  "answer": "The web build is known to miss some sound effects. If the image or item state changed, treat that visual response as success."
+                },
+                {
+                  "question": "Why will an item not place?",
+                  "answer": "The point-and-click hit areas can be inaccurate. Select the item once, then try the central part of the intended target before reloading."
+                },
+                {
+                  "question": "Are the in-game instructions always correct?",
+                  "answer": "No. The creator lists incorrect instructions among the unresolved jam issues, so use the visible state and click-only control scheme."
+                },
+                {
+                  "question": "Should I drag harvest items?",
+                  "answer": "Only if the current interface visibly indicates dragging. The documented action is click; repeated uncontrolled dragging can obscure which state failed."
+                },
+                {
+                  "question": "Is the game suitable for players avoiding gore?",
+                  "answer": "Probably not. Violence and gore are explicit content warnings and integral to the premise."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "watch-the-current-game",
+          "heading": "Watch the Game in Action",
+          "blocks": [
+            {
+              "type": "video",
+              "youtubeId": "EAAR2KzU43s",
+              "title": "Today, I'm Harvesting You! gameplay and visible decision flow",
+              "description": "This full-session walkthrough shows the Today, I'm Harvesting You! interface, player decisions, and on-screen responses discussed in the article. It may reveal route outcomes.",
+              "status": "adopted"
+            }
+          ]
+        }
+      ],
+      "relatedGameIds": [
+        "going-live",
+        "first-base",
+        "overdose",
+        "my-own-sweet-dionaea",
+        "devour-me-gently",
+        "dystopia-the-jesters-obsession"
+      ]
+    },
+    {
+      "id": "my-own-sweet-dionaea",
+      "slug": "my-own-sweet-dionaea",
+      "title": "My Own Sweet Dionaea",
+      "shortDescription": "Balance work, care, and personal safety around a humanoid carnivorous plant in the current story demo.",
+      "status": "published",
+      "publishedAt": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "tags": [
+        "visual novel",
+        "body horror",
+        "demo"
+      ],
+      "categories": [
+        "horror-visual-novels"
+      ],
+      "spoilerPolicy": "marked",
+      "flags": {
+        "isNewHome": true,
+        "isFeaturedHome": true,
+        "isRecommendedHome": true
+      },
+      "image": {
+        "src": "/images/games/my-own-sweet-dionaea-cover.webp",
+        "alt": "My Own Sweet Dionaea demo opening with the plant character",
+        "width": 1280,
+        "height": 720
+      },
+      "player": {
+        "iframeSrc": "https://itch.io/embed-upload/15246546?color=222222",
+        "aspectRatio": "16 / 9",
+        "orientation": "landscape",
+        "permissionsPolicy": [
+          "fullscreen"
+        ],
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "sandbox": [
+          "allow-scripts",
+          "allow-same-origin",
+          "allow-forms",
+          "allow-pointer-lock",
+          "allow-downloads"
+        ],
+        "loadTimeoutMs": 30000
+      },
+      "seo": {
+        "title": "Play My Own Sweet Dionaea Demo and Make Care Choices",
+        "description": "Play My Own Sweet Dionaea demo online, choose careful responses, read the plant's changing feedback, respect the 17+ warning, and understand the current scope.",
+        "keywords": []
+      },
+      "content": [
+        {
+          "id": "what-you-are-playing",
+          "heading": "What You Are Playing",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "My Own Sweet Dionaea is a 5,000–6,000-word biotech horror visual-novel demo. The protagonist is both a botanist and engineer preparing a major exhibition while dealing with workplace pressure and a damaged marriage. An undefined DNA accident turns a Dionaea experiment into a humanoid plant, shifting the player's task from ordinary project management to deciding what care, curiosity, and self-preservation mean around a sentient specimen."
+            },
+            {
+              "type": "paragraph",
+              "text": "The current build is demo 1.01, not the promised scope of a finished game. It uses original art, story, and soundtrack and provides keyboard/mouse play plus accessibility options such as high contrast and one-button interaction. The 17+ warning includes mental deterioration, suggestiveness, referenced child death, pet suffering, toxic relationships, morally gray characters, and minimal swearing."
+            }
+          ]
+        },
+        {
+          "id": "start-with-a-clean-checkpoint",
+          "heading": "Start With a Clean Checkpoint",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Begin by reviewing Settings before entering the laboratory. Enable high contrast if interface elements blend into the botanical palette, and use one-button mode if multiple keys are uncomfortable. During the opening, separate three pressures: the exhibition deadline, the protagonist's relationship with their husband, and the specimen's new behavior. Choices that satisfy one pressure can worsen another."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/my-own-sweet-dionaea-interface.webp",
+              "alt": "A care conversation in My Own Sweet Dionaea",
+              "width": 1280,
+              "height": 720,
+              "caption": "A care conversation in My Own Sweet Dionaea",
+              "purpose": "opening state",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "Create a save before the first response that treats the Dionaea as a person rather than an experiment. The demo is short, but its route meaning depends on whether the protagonist acts as scientist, caretaker, partner, or some unstable mixture. A labeled checkpoint makes those roles easier to compare on another run."
+            }
+          ]
+        },
+        {
+          "id": "read-the-controls-and-feedback",
+          "heading": "Read the Controls and Feedback",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Use pointer activation to advance dialogue, inspect the interface, and select responses. Keyboard navigation is available for standard visual-novel actions, while one-button mode reduces the input demand. If the current selection is hard to see, high contrast should be the first fix rather than browser zoom, because scaling may cut off the frame."
+            },
+            {
+              "type": "paragraph",
+              "text": "Wait for a choice to appear fully before activating it. The game's tone uses pauses and close visual framing, so rapid input can move through a reaction that explains whether an act of care was welcomed, manipulative, or dangerous. When replaying, use skip for text you recognize but release it before a laboratory decision or relationship scene."
+            }
+          ]
+        },
+        {
+          "id": "understand-the-core-system",
+          "heading": "Understand the Core System",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The unusual mechanic is a conflict of professional and intimate roles. The Dionaea is simultaneously a scientific project, an exhibition risk, and a character capable of directing attention back at the protagonist. Meanwhile, the husband's relationship supplies a second measure of trust. There is no need for a visible bar: changes in language, proximity, and what each character asks the protagonist to conceal provide route feedback."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/my-own-sweet-dionaea-mechanic.webp",
+              "alt": "A care-choice state in the Dionaea demo",
+              "width": 1280,
+              "height": 720,
+              "caption": "A care-choice state in the Dionaea demo",
+              "purpose": "core mechanic",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "A practical comparison is to answer one laboratory problem with strict professional distance, then replay with protective care. Continue past the immediate line and watch who gains influence over the next decision. If workplace consequences change, the choice affected the project axis; if a relationship conversation changes, it affected trust. Some responses can influence both, which is precisely why a single 'kind' route label is misleading."
+            }
+          ]
+        },
+        {
+          "id": "recover-from-a-bad-result",
+          "heading": "Recover From a Bad Result",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "This demo does not define success as maximizing affection. Losing professional control, ignoring mental deterioration, or allowing either relationship to erase the protagonist's agency can all be meaningful failures even if a scene remains tender. The common mistake is to accept the Dionaea's sweetness at face value or to defend the marriage merely because it existed first."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/my-own-sweet-dionaea-feedback.webp",
+              "alt": "Changed character feedback after a care decision",
+              "width": 1280,
+              "height": 720,
+              "caption": "Changed character feedback after a care decision",
+              "purpose": "feedback and recovery",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "If the demo reaches an outcome that feels abrupt, return to the checkpoint before the specimen's status changed and keep the protagonist's role consistent. Do not reverse every affectionate sentence. Compare whether the protagonist told the truth, preserved a professional boundary, and responded to visible deterioration. The current demo boundary may stop before a planned conflict resolves, so a cliffhanger is not necessarily a missing browser asset."
+            }
+          ]
+        },
+        {
+          "id": "plan-your-first-run",
+          "heading": "Plan Your First Run",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "For a first run, prioritize observation and honest reporting. That stance exposes the scientific premise while leaving room to evaluate both relationships. On the second, test a deliberately protective response to the Dionaea; on a third, focus on repairing the marriage. The contrasts reveal the demo's current decision space without pretending future features already exist."
+            },
+            {
+              "type": "paragraph",
+              "text": "If the browser frame loses keyboard focus, click the dialogue area once. If a high-contrast or one-button setting does not appear to apply, return to the in-game menu and confirm it rather than refreshing. External web saves may depend on local browser storage. Stay in the same profile, avoid clearing site data, and complete the 5–6k-word demo before moving devices."
+            }
+          ]
+        },
+        {
+          "id": "content-and-comfort",
+          "heading": "Content and Comfort",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The demo includes suggestiveness, mental deterioration, referenced child death, pet suffering, toxic relationships, and morally gray behavior. The plant-care imagery does not make every scene gentle. Media should teach the laboratory interface and choice states without using suggestive or distressing frames as decoration."
+            }
+          ]
+        },
+        {
+          "id": "questions-players-ask",
+          "heading": "Questions Players Ask",
+          "blocks": [
+            {
+              "type": "faq",
+              "items": [
+                {
+                  "question": "Is My Own Sweet Dionaea complete?",
+                  "answer": "No. The current scope is demo 1.01 with about 5–6k words. Planned full-game content should not be treated as already playable."
+                },
+                {
+                  "question": "What accessibility options are available?",
+                  "answer": "The current information includes high-contrast and one-button options, alongside keyboard and mouse input."
+                },
+                {
+                  "question": "What is the central decision problem?",
+                  "answer": "You balance professional responsibility, a troubled marriage, and care for a humanoid Dionaea whose intentions are not safely assumed."
+                },
+                {
+                  "question": "Does affection equal success?",
+                  "answer": "No. A warm response can still reduce the protagonist's agency or professional control. Read later consequences, not only the immediate tone."
+                },
+                {
+                  "question": "Why does the story stop without resolving everything?",
+                  "answer": "It is a demo. A cliffhanger or unfinished broader conflict may mark the current build boundary rather than a player error."
+                },
+                {
+                  "question": "How should I plan replay?",
+                  "answer": "Use one run for professional distance, one for protective care, and one for the existing relationship, while changing as few unrelated choices as possible."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "watch-the-current-game",
+          "heading": "Watch the Game in Action",
+          "blocks": [
+            {
+              "type": "video",
+              "youtubeId": "x-zH-44dWqQ",
+              "title": "My Own Sweet Dionaea gameplay and visible decision flow",
+              "description": "This full-session walkthrough shows the My Own Sweet Dionaea interface, player decisions, and on-screen responses discussed in the article. It may reveal route outcomes.",
+              "status": "adopted"
+            }
+          ]
+        }
+      ],
+      "relatedGameIds": [
+        "first-base",
+        "overdose",
+        "devour-me-gently",
+        "dystopia-the-jesters-obsession",
+        "going-live",
+        "today-im-harvesting-you"
+      ]
+    },
+    {
+      "id": "overdose",
+      "slug": "overdose",
+      "title": "OVERD0SE",
+      "shortDescription": "Track affinity, inventory, anxiety, and awareness while investigating a suspicious doctor in a systems-heavy horror demo.",
+      "status": "published",
+      "publishedAt": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "tags": [
+        "visual novel",
+        "medical horror",
+        "inventory"
+      ],
+      "categories": [
+        "horror-visual-novels"
+      ],
+      "spoilerPolicy": "marked",
+      "flags": {
+        "isNewHome": true,
+        "isFeaturedHome": true,
+        "isRecommendedHome": true
+      },
+      "image": {
+        "src": "/images/games/overdose-cover.webp",
+        "alt": "OVERD0SE current hospital visual-novel interface",
+        "width": 1280,
+        "height": 696
+      },
+      "player": {
+        "iframeSrc": "https://itch.io/embed-upload/19307243?color=222222",
+        "aspectRatio": "16 / 9",
+        "orientation": "landscape",
+        "permissionsPolicy": [
+          "fullscreen"
+        ],
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "sandbox": [
+          "allow-scripts",
+          "allow-same-origin",
+          "allow-forms",
+          "allow-pointer-lock",
+          "allow-downloads"
+        ],
+        "loadTimeoutMs": 30000
+      },
+      "seo": {
+        "title": "Play OVERD0SE Online — Track Every Status",
+        "description": "Play OVERD0SE online, enter Day 1, track affinity, anxiety and awareness separately, use inventory choices, and distinguish current build from older footage.",
+        "keywords": []
+      },
+      "content": [
+        {
+          "id": "what-you-are-playing",
+          "heading": "What You Are Playing",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "OVERD0SE is an in-development medical-horror visual novel about waking after a suspicious car accident under a doctor who seems to know too much. It is much more systems-heavy than the other short stories here: the protagonist can be customized, character affinity changes, inventory items matter, anxiety and awareness provide feedback, and the current build unfolds across multiple days."
+            },
+            {
+              "type": "paragraph",
+              "text": "The creator describes a large continuing project and separately lists future additions such as full dream sequences, broader voice acting, fifteen complete days, and updated animated CGs. Those are plans, not guarantees about the present browser demo. The content warning is unusually strong, covering jumpscares, blood, death, murder, suicide, graphic self-harm, gore, medical and body horror, abuse, eating disorders, drugs, needles, flashing and shaking, confinement, stalking, and animal cruelty."
+            }
+          ]
+        },
+        {
+          "id": "start-with-a-clean-checkpoint",
+          "heading": "Start With a Clean Checkpoint",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Use the customization screen to make a protagonist you can recognize across later reactions, then save before leaving the opening hospital state. Check the interface for inventory, affinity, anxiety, and awareness indicators. You do not need to optimize them immediately; first learn what action changes each one and whether the feedback occurs before or after dialogue."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/overdose-interface.webp",
+              "alt": "OVERD0SE Day 1 setup and status display",
+              "width": 1280,
+              "height": 698,
+              "caption": "OVERD0SE Day 1 setup and status display",
+              "purpose": "opening state",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "Treat Day transitions as structural checkpoints. Keep one save near the start of each available day and another before a medical or relationship decision. With several linked systems, overwriting all saves near the newest scene makes it difficult to discover whether an early item, low affinity, or rising anxiety caused a later lockout."
+            }
+          ]
+        },
+        {
+          "id": "read-the-controls-and-feedback",
+          "heading": "Read the Controls and Feedback",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Pointer input handles dialogue, customization, choices, inventory, and menu navigation. Click once inside the external player before typing or using keyboard shortcuts. In customization, wait for the portrait or text to update before changing another option; rapid input can make it unclear which appearance state the later dialogue recognized."
+            },
+            {
+              "type": "paragraph",
+              "text": "When an inventory item becomes available, inspect its label and context before advancing. The useful question is not simply whether it can be clicked, but when a scene acknowledges possession. Likewise, anxiety and awareness should be read as separate signals: anxiety describes immediate distress, while awareness can reflect how much of the situation the protagonist recognizes. A change in one does not guarantee the other moved."
+            }
+          ]
+        },
+        {
+          "id": "understand-the-core-system",
+          "heading": "Understand the Core System",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Affinity shapes how characters respond, but it sits beside information and survival. A doctor can react warmly while the protagonist's awareness uncovers danger. Inventory can preserve evidence or enable an action that affection alone cannot replace. This is why a single romance-meter strategy is unreliable: three kinds of state—relationship, knowledge, and items—can converge on the same scene."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/overdose-mechanic.webp",
+              "alt": "Affinity, anxiety, and awareness indicators in OVERD0SE",
+              "width": 1280,
+              "height": 701,
+              "caption": "Affinity, anxiety, and awareness indicators in OVERD0SE",
+              "purpose": "core mechanic",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "For a concrete test, replay one hospital interaction while keeping the same dialogue tone but changing whether you inspected or carried a relevant item first. Continue until the scene recognizes that state. On another run, keep the item but alter affinity. Comparing those outcomes separates a hidden requirement from a character's willingness to cooperate."
+            }
+          ]
+        },
+        {
+          "id": "recover-from-a-bad-result",
+          "heading": "Recover From a Bad Result",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Premature endings or deaths can follow low affinity, dangerous decisions, missing state, or a combination. A common mistake is to raise affinity indiscriminately, which may make the protagonist compliant without increasing awareness. Another is to ignore inventory because the page looks like a dialogue game. If an option disappears or an ending arrives unexpectedly, inspect all three systems before blaming the final choice."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/overdose-feedback.webp",
+              "alt": "The OVERD0SE inventory during a route decision",
+              "width": 1280,
+              "height": 698,
+              "caption": "The OVERD0SE inventory during a route decision",
+              "purpose": "feedback and recovery",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "Recovery should move backward by state. First reload immediately before the failed scene and confirm inventory. If the necessary item is absent, return to the previous exploration or decision. If the item exists but cooperation fails, return to the relationship checkpoint. If both are correct yet the protagonist never recognizes the danger, examine earlier awareness choices. This hierarchy avoids replaying several days without a hypothesis."
+            }
+          ]
+        },
+        {
+          "id": "plan-your-first-run",
+          "heading": "Plan Your First Run",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "On the first run, pursue information without automatically antagonizing every character. Inspect items, note visible meter changes, and keep day-based saves. Do not chase a perfect affinity value because the current build can change and the creator does not publish one universal safe threshold. Record observed cause and result instead."
+            },
+            {
+              "type": "paragraph",
+              "text": "The project is actively developed and can contain bugs. If a menu does not update, pause and reopen it before refreshing. If an older video shows a mechanic that the current frame lacks, trust the current build and its UI. Browser-local saves may not survive cleared storage or a new profile, so retain checkpoints in one session and expect updates to invalidate some prior assumptions."
+            }
+          ]
+        },
+        {
+          "id": "content-and-comfort",
+          "heading": "Content and Comfort",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "OVERD0SE includes graphic self-harm and a wide range of medical, psychological, and confinement themes. This is not a mild doctor-romance page. Avoid screenshots that expose graphic injury, keep volume moderate for jumpscares, disable play if flashing or screen shaking is unsafe, and stop rather than forcing a distressing route for completion."
+            }
+          ]
+        },
+        {
+          "id": "questions-players-ask",
+          "heading": "Questions Players Ask",
+          "blocks": [
+            {
+              "type": "faq",
+              "items": [
+                {
+                  "question": "Is OVERD0SE finished?",
+                  "answer": "No. It remains in development. Future-day, voice, dream, and CG plans should be separated from features visible in the current demo."
+                },
+                {
+                  "question": "What systems should I track?",
+                  "answer": "Track character affinity, inventory, anxiety, awareness, customization reactions, and day progression. They can influence the same scene in different ways."
+                },
+                {
+                  "question": "Why did high affinity not prevent a bad outcome?",
+                  "answer": "Affinity is only one state. Missing information, absent items, low awareness, or a direct dangerous decision can still control the result."
+                },
+                {
+                  "question": "How should I organize saves?",
+                  "answer": "Keep a start-of-day save plus a checkpoint before major medical or relationship decisions. Avoid overwriting the only earlier state."
+                },
+                {
+                  "question": "Why does an older video look different?",
+                  "answer": "The game has changed over time. Use the current browser UI as the active version and treat older footage as limited context."
+                },
+                {
+                  "question": "Is this suitable for sensitive players?",
+                  "answer": "The warnings include graphic self-harm, suicide, gore, medical and body horror, abuse, drugs, flashing, confinement, and more. Review them carefully before starting."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "watch-the-current-game",
+          "heading": "Watch the Game in Action",
+          "blocks": [
+            {
+              "type": "video",
+              "youtubeId": "yKAlXh4ZToU",
+              "title": "OVERD0SE gameplay and visible decision flow",
+              "description": "This walkthrough shows OVERD0SE in an earlier build. Use it to recognize the interface and decision rhythm; the current-version boundaries in the article remain authoritative.",
+              "status": "adopted"
+            }
+          ]
+        }
+      ],
+      "relatedGameIds": [
+        "first-base",
+        "going-live",
+        "my-own-sweet-dionaea",
+        "devour-me-gently",
+        "today-im-harvesting-you",
+        "dystopia-the-jesters-obsession"
+      ]
+    },
+    {
+      "id": "devour-me-gently",
+      "slug": "devour-me-gently",
+      "title": "Devour Me Gently",
+      "shortDescription": "Name the protagonist and judge a stranger's care in a short confinement story built around trust and escape choices.",
+      "status": "published",
+      "publishedAt": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "tags": [
+        "visual novel",
+        "psychological horror",
+        "demo"
+      ],
+      "categories": [
+        "horror-visual-novels"
+      ],
+      "spoilerPolicy": "marked",
+      "flags": {
+        "isNewHome": true,
+        "isFeaturedHome": false,
+        "isRecommendedHome": false
+      },
+      "image": {
+        "src": "/images/games/devour-me-gently-cover.webp",
+        "alt": "Devour Me Gently demo opening artwork",
+        "width": 960,
+        "height": 720
+      },
+      "player": {
+        "iframeSrc": "https://itch.io/embed-upload/17653831?color=222222",
+        "aspectRatio": "16 / 9",
+        "orientation": "landscape",
+        "permissionsPolicy": [
+          "fullscreen"
+        ],
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "sandbox": [
+          "allow-scripts",
+          "allow-same-origin",
+          "allow-forms",
+          "allow-pointer-lock",
+          "allow-downloads"
+        ],
+        "loadTimeoutMs": 30000
+      },
+      "seo": {
+        "title": "Play Devour Me Gently Online — Short Demo",
+        "description": "Play Devour Me Gently online, complete name entry, read the caretaker's control signals, recognize the short demo ending, and troubleshoot stalled input.",
+        "keywords": []
+      },
+      "content": [
+        {
+          "id": "what-you-are-playing",
+          "heading": "What You Are Playing",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Devour Me Gently is a few-minute psychological-horror visual-novel demo about waking injured in a stranger's apartment with no memory of how the injury happened. The soft-spoken caretaker cooks, treats wounds, and speaks with unsettling familiarity. The player's job is to judge whether those actions are genuine care or a way to extend dependence and prevent escape."
+            },
+            {
+              "type": "paragraph",
+              "text": "The current HTML5 build is in development and supports keyboard, mouse, and smartphone input. Its short length and cliffhanger do not mean every mystery currently has an answer. The page therefore focuses on reading control, testing boundaries, and recognizing the demo boundary rather than inventing a complete escape route that the present build may not contain."
+            }
+          ]
+        },
+        {
+          "id": "start-with-a-clean-checkpoint",
+          "heading": "Start With a Clean Checkpoint",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Enter the protagonist's name, then let the first apartment scene establish what the protagonist remembers and what the caretaker claims. Save before the first answer that either accepts his account or presses for independence. The useful baseline is not whether he sounds kind; it is whether the protagonist gains information, mobility, or permission to choose."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/devour-me-gently-interface.webp",
+              "alt": "Player-name setup in Devour Me Gently",
+              "width": 1280,
+              "height": 719,
+              "caption": "Player-name setup in Devour Me Gently",
+              "purpose": "opening state",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "Use one first run to ask direct questions without needless provocation. Note how he responds when the protagonist mentions leaving, memory, or the unexplained injury. If he redirects the subject while increasing physical care, treat that mismatch as information. A second run can then test a more trusting tone without confusing kindness with freedom."
+            }
+          ]
+        },
+        {
+          "id": "read-the-controls-and-feedback",
+          "heading": "Read the Controls and Feedback",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The Ren'Py-style interface uses pointer or touch activation for dialogue and choices, with keyboard input available for standard navigation and the name field. Click inside the frame before typing. On a phone, use a deliberate tap and wait for the line to advance; double taps can pass over a reaction in this compact script."
+            },
+            {
+              "type": "paragraph",
+              "text": "When a choice appears, read the line before it and ask what resource the protagonist currently lacks: memory, movement, privacy, or an exit. A reassuring answer may reduce tension while leaving every resource under the caretaker's control. A challenging answer may reveal information but also increase immediate danger. The choice is about tradeoff, not simply nice versus rude."
+            }
+          ]
+        },
+        {
+          "id": "understand-the-core-system",
+          "heading": "Understand the Core System",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The core feedback is conversational control. The caretaker decides what happened, what the protagonist needs, and when leaving is possible. Your responses can accept that frame, test it, or try to reclaim a decision. Watch for whether a choice produces a concrete change—new information, a different boundary, access to the room—rather than only a warm or cold line."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/devour-me-gently-mechanic.webp",
+              "alt": "The first caretaker conversation in the short demo",
+              "width": 1273,
+              "height": 720,
+              "caption": "The first caretaker conversation in the short demo",
+              "purpose": "core mechanic",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "For example, compare a response that thanks him with one that asks how the injury occurred. Continue both paths through the next explanation. If the second answer supplies a detail that can be checked later, it advanced knowledge even if the mood worsened. If both return to the same caretaking routine, the demo may be signaling limited agency rather than a hidden success button."
+            }
+          ]
+        },
+        {
+          "id": "recover-from-a-bad-result",
+          "heading": "Recover From a Bad Result",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Because this is a short demo, remaining trapped or reaching a cliffhanger may be the shipped endpoint, not evidence that the player missed a complete good ending. The main mistake is replaying endlessly for an escape that has not been verified. Another is judging success by affection while ignoring that the protagonist still lacks memory and freedom."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/devour-me-gently-feedback.webp",
+              "alt": "A boundary-setting dialogue choice in Devour Me Gently",
+              "width": 1280,
+              "height": 719,
+              "caption": "A boundary-setting dialogue choice in Devour Me Gently",
+              "purpose": "feedback and recovery",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "If a response produces immediate harm or closes conversation, reload the pre-choice save and choose an information-seeking alternative. If every option converges, continue to the demo end and record that convergence instead of refreshing. A frozen frame is different: click once, wait, then reload the save only if neither text nor audio changes."
+            }
+          ]
+        },
+        {
+          "id": "plan-your-first-run",
+          "heading": "Plan Your First Run",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A strong first run prioritizes facts: ask about the injury, the apartment, and leaving. Preserve a polite tone only when it keeps conversation open. On replay, test trust and resistance as separate patterns. This makes the caretaker's control easier to read than alternating randomly between affection and hostility."
+            },
+            {
+              "type": "paragraph",
+              "text": "Smartphone input is listed, but small text and name entry may still be easier on desktop. Keep browser zoom at 100 percent and avoid gesture-navigation edges. Web saves belong to the external frame's browser storage, so do not assume they sync to another device. Since one run is only a few minutes, finishing the demo in one sitting is the safest approach."
+            }
+          ]
+        },
+        {
+          "id": "content-and-comfort",
+          "heading": "Content and Comfort",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The premise includes unexplained injury, confinement, possible kidnapping, and coercive care. Public wording should not romanticize the loss of freedom. The caretaker can be gentle in delivery while the situation remains unsafe, and the game's in-development status should not be used to invent reassurance or blame the protagonist."
+            }
+          ]
+        },
+        {
+          "id": "questions-players-ask",
+          "heading": "Questions Players Ask",
+          "blocks": [
+            {
+              "type": "faq",
+              "items": [
+                {
+                  "question": "How long is Devour Me Gently?",
+                  "answer": "The current demo is described as a few minutes. Its short ending can be a build boundary rather than a missed full route."
+                },
+                {
+                  "question": "Can I name the protagonist?",
+                  "answer": "Yes. The opening includes name entry; click the field before typing if keyboard input goes to the page instead."
+                },
+                {
+                  "question": "Does the game support phones?",
+                  "answer": "Smartphone input is listed, though small text, name entry, and browser gestures can still make desktop more comfortable."
+                },
+                {
+                  "question": "How do I judge the caretaker's choices?",
+                  "answer": "Measure whether the protagonist gains information, privacy, movement, or an exit—not only whether the caretaker sounds affectionate."
+                },
+                {
+                  "question": "Why do several choices converge?",
+                  "answer": "The demo may intentionally show limited agency, or the larger branch may belong to a future build. Continue to the current endpoint before assuming an input fault."
+                },
+                {
+                  "question": "What should I do if the frame stops advancing?",
+                  "answer": "Click once inside, wait for any audio or transition, then reload a manual save if both text and sound remain unchanged."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "watch-the-current-game",
+          "heading": "Watch the Game in Action",
+          "blocks": [
+            {
+              "type": "video",
+              "youtubeId": "v4_QrTQxdvc",
+              "title": "Devour Me Gently gameplay and visible decision flow",
+              "description": "This full-session walkthrough shows the Devour Me Gently interface, player decisions, and on-screen responses discussed in the article. It may reveal route outcomes.",
+              "status": "adopted"
+            }
+          ]
+        }
+      ],
+      "relatedGameIds": [
+        "first-base",
+        "the-stranger-from-the-bus-stop",
+        "going-live",
+        "overdose",
+        "my-own-sweet-dionaea",
+        "dystopia-the-jesters-obsession"
+      ]
+    },
+    {
+      "id": "dystopia-the-jesters-obsession",
+      "slug": "dystopia-the-jesters-obsession",
+      "title": "Dystopia: The Jester's Obsession",
+      "shortDescription": "Use names, choices, affection, and hidden points to navigate four endings in the current monochrome demo.",
+      "status": "published",
+      "publishedAt": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "tags": [
+        "visual novel",
+        "yandere",
+        "points system"
+      ],
+      "categories": [
+        "horror-visual-novels"
+      ],
+      "spoilerPolicy": "marked",
+      "flags": {
+        "isNewHome": true,
+        "isFeaturedHome": false,
+        "isRecommendedHome": false
+      },
+      "image": {
+        "src": "/images/games/dystopia-the-jesters-obsession-cover.webp",
+        "alt": "Dystopia The Jester's Obsession demo opening",
+        "width": 1280,
+        "height": 719
+      },
+      "player": {
+        "iframeSrc": "https://itch.io/embed-upload/16788516?color=222222",
+        "aspectRatio": "16 / 9",
+        "orientation": "landscape",
+        "permissionsPolicy": [
+          "fullscreen"
+        ],
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "sandbox": [
+          "allow-scripts",
+          "allow-same-origin",
+          "allow-forms",
+          "allow-pointer-lock",
+          "allow-downloads"
+        ],
+        "loadTimeoutMs": 30000
+      },
+      "seo": {
+        "title": "Play Dystopia: The Jester's Obsession Demo",
+        "description": "Play Dystopia: The Jester's Obsession demo online, enter a name, read affection and hidden-point feedback, plan saves, and reach four current endings.",
+        "keywords": []
+      },
+      "content": [
+        {
+          "id": "what-you-are-playing",
+          "heading": "What You Are Playing",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Dystopia: The Jester's Obsession is a monochrome visual-novel demo about waking in a void beside a mysterious jester who immediately presents himself as a friend. The current demo includes four endings, CGs, an unsettling atmosphere, a custom menu, and an affection-and-points system that unlocks dialogue when thresholds are reached."
+            },
+            {
+              "type": "paragraph",
+              "text": "Blinking animation, pixel-style voices, a Portuguese translation, optional adult route, carnival and restaurant routes, and a gallery are listed as future intentions. They are not current-demo mechanics and should not be used to diagnose missing content. The relevant player task is to name the protagonist, interpret point-sensitive dialogue, and distinguish four shipped outcomes without assuming announced routes exist."
+            }
+          ]
+        },
+        {
+          "id": "start-with-a-clean-checkpoint",
+          "heading": "Start With a Clean Checkpoint",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Enter a protagonist name and let the early void scene establish what the jester says about your relationship. Save before the first response that clearly raises warmth or hostility. Because some dialogue unlocks at point or affection thresholds, a clean early checkpoint is more valuable than a save immediately before the ending."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/dystopia-the-jesters-obsession-interface.webp",
+              "alt": "Player-name setup in the monochrome jester demo",
+              "width": 1280,
+              "height": 719,
+              "caption": "Player-name setup in the monochrome jester demo",
+              "purpose": "opening state",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "Choose one attitude for the first run—curious, guarded, friendly, or openly hostile—and keep it long enough to see feedback. If you mix every stance, the hidden point total becomes difficult to infer. On a later run, alter one early cluster and watch for newly available lines rather than relying only on the final CG."
+            }
+          ]
+        },
+        {
+          "id": "read-the-controls-and-feedback",
+          "heading": "Read the Controls and Feedback",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Use pointer activation for name entry, dialogue, menu navigation, and choices. Click inside the frame before typing. The black-and-white presentation can make inactive and active buttons look similar, so move the pointer and wait for a highlight before confirming. Avoid rapid double clicks near a choice because one can advance the result immediately after selection."
+            },
+            {
+              "type": "paragraph",
+              "text": "Affection and general points are described separately. Treat them as two possible gates instead of one combined romance score. A warm answer may improve affection; an inquisitive or resistant answer may change another point track. The only safe conclusion comes from what dialogue unlocks or which outcome appears after a consistent series."
+            }
+          ]
+        },
+        {
+          "id": "understand-the-core-system",
+          "heading": "Understand the Core System",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Threshold dialogue is the clearest feedback. When a line appears only on a later run, note the preceding cluster of choices and whether they shared warmth, curiosity, or opposition. Do not claim an exact numeric threshold unless the current build displays it. The mechanic can be understood and used without exposing a hidden value."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/dystopia-the-jesters-obsession-mechanic.webp",
+              "alt": "The first jester encounter in Dystopia",
+              "width": 1280,
+              "height": 719,
+              "caption": "The first jester encounter in Dystopia",
+              "purpose": "core mechanic",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "A productive test pairs two runs: keep all early responses the same except for one repeated attitude, then compare the next unlocked exchange. If nothing changes, the threshold may require several aligned choices. If a new line appears, continue without changing direction so the ending can confirm whether that track influenced route state or only optional dialogue."
+            }
+          ]
+        },
+        {
+          "id": "recover-from-a-bad-result",
+          "heading": "Recover From a Bad Result",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A hostile or unsafe ending is still a valid completion of the demo. The common mistake is expecting one final answer to override an accumulated point total. Another is searching for announced carnival or restaurant scenes and treating their absence as a bug. Those routes are future plans, so the current four endings are the valid completion target."
+            },
+            {
+              "type": "image",
+              "src": "/images/games/dystopia-the-jesters-obsession-feedback.webp",
+              "alt": "A point-affecting dialogue choice in Dystopia",
+              "width": 1280,
+              "height": 717,
+              "caption": "A point-affecting dialogue choice in Dystopia",
+              "purpose": "feedback and recovery",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "To recover, reload the earliest point before your run became inconsistent. Change a cluster—several friendly answers, several skeptical answers—not every isolated line. If the same dialogue remains locked, move the checkpoint earlier. Keep a small route note with dominant attitude, newly unlocked line, and ending appearance; that is enough to map the system without publishing spoiler-heavy thresholds."
+            }
+          ]
+        },
+        {
+          "id": "plan-your-first-run",
+          "heading": "Plan Your First Run",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "For a first run, remain curious while protecting the protagonist's autonomy. This tends to reveal more context than instant trust or pure hostility, though it does not promise a particular ending. Subsequent runs should commit to clear alternatives. The monochrome visual design makes small expression and text changes important, so do not skip them on the first comparison."
+            },
+            {
+              "type": "paragraph",
+              "text": "If name entry or choices fail, click the frame to restore focus and return browser zoom to 100 percent. If the build ends before an announced feature, check whether you reached one of the four current outcomes instead of refreshing. External save data can be local to the browser, so keep all four-ending work in one profile and avoid clearing storage."
+            }
+          ]
+        },
+        {
+          "id": "content-and-comfort",
+          "heading": "Content and Comfort",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The demo contains unsettling yandere behavior, threats, violence, and suggestive material. An optional adult route is a future plan rather than a current feature and should not be presented as shipped. Keep major outcome identities behind spoiler boundaries and use non-graphic frames for cards and instructional media."
+            }
+          ]
+        },
+        {
+          "id": "questions-players-ask",
+          "heading": "Questions Players Ask",
+          "blocks": [
+            {
+              "type": "faq",
+              "items": [
+                {
+                  "question": "How many endings are in the current demo?",
+                  "answer": "The current demo lists four endings. Future route ideas should not be counted as present outcomes."
+                },
+                {
+                  "question": "What does the points system do?",
+                  "answer": "Affection and other points can unlock dialogue at thresholds and influence outcomes. Exact hidden values should not be assumed without visible confirmation."
+                },
+                {
+                  "question": "Are the carnival and restaurant routes playable?",
+                  "answer": "They are listed among future plans, not the current shipped demo features."
+                },
+                {
+                  "question": "Why did changing the last answer not change the ending?",
+                  "answer": "Earlier aligned choices may have set a threshold. Reload before the attitude pattern formed and change a cluster rather than one final line."
+                },
+                {
+                  "question": "How can I compare routes without exposing spoilers?",
+                  "answer": "Track the dominant attitude, any newly unlocked dialogue, and the visual ending confirmation. Avoid recording plot reveals in card text or filenames."
+                },
+                {
+                  "question": "Is an optional adult route included now?",
+                  "answer": "No verified current feature supports that claim. It appears in the creator's future plans and should stay separate from the playable demo."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "watch-the-current-game",
+          "heading": "Watch the Game in Action",
+          "blocks": [
+            {
+              "type": "video",
+              "youtubeId": "f_Ti-tCX5Lo",
+              "title": "Dystopia: The Jester's Obsession gameplay and visible decision flow",
+              "description": "This full-session walkthrough shows the Dystopia: The Jester's Obsession interface, player decisions, and on-screen responses discussed in the article. It may reveal route outcomes.",
+              "status": "adopted"
+            }
+          ]
+        }
+      ],
+      "relatedGameIds": [
+        "trapped-with-jester",
+        "first-base",
+        "the-stranger-from-the-bus-stop",
+        "overdose",
+        "devour-me-gently",
+        "my-own-sweet-dionaea"
+      ]
+    }
+  ],
+  "guides": [
+    {
+      "id": "helping-your-boyfriend-controls-minigames",
+      "slug": "helping-your-boyfriend-controls-minigames",
+      "title": "Helping Your Boyfriend Controls and Minigames",
+      "summary": "Learn every confirmed mouse and keyboard input, prepare for drag tasks and QTEs, and recover when a prompt, menu, or save does not behave as expected.",
+      "introduction": "Use this spoiler-light guide to set up version 1.0.1, control dialogue, complete drag and quick-time interactions, and keep recoverable saves before the five minigames.",
+      "status": "published",
+      "publishedAt": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "authorId": null,
+      "tags": [
+        "Controls",
+        "Minigames",
+        "QTE",
+        "Troubleshooting"
+      ],
+      "spoilerPolicy": "marked",
+      "image": {
+        "src": "/images/guides/helping-your-boyfriend-controls-minigames-cover-v2.webp",
+        "alt": "Mouse, arrow keys, Space, and save controls arranged as a task flow",
+        "width": 1280,
+        "height": 720
+      },
+      "seo": {
+        "title": "Helping Your Boyfriend Controls and Minigames Guide",
+        "description": "Learn Helping Your Boyfriend controls for dialogue, menus, dragging, arrow-key QTEs, saves, skipping, difficulty settings, and common input recovery.",
+        "keywords": [
+          "Helping Your Boyfriend controls",
+          "Helping Your Boyfriend minigames",
+          "Helping Your Boyfriend QTE"
+        ]
+      },
+      "sections": [
+        {
+          "id": "before-you-start",
+          "heading": "Set Up a Recoverable First Run",
+          "blocks": [
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "Check the content warning first",
+              "text": "The game includes jumpscares, loud sounds, flashing and disturbing images, blood, cartoon gore, violence, drug use, obsessive behavior, toxic relationships, and crude language. Lower volume and choose a suitable environment before continuing."
+            },
+            {
+              "type": "image",
+              "src": "/images/guides/helping-your-boyfriend-controls-minigames-step-1.webp",
+              "alt": "Dialogue and bell-menu controls in Helping Your Boyfriend",
+              "width": 1280,
+              "height": 703,
+              "caption": "Dialogue and bell-menu controls in Helping Your Boyfriend",
+              "purpose": "instructional step",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "Version 1.0.1 includes gameplay difficulty choices. Pick the level that lets you recognize and act on prompts without turning the sequence into an accessibility barrier. A lower setting does not remove the point of the story; it changes the execution pressure around the interactive moments."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Confirm your input device",
+                  "text": "Use a mouse and a keyboard with dedicated arrow keys if possible. Compact keyboards may require a function layer that is too slow for directional prompts."
+                },
+                {
+                  "title": "Open the bell menu",
+                  "text": "Click the bell at the top of the game and confirm that Save, Load, and Settings are reachable before a minigame starts."
+                },
+                {
+                  "title": "Create two save lanes",
+                  "text": "Keep one story checkpoint before a major relationship branch and one mechanical checkpoint immediately before an interactive sequence."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dialogue-and-menu",
+          "heading": "Control Dialogue and the Bell Menu",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Left click or Enter advances a line and confirms a visible choice. Space hides or restores the dialogue box, which is useful when a character or object is partly covered. Press L to open the history log and reread a line you advanced too quickly. Press A for auto-play only when the timing is comfortable; turn it off before a choice, sudden warning, or minigame transition."
+            },
+            {
+              "type": "paragraph",
+              "text": "Holding Ctrl or pressing Tab skips text, but skip mode can carry momentum into a new prompt. Release the key whenever the background changes, a clickable object appears, or the story returns to a choice you have not seen. The history log recovers dialogue, not necessarily a missed physical interaction, so a nearby save remains essential."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Input",
+                "Action",
+                "Best use"
+              ],
+              "rows": [
+                [
+                  "Left click / Enter",
+                  "Advance or choose",
+                  "Normal reading and visible responses"
+                ],
+                [
+                  "Space",
+                  "Hide or show dialogue",
+                  "Inspect art without advancing"
+                ],
+                [
+                  "L",
+                  "Open history",
+                  "Recover a missed line"
+                ],
+                [
+                  "A",
+                  "Toggle auto-play",
+                  "Hands-off reading between decisions"
+                ],
+                [
+                  "Ctrl hold / Tab",
+                  "Skip text",
+                  "Repeat runs only"
+                ],
+                [
+                  "Bell",
+                  "Open menu",
+                  "Save, Load, and Settings"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "drag-actions",
+          "heading": "Complete Drag-and-Drop Tasks",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Move the pointer to the middle of the object the game expects you to manipulate. Press and hold the primary mouse button, move in one continuous motion, and release only after the object itself—not just the cursor—crosses into the receiving area. If the destination does not react, return to the original position and start closer to the object's center."
+            },
+            {
+              "type": "paragraph",
+              "text": "Browser scaling can make an illustrated target and its active hit area appear misaligned. Keep system display scaling stable, use the game's intended window size, and avoid changing zoom during the task. On touch devices, begin away from system gesture edges and keep contact until the target acknowledges the drop. Do not repeatedly tap after a failed drag, because that can select or advance something else."
+            },
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Acquire",
+                  "text": "Hold on the movable object until its position or cursor state changes."
+                },
+                {
+                  "title": "Carry",
+                  "text": "Move steadily while keeping the button or touch contact down."
+                },
+                {
+                  "title": "Confirm",
+                  "text": "Wait for target feedback before releasing or starting another action."
+                },
+                {
+                  "title": "Reset",
+                  "text": "If nothing changed, reload the mechanical checkpoint rather than replaying the whole chapter."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qte-controls",
+          "heading": "Prepare for Arrow-Key and Space QTEs",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Quick-time events use the arrow keys plus Space. Put one hand over the four arrows and the other thumb over Space before the first prompt. Watch the current symbol and press once; do not enter a sequence remembered from another attempt, because the prompt order may change or your earlier failure may have shifted the timing."
+            },
+            {
+              "type": "image",
+              "src": "/images/guides/helping-your-boyfriend-controls-minigames-step-2.webp",
+              "alt": "A drag interaction with its target area",
+              "width": 1245,
+              "height": 720,
+              "caption": "A drag interaction with its target area",
+              "purpose": "instructional step",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "If the QTE repeatedly fails, lower the gameplay difficulty, confirm that Num Lock or a function layer is not remapping the arrow cluster, and close software that captures Space or directional keys. A 60-percent keyboard without dedicated arrows is a genuine hardware limitation for this release because no remapping control has been confirmed. An external keyboard is more reliable than trying to toggle layers under time pressure."
+            },
+            {
+              "type": "callout",
+              "tone": "tip",
+              "title": "Separate reaction failure from route failure",
+              "text": "If the story continues after a missed prompt, read the next scene before reloading. The failed QTE may be a valid branch. Reload only when you want to test the successful result or the interface stopped responding."
+            }
+          ]
+        },
+        {
+          "id": "saves-skipping-and-recovery",
+          "heading": "Save, Skip, and Recover Without Losing the Route",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Name saves by purpose: before first QTE, before room search, before late relationship choice. Avoid filling every slot with nearly identical autosaves. When a route goes wrong, return to the closest checkpoint that controls the cause: use the mechanical save for a missed prompt and the story save for an approval or investigation decision."
+            },
+            {
+              "type": "image",
+              "src": "/images/guides/helping-your-boyfriend-controls-minigames-step-3.webp",
+              "alt": "A directional quick-time prompt and response state",
+              "width": 1280,
+              "height": 717,
+              "caption": "A directional quick-time prompt and response state",
+              "purpose": "instructional step",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "If the game seems paused, check whether auto-play is waiting, the dialogue box is hidden, or the window lost focus. Press Space once to restore the box, click inside the game, and open the history log to confirm the last completed line. If controls still do nothing, use Load from the bell menu. Restarting the application is the final step, not the first."
+            },
+            {
+              "type": "list",
+              "style": "unordered",
+              "items": [
+                "Do not hold Ctrl while a new scene is loading.",
+                "Do not overwrite the only save made before a branching choice.",
+                "Do not interpret missing audio as failed input when the image advanced.",
+                "Do not force a QTE on inaccessible hardware when the difficulty option can reduce the demand."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "device-questions",
+          "heading": "Handle Desktop and Android Differences",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Windows, macOS, and Android are official platforms, but the complete touch equivalent for every keyboard-style prompt has not been confirmed across devices. Follow the prompt shown by your build. If a touch QTE is uncomfortable or unclear, use the difficulty setting or move the save to a supported desktop setup when possible rather than guessing that every arrow key has an invisible swipe equivalent."
+            },
+            {
+              "type": "paragraph",
+              "text": "On desktop, security warnings can appear for newly downloaded independent games. Obtain the file from the official creator page, scan it with your normal security tools, and make your own decision; do not disable system protection globally. On macOS, application permission prompts belong to the operating system and should be handled through its normal privacy controls, not by downloading an unknown replacement."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "What are all the confirmed Helping Your Boyfriend controls?",
+          "answer": "Left click or Enter advances and chooses; the mouse points and drags; Space hides the dialogue box; L opens history; A toggles auto-play; Ctrl or Tab skips; arrows plus Space handle QTEs; the bell opens Save, Load, and Settings."
+        },
+        {
+          "question": "Can I remap the arrow-key QTE?",
+          "answer": "A remapping option has not been confirmed in version 1.0.1. Use a keyboard with dedicated arrows or lower the gameplay difficulty if a compact layout makes the sequence inaccessible."
+        },
+        {
+          "question": "Why did my drag not register?",
+          "answer": "Start from the object's center, hold continuously, move the object itself into the active target, and release after visual feedback. Keep zoom stable."
+        },
+        {
+          "question": "Should I reload every failed minigame?",
+          "answer": "No. Read the next scene first. Some failures can lead into a valid route; reload when testing another result or when the interface actually stopped."
+        }
+      ],
+      "relatedGuideIds": [
+        "helping-your-boyfriend-endings-walkthrough"
+      ]
+    },
+    {
+      "id": "helping-your-boyfriend-endings-walkthrough",
+      "slug": "helping-your-boyfriend-endings-walkthrough",
+      "title": "Helping Your Boyfriend Endings Walkthrough",
+      "summary": "Plan four controlled runs with reusable saves, relationship targets, pills, investigation clues, and the late key-and-room branch clearly marked for spoilers.",
+      "introduction": "This version 1.0.1 walkthrough reveals route requirements for all four endings. Finish one blind run first, then use the checkpoints and decision paths below.",
+      "status": "published",
+      "publishedAt": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "authorId": null,
+      "tags": [
+        "All Endings",
+        "Walkthrough",
+        "Route Choices",
+        "Spoilers"
+      ],
+      "spoilerPolicy": "full",
+      "image": {
+        "src": "/images/guides/helping-your-boyfriend-endings-walkthrough-cover-v2.webp",
+        "alt": "A spoiler-safe checkpoint branching toward four sealed route folders",
+        "width": 1280,
+        "height": 720
+      },
+      "seo": {
+        "title": "Helping Your Boyfriend Endings Walkthrough Guide",
+        "description": "Reach all four Helping Your Boyfriend endings with version 1.0.1 relationship targets, pill choices, clue checkpoints, the key route, and recovery steps.",
+        "keywords": [
+          "Helping Your Boyfriend endings",
+          "Helping Your Boyfriend walkthrough",
+          "Helping Your Boyfriend ending 4"
+        ]
+      },
+      "sections": [
+        {
+          "id": "spoiler-boundary",
+          "heading": "Spoiler Boundary and Route Logic",
+          "blocks": [
+            {
+              "type": "callout",
+              "tone": "spoiler",
+              "title": "Full route spoilers begin here",
+              "text": "The steps below identify relationship direction, pill choices, investigation requirements, and late actions for every ending. Complete a blind run first if you want the story's reversals unprompted."
+            },
+            {
+              "type": "image",
+              "src": "/images/guides/helping-your-boyfriend-endings-walkthrough-step-1.webp",
+              "alt": "Save and load slots arranged before a route split",
+              "width": 1280,
+              "height": 720,
+              "caption": "Save and load slots arranged before a route split",
+              "purpose": "instructional step",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "The four named endings are separate from earlier game-over states. Surviving the minigames is required to continue far enough to reach them. The route then depends on Adrian affection, Ian affection, the pill decisions, and—for the later investigation paths—whether you preserved the phone number, found the address, and opened the locked room with the key."
+            },
+            {
+              "type": "paragraph",
+              "text": "Think of the structure as two broad families. Endings 1 and 2 use high Adrian affection and low Ian affection, then split around the pills and a late violent option. Endings 3 and 4 use low Adrian affection plus the complete investigation sequence; Ian affection separates those two. This model is easier to reproduce than memorizing isolated dialogue buttons."
+            }
+          ]
+        },
+        {
+          "id": "reusable-checkpoints",
+          "heading": "Create Three Reusable Checkpoints",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Checkpoint A: before relationship choices accumulate",
+                  "text": "Use this to build a high-Adrian/low-Ian run or a low-Adrian route without replaying customization and opening scenes."
+                },
+                {
+                  "title": "Checkpoint B: before the pill sequence",
+                  "text": "Preserve the established affection state, then compare taking Ian's pill, taking Adrian's pill, or refusing as the target route requires."
+                },
+                {
+                  "title": "Checkpoint C: before the late body-and-key decision",
+                  "text": "Use this only after recording the phone number and room address on an investigation route. It allows you to retry the key and locked-room steps without rebuilding affection."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Do not overwrite Checkpoint A after moving into a low-Adrian route. The key option depends on Adrian affection being low enough; a save made after the requirement has already failed cannot repair it. Similarly, remembering the phone number yourself is not enough if the protagonist did not annotate it in the game state."
+            }
+          ]
+        },
+        {
+          "id": "ending-one",
+          "heading": "Ending 1 Route",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Build high Adrian affection",
+                  "text": "Choose responses that support Adrian and keep his approval high through the relationship sections."
+                },
+                {
+                  "title": "Keep Ian affection low",
+                  "text": "Avoid building a supportive Ian relationship on this run."
+                },
+                {
+                  "title": "Refuse Ian's pill",
+                  "text": "When Ian offers the pill, do not take it."
+                },
+                {
+                  "title": "Take Adrian's pill",
+                  "text": "Accept Adrian's pill later in the route."
+                },
+                {
+                  "title": "Do not use the scalpel on Adrian",
+                  "text": "When the late violent choice appears, leave the scalpel unused."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "If this route produces Ending 2 instead, the affection pattern is probably correct but one of the pill decisions was reversed. Reload Checkpoint B rather than rebuilding the entire relationship. If the route ends in a game over before those choices, repair the failed minigame first."
+            }
+          ]
+        },
+        {
+          "id": "ending-two",
+          "heading": "Ending 2 Route",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Retain high Adrian affection",
+                  "text": "Use the same supportive Adrian pattern as Ending 1."
+                },
+                {
+                  "title": "Keep Ian affection low",
+                  "text": "Do not raise Ian approval enough to enter his later branch."
+                },
+                {
+                  "title": "Take Ian's pill",
+                  "text": "Accept the pill from Ian during his sequence."
+                },
+                {
+                  "title": "Refuse Adrian's pill",
+                  "text": "Do not take Adrian's later pill."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Ending 2 is the cleanest pill comparison with Ending 1. Use the same Checkpoint A route and branch at Checkpoint B. If changing those choices does not alter the result, recheck whether Ian affection accidentally rose during an earlier conversation."
+            }
+          ]
+        },
+        {
+          "id": "investigation-setup",
+          "heading": "Prepare the Investigation for Endings 3 and 4",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "Lower Adrian affection",
+                  "text": "Choose disapproving or resistant responses consistently enough that the late key option becomes available."
+                },
+                {
+                  "title": "Record the number",
+                  "text": "During the relevant scene, have the protagonist annotate the phone number shown on their arm."
+                },
+                {
+                  "title": "Find the address",
+                  "text": "Inspect Adrian's room and preserve the address discovered there."
+                },
+                {
+                  "title": "Take Ian's pill",
+                  "text": "Accept Ian's pill on both investigation endings."
+                },
+                {
+                  "title": "Refuse Adrian's pill",
+                  "text": "Decline Adrian's later pill on both investigation endings."
+                },
+                {
+                  "title": "Take the key and enter the locked room",
+                  "text": "After the confrontation, take the key from Adrian's body, open the locked room, and do this before going outside."
+                }
+              ]
+            },
+            {
+              "type": "image",
+              "src": "/images/guides/helping-your-boyfriend-endings-walkthrough-step-2.webp",
+              "alt": "An investigation clue state used by later endings",
+              "width": 1280,
+              "height": 704,
+              "caption": "An investigation clue state used by later endings",
+              "purpose": "instructional step",
+              "status": "adopted"
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "title": "The key is a state check",
+              "text": "If the key option does not appear, Adrian affection is not low enough. Loading immediately before the body will not fix the relationship value; return to Checkpoint A and make the low-affection pattern clearer."
+            }
+          ]
+        },
+        {
+          "id": "ending-three",
+          "heading": "Ending 3 Route",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "For Ending 3, keep both Adrian affection and Ian affection low. Complete the number and address investigation, take Ian's pill, refuse Adrian's pill, take the key, and visit the locked room before going outside. Low affection with both men distinguishes this route from Ending 4."
+            },
+            {
+              "type": "paragraph",
+              "text": "If you completed the room sequence but reached Ending 4, the investigation worked and Ian affection is too high for Ending 3. Reload from the relationship checkpoint and choose more distant Ian responses while preserving every clue and pill requirement."
+            }
+          ]
+        },
+        {
+          "id": "ending-four",
+          "heading": "Ending 4 Route",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "For Ending 4, keep Adrian affection low and build Ian affection high. As with Ending 3, annotate the phone number, locate the address in Adrian's room, take Ian's pill, refuse Adrian's pill, take the key, and enter the locked room before leaving the house."
+            },
+            {
+              "type": "paragraph",
+              "text": "If the locked room sequence completes but Ending 3 appears, raise Ian affection earlier without softening the low-Adrian pattern. If neither investigation ending appears, verify the phone number and address were recorded by the protagonist and that the room was entered before going outside."
+            }
+          ]
+        },
+        {
+          "id": "missed-ending-diagnosis",
+          "heading": "Diagnose a Missed Ending",
+          "blocks": [
+            {
+              "type": "table",
+              "headers": [
+                "What happened",
+                "Likely cause",
+                "Recovery"
+              ],
+              "rows": [
+                [
+                  "Game over before final route",
+                  "A minigame was not survived",
+                  "Reload the mechanical checkpoint or reduce difficulty"
+                ],
+                [
+                  "Ending 1 instead of 2",
+                  "Pill decisions stayed on the Ending 1 pattern",
+                  "Use Checkpoint B and take Ian's pill while refusing Adrian's"
+                ],
+                [
+                  "No key option",
+                  "Adrian affection is too high",
+                  "Return to Checkpoint A and choose a clearer low-Adrian pattern"
+                ],
+                [
+                  "Ending 3 instead of 4",
+                  "Ian affection is too low",
+                  "Raise Ian affection while keeping the investigation state"
+                ],
+                [
+                  "Ending 4 instead of 3",
+                  "Ian affection is too high",
+                  "Lower Ian affection without losing the clues"
+                ],
+                [
+                  "No investigation ending",
+                  "Number, address, key, room, or order is missing",
+                  "Repeat the full investigation checklist before going outside"
+                ]
+              ]
+            },
+            {
+              "type": "image",
+              "src": "/images/guides/helping-your-boyfriend-endings-walkthrough-step-3.webp",
+              "alt": "A late route confirmation screen with outcome details withheld",
+              "width": 1222,
+              "height": 720,
+              "caption": "A late route confirmation screen with outcome details withheld",
+              "purpose": "instructional step",
+              "status": "adopted"
+            },
+            {
+              "type": "paragraph",
+              "text": "Change the smallest state that explains the mismatch. Rebuilding every choice after each miss makes it harder to know which condition worked. Keep ending-confirmation saves separate so you can compare the final screen without overwriting route checkpoints."
+            }
+          ]
+        },
+        {
+          "id": "completion-checklist",
+          "heading": "Four-Ending Completion Checklist",
+          "blocks": [
+            {
+              "type": "list",
+              "style": "unordered",
+              "items": [
+                "Ending 1: high Adrian, low Ian, refuse Ian pill, take Adrian pill, do not use the scalpel.",
+                "Ending 2: high Adrian, low Ian, take Ian pill, refuse Adrian pill.",
+                "Ending 3: low Adrian, low Ian, complete number/address/key/locked-room investigation, take Ian pill, refuse Adrian pill.",
+                "Ending 4: low Adrian, high Ian, complete the same investigation, take Ian pill, refuse Adrian pill.",
+                "Keep game-over states separate from the four ending count."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "After all four ending confirmations, keep one save from each relationship family rather than every intermediate attempt. That leaves a compact archive for replaying favorite scenes or checking a future version without confusing old and new route state."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "How many endings are in Helping Your Boyfriend?",
+          "answer": "There are four route endings, separate from earlier game-over states. You must survive the minigames to continue to those endings."
+        },
+        {
+          "question": "Why can I not take the key?",
+          "answer": "The option requires Adrian affection to be low enough. Return to an earlier relationship checkpoint and choose a more consistently resistant pattern."
+        },
+        {
+          "question": "What separates Ending 3 and Ending 4?",
+          "answer": "Both use low Adrian affection and the complete investigation path. Ian affection is low for Ending 3 and high for Ending 4."
+        },
+        {
+          "question": "Do I need both the phone number and address?",
+          "answer": "Yes for the investigation endings. Have the protagonist annotate the number and inspect Adrian's room for the address, then use the key and locked room before leaving."
+        }
+      ],
+      "relatedGuideIds": [
+        "helping-your-boyfriend-controls-minigames"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 3,
+  "stage": "10",
+  "checkedAt": "2026-10-08T14:57:13+08:00",
+  "environment": "Final Next.js 16.4.0 standalone production build at http://127.0.0.1:3139",
+  "formalOrigin": "https://test.com",
+  "sharedChecks": {
+    "initialGameIframeCount": 0,
+    "singleFrameAfterPlay": true,
+    "cleanContextMethod": "Fresh headless Chrome profile plus cookies, cache, local preview, itch.io, and html-classic.itch.zone storage cleared before each launch",
+    "inputMethod": "Mouse activation at the visible frame center plus Enter dispatched after the live frame stabilized; isolated flow-02 interaction outcomes retained",
+    "popupOrTopNavigation": "none observed; sandbox omits popup and top-navigation tokens",
+    "distinctFullscreenSvgPaths": true,
+    "crossGameLifecycleReset": "Starting Going Live! then navigating to First Base removed the old frame and restored the target player to Play Now",
+    "consoleErrors": 0,
+    "cspErrors": 0
+  },
+  "games": [
+    {
+      "gameId": "helping-your-boyfriend",
+      "configuredIframeSrc": "test.com",
+      "actualFrameUrl": null,
+      "innerFrameUrl": null,
+      "finalOrigin": null,
+      "launchChain": [
+        "idle",
+        "Play Now",
+        "safe policy rejection",
+        "failed",
+        "Retry available"
+      ],
+      "visualIdentity": "main page and cover verified",
+      "effectiveInput": "not applicable because the unsafe provisional address is rejected before frame creation",
+      "popupOrTopNavigation": "none",
+      "sandbox": null,
+      "networkErrors": [],
+      "evidencePaths": [
+        "reports/acceptance-evidence/home--wide.png"
+      ],
+      "finalStatus": "provisional",
+      "notes": "The supplied test.com value remains unchanged; browser play is not claimed as verified."
+    },
+    {
+      "gameId": "going-live",
+      "configuredIframeSrc": "https://itch.io/embed-upload/10201466?color=222222",
+      "actualFrameUrl": "https://itch.io/embed-upload/10201466?color=222222",
+      "innerFrameUrl": "https://html-classic.itch.zone/html/10201466/GoingLiveFullVer-V1_2/index.html",
+      "finalOrigin": "https://html-classic.itch.zone",
+      "launchChain": [
+        "clean context",
+        "idle",
+        "Play Now",
+        "loading",
+        "visible game",
+        "mouse and Enter input dispatched"
+      ],
+      "visualIdentity": "verified in final production page",
+      "effectiveInput": "passed in isolated flow-02 interaction test and repeated through the final production frame",
+      "popupOrTopNavigation": "none observed",
+      "sandbox": "allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-downloads",
+      "networkErrors": [],
+      "evidencePaths": [
+        "reports/acceptance-evidence/player-going-live.png",
+        "reports/acceptance-evidence/player-going-live-after-input.png"
+      ],
+      "finalStatus": "verified"
+    },
+    {
+      "gameId": "first-base",
+      "configuredIframeSrc": "https://itch.io/embed-upload/15391003?color=222222",
+      "actualFrameUrl": "https://itch.io/embed-upload/15391003?color=222222",
+      "innerFrameUrl": "https://html-classic.itch.zone/html/15391003/index.html",
+      "finalOrigin": "https://html-classic.itch.zone",
+      "launchChain": [
+        "clean context",
+        "idle",
+        "Play Now",
+        "loading",
+        "visible game",
+        "mouse and Enter input dispatched"
+      ],
+      "visualIdentity": "verified in final production page",
+      "effectiveInput": "passed in isolated flow-02 interaction test and repeated through the final production frame",
+      "popupOrTopNavigation": "none observed",
+      "sandbox": "allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-downloads",
+      "networkErrors": [],
+      "evidencePaths": [
+        "reports/acceptance-evidence/player-first-base.png",
+        "reports/acceptance-evidence/player-first-base-after-input.png"
+      ],
+      "finalStatus": "verified"
+    },
+    {
+      "gameId": "the-stranger-from-the-bus-stop",
+      "configuredIframeSrc": "https://itch.io/embed-upload/7958696?color=222222",
+      "actualFrameUrl": "https://itch.io/embed-upload/7958696?color=222222",
+      "innerFrameUrl": "https://html-classic.itch.zone/html/7958696/index.html",
+      "finalOrigin": "https://html-classic.itch.zone",
+      "launchChain": [
+        "clean context",
+        "idle",
+        "Play Now",
+        "loading",
+        "visible game",
+        "mouse and Enter input dispatched"
+      ],
+      "visualIdentity": "verified in final production page",
+      "effectiveInput": "passed in isolated flow-02 interaction test and repeated through the final production frame",
+      "popupOrTopNavigation": "none observed",
+      "sandbox": "allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-downloads",
+      "networkErrors": [],
+      "evidencePaths": [
+        "reports/acceptance-evidence/player-the-stranger-from-the-bus-stop.png",
+        "reports/acceptance-evidence/player-the-stranger-from-the-bus-stop-after-input.png"
+      ],
+      "finalStatus": "verified"
+    },
+    {
+      "gameId": "trapped-with-jester",
+      "configuredIframeSrc": "https://itch.io/embed-upload/16906628?color=222222",
+      "actualFrameUrl": "https://itch.io/embed-upload/16906628?color=222222",
+      "innerFrameUrl": "https://html-classic.itch.zone/html/16906628/TrappedwithJester-1.0-web/index.html",
+      "finalOrigin": "https://html-classic.itch.zone",
+      "launchChain": [
+        "clean context",
+        "idle",
+        "Play Now",
+        "loading",
+        "visible game",
+        "mouse and Enter input dispatched"
+      ],
+      "visualIdentity": "verified in final production page",
+      "effectiveInput": "passed in isolated flow-02 interaction test and repeated through the final production frame",
+      "popupOrTopNavigation": "none observed",
+      "sandbox": "allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-downloads",
+      "networkErrors": [],
+      "evidencePaths": [
+        "reports/acceptance-evidence/player-trapped-with-jester.png",
+        "reports/acceptance-evidence/player-trapped-with-jester-after-input.png"
+      ],
+      "finalStatus": "verified"
+    },
+    {
+      "gameId": "today-im-harvesting-you",
+      "configuredIframeSrc": "https://itch.io/embed-upload/7132574?color=222222",
+      "actualFrameUrl": "https://itch.io/embed-upload/7132574?color=222222",
+      "innerFrameUrl": "https://html-classic.itch.zone/html/7132574/todayimharvestingyou-1.0-web/index.html",
+      "finalOrigin": "https://html-classic.itch.zone",
+      "launchChain": [
+        "clean context",
+        "idle",
+        "Play Now",
+        "loading",
+        "visible game",
+        "mouse and Enter input dispatched"
+      ],
+      "visualIdentity": "verified in final production page",
+      "effectiveInput": "passed in isolated flow-02 interaction test and repeated through the final production frame",
+      "popupOrTopNavigation": "none observed",
+      "sandbox": "allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-downloads",
+      "networkErrors": [],
+      "evidencePaths": [
+        "reports/acceptance-evidence/player-today-im-harvesting-you.png",
+        "reports/acceptance-evidence/player-today-im-harvesting-you-after-input.png"
+      ],
+      "finalStatus": "verified"
+    },
+    {
+      "gameId": "my-own-sweet-dionaea",
+      "configuredIframeSrc": "https://itch.io/embed-upload/15246546?color=222222",
+      "actualFrameUrl": "https://itch.io/embed-upload/15246546?color=222222",
+      "innerFrameUrl": "https://html-classic.itch.zone/html/15246546/index.html",
+      "finalOrigin": "https://html-classic.itch.zone",
+      "launchChain": [
+        "clean context",
+        "idle",
+        "Play Now",
+        "loading",
+        "visible game",
+        "mouse and Enter input dispatched"
+      ],
+      "visualIdentity": "verified in final production page",
+      "effectiveInput": "passed in isolated flow-02 interaction test and repeated through the final production frame",
+      "popupOrTopNavigation": "none observed",
+      "sandbox": "allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-downloads",
+      "networkErrors": [],
+      "evidencePaths": [
+        "reports/acceptance-evidence/player-my-own-sweet-dionaea.png",
+        "reports/acceptance-evidence/player-my-own-sweet-dionaea-after-input.png"
+      ],
+      "finalStatus": "verified"
+    },
+    {
+      "gameId": "overdose",
+      "configuredIframeSrc": "https://itch.io/embed-upload/19307243?color=222222",
+      "actualFrameUrl": "https://itch.io/embed-upload/19307243?color=222222",
+      "innerFrameUrl": "https://html-classic.itch.zone/html/19307243/index.html?v=1789846185",
+      "finalOrigin": "https://html-classic.itch.zone",
+      "launchChain": [
+        "clean context",
+        "idle",
+        "Play Now",
+        "loading",
+        "visible game",
+        "mouse and Enter input dispatched"
+      ],
+      "visualIdentity": "verified in final production page",
+      "effectiveInput": "passed in isolated flow-02 interaction test and repeated through the final production frame",
+      "popupOrTopNavigation": "none observed",
+      "sandbox": "allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-downloads",
+      "networkErrors": [],
+      "evidencePaths": [
+        "reports/acceptance-evidence/player-overdose.png",
+        "reports/acceptance-evidence/player-overdose-after-input.png"
+      ],
+      "finalStatus": "verified"
+    },
+    {
+      "gameId": "devour-me-gently",
+      "configuredIframeSrc": "https://itch.io/embed-upload/17653831?color=222222",
+      "actualFrameUrl": "https://itch.io/embed-upload/17653831?color=222222",
+      "innerFrameUrl": "https://html-classic.itch.zone/html/17653831/index.html",
+      "finalOrigin": "https://html-classic.itch.zone",
+      "launchChain": [
+        "clean context",
+        "idle",
+        "Play Now",
+        "loading",
+        "visible game",
+        "mouse and Enter input dispatched"
+      ],
+      "visualIdentity": "verified in final production page",
+      "effectiveInput": "passed in isolated flow-02 interaction test and repeated through the final production frame",
+      "popupOrTopNavigation": "none observed",
+      "sandbox": "allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-downloads",
+      "networkErrors": [],
+      "evidencePaths": [
+        "reports/acceptance-evidence/player-devour-me-gently.png",
+        "reports/acceptance-evidence/player-devour-me-gently-after-input.png"
+      ],
+      "finalStatus": "verified"
+    },
+    {
+      "gameId": "dystopia-the-jesters-obsession",
+      "configuredIframeSrc": "https://itch.io/embed-upload/16788516?color=222222",
+      "actualFrameUrl": "https://itch.io/embed-upload/16788516?color=222222",
+      "innerFrameUrl": "https://html-classic.itch.zone/html/16788516/index.html",
+      "finalOrigin": "https://html-classic.itch.zone",
+      "launchChain": [
+        "clean context",
+        "idle",
+        "Play Now",
+        "loading",
+        "visible game",
+        "mouse and Enter input dispatched"
+      ],
+      "visualIdentity": "verified in final production page",
+      "effectiveInput": "passed in isolated flow-02 interaction test and repeated through the final production frame",
+      "popupOrTopNavigation": "none observed",
+      "sandbox": "allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-downloads",
+      "networkErrors": [],
+      "evidencePaths": [
+        "reports/acceptance-evidence/player-dystopia-the-jesters-obsession.png",
+        "reports/acceptance-evidence/player-dystopia-the-jesters-obsession-after-input.png"
+      ],
+      "finalStatus": "verified"
+    }
+  ]
+}

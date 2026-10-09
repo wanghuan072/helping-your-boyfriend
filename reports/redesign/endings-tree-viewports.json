@@ -1,0 +1,58 @@
+[
+  {
+    "anchors": true,
+    "clientWidth": 1425,
+    "failedImages": [],
+    "height": 15328,
+    "lineCardCollisions": [],
+    "nodeCount": 16,
+    "nodeOverlaps": [],
+    "pathCount": 18,
+    "scrollWidth": 1425,
+    "spoilerCount": 1,
+    "treeDisplay": "grid",
+    "width": 1440
+  },
+  {
+    "anchors": true,
+    "clientWidth": 1009,
+    "failedImages": [],
+    "height": 15557,
+    "lineCardCollisions": [],
+    "nodeCount": 16,
+    "nodeOverlaps": [],
+    "pathCount": 18,
+    "scrollWidth": 1009,
+    "spoilerCount": 1,
+    "treeDisplay": "grid",
+    "width": 1024
+  },
+  {
+    "anchors": true,
+    "clientWidth": 753,
+    "failedImages": [],
+    "height": 19003,
+    "lineCardCollisions": [],
+    "nodeCount": 16,
+    "nodeOverlaps": [],
+    "pathCount": 0,
+    "scrollWidth": 753,
+    "spoilerCount": 1,
+    "treeDisplay": "flex",
+    "width": 768
+  },
+  {
+    "anchors": true,
+    "clientWidth": 375,
+    "failedImages": [],
+    "height": 21001,
+    "lineCardCollisions": [],
+    "nodeCount": 16,
+    "nodeOverlaps": [],
+    "pathCount": 0,
+    "scrollWidth": 375,
+    "spoilerCount": 1,
+    "treeDisplay": "flex",
+    "width": 390
+  }
+]

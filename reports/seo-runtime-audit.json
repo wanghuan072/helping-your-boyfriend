@@ -1,0 +1,276 @@
+{
+  "auditedAt": "2026-10-09",
+  "origin": "http://localhost:3002",
+  "canonicalOrigin": "https://helpingyourboyfriend.org",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "title": "Play Helping Your Boyfriend - Free Horror Game Online",
+      "titleLength": 53,
+      "descriptionLength": 151,
+      "h1s": [
+        "Play Helping Your Boyfriend Online"
+      ],
+      "mains": 1,
+      "canonical": "https://helpingyourboyfriend.org",
+      "ogUrl": "https://helpingyourboyfriend.org",
+      "jsonLdTypes": [
+        "VideoGame",
+        "BreadcrumbList"
+      ],
+      "externalAnchors": [],
+      "thirdPartyFrames": [
+        "https://www.youtube-nocookie.com/embed/F-ouLW_MDkY"
+      ],
+      "legalRelMatches": [
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow"
+      ]
+    },
+    {
+      "route": "/privacy",
+      "status": 200,
+      "title": "Privacy Policy | Helping Your Boyfriend Site",
+      "titleLength": 44,
+      "descriptionLength": 149,
+      "h1s": [
+        "Privacy Policy"
+      ],
+      "mains": 1,
+      "canonical": "https://helpingyourboyfriend.org/privacy",
+      "ogUrl": "https://helpingyourboyfriend.org/privacy",
+      "jsonLdTypes": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "externalAnchors": [],
+      "thirdPartyFrames": [],
+      "legalRelMatches": [
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow"
+      ]
+    },
+    {
+      "route": "/terms",
+      "status": 200,
+      "title": "Terms of Service | Helping Your Boyfriend Site",
+      "titleLength": 46,
+      "descriptionLength": 152,
+      "h1s": [
+        "Terms of Service"
+      ],
+      "mains": 1,
+      "canonical": "https://helpingyourboyfriend.org/terms",
+      "ogUrl": "https://helpingyourboyfriend.org/terms",
+      "jsonLdTypes": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "externalAnchors": [],
+      "thirdPartyFrames": [],
+      "legalRelMatches": [
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow"
+      ]
+    },
+    {
+      "route": "/copyright",
+      "status": 200,
+      "title": "Copyright Policy | Helping Your Boyfriend Site",
+      "titleLength": 46,
+      "descriptionLength": 145,
+      "h1s": [
+        "Copyright"
+      ],
+      "mains": 1,
+      "canonical": "https://helpingyourboyfriend.org/copyright",
+      "ogUrl": "https://helpingyourboyfriend.org/copyright",
+      "jsonLdTypes": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "externalAnchors": [],
+      "thirdPartyFrames": [],
+      "legalRelMatches": [
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow"
+      ]
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "title": "About the Helping Your Boyfriend Player Site",
+      "titleLength": 44,
+      "descriptionLength": 155,
+      "h1s": [
+        "About Us"
+      ],
+      "mains": 1,
+      "canonical": "https://helpingyourboyfriend.org/about",
+      "ogUrl": "https://helpingyourboyfriend.org/about",
+      "jsonLdTypes": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "externalAnchors": [
+        "https://zieelane.itch.io/helping-your-boyfriend"
+      ],
+      "thirdPartyFrames": [],
+      "legalRelMatches": [
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow"
+      ]
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "title": "Contact the Helping Your Boyfriend Player Site",
+      "titleLength": 46,
+      "descriptionLength": 149,
+      "h1s": [
+        "Contact Us"
+      ],
+      "mains": 1,
+      "canonical": "https://helpingyourboyfriend.org/contact",
+      "ogUrl": "https://helpingyourboyfriend.org/contact",
+      "jsonLdTypes": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "externalAnchors": [],
+      "thirdPartyFrames": [],
+      "legalRelMatches": [
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow"
+      ]
+    },
+    {
+      "route": "/characters",
+      "status": 200,
+      "title": "Helping Your Boyfriend Characters - Adrian, Ian & Oliver",
+      "titleLength": 56,
+      "descriptionLength": 160,
+      "h1s": [
+        "Helping Your Boyfriend Characters"
+      ],
+      "mains": 1,
+      "canonical": "https://helpingyourboyfriend.org/characters",
+      "ogUrl": "https://helpingyourboyfriend.org/characters",
+      "jsonLdTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "externalAnchors": [],
+      "thirdPartyFrames": [],
+      "legalRelMatches": [
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow"
+      ]
+    },
+    {
+      "route": "/controls",
+      "status": 200,
+      "title": "Helping Your Boyfriend Controls - Keys & Minigame Help",
+      "titleLength": 54,
+      "descriptionLength": 156,
+      "h1s": [
+        "Helping Your Boyfriend Controls"
+      ],
+      "mains": 1,
+      "canonical": "https://helpingyourboyfriend.org/controls",
+      "ogUrl": "https://helpingyourboyfriend.org/controls",
+      "jsonLdTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "externalAnchors": [],
+      "thirdPartyFrames": [],
+      "legalRelMatches": [
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow"
+      ]
+    },
+    {
+      "route": "/endings",
+      "status": 200,
+      "title": "Helping Your Boyfriend Endings - All 4 Routes Explained",
+      "titleLength": 55,
+      "descriptionLength": 157,
+      "h1s": [
+        "Helping Your Boyfriend Endings"
+      ],
+      "mains": 1,
+      "canonical": "https://helpingyourboyfriend.org/endings",
+      "ogUrl": "https://helpingyourboyfriend.org/endings",
+      "jsonLdTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "externalAnchors": [],
+      "thirdPartyFrames": [],
+      "legalRelMatches": [
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow",
+        "noopener noreferrer nofollow"
+      ]
+    }
+  ],
+  "sitemap": {
+    "status": 200,
+    "urls": [
+      "https://helpingyourboyfriend.org",
+      "https://helpingyourboyfriend.org/privacy",
+      "https://helpingyourboyfriend.org/terms",
+      "https://helpingyourboyfriend.org/copyright",
+      "https://helpingyourboyfriend.org/about",
+      "https://helpingyourboyfriend.org/contact",
+      "https://helpingyourboyfriend.org/controls",
+      "https://helpingyourboyfriend.org/characters",
+      "https://helpingyourboyfriend.org/endings"
+    ],
+    "lastModified": [
+      "2026-10-09",
+      "2026-10-09",
+      "2026-10-09",
+      "2026-10-09",
+      "2026-10-09",
+      "2026-10-09",
+      "2026-10-09",
+      "2026-10-09",
+      "2026-10-09"
+    ]
+  },
+  "removedStatuses": [
+    404,
+    404,
+    404
+  ],
+  "failures": []
+}

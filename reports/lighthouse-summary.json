@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 2,
+  "checkedAt": "2026-10-08T14:57:13+08:00",
+  "environment": "final standalone build at http://127.0.0.1:3139",
+  "mobile": {
+    "runs": [
+      {
+        "run": 1,
+        "performance": 99,
+        "accessibility": 100,
+        "bestPractices": 100,
+        "seo": 100,
+        "lcpMs": 2029.4546999999998,
+        "cls": 0,
+        "tbtMs": 12.5,
+        "transferBytes": 728681
+      },
+      {
+        "run": 2,
+        "performance": 99,
+        "accessibility": 100,
+        "bestPractices": 100,
+        "seo": 100,
+        "lcpMs": 2105.4814,
+        "cls": 0,
+        "tbtMs": 12,
+        "transferBytes": 728681
+      },
+      {
+        "run": 3,
+        "performance": 99,
+        "accessibility": 100,
+        "bestPractices": 100,
+        "seo": 100,
+        "lcpMs": 2030.6371,
+        "cls": 0,
+        "tbtMs": 12.5,
+        "transferBytes": 728681
+      }
+    ],
+    "median": {
+      "performance": 99,
+      "lcpMs": 2030.6371,
+      "cls": 0,
+      "tbtMs": 12.5,
+      "transferBytes": 728681
+    }
+  },
+  "desktop": {
+    "runs": [
+      {
+        "run": 1,
+        "performance": 100,
+        "accessibility": 100,
+        "bestPractices": 100,
+        "seo": 100,
+        "lcpMs": 526.0098,
+        "cls": 0,
+        "tbtMs": 0,
+        "transferBytes": 895665
+      },
+      {
+        "run": 2,
+        "performance": 99,
+        "accessibility": 100,
+        "bestPractices": 100,
+        "seo": 100,
+        "lcpMs": 835.4913750000001,
+        "cls": 0,
+        "tbtMs": 0,
+        "transferBytes": 895665
+      },
+      {
+        "run": 3,
+        "performance": 100,
+        "accessibility": 100,
+        "bestPractices": 100,
+        "seo": 100,
+        "lcpMs": 524.1948,
+        "cls": 0,
+        "tbtMs": 0,
+        "transferBytes": 895665
+      }
+    ],
+    "median": {
+      "performance": 100,
+      "lcpMs": 526.0098,
+      "cls": 0,
+      "tbtMs": 0,
+      "transferBytes": 895665
+    }
+  }
+}

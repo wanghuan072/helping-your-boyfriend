@@ -1,0 +1,969 @@
+{
+  "observedAt": "2026-10-08",
+  "records": [
+    {
+      "game_id": "helping-your-boyfriend",
+      "game_identity": "Helping Your Boyfriend",
+      "checked_at": "2026-10-08",
+      "version_scope": "Official 1.0.1 checked 2026-10-08; configured browser source remains provisional",
+      "primary_player_task": "A doctor boyfriend, an unsettling nightly routine, and a choice-driven horror story with five minigames and four endings.",
+      "unique_gameplay_hook": "A cute care routine turns into a four-ending psychological-horror investigation with drag tasks and arrow/Space QTEs.",
+      "verified_inputs": [
+        "Left click or Enter advances and confirms",
+        "Mouse dragging moves task objects",
+        "Arrow keys and Space answer QTE prompts",
+        "L opens history, A toggles auto, Ctrl or Tab skips read text"
+      ],
+      "objective_and_progression": "Choices, investigated clues, held items, relationship direction, and minigame outcomes feed the route state.",
+      "failure_conditions_and_common_traps": "Missed prompts, incomplete drags, skipped clues, and a poorly placed save can redirect a run or make replay longer.",
+      "first_run_advice": "Play the first route without an ending recipe, save before each interaction change, and lower the 1.0.1 gameplay difficulty when timing blocks progress.",
+      "browser_device_save_audio": "Official downloads exist for Windows, macOS, and Android; exact touch equivalents for every keyboard QTE are not claimed.",
+      "content_risk": "Jumpscares, loud audio, flashing or disturbing imagery, blood, cartoon gore, violence, drug use, crude language, and toxic obsessive behavior.",
+      "player_questions": [
+        "We start with the routine—not the ending recipe",
+        "Before we begin: comfort, customisation and a first save",
+        "When we choose a reply, we read the line before it",
+        "We change how we play when the doll task begins",
+        "We listen to the characters without handing them our judgement",
+        "After one ending, we make our next run deliberate",
+        "A few practical details before we spend the evening here",
+        "When we are ready: optional late-scene examples",
+        "Watch a run after reading the guide"
+      ],
+      "explainable_scenes": [
+        "Opening or title state that confirms this game",
+        "A live interaction state tied to the page's unique mechanic",
+        "Visible result or recovery state that changes the player's next decision"
+      ],
+      "concrete_cases": [
+        {
+          "section_id": "our-first-run",
+          "state_action_result": "We first choose a name, pronouns and body type that make the protagonist feel comfortable to read. The customisation screen below shows two body-type options; it is a presentation choice, not a difficulty selection. We then check the actual gameplay difficulty offered by version 1.0.1. If timed input is uncomfortable, lowering the execution pressure makes more sense than struggling through prompts just to say we picked the hardest setting."
+        },
+        {
+          "section_id": "dialogue-and-choices",
+          "state_action_result": "Left click or Enter advances the text and confirms an offered response. In the dialogue example below, Adrian is in the bedroom and three responses are clearly labelled. We read the preceding line first, then choose the tone we actually want to explore. We do not need to translate every answer into a hidden number on a blind run. What matters now is how the next exchange sounds and whether the story gives us new information."
+        },
+        {
+          "section_id": "dolls-and-timing",
+          "state_action_result": "The doll-workspace screenshot below is our cue that the game is asking for more than another dialogue click. Tools, a doll and an instruction area share the frame. We read that task’s instruction before reaching for the next object. Mouse input handles pointing, clicking and dragging in the minigames, but we should not assume every illustrated tool behaves in the same way. The prompt shown by the current task is what tells us where to begin."
+        },
+        {
+          "section_id": "late-scene-examples",
+          "state_action_result": "Spoiler-marked late scene."
+        }
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "helping-your-boyfriend-before-the-first-task-1",
+          "target_section": "our-first-run",
+          "visible_fact": "The opening body-type customisation offers two illustrated options.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-helping-your-boyfriend-customisation"
+        },
+        {
+          "slot_id": "helping-your-boyfriend-dialogue-and-bell-1",
+          "target_section": "dialogue-and-choices",
+          "visible_fact": "A dialogue scene offers three labelled responses.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-helping-your-boyfriend-dialogue-choice"
+        },
+        {
+          "slot_id": "helping-your-boyfriend-dragging-and-timing-1",
+          "target_section": "dolls-and-timing",
+          "visible_fact": "A doll-workspace minigame with tools and instructions.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-helping-your-boyfriend-doll-task"
+        },
+        {
+          "slot_id": "helping-your-boyfriend-late-scene-examples-1",
+          "target_section": "late-scene-examples",
+          "visible_fact": "A recorded-detail example from later in the story.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-helping-your-boyfriend-interface"
+        },
+        {
+          "slot_id": "helping-your-boyfriend-late-scene-examples-2",
+          "target_section": "late-scene-examples",
+          "visible_fact": "A late choice uses clearly labelled response options.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-helping-your-boyfriend-mechanic"
+        },
+        {
+          "slot_id": "helping-your-boyfriend-late-scene-examples-3",
+          "target_section": "late-scene-examples",
+          "visible_fact": "An inspected room can supply information during a route.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-helping-your-boyfriend-feedback"
+        }
+      ],
+      "youtube_research": {
+        "searched_at": "2026-10-08",
+        "query_directions": [
+          "Helping Your Boyfriend game controls minigames",
+          "Helping Your Boyfriend gameplay all endings",
+          "Helping Your Boyfriend Windows Android download play online"
+        ],
+        "candidate_media_ids": [
+          "youtube-helping-your-boyfriend"
+        ],
+        "adopted_media_ids": [
+          "youtube-helping-your-boyfriend"
+        ],
+        "decision": "adopted",
+        "reason": "The public YouTube watch page and privacy-enhanced embed loaded without an age gate; the visually reviewed opening matches the game, and the full-session format adds continuous action after the complete article."
+      },
+      "evidence_ids": [
+        "evidence-001",
+        "evidence-002",
+        "evidence-004"
+      ],
+      "unsupported_claims": [
+        "The configured browser source is an official playable build",
+        "Exact touch equivalents for every keyboard QTE"
+      ],
+      "visible_non_whitespace_before_video": 5730,
+      "content_status": "media-complete"
+    },
+    {
+      "game_id": "going-live",
+      "game_identity": "Going Live!",
+      "checked_at": "2026-10-08",
+      "version_scope": "Canceled prototype; full-release feature list does not establish actual prototype counts.",
+      "primary_player_task": "Help your secret idol boyfriend grow his fandom in a bright, uneasy streamer-romance prototype.",
+      "unique_gameplay_hook": "Fan-account decisions connect public attention to an increasingly unsafe relationship with an idol.",
+      "verified_inputs": [
+        "Pointer selects dialogue and fan-management actions",
+        "The opening warning must be acknowledged before the title flow",
+        "Browser audio may require the first click"
+      ],
+      "objective_and_progression": "Read Zilas and streaming conversations; no hidden reach/pressure statistics claimed.",
+      "failure_conditions_and_common_traps": "Treating every increase in attention as success can hide escalating danger; restarting without noting the last decision repeats the same branch.",
+      "first_run_advice": "Record the action taken immediately before a popularity change, then alter one decision on the next run.",
+      "browser_device_save_audio": "Verified in the official itch wrapper with pointer input; the prototype is canceled and should not be read as an active roadmap.",
+      "content_risk": "Disturbing parasocial behavior and dark endings; avoid outcome details in introductory copy.",
+      "player_questions": [
+        "A romance told through the stream",
+        "Read the window, not an imagined score",
+        "What this prototype does—and does not promise",
+        "Take a first stream slowly",
+        "Controls for dialogue and chat",
+        "When the cheerful surface gets uncomfortable",
+        "Before you start: player questions"
+      ],
+      "explainable_scenes": [
+        "Opening or title state that confirms this game",
+        "A live interaction state tied to the page's unique mechanic",
+        "Visible result or recovery state that changes the player's next decision"
+      ],
+      "concrete_cases": [
+        {
+          "section_id": "story-and-scope",
+          "state_action_result": "Going Live! puts you in a very particular relationship: you are a successful streamer secretly dating Zilas, an idol who wants a larger audience. Helping him means entering the fan space, not merely picking a romantic answer in a private conversation. The story places personal affection beside the language of posts, viewers and public attention. That overlap is its hook. Read the stream as part of the scene: what an audience sees can differ from what the two people understand in private."
+        },
+        {
+          "section_id": "read-the-scene",
+          "state_action_result": "The streamer-style window gives several pieces of information at once. A phone panel, chat and central scene compete for attention in the example below. Start with the spoken or written line, then look at the side panels before advancing. If a joke lands differently in chat than it does in the private conversation, that contrast is worth noticing. You do not need to scan every viewer name or memorize follower numbers to follow the emotional stakes."
+        },
+        {
+          "section_id": "replay-and-version",
+          "state_action_result": "The quieter character illustration below shows why this game should not be judged only by its busy streaming frame. It also makes room for close, personal scenes. Let a voiced line finish before confirming when you want to hear the performance; moving too quickly can flatten the difference between public enthusiasm and private unease. If you are replaying, first check the current menu for the controls it offers rather than importing keyboard shortcuts from another visual novel."
+        }
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "going-live-story-and-scope-1",
+          "target_section": "story-and-scope",
+          "visible_fact": "The stream window places chat and a phone beside the current scene.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-going-live-interface"
+        },
+        {
+          "slot_id": "going-live-read-the-scene-1",
+          "target_section": "read-the-scene",
+          "visible_fact": "A close character scene in the Going Live! prototype.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-going-live-mechanic"
+        },
+        {
+          "slot_id": "going-live-replay-and-version-1",
+          "target_section": "replay-and-version",
+          "visible_fact": "The broadcast window gives public chat a separate space.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-going-live-feedback"
+        }
+      ],
+      "youtube_research": {
+        "searched_at": "2026-10-08",
+        "query_directions": [
+          "Going Live Jenny Vi Pham gameplay fan account",
+          "Going Live visual novel all endings"
+        ],
+        "candidate_media_ids": [
+          "youtube-going-live"
+        ],
+        "adopted_media_ids": [
+          "youtube-going-live"
+        ],
+        "decision": "adopted",
+        "reason": "The public YouTube watch page and privacy-enhanced embed loaded without an age gate; the visually reviewed opening matches the game, and the full-session format adds continuous action after the complete article."
+      },
+      "evidence_ids": [
+        "evidence-006",
+        "evidence-018"
+      ],
+      "unsupported_claims": [
+        "Unannounced future routes or mechanics are already playable",
+        "Three endings, 14k words and five CGs in the canceled prototype"
+      ],
+      "visible_non_whitespace_before_video": 4766,
+      "content_status": "media-complete"
+    },
+    {
+      "game_id": "first-base",
+      "game_identity": "First Base",
+      "checked_at": "2026-10-08",
+      "version_scope": "Full release 1.6 checked 2026-10-08; selected video shows an older build",
+      "primary_player_task": "Meet college baseball ace Dakota Cly in a complete visual novel with six very different endings.",
+      "unique_gameplay_hook": "A sporty campus romance uses six endings to turn ordinary social choices into survival decisions.",
+      "verified_inputs": [
+        "Pointer advances dialogue and selects choices",
+        "Name entry accepts keyboard input",
+        "The current browser wrapper responds to normal pointer input"
+      ],
+      "objective_and_progression": "Conversation decisions accumulate toward six endings: three survival results and three death results.",
+      "failure_conditions_and_common_traps": "Advice inferred from older demo footage can mislabel a current 1.6 branch; skipping warning signs can end a route early.",
+      "first_run_advice": "Treat the current game's choice wording as authoritative and save before a conversation that changes the protagonist's safety.",
+      "browser_device_save_audio": "Current HTML5 upload was verified separately from the older walkthrough; mobile layout is not promised beyond the creator's current build.",
+      "content_risk": "Mature yandere horror and death outcomes; the current page is marked 17+.",
+      "player_questions": [
+        "Dakota Cly, beyond the baseball field",
+        "Customise the protagonist, then start reading",
+        "Six endings are not six final buttons",
+        "Read your first college encounter",
+        "Mouse, menus and name entry",
+        "Before the romance turns threatening",
+        "Optional later-scene example",
+        "Before you start: player questions"
+      ],
+      "explainable_scenes": [
+        "Opening or title state that confirms this game",
+        "A live interaction state tied to the page's unique mechanic",
+        "Visible result or recovery state that changes the player's next decision"
+      ],
+      "concrete_cases": [
+        {
+          "section_id": "story-and-scope",
+          "state_action_result": "First Base begins with a college meet-cute around the baseball team's ace, Dakota Cly. It is a yandere visual novel rather than a baseball game: you will not swing a bat, build a roster or chase a sports score. The field establishes the social setting for a story about an increasingly dangerous attachment. If you arrived because of the title, expect dialogue and decisions instead of innings. The question is what unfolds around Dakota, not whether you can win a match."
+        },
+        {
+          "section_id": "read-the-scene",
+          "state_action_result": "After entering a name and pronouns, take a moment to read the actual opening line before using skip. A customised name can make the conversation easier to follow, but it does not tell you which choice is safe. The daytime campus scene below is a useful visual baseline: look at who is speaking, where the protagonist is and which responses are offered. Later changes in setting will mean more if you have not hurried through the ordinary beginning."
+        },
+        {
+          "section_id": "optional-scene-example",
+          "state_action_result": "Spoiler-disclosed later scene; not an opening control example."
+        }
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "first-base-story-and-scope-1",
+          "target_section": "story-and-scope",
+          "visible_fact": "Dakota speaks in a daytime college setting.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-first-base-interface"
+        },
+        {
+          "slot_id": "first-base-read-the-scene-1",
+          "target_section": "read-the-scene",
+          "visible_fact": "A darker conversation scene with Dakota.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-first-base-mechanic"
+        },
+        {
+          "slot_id": "first-base-optional-scene-example-1",
+          "target_section": "optional-scene-example",
+          "visible_fact": "A later scene with violent imagery; shown only after opening the spoiler warning.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-first-base-feedback"
+        }
+      ],
+      "youtube_research": {
+        "searched_at": "2026-10-08",
+        "query_directions": [
+          "First Base Frogcake gameplay sporty yandere",
+          "First Base visual novel six endings guide"
+        ],
+        "candidate_media_ids": [
+          "youtube-first-base"
+        ],
+        "adopted_media_ids": [
+          "youtube-first-base"
+        ],
+        "decision": "adopted",
+        "reason": "The public YouTube watch page and privacy-enhanced embed loaded without an age gate; the visually reviewed opening matches the game, and the full-session format adds continuous action after the complete article."
+      },
+      "evidence_ids": [
+        "evidence-007",
+        "evidence-019"
+      ],
+      "unsupported_claims": [
+        "Every behavior in the older walkthrough is unchanged in the current build"
+      ],
+      "visible_non_whitespace_before_video": 4485,
+      "content_status": "media-complete"
+    },
+    {
+      "game_id": "the-stranger-from-the-bus-stop",
+      "game_identity": "The stranger from the bus stop",
+      "checked_at": "2026-10-08",
+      "version_scope": "Browser version 1.1 checked 2026-10-08",
+      "primary_player_task": "A brief encounter at a bus stop becomes an unsettling four-ending story about unwanted attention.",
+      "unique_gameplay_hook": "A 15–20 minute meeting uses a small numerical clue and compact choices to produce four endings and four CGs.",
+      "verified_inputs": [
+        "Pointer advances and chooses",
+        "A text box may behave differently on phones",
+        "The browser title and opening were verified"
+      ],
+      "objective_and_progression": "Observing the clue and changing later responses opens distinct short outcomes.",
+      "failure_conditions_and_common_traps": "Missing the number context or struggling with mobile text entry can block the intended choice rather than the story itself.",
+      "first_run_advice": "Write down the number as it appears, save before entering text, and switch to desktop if the mobile text field will not accept input.",
+      "browser_device_save_audio": "The creator notes a phone text-box limitation; desktop keyboard entry is the safer path for that step.",
+      "content_risk": "Short horror tension and ending spoilers; keep the numerical solution out of cards and alt text.",
+      "player_questions": [
+        "One ordinary stop, four possible outcomes",
+        "Notice the setting as well as the stranger",
+        "Replay a short story without spoiling its clues",
+        "Begin with one uninterrupted encounter",
+        "Small menus and deliberate clicks",
+        "Stalking themes and the launcher quirk",
+        "Before you start: player questions"
+      ],
+      "explainable_scenes": [
+        "Opening or title state that confirms this game",
+        "A live interaction state tied to the page's unique mechanic",
+        "Visible result or recovery state that changes the player's next decision"
+      ],
+      "concrete_cases": [
+        {
+          "section_id": "story-and-scope",
+          "state_action_result": "The stranger from the bus stop uses a familiar, uneventful place to begin a short psychological-horror visual novel. A chance conversation becomes something much less comfortable. The protagonist is gender-neutral, and the stranger's attention is the centre of the story. There is no driving, timetable puzzle or public-transport simulator hidden behind the title. Your task is to read the encounter and select responses as the story asks for them, then see where that particular run leads."
+        },
+        {
+          "section_id": "read-the-scene",
+          "state_action_result": "The first conversation screenshot below shows the stranger against a dark exterior scene, while the protagonist's dialogue portrait occupies another part of the frame. Read the speaker label, not just the largest character. This matters when a story changes between what someone says and what the protagonist thinks. If you accidentally move past a line, check the visible history control. Do not assume a thought and an offered response are the same kind of input."
+        },
+        {
+          "section_id": "replay-and-version",
+          "state_action_result": "After one blind outcome, try a second run with a single earlier response changed. Note the point where the narration differs, if it does, and continue to the next choice. If the text rejoins the same scene, that is a result rather than wasted effort. A four-ending count does not establish four equally sized routes or four separate final buttons. Keep your observations small and literal instead of treating every brief expression as proof of a hidden trust statistic."
+        }
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "the-stranger-from-the-bus-stop-story-and-scope-1",
+          "target_section": "story-and-scope",
+          "visible_fact": "The stranger speaks during an exterior conversation.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-the-stranger-from-the-bus-stop-interface"
+        },
+        {
+          "slot_id": "the-stranger-from-the-bus-stop-read-the-scene-1",
+          "target_section": "read-the-scene",
+          "visible_fact": "Speaker portraits distinguish the protagonist’s lines from the stranger’s.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-the-stranger-from-the-bus-stop-mechanic"
+        },
+        {
+          "slot_id": "the-stranger-from-the-bus-stop-replay-and-version-1",
+          "target_section": "replay-and-version",
+          "visible_fact": "An interior scene changes the setting of the encounter.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-the-stranger-from-the-bus-stop-feedback"
+        }
+      ],
+      "youtube_research": {
+        "searched_at": "2026-10-08",
+        "query_directions": [
+          "The stranger from the bus stop game numbers gameplay",
+          "The stranger from the bus stop four endings mobile text box"
+        ],
+        "candidate_media_ids": [
+          "youtube-the-stranger-from-the-bus-stop"
+        ],
+        "adopted_media_ids": [
+          "youtube-the-stranger-from-the-bus-stop"
+        ],
+        "decision": "adopted",
+        "reason": "The public YouTube watch page and privacy-enhanced embed loaded without an age gate; the visually reviewed opening matches the game, and the full-session format adds continuous action after the complete article."
+      },
+      "evidence_ids": [
+        "evidence-008",
+        "evidence-020"
+      ],
+      "unsupported_claims": [
+        "Unannounced future routes or mechanics are already playable"
+      ],
+      "visible_non_whitespace_before_video": 4382,
+      "content_status": "media-complete"
+    },
+    {
+      "game_id": "trapped-with-jester",
+      "game_identity": "Trapped with Jester",
+      "checked_at": "2026-10-08",
+      "version_scope": "Current itch browser release checked 2026-10-08",
+      "primary_player_task": "Wake beside a talkative jester in a short, fully voiced conversation with multiple endings.",
+      "unique_gameplay_hook": "A roughly 1,000-word voiced confrontation compresses six endings into a single claustrophobic scene.",
+      "verified_inputs": [
+        "Pointer advances dialogue and choices",
+        "Audio is part of the intended presentation",
+        "The web build can stutter compared with downloads"
+      ],
+      "objective_and_progression": "Small responses shift the jester's reaction and separate main from alternate outcomes.",
+      "failure_conditions_and_common_traps": "Rapid clicking can skip voiced context, while browser stutter can look like a frozen choice.",
+      "first_run_advice": "Let the first line of a voiced response play, wait for the choice state, and reload only after confirming that the browser has not merely paused.",
+      "browser_device_save_audio": "The creator warns that the web version can lag or differ in sound; downloads are the comparison point when available.",
+      "content_risk": "Threatening confinement, manipulation, and dark route outcomes.",
+      "player_questions": [
+        "A captive conversation, not a carnival game",
+        "Let the voice and expression finish",
+        "Use the ending gallery as a replay record",
+        "Start with a short voiced run",
+        "Dialogue input and browser performance",
+        "Warnings behind the playful delivery",
+        "Before you start: player questions"
+      ],
+      "explainable_scenes": [
+        "Opening or title state that confirms this game",
+        "A live interaction state tied to the page's unique mechanic",
+        "Visible result or recovery state that changes the player's next decision"
+      ],
+      "concrete_cases": [
+        {
+          "section_id": "story-and-scope",
+          "state_action_result": "Trapped with Jester opens with a disorienting situation and an insistent companion. Its compact visual-novel format keeps the focus on the jester's conversation rather than an explorable carnival or a collection of action minigames. Read what the protagonist knows when the scene starts and let the exchange unfold. The character's exuberant delivery is part of the unease: a joke and a threat can sit close together without the game becoming a conventional comedy."
+        },
+        {
+          "section_id": "read-the-scene",
+          "state_action_result": "The jester is voiced, so give the first exchange time to finish if sound is comfortable for you. Read the line and look at the expression together before choosing a response. Repeated clicks can make a short scene feel abrupt simply because you have moved past its delivery. If you prefer quiet play, the written dialogue remains the practical reference; there is no need to raise volume just to interpret the menu or identify the current choice."
+        },
+        {
+          "section_id": "replay-and-version",
+          "state_action_result": "The ending gallery provides a clearer record than trying to remember every final illustration. Check it after finishing a route, then return to a save before a choice you want to compare. Avoid opening a walkthrough on the first run if you want the jester's reversals to arrive naturally. Seeing an unfilled card is an invitation to replay, not proof that the current web build lacks a required download or secret account unlock."
+        }
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "trapped-with-jester-story-and-scope-1",
+          "target_section": "story-and-scope",
+          "visible_fact": "The jester’s dialogue and character art share a close conversational frame.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-trapped-with-jester-interface"
+        },
+        {
+          "slot_id": "trapped-with-jester-read-the-scene-1",
+          "target_section": "read-the-scene",
+          "visible_fact": "Six cards appear in the ending gallery.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-trapped-with-jester-mechanic"
+        },
+        {
+          "slot_id": "trapped-with-jester-replay-and-version-1",
+          "target_section": "replay-and-version",
+          "visible_fact": "Another language option changes the dialogue text while preserving the scene.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-trapped-with-jester-feedback"
+        }
+      ],
+      "youtube_research": {
+        "searched_at": "2026-10-08",
+        "query_directions": [
+          "Trapped with Jester gameplay all endings",
+          "Trapped with Jester web version lag sound"
+        ],
+        "candidate_media_ids": [
+          "youtube-trapped-with-jester"
+        ],
+        "adopted_media_ids": [
+          "youtube-trapped-with-jester"
+        ],
+        "decision": "adopted",
+        "reason": "The public YouTube watch page and privacy-enhanced embed loaded without an age gate; the visually reviewed opening matches the game, and the full-session format adds continuous action after the complete article."
+      },
+      "evidence_ids": [
+        "evidence-009",
+        "evidence-021"
+      ],
+      "unsupported_claims": [
+        "Unannounced future routes or mechanics are already playable"
+      ],
+      "visible_non_whitespace_before_video": 4247,
+      "content_status": "media-complete"
+    },
+    {
+      "game_id": "today-im-harvesting-you",
+      "game_identity": "Today, I'm Harvesting You!",
+      "checked_at": "2026-10-08",
+      "version_scope": "Current jam browser build checked 2026-10-08",
+      "primary_player_task": "A date and a desperate bargain turn into a click-and-select horror game made for the Harvest game jam.",
+      "unique_gameplay_hook": "A deliberately macabre harvest task turns target selection and object placement into the central interaction.",
+      "verified_inputs": [
+        "Pointer chooses targets and actions",
+        "Drag or click placement must land in the accepted area",
+        "No keyboard route is required for the basic loop"
+      ],
+      "objective_and_progression": "Correctly selected and placed harvest items advance the sequence.",
+      "failure_conditions_and_common_traps": "An item can appear placed while the active region has not registered; incorrect-instruction and sound faults are documented for the jam build.",
+      "first_run_advice": "Move deliberately, wait for the visual confirmation after each placement, and refresh only when the next state never appears.",
+      "browser_device_save_audio": "The browser build is pointer-led; the small placement targets make a larger screen more reliable than a phone.",
+      "content_risk": "Cartoon body-horror imagery and macabre harvesting.",
+      "player_questions": [
+        "Dating, debt and the harvest theme",
+        "Click choices—and recognise item selection",
+        "Reading the collector screen carefully",
+        "Choose a first date at your own pace",
+        "When an old instruction or hitbox misleads you",
+        "Graphic content beyond the soft character art",
+        "Before you start: player questions"
+      ],
+      "explainable_scenes": [
+        "Opening or title state that confirms this game",
+        "A live interaction state tied to the page's unique mechanic",
+        "Visible result or recovery state that changes the player's next decision"
+      ],
+      "concrete_cases": [
+        {
+          "section_id": "story-and-scope",
+          "state_action_result": "Today, I'm Harvesting You! begins with the language of dating and an urgent need for money. It was made for Ludum Dare 52, whose theme was Harvest, and the title becomes much darker than an ordinary farming joke. Expect a short horror game with text choices and item selection, not a field to cultivate or an endlessly repeatable crop economy. The appealing date portraits are part of its contrast with the later subject matter."
+        },
+        {
+          "section_id": "read-the-scene",
+          "state_action_result": "The early date screenshot below is useful for learning the conversation layout before the tone changes. Read the line, then choose one of the offered responses. Character artwork and a small heart-shaped decoration do not, by themselves, prove an affection meter exists. This page does not promise that praising a date improves a hidden total or that one romantic response guarantees a particular later result. Record the actual choice and its next scene if you intend to compare runs."
+        },
+        {
+          "section_id": "replay-and-version",
+          "state_action_result": "A collector request should be read literally as an instruction in that particular scene, not as an invitation to invent a broader crafting system. Check the displayed request, identify what can be selected, and compare the screen before and after one deliberate action. If a target appears offset, try the visible object's centre rather than clicking repeatedly along an edge. That is a practical response to the known hitbox problem; it does not establish an undisclosed scoring formula."
+        }
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "today-im-harvesting-you-story-and-scope-1",
+          "target_section": "story-and-scope",
+          "visible_fact": "Mr. Pierce appears during a date conversation.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-today-im-harvesting-you-interface"
+        },
+        {
+          "slot_id": "today-im-harvesting-you-read-the-scene-1",
+          "target_section": "read-the-scene",
+          "visible_fact": "An item-selection scene asks for a deliberate choice.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-today-im-harvesting-you-mechanic"
+        },
+        {
+          "slot_id": "today-im-harvesting-you-replay-and-version-1",
+          "target_section": "replay-and-version",
+          "visible_fact": "The collector request introduces a darker selection interface.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-today-im-harvesting-you-feedback"
+        }
+      ],
+      "youtube_research": {
+        "searched_at": "2026-10-08",
+        "query_directions": [
+          "Today I'm Harvesting You point and click gameplay",
+          "Today I'm Harvesting You web SFX harvest bug"
+        ],
+        "candidate_media_ids": [
+          "youtube-today-im-harvesting-you"
+        ],
+        "adopted_media_ids": [
+          "youtube-today-im-harvesting-you"
+        ],
+        "decision": "adopted",
+        "reason": "The public YouTube watch page and privacy-enhanced embed loaded without an age gate; the visually reviewed opening matches the game, and the full-session format adds continuous action after the complete article."
+      },
+      "evidence_ids": [
+        "evidence-010",
+        "evidence-022"
+      ],
+      "unsupported_claims": [
+        "Unannounced future routes or mechanics are already playable"
+      ],
+      "visible_non_whitespace_before_video": 4600,
+      "content_status": "media-complete"
+    },
+    {
+      "game_id": "my-own-sweet-dionaea",
+      "game_identity": "My Own Sweet Dionaea",
+      "checked_at": "2026-10-08",
+      "version_scope": "Demo 1.01 checked 2026-10-08",
+      "primary_player_task": "A botanist, an unhappy marriage and a strange plant meet in a lush, unsettling visual-novel demo.",
+      "unique_gameplay_hook": "A botanical caretaker relationship turns care choices into body-horror tension across a 5–6k-word demo.",
+      "verified_inputs": [
+        "Pointer advances text and selects care responses",
+        "The opening warning precedes risky scenes",
+        "The official wrapper was verified through its first dialogue"
+      ],
+      "objective_and_progression": "Care responses shape the current demo's tone and immediate branch feedback.",
+      "failure_conditions_and_common_traps": "Expecting announced future content creates false route goals; ignoring the warning can lead into material a player did not choose to see.",
+      "first_run_advice": "Read the content warning, save before a care decision, and judge only the feedback visible in demo 1.01.",
+      "browser_device_save_audio": "The HTML5 demo uses standard pointer input; no claim is made that every future route or platform is included.",
+      "content_risk": "17+ romantic body horror and unsettling plant imagery.",
+      "player_questions": [
+        "A greenhouse story about marriage and change",
+        "Read the botanical setting without inventing a simulator",
+        "A demo has a different completion goal",
+        "Start with the botanist’s situation",
+        "Readable dialogue and accessibility choices",
+        "Know the demo’s unsettling themes",
+        "Before you start: player questions"
+      ],
+      "explainable_scenes": [
+        "Opening or title state that confirms this game",
+        "A live interaction state tied to the page's unique mechanic",
+        "Visible result or recovery state that changes the player's next decision"
+      ],
+      "concrete_cases": [
+        {
+          "section_id": "story-and-scope",
+          "state_action_result": "My Own Sweet Dionaea follows a botanist whose work and marriage are both under strain. Walter, the husband, and Dionaea, the strange plant at the centre of the premise, belong to that personal story rather than a garden-management loop. The greenhouse gives the novel a distinctive setting: flowers, foliage and laboratory details frame conversations about responsibility and attachment. You are reading a character-driven demo, not balancing water, sunlight or crop yields."
+        },
+        {
+          "section_id": "read-the-scene",
+          "state_action_result": "In the screenshot below, Dionaea's dialogue sits within a densely illustrated greenhouse. Read the speaker name before attributing a statement to the botanist or another character. The surrounding plants establish atmosphere, but this page does not claim that every pot is an interactable inventory object. If the interface only offers a dialogue response, use that response. Clicking a decorative leaf repeatedly is not an alternative way to advance the plot."
+        },
+        {
+          "section_id": "replay-and-version",
+          "state_action_result": "The contrast between a colourful greenhouse and an unhappy personal situation is worth allowing time to develop. On a first reading, avoid reducing each line to whether it raises affection. A conversation can explain a work responsibility, disclose tension or simply establish a character's voice. There is no exact relationship threshold supplied here. When replaying, compare the actual new dialogue after one choice rather than assigning imagined points to expressions."
+        }
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "my-own-sweet-dionaea-story-and-scope-1",
+          "target_section": "story-and-scope",
+          "visible_fact": "The botanist speaks in the greenhouse.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-my-own-sweet-dionaea-interface"
+        },
+        {
+          "slot_id": "my-own-sweet-dionaea-read-the-scene-1",
+          "target_section": "read-the-scene",
+          "visible_fact": "Laboratory narration uses the same dialogue interface.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-my-own-sweet-dionaea-mechanic"
+        },
+        {
+          "slot_id": "my-own-sweet-dionaea-replay-and-version-1",
+          "target_section": "replay-and-version",
+          "visible_fact": "Another greenhouse conversation with the botanist.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-my-own-sweet-dionaea-feedback"
+        }
+      ],
+      "youtube_research": {
+        "searched_at": "2026-10-08",
+        "query_directions": [
+          "My Own Sweet Dionaea demo gameplay choices",
+          "My Own Sweet Dionaea 1.01 demo endings"
+        ],
+        "candidate_media_ids": [
+          "youtube-my-own-sweet-dionaea"
+        ],
+        "adopted_media_ids": [
+          "youtube-my-own-sweet-dionaea"
+        ],
+        "decision": "adopted",
+        "reason": "The public YouTube watch page and privacy-enhanced embed loaded without an age gate; the visually reviewed opening matches the game, and the full-session format adds continuous action after the complete article."
+      },
+      "evidence_ids": [
+        "evidence-011",
+        "evidence-023"
+      ],
+      "unsupported_claims": [
+        "Unannounced future routes or mechanics are already playable"
+      ],
+      "visible_non_whitespace_before_video": 4462,
+      "content_status": "media-complete"
+    },
+    {
+      "game_id": "overdose",
+      "game_identity": "OVERD0SE",
+      "checked_at": "2026-10-08",
+      "version_scope": "Current September 2026 web upload checked 2026-10-08; selected video is an earlier 2026 demo",
+      "primary_player_task": "A car accident leads to a disturbing doctor-romance story with inventory, affinity and awareness systems.",
+      "unique_gameplay_hook": "A dense hospital visual novel exposes relationship pressure through multiple visible state systems and an inventory.",
+      "verified_inputs": [
+        "Pointer advances dialogue and selects choices",
+        "Inventory items are selected through the interface",
+        "Visible affinity, anxiety, and awareness indicators require separate reading"
+      ],
+      "objective_and_progression": "Choices and item use alter the route's tracked relationship and mental-state values.",
+      "failure_conditions_and_common_traps": "Optimizing one meter without watching the others can push the scene into an unintended state; older route videos may not match the current upload.",
+      "first_run_advice": "Pause after every visible meter change, note the decision that caused it, and verify an item's effect before consuming the next choice.",
+      "browser_device_save_audio": "The current official browser upload reached Day 1 in testing; performance depends on the external frame and a larger screen helps with the dense interface.",
+      "content_risk": "Strong psychological-horror and relationship-abuse themes; creator warnings should be read before play.",
+      "player_questions": [
+        "A doctor-romance game with several kinds of state",
+        "Read affinity, anxiety and awareness separately",
+        "Use inventory as its own interface",
+        "Begin at the current day-one opening",
+        "Day-based saves and build changes",
+        "Strong medical and psychological horror warnings",
+        "Optional later-scene example",
+        "Before you start: player questions"
+      ],
+      "explainable_scenes": [
+        "Opening or title state that confirms this game",
+        "A live interaction state tied to the page's unique mechanic",
+        "Visible result or recovery state that changes the player's next decision"
+      ],
+      "concrete_cases": [
+        {
+          "section_id": "read-the-scene",
+          "state_action_result": "The example below shows distinct anxiety and awareness indicators. Read their labels instead of assuming every bar is health or affection. A visible value is a state observation, not a universal route formula: the page does not supply safe thresholds, promise that awareness always helps, or claim that lowering anxiety always produces a good outcome. When a value changes, record the action and the scene in which it changed before trying to generalise from it."
+        },
+        {
+          "section_id": "replay-and-version",
+          "state_action_result": "The phone and item-related screen below illustrates why reading text is not the only interface task here. Open the inventory controls when the game offers them and inspect the actual item labels. Do not presume that possession guarantees a later action: a scene may ask for a separate decision, and this page does not invent a hidden key requirement. What matters for your notes is whether the current game visibly adds an item or acknowledges an interaction."
+        },
+        {
+          "section_id": "optional-scene-example",
+          "state_action_result": "Spoiler-disclosed later scene; not an opening control example."
+        }
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "overdose-read-the-scene-1",
+          "target_section": "read-the-scene",
+          "visible_fact": "A phone appears alongside the anxiety and awareness labels.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-overdose-mechanic"
+        },
+        {
+          "slot_id": "overdose-replay-and-version-1",
+          "target_section": "replay-and-version",
+          "visible_fact": "A dialogue scene includes relationship and state indicators.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-overdose-feedback"
+        },
+        {
+          "slot_id": "overdose-optional-scene-example-1",
+          "target_section": "optional-scene-example",
+          "visible_fact": "An earlier-build outcome screen; route spoilers.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-overdose-interface"
+        }
+      ],
+      "youtube_research": {
+        "searched_at": "2026-10-08",
+        "query_directions": [
+          "OVERD0SE Mooki mechanics anxiety awareness affinity gameplay",
+          "OVERD0SE web version Day 8 gameplay"
+        ],
+        "candidate_media_ids": [
+          "youtube-overdose"
+        ],
+        "adopted_media_ids": [
+          "youtube-overdose"
+        ],
+        "decision": "adopted",
+        "reason": "The public YouTube watch page and privacy-enhanced embed loaded without an age gate; the visually reviewed opening matches the game, and the full-session format adds continuous action after the complete article."
+      },
+      "evidence_ids": [
+        "evidence-012",
+        "evidence-024"
+      ],
+      "unsupported_claims": [
+        "Every behavior in the older walkthrough is unchanged in the current build"
+      ],
+      "visible_non_whitespace_before_video": 4548,
+      "content_status": "media-complete"
+    },
+    {
+      "game_id": "devour-me-gently",
+      "game_identity": "Devour Me Gently",
+      "checked_at": "2026-10-08",
+      "version_scope": "Current short in-development demo checked 2026-10-08",
+      "primary_player_task": "Wake injured in a stranger’s apartment and question his gentle care in a brief psychological-horror demo.",
+      "unique_gameplay_hook": "A few-minute kidnapping setup uses immediate caretaker dialogue and a compact ending boundary.",
+      "verified_inputs": [
+        "Keyboard enters the player name",
+        "Pointer advances and chooses",
+        "Smartphone and desktop input are both listed by the creator"
+      ],
+      "objective_and_progression": "Name entry leads into a small set of dialogue choices and the current demo boundary.",
+      "failure_conditions_and_common_traps": "Mistaking the brief endpoint for a loading failure or expecting later content can make a completed demo look broken.",
+      "first_run_advice": "Confirm the name field before continuing, read the short route at normal speed, and treat the explicit ending card as the present finish.",
+      "browser_device_save_audio": "The creator lists keyboard, mouse, and smartphone support; the verified external frame reached name entry.",
+      "content_risk": "Kidnapping, confinement, and possessive behavior.",
+      "player_questions": [
+        "An apartment, an injury and a caretaker’s story",
+        "Read the actual responses you are offered",
+        "Where this short demo ends",
+        "Give the opening a complete reading",
+        "Name entry, taps and dialogue",
+        "Gentle delivery does not mean a safe premise",
+        "Before you start: player questions"
+      ],
+      "explainable_scenes": [
+        "Opening or title state that confirms this game",
+        "A live interaction state tied to the page's unique mechanic",
+        "Visible result or recovery state that changes the player's next decision"
+      ],
+      "concrete_cases": [
+        {
+          "section_id": "story-and-scope",
+          "state_action_result": "Devour Me Gently begins after an unexplained injury. The protagonist wakes in a stranger's apartment without a clear memory of what happened, while a soft-spoken caretaker offers food, treatment and familiarity. The central tension comes from that uneven knowledge. It is a short psychological-horror visual-novel demo, not a medical simulation in which you select a treatment plan. Take the caretaker's account as part of the story being told, not as objective information outside it."
+        },
+        {
+          "section_id": "read-the-scene",
+          "state_action_result": "The opening screenshot below establishes the injured protagonist's conversation with the caretaker. Read the line before responding. In a compact script, rapidly advancing even a few lines can remove most of the context for a later answer. If you want to compare choices, keep a save at the point where the menu actually offers them; do not assume that a question you would like to ask is present merely because it fits the premise."
+        },
+        {
+          "section_id": "replay-and-version",
+          "state_action_result": "The title screen below is another useful reference when returning for a replay. Use the current menu to load, start or change preferences. If you finish the demo and return here, look for an explicit continuation before assuming that another mouse click will extend the script. Short projects can use a conventional visual-novel menu without supporting the length or route complexity of a full commercial release."
+        }
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "devour-me-gently-story-and-scope-1",
+          "target_section": "story-and-scope",
+          "visible_fact": "The caretaker speaks during the opening conversation.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-devour-me-gently-interface"
+        },
+        {
+          "slot_id": "devour-me-gently-read-the-scene-1",
+          "target_section": "read-the-scene",
+          "visible_fact": "The Devour Me Gently title menu.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-devour-me-gently-mechanic"
+        },
+        {
+          "slot_id": "devour-me-gently-replay-and-version-1",
+          "target_section": "replay-and-version",
+          "visible_fact": "The protagonist is offered a choice to thank or question the caretaker.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-devour-me-gently-feedback"
+        }
+      ],
+      "youtube_research": {
+        "searched_at": "2026-10-08",
+        "query_directions": [
+          "Devour Me Gently full demo yandere visual novel",
+          "Devour Me Gently mobile gameplay controls"
+        ],
+        "candidate_media_ids": [
+          "youtube-devour-me-gently"
+        ],
+        "adopted_media_ids": [
+          "youtube-devour-me-gently"
+        ],
+        "decision": "adopted",
+        "reason": "The public YouTube watch page and privacy-enhanced embed loaded without an age gate; the visually reviewed opening matches the game, and the full-session format adds continuous action after the complete article."
+      },
+      "evidence_ids": [
+        "evidence-013",
+        "evidence-025"
+      ],
+      "unsupported_claims": [
+        "Unannounced future routes or mechanics are already playable"
+      ],
+      "visible_non_whitespace_before_video": 4154,
+      "content_status": "media-complete"
+    },
+    {
+      "game_id": "dystopia-the-jesters-obsession",
+      "game_identity": "Dystopia: The Jester's Obsession",
+      "checked_at": "2026-10-08",
+      "version_scope": "Demo v1 checked 2026-10-08",
+      "primary_player_task": "Meet Fai in a monochrome void and explore four demo endings through affection- and point-gated dialogue.",
+      "unique_gameplay_hook": "A monochrome jester encounter hides route values behind dialogue reactions and four compact endings.",
+      "verified_inputs": [
+        "Keyboard enters the player name",
+        "Pointer advances and selects",
+        "Some dialogue availability reflects affection or point state"
+      ],
+      "objective_and_progression": "Choices change relationship values and gate later dialogue on the path to four current demo endings.",
+      "failure_conditions_and_common_traps": "Assuming every announced route exists now or ignoring a changed reaction can send the run toward the same outcome.",
+      "first_run_advice": "Save before the first affection choice, compare the jester's response rather than only the button text, and change one choice per replay.",
+      "browser_device_save_audio": "The official HTML5 wrapper reached name entry; this page describes demo v1, not planned future content.",
+      "content_risk": "Obsessive behavior, confinement themes, and ending spoilers.",
+      "player_questions": [
+        "Fai’s friendship in a monochrome void",
+        "Affection and points are two named systems",
+        "Four endings now; future routes later",
+        "Set a name and begin the conversation",
+        "Observe unlocked dialogue without guessing thresholds",
+        "An unsettling demo, not its planned adult route",
+        "Before you start: player questions"
+      ],
+      "explainable_scenes": [
+        "Opening or title state that confirms this game",
+        "A live interaction state tied to the page's unique mechanic",
+        "Visible result or recovery state that changes the player's next decision"
+      ],
+      "concrete_cases": [
+        {
+          "section_id": "story-and-scope",
+          "state_action_result": "Dystopia: The Jester's Obsession begins in a monochrome void with Fai, a jester who presents himself as a friend. Its stark character art and unusual setting make the conversation feel detached from an ordinary date. This is a visual-novel demo rather than a carnival exploration game. Start by reading the protagonist's situation and Fai's introduction before assigning meaning to his friendliness. The first claim of friendship is part of the mystery, not an instruction to trust every response."
+        },
+        {
+          "section_id": "read-the-scene",
+          "state_action_result": "The expression screenshot below is an example of the story's visual language, not a guide to a hidden value. Read the accompanying text before deciding what Fai's face means in that moment. If a response unlocks a new line on a replay, note the prior choices you actually made. Do not assume curiosity always contributes to points or kindness always contributes to affection; the current creator description does not provide that mapping."
+        },
+        {
+          "section_id": "replay-and-version",
+          "state_action_result": "Four endings are the present demo's completion target. Carnival and restaurant routes, a gallery, blinking animation, pixel-style voices, a Portuguese translation and an optional adult route are described as future plans. Their absence is not an input error and cannot be repaired with browser fullscreen. Read the menus and content this version actually offers. An announced idea should not become a promise that the player must somehow unlock."
+        }
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "dystopia-the-jesters-obsession-story-and-scope-1",
+          "target_section": "story-and-scope",
+          "visible_fact": "Fai speaks within the monochrome dialogue frame.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-dystopia-the-jesters-obsession-interface"
+        },
+        {
+          "slot_id": "dystopia-the-jesters-obsession-read-the-scene-1",
+          "target_section": "read-the-scene",
+          "visible_fact": "Fai’s expression changes during the conversation.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-dystopia-the-jesters-obsession-mechanic"
+        },
+        {
+          "slot_id": "dystopia-the-jesters-obsession-replay-and-version-1",
+          "target_section": "replay-and-version",
+          "visible_fact": "A darker scene changes the background behind Fai.",
+          "non_duplicate_requirement": "Independent captured scene; artwork does not establish hidden mechanics.",
+          "adopted_media_id": "media-dystopia-the-jesters-obsession-feedback"
+        }
+      ],
+      "youtube_research": {
+        "searched_at": "2026-10-08",
+        "query_directions": [
+          "Dystopia The Jester's Obsession affection points gameplay",
+          "Dystopia Jester Obsession demo v1 endings"
+        ],
+        "candidate_media_ids": [
+          "youtube-dystopia-the-jesters-obsession"
+        ],
+        "adopted_media_ids": [
+          "youtube-dystopia-the-jesters-obsession"
+        ],
+        "decision": "adopted",
+        "reason": "The public YouTube watch page and privacy-enhanced embed loaded without an age gate; the visually reviewed opening matches the game, and the full-session format adds continuous action after the complete article."
+      },
+      "evidence_ids": [
+        "evidence-014",
+        "evidence-026"
+      ],
+      "unsupported_claims": [
+        "Unannounced future routes or mechanics are already playable"
+      ],
+      "visible_non_whitespace_before_video": 4428,
+      "content_status": "media-complete"
+    }
+  ]
+}

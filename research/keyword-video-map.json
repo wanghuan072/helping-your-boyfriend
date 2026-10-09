@@ -1,0 +1,588 @@
+{
+  "observedAt": "2026-10-08",
+  "language": "en",
+  "market": "global-English",
+  "games": [
+    {
+      "gameId": "helping-your-boyfriend",
+      "standardName": "Helping Your Boyfriend",
+      "queries": [
+        {
+          "playerTask": "Identify the exact new game and its real controls",
+          "text": "Helping Your Boyfriend game controls minigames",
+          "entry": "web-and-youtube",
+          "resultRange": "official itch.io page plus current videos"
+        },
+        {
+          "playerTask": "See how choices and minigames connect to endings",
+          "text": "Helping Your Boyfriend gameplay all endings",
+          "entry": "youtube",
+          "resultRange": "full-session candidates"
+        },
+        {
+          "playerTask": "Separate installation help from browser-play intent",
+          "text": "Helping Your Boyfriend Windows Android download play online",
+          "entry": "web",
+          "resultRange": "official download page and competing browser pages"
+        }
+      ],
+      "videos": [
+        {
+          "id": "F-ouLW_MDkY",
+          "title": "My Perfect Doctor Boyfriend Is A Yandere Serial Killer?! | Helping My Boyfriend - All Endings",
+          "publisher": "Hello Yinny",
+          "duration": "55:38",
+          "published": "observed as 6 days ago",
+          "versionScope": "2026 launch build",
+          "identity": "exact-game",
+          "format": "full-session",
+          "questions": [
+            "How do dialogue, affection and minigames appear in one run?",
+            "Which visual states can support non-spoiler explanations?"
+          ],
+          "watchInFlow07": [
+            "00:00-08:00 setup and controls",
+            "minigame transitions",
+            "ending branches with spoiler labels"
+          ],
+          "initialObservation": "Playback visibly showed Adrian, the Helping Your Boyfriend dialogue UI and affection marker.",
+          "advanceToFlow07": true
+        }
+      ],
+      "sameNameExclusions": [
+        "relationship-advice pages using the ordinary phrase helping your boyfriend",
+        "unrelated gaming-couple discussions"
+      ],
+      "flow07Review": {
+        "status": "opening-identity-verified",
+        "reviewedAt": "2026-10-08",
+        "analysisId": "video-analysis-helping-your-boyfriend",
+        "limitation": "Only visually verified ranges support claims; no caption or description text is reused."
+      }
+    },
+    {
+      "gameId": "going-live",
+      "standardName": "Going Live!",
+      "queries": [
+        {
+          "playerTask": "Understand the stan-account loop",
+          "text": "Going Live Jenny Vi Pham gameplay fan account",
+          "entry": "youtube",
+          "resultRange": "full playthroughs"
+        },
+        {
+          "playerTask": "Confirm endings and current canceled-prototype scope",
+          "text": "Going Live visual novel all endings",
+          "entry": "web-and-youtube",
+          "resultRange": "creator page and ending videos"
+        }
+      ],
+      "videos": [
+        {
+          "id": "O4b30uS8QL0",
+          "title": "Going Live - ALL ENDINGS",
+          "publisher": "Your Game",
+          "duration": "1:28:30",
+          "published": "observed as 2 years ago",
+          "versionScope": "current itch browser prototype",
+          "identity": "exact-game",
+          "format": "full-session",
+          "questions": [
+            "How is popularity changed?",
+            "What causes the three endings?"
+          ],
+          "watchInFlow07": [
+            "opening warning and setup",
+            "first fan-management interaction",
+            "ending decision points"
+          ],
+          "initialObservation": "Playback showed the same title and black-and-white opening used by the tested build.",
+          "advanceToFlow07": true
+        }
+      ],
+      "flow07Review": {
+        "status": "opening-identity-verified",
+        "reviewedAt": "2026-10-08",
+        "analysisId": "video-analysis-going-live",
+        "limitation": "Only visually verified ranges support claims; no caption or description text is reused."
+      }
+    },
+    {
+      "gameId": "first-base",
+      "standardName": "First Base",
+      "queries": [
+        {
+          "playerTask": "Learn the college/baseball opening and route inputs",
+          "text": "First Base Frogcake gameplay sporty yandere",
+          "entry": "youtube",
+          "resultRange": "commentated playthrough"
+        },
+        {
+          "playerTask": "Verify the full-release ending structure",
+          "text": "First Base visual novel six endings guide",
+          "entry": "web-and-youtube",
+          "resultRange": "creator page, devlog and videos"
+        }
+      ],
+      "videos": [
+        {
+          "id": "T_BrGwWYwDI",
+          "title": "Hey Sis - Avaris Plays 'First Base' - Sporty Yandere",
+          "publisher": "Avaris Harkay",
+          "duration": "9:18",
+          "published": "observed as 2 years ago",
+          "versionScope": "older demo footage; compare with 1.6",
+          "identity": "different-version",
+          "format": "full-session",
+          "questions": [
+            "Which early interactions remain in 1.6?",
+            "What advice is version-safe?"
+          ],
+          "watchInFlow07": [
+            "opening and first choice",
+            "compare title/menu and dialogue to 1.6 capture"
+          ],
+          "initialObservation": "Playback visibly showed First Base on itch.io, but the footage predates the current full release.",
+          "advanceToFlow07": true
+        }
+      ],
+      "flow07Review": {
+        "status": "opening-identity-verified",
+        "reviewedAt": "2026-10-08",
+        "analysisId": "video-analysis-first-base",
+        "limitation": "Selected video is an older build; current mechanics are bounded by the official current page and verified embed."
+      }
+    },
+    {
+      "gameId": "the-stranger-from-the-bus-stop",
+      "standardName": "The stranger from the bus stop",
+      "queries": [
+        {
+          "playerTask": "Understand the number clue without exposing its solution",
+          "text": "The stranger from the bus stop game numbers gameplay",
+          "entry": "youtube",
+          "resultRange": "focused playthrough"
+        },
+        {
+          "playerTask": "Confirm all four endings and mobile limits",
+          "text": "The stranger from the bus stop four endings mobile text box",
+          "entry": "web-and-youtube",
+          "resultRange": "creator page, devlog, videos"
+        }
+      ],
+      "videos": [
+        {
+          "id": "f2dXK0nw5zE",
+          "title": "Ancient Numbers- The Stranger at the Bus Stop",
+          "publisher": "WahWahQueenMew",
+          "duration": "27:35",
+          "published": "observed as 6 months ago",
+          "versionScope": "browser version 1.1",
+          "identity": "exact-game",
+          "format": "full-session",
+          "questions": [
+            "How are the numbers presented?",
+            "Which choices lead to visibly different outcomes?"
+          ],
+          "watchInFlow07": [
+            "00:00-05:00 title and opening",
+            "number-clue discovery",
+            "ending transitions"
+          ],
+          "initialObservation": "Playback showed the same title screen and menu as the tested browser build.",
+          "advanceToFlow07": true
+        }
+      ],
+      "flow07Review": {
+        "status": "opening-identity-verified",
+        "reviewedAt": "2026-10-08",
+        "analysisId": "video-analysis-the-stranger-from-the-bus-stop",
+        "limitation": "Only visually verified ranges support claims; no caption or description text is reused."
+      }
+    },
+    {
+      "gameId": "trapped-with-jester",
+      "standardName": "Trapped with Jester",
+      "queries": [
+        {
+          "playerTask": "See the voiced carriage encounter and six outcomes",
+          "text": "Trapped with Jester gameplay all endings",
+          "entry": "youtube",
+          "resultRange": "full-session and ending clips"
+        },
+        {
+          "playerTask": "Check browser lag and sound differences",
+          "text": "Trapped with Jester web version lag sound",
+          "entry": "web",
+          "resultRange": "creator warning and player demonstrations"
+        }
+      ],
+      "videos": [
+        {
+          "id": "smqy6ZgsZXU",
+          "title": "Trapped With Jester (All Endings) - You and a strange being are alone in a strange room.",
+          "publisher": "5MG Games",
+          "duration": "17:50",
+          "published": "date unavailable in initial pass",
+          "versionScope": "itch browser release",
+          "identity": "exact-game",
+          "format": "full-session",
+          "questions": [
+            "What changes between main and alternate endings?",
+            "Which scenes explain choice feedback without spoilers?"
+          ],
+          "watchInFlow07": [
+            "first awakening",
+            "first choice",
+            "one main and one alternate branch with spoiler controls"
+          ],
+          "initialObservation": "Playback began on a Trapped with Jester branded opening.",
+          "advanceToFlow07": true
+        }
+      ],
+      "flow07Review": {
+        "status": "opening-identity-verified",
+        "reviewedAt": "2026-10-08",
+        "analysisId": "video-analysis-trapped-with-jester",
+        "limitation": "Only visually verified ranges support claims; no caption or description text is reused."
+      }
+    },
+    {
+      "gameId": "today-im-harvesting-you",
+      "standardName": "Today, I'm Harvesting You!",
+      "queries": [
+        {
+          "playerTask": "See how item selection works",
+          "text": "Today I'm Harvesting You point and click gameplay",
+          "entry": "youtube",
+          "resultRange": "no-commentary full session"
+        },
+        {
+          "playerTask": "Find practical workarounds for web bugs",
+          "text": "Today I'm Harvesting You web SFX harvest bug",
+          "entry": "web-and-youtube",
+          "resultRange": "creator notes and playthrough"
+        }
+      ],
+      "videos": [
+        {
+          "id": "EAAR2KzU43s",
+          "title": "TODAY I'M HARVESTING YOU! (No Commentary)",
+          "publisher": "Plastic Fangs",
+          "duration": "26:21",
+          "published": "observed as 3 years ago",
+          "versionScope": "jam browser build",
+          "identity": "exact-game",
+          "format": "full-session",
+          "questions": [
+            "How are harvest targets selected?",
+            "Where can item placement fail?"
+          ],
+          "watchInFlow07": [
+            "opening",
+            "first harvest interface",
+            "one bug-prone placement"
+          ],
+          "initialObservation": "Playback showed a matching title card and game framing.",
+          "advanceToFlow07": true
+        }
+      ],
+      "flow07Review": {
+        "status": "opening-identity-verified",
+        "reviewedAt": "2026-10-08",
+        "analysisId": "video-analysis-today-im-harvesting-you",
+        "limitation": "Only visually verified ranges support claims; no caption or description text is reused."
+      }
+    },
+    {
+      "gameId": "my-own-sweet-dionaea",
+      "standardName": "My Own Sweet Dionaea",
+      "queries": [
+        {
+          "playerTask": "Understand care choices and body-horror progression",
+          "text": "My Own Sweet Dionaea demo gameplay choices",
+          "entry": "youtube",
+          "resultRange": "commentated demo playthrough"
+        },
+        {
+          "playerTask": "Separate demo facts from planned full game",
+          "text": "My Own Sweet Dionaea 1.01 demo endings",
+          "entry": "web-and-youtube",
+          "resultRange": "creator page and current video"
+        }
+      ],
+      "videos": [
+        {
+          "id": "x-zH-44dWqQ",
+          "title": "Yandere Plant Man Wants To Pollinate Me | My Own Sweet Dionaea DEMO",
+          "publisher": "Hello Yinny",
+          "duration": "30:17",
+          "published": "observed as 11 months ago",
+          "versionScope": "demo 1.01",
+          "identity": "exact-game",
+          "format": "full-session",
+          "questions": [
+            "Which care choices affect tone?",
+            "What content warning is visible before risky scenes?"
+          ],
+          "watchInFlow07": [
+            "setup",
+            "first Dionaea interaction",
+            "decision feedback"
+          ],
+          "initialObservation": "Playback showed the same Dionaea sprite, UI and title treatment as the tested build.",
+          "advanceToFlow07": true
+        }
+      ],
+      "flow07Review": {
+        "status": "opening-identity-verified",
+        "reviewedAt": "2026-10-08",
+        "analysisId": "video-analysis-my-own-sweet-dionaea",
+        "limitation": "Only visually verified ranges support claims; no caption or description text is reused."
+      }
+    },
+    {
+      "gameId": "overdose",
+      "standardName": "OVERD0SE",
+      "queries": [
+        {
+          "playerTask": "Understand affinity, anxiety and awareness",
+          "text": "OVERD0SE Mooki mechanics anxiety awareness affinity gameplay",
+          "entry": "web-and-youtube",
+          "resultRange": "official mechanics guide and route video"
+        },
+        {
+          "playerTask": "Check the current restored web version",
+          "text": "OVERD0SE web version Day 8 gameplay",
+          "entry": "web-and-youtube",
+          "resultRange": "recent creator devlog and playthrough"
+        }
+      ],
+      "videos": [
+        {
+          "id": "yKAlXh4ZToU",
+          "title": "Yandere Doctor - Overdose Demo - ALL ROUTES",
+          "publisher": "Your Game",
+          "duration": "1:04:01",
+          "published": "observed as 5 months ago",
+          "versionScope": "earlier 2026 demo; compare with September web upload",
+          "identity": "different-version",
+          "format": "full-session",
+          "questions": [
+            "How do anxiety and awareness change?",
+            "Which documented mechanics still match the latest build?"
+          ],
+          "watchInFlow07": [
+            "opening UI",
+            "affinity change",
+            "inventory interaction",
+            "compare against current Day 1 capture"
+          ],
+          "initialObservation": "Playback showed the same monochrome hospital UI and anxiety/awareness indicators as the current tested build, but the current upload is newer.",
+          "advanceToFlow07": true
+        }
+      ],
+      "flow07Review": {
+        "status": "opening-identity-verified",
+        "reviewedAt": "2026-10-08",
+        "analysisId": "video-analysis-overdose",
+        "limitation": "Selected video is an older build; current mechanics are bounded by the official current page and verified embed."
+      }
+    },
+    {
+      "gameId": "devour-me-gently",
+      "standardName": "Devour Me Gently",
+      "queries": [
+        {
+          "playerTask": "See the complete current short demo",
+          "text": "Devour Me Gently full demo yandere visual novel",
+          "entry": "youtube",
+          "resultRange": "full-demo playthrough"
+        },
+        {
+          "playerTask": "Check touch and name-entry behavior",
+          "text": "Devour Me Gently mobile gameplay controls",
+          "entry": "web-and-youtube",
+          "resultRange": "creator input listing and gameplay"
+        }
+      ],
+      "videos": [
+        {
+          "id": "v4_QrTQxdvc",
+          "title": "So We Got Kidnapped..... Devour Me Gently- (Full Demo) Yandere Visual Novel",
+          "publisher": "Faelel Sparrow",
+          "duration": "8:20",
+          "published": "observed as 3 weeks ago",
+          "versionScope": "current short demo",
+          "identity": "exact-game",
+          "format": "full-session",
+          "questions": [
+            "What choices exist after name entry?",
+            "How does the game signal confinement and route failure?"
+          ],
+          "watchInFlow07": [
+            "title and name entry",
+            "first caretaker dialogue",
+            "final branch"
+          ],
+          "initialObservation": "Playback showed the same title art and game UI as the tested embed.",
+          "advanceToFlow07": true
+        }
+      ],
+      "flow07Review": {
+        "status": "opening-identity-verified",
+        "reviewedAt": "2026-10-08",
+        "analysisId": "video-analysis-devour-me-gently",
+        "limitation": "Only visually verified ranges support claims; no caption or description text is reused."
+      }
+    },
+    {
+      "gameId": "dystopia-the-jesters-obsession",
+      "standardName": "Dystopia: The Jester's Obsession",
+      "queries": [
+        {
+          "playerTask": "Understand affection and hidden-point dialogue",
+          "text": "Dystopia The Jester's Obsession affection points gameplay",
+          "entry": "web-and-youtube",
+          "resultRange": "creator page and demo playthrough"
+        },
+        {
+          "playerTask": "Separate current demo from planned routes",
+          "text": "Dystopia Jester Obsession demo v1 endings",
+          "entry": "web-and-youtube",
+          "resultRange": "current demo page and video"
+        }
+      ],
+      "videos": [
+        {
+          "id": "f_Ti-tCX5Lo",
+          "title": "I Touched A Cute Yandere Jester | The Jester's Obsession (Demo)",
+          "publisher": "EpyksLion",
+          "duration": "23:56",
+          "published": "observed as 1 month ago",
+          "versionScope": "demo v1",
+          "identity": "exact-game",
+          "format": "full-session",
+          "questions": [
+            "What dialogue is point-gated?",
+            "Which features are actually present rather than planned?"
+          ],
+          "watchInFlow07": [
+            "content warning",
+            "name entry",
+            "first affection choice",
+            "one ending boundary"
+          ],
+          "initialObservation": "Playback showed the same black-and-white UI and current demo framing as the tested embed.",
+          "advanceToFlow07": true
+        }
+      ],
+      "flow07Review": {
+        "status": "opening-identity-verified",
+        "reviewedAt": "2026-10-08",
+        "analysisId": "video-analysis-dystopia-the-jesters-obsession",
+        "limitation": "Only visually verified ranges support claims; no caption or description text is reused."
+      }
+    },
+    {
+      "gameId": "silver-thread-episode-i",
+      "standardName": "Silver Thread : Episode I",
+      "queries": [
+        {
+          "playerTask": "Compare the current remake web build and keyboard investigation",
+          "text": "Silver Thread Episode One remake no commentary gameplay",
+          "entry": "youtube",
+          "resultRange": "current-looking playthrough"
+        }
+      ],
+      "videos": [
+        {
+          "id": "vyop8Zuj_0g",
+          "title": "Silver Thread: Episode One Remake [No Commentary Playthrough]",
+          "publisher": "Chill Indie Gamer",
+          "duration": "unavailable",
+          "published": "date unavailable",
+          "versionScope": "remake; exact itch upload match unresolved",
+          "identity": "unknown",
+          "format": "full-session",
+          "questions": [
+            "Does the footage match upload 19061468?",
+            "Can the tested menu accept keyboard input?"
+          ],
+          "watchInFlow07": [
+            "title comparison",
+            "first movement and action"
+          ],
+          "initialObservation": "Embed is available; version identity still needs a side-by-side check.",
+          "advanceToFlow07": true
+        }
+      ]
+    },
+    {
+      "gameId": "my-vampire-boyfriend-smokes-lucky-strikes",
+      "standardName": "My Vampire Boyfriend Smokes Lucky Strikes",
+      "queries": [
+        {
+          "playerTask": "Understand Episode 1 choices and web-save sync",
+          "text": "My Vampire Boyfriend Smokes Lucky Strikes Episode 1 gameplay",
+          "entry": "youtube",
+          "resultRange": "long episode playthrough"
+        }
+      ],
+      "videos": [
+        {
+          "id": "IY7YDg7dSrM",
+          "title": "Episode 1 time! (My Vampire Boyfriend Smokes Lucky Strikes)",
+          "publisher": "Colour Printer Vods",
+          "duration": "3:54:15",
+          "published": "date unavailable",
+          "versionScope": "Episode 1",
+          "identity": "unknown",
+          "format": "full-session",
+          "questions": [
+            "Does the video match upload 15767271?",
+            "What causes the black external embed?"
+          ],
+          "watchInFlow07": [
+            "title and first dialogue",
+            "save-sync screen"
+          ],
+          "initialObservation": "YouTube embed is available, but the game iframe itself did not reach a visible title screen.",
+          "advanceToFlow07": true
+        }
+      ]
+    },
+    {
+      "gameId": "welcome-dear-human",
+      "standardName": "Welcome, Dear Human [Demo]",
+      "queries": [
+        {
+          "playerTask": "Verify the current Godot demo and explain the runtime requirement",
+          "text": "Welcome Dear Human full gameplay no commentary",
+          "entry": "youtube",
+          "resultRange": "full demo playthrough"
+        }
+      ],
+      "videos": [
+        {
+          "id": "hQMYT-wHYl8",
+          "title": "Welcome, Dear Human | Full Gameplay | No Commentary",
+          "publisher": "Spooky Jelly",
+          "duration": "1:10:35",
+          "published": "date unavailable",
+          "versionScope": "demo version unresolved",
+          "identity": "unknown",
+          "format": "full-session",
+          "questions": [
+            "Does the footage match the current Godot build?"
+          ],
+          "watchInFlow07": [
+            "not scheduled unless runtime becomes publishable"
+          ],
+          "initialObservation": "Video exists, but the game candidate is excluded because its external embed fails cross-origin-isolation requirements.",
+          "advanceToFlow07": false
+        }
+      ]
+    }
+  ]
+}

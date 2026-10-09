@@ -1,0 +1,2726 @@
+[
+  {
+    "route": "/",
+    "viewportName": "wide",
+    "title": "Play Helping Your Boyfriend Online | Game Guide",
+    "ready": "complete",
+    "viewport": [
+      1464,
+      900
+    ],
+    "scrollWidth": 1464,
+    "container": {
+      "left": 32,
+      "right": 1432,
+      "width": 1400,
+      "top": 0
+    },
+    "primary": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 317.203125
+    },
+    "recommended": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 965.21875
+    },
+    "article": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 1812.78125
+    },
+    "video": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 6541.578125
+    },
+    "h1Size": 58.56,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "flex",
+    "mobileMenu": "none",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 317.203125
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 965.21875
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1812.78125
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6457.1875
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6541.578125
+      }
+    ]
+  },
+  {
+    "route": "/games/going-live",
+    "viewportName": "wide",
+    "title": "Going Live! Online — Manage the Fan Account",
+    "ready": "complete",
+    "viewport": [
+      1464,
+      900
+    ],
+    "scrollWidth": 1464,
+    "container": {
+      "left": 32,
+      "right": 1432,
+      "width": 1400,
+      "top": 0
+    },
+    "primary": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 364.96875
+    },
+    "recommended": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 1012.984375
+    },
+    "article": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 1839.6875
+    },
+    "video": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 6473.109375
+    },
+    "h1Size": 58.56,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "flex",
+    "mobileMenu": "none",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 364.96875
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 1012.984375
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1839.6875
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6388.71875
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6473.109375
+      }
+    ]
+  },
+  {
+    "route": "/games/first-base",
+    "viewportName": "wide",
+    "title": "Play First Base Online — Six-Ending Survival",
+    "ready": "complete",
+    "viewport": [
+      1464,
+      900
+    ],
+    "scrollWidth": 1464,
+    "container": {
+      "left": 32,
+      "right": 1432,
+      "width": 1400,
+      "top": 0
+    },
+    "primary": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 364.96875
+    },
+    "recommended": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 1012.984375
+    },
+    "article": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 1860.546875
+    },
+    "video": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 6301.390625
+    },
+    "h1Size": 58.56,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "flex",
+    "mobileMenu": "none",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 364.96875
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 1012.984375
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1860.546875
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6217
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6301.390625
+      }
+    ]
+  },
+  {
+    "route": "/games/the-stranger-from-the-bus-stop",
+    "viewportName": "wide",
+    "title": "The stranger from the bus stop — Play Online",
+    "ready": "complete",
+    "viewport": [
+      1464,
+      900
+    ],
+    "scrollWidth": 1464,
+    "container": {
+      "left": 32,
+      "right": 1432,
+      "width": 1400,
+      "top": 0
+    },
+    "primary": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 401.53125
+    },
+    "recommended": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 1049.546875
+    },
+    "article": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 1897.109375
+    },
+    "video": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 6420.3125
+    },
+    "h1Size": 58.56,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "flex",
+    "mobileMenu": "none",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 401.53125
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 1049.546875
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1897.109375
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6335.921875
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6420.3125
+      }
+    ]
+  },
+  {
+    "route": "/games/trapped-with-jester",
+    "viewportName": "wide",
+    "title": "Play Trapped with Jester — Six Voiced Endings",
+    "ready": "complete",
+    "viewport": [
+      1464,
+      900
+    ],
+    "scrollWidth": 1464,
+    "container": {
+      "left": 32,
+      "right": 1432,
+      "width": 1400,
+      "top": 0
+    },
+    "primary": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 364.96875
+    },
+    "recommended": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 1012.984375
+    },
+    "article": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 1860.546875
+    },
+    "video": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 6085.140625
+    },
+    "h1Size": 58.56,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "flex",
+    "mobileMenu": "none",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 364.96875
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 1012.984375
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1860.546875
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6000.75
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6085.140625
+      }
+    ]
+  },
+  {
+    "route": "/games/today-im-harvesting-you",
+    "viewportName": "wide",
+    "title": "Today, I'm Harvesting You! — Play Online",
+    "ready": "complete",
+    "viewport": [
+      1464,
+      900
+    ],
+    "scrollWidth": 1464,
+    "container": {
+      "left": 32,
+      "right": 1432,
+      "width": 1400,
+      "top": 0
+    },
+    "primary": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 401.53125
+    },
+    "recommended": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 1049.546875
+    },
+    "article": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 1897.109375
+    },
+    "video": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 6228.125
+    },
+    "h1Size": 58.56,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "flex",
+    "mobileMenu": "none",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 401.53125
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 1049.546875
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1897.109375
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6143.734375
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6228.125
+      }
+    ]
+  },
+  {
+    "route": "/games/my-own-sweet-dionaea",
+    "viewportName": "wide",
+    "title": "Play My Own Sweet Dionaea Demo and Make Care Choices",
+    "ready": "complete",
+    "viewport": [
+      1464,
+      900
+    ],
+    "scrollWidth": 1464,
+    "container": {
+      "left": 32,
+      "right": 1432,
+      "width": 1400,
+      "top": 0
+    },
+    "primary": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 335.953125
+    },
+    "recommended": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 983.96875
+    },
+    "article": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 1831.546875
+    },
+    "video": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 6299.84375
+    },
+    "h1Size": 58.56,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "flex",
+    "mobileMenu": "none",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 335.953125
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 983.96875
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1831.546875
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6215.453125
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6299.84375
+      }
+    ]
+  },
+  {
+    "route": "/games/overdose",
+    "viewportName": "wide",
+    "title": "Play OVERD0SE Online — Track Every Status",
+    "ready": "complete",
+    "viewport": [
+      1464,
+      900
+    ],
+    "scrollWidth": 1464,
+    "container": {
+      "left": 32,
+      "right": 1432,
+      "width": 1400,
+      "top": 0
+    },
+    "primary": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 364.96875
+    },
+    "recommended": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 1012.984375
+    },
+    "article": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 1860.5625
+    },
+    "video": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 6282.28125
+    },
+    "h1Size": 58.56,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "flex",
+    "mobileMenu": "none",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 364.96875
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 1012.984375
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1860.5625
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6197.890625
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6282.28125
+      }
+    ]
+  },
+  {
+    "route": "/games/devour-me-gently",
+    "viewportName": "wide",
+    "title": "Play Devour Me Gently Online — Short Demo",
+    "ready": "complete",
+    "viewport": [
+      1464,
+      900
+    ],
+    "scrollWidth": 1464,
+    "container": {
+      "left": 32,
+      "right": 1432,
+      "width": 1400,
+      "top": 0
+    },
+    "primary": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 364.96875
+    },
+    "recommended": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 1012.984375
+    },
+    "article": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 1860.546875
+    },
+    "video": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 6165.546875
+    },
+    "h1Size": 58.56,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "flex",
+    "mobileMenu": "none",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 364.96875
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 1012.984375
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1860.546875
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6081.15625
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6165.546875
+      }
+    ]
+  },
+  {
+    "route": "/games/dystopia-the-jesters-obsession",
+    "viewportName": "wide",
+    "title": "Play Dystopia: The Jester's Obsession Demo",
+    "ready": "complete",
+    "viewport": [
+      1464,
+      900
+    ],
+    "scrollWidth": 1464,
+    "container": {
+      "left": 32,
+      "right": 1432,
+      "width": 1400,
+      "top": 0
+    },
+    "primary": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 401.53125
+    },
+    "recommended": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 1049.546875
+    },
+    "article": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 1876.25
+    },
+    "video": {
+      "left": 32,
+      "right": 1004,
+      "width": 972,
+      "top": 6231.015625
+    },
+    "h1Size": 58.56,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "flex",
+    "mobileMenu": "none",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 401.53125
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 1049.546875
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1876.25
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6146.625
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6231.015625
+      }
+    ]
+  },
+  {
+    "route": "/games",
+    "viewportName": "wide",
+    "title": "More Horror Visual Novel Games to Play Online",
+    "ready": "complete",
+    "viewport": [
+      1464,
+      900
+    ],
+    "scrollWidth": 1464,
+    "container": {
+      "left": 32,
+      "right": 1432,
+      "width": 1400,
+      "top": 0
+    },
+    "primary": null,
+    "recommended": null,
+    "article": null,
+    "video": null,
+    "h1Size": 48,
+    "gamesColumns": 6,
+    "guideColumns": null,
+    "sidebarColumns": null,
+    "desktopNav": "flex",
+    "mobileMenu": "none",
+    "primaryOrder": []
+  },
+  {
+    "route": "/guides",
+    "viewportName": "wide",
+    "title": "Helping Your Boyfriend Guides and Walkthroughs",
+    "ready": "complete",
+    "viewport": [
+      1464,
+      900
+    ],
+    "scrollWidth": 1464,
+    "container": {
+      "left": 32,
+      "right": 1432,
+      "width": 1400,
+      "top": 0
+    },
+    "primary": null,
+    "recommended": null,
+    "article": null,
+    "video": null,
+    "h1Size": 48,
+    "gamesColumns": null,
+    "guideColumns": 2,
+    "sidebarColumns": null,
+    "desktopNav": "flex",
+    "mobileMenu": "none",
+    "primaryOrder": []
+  },
+  {
+    "route": "/guides/helping-your-boyfriend-controls-minigames",
+    "viewportName": "wide",
+    "title": "Helping Your Boyfriend Controls and Minigames Guide",
+    "ready": "complete",
+    "viewport": [
+      1464,
+      900
+    ],
+    "scrollWidth": 1464,
+    "container": {
+      "left": 32,
+      "right": 1432,
+      "width": 1400,
+      "top": 0
+    },
+    "primary": null,
+    "recommended": null,
+    "article": null,
+    "video": null,
+    "h1Size": 48,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": null,
+    "desktopNav": "flex",
+    "mobileMenu": "none",
+    "primaryOrder": []
+  },
+  {
+    "route": "/guides/helping-your-boyfriend-endings-walkthrough",
+    "viewportName": "wide",
+    "title": "Helping Your Boyfriend Endings Walkthrough Guide",
+    "ready": "complete",
+    "viewport": [
+      1464,
+      900
+    ],
+    "scrollWidth": 1464,
+    "container": {
+      "left": 32,
+      "right": 1432,
+      "width": 1400,
+      "top": 0
+    },
+    "primary": null,
+    "recommended": null,
+    "article": null,
+    "video": null,
+    "h1Size": 48,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": null,
+    "desktopNav": "flex",
+    "mobileMenu": "none",
+    "primaryOrder": []
+  },
+  {
+    "route": "/privacy",
+    "viewportName": "wide",
+    "title": "Privacy Policy | Helping Your Boyfriend Site",
+    "ready": "complete",
+    "viewport": [
+      1464,
+      900
+    ],
+    "scrollWidth": 1464,
+    "container": {
+      "left": 32,
+      "right": 1432,
+      "width": 1400,
+      "top": 0
+    },
+    "primary": null,
+    "recommended": null,
+    "article": null,
+    "video": null,
+    "h1Size": 48,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": null,
+    "desktopNav": "flex",
+    "mobileMenu": "none",
+    "primaryOrder": []
+  },
+  {
+    "route": "/contact",
+    "viewportName": "wide",
+    "title": "Contact the Helping Your Boyfriend Player Site",
+    "ready": "complete",
+    "viewport": [
+      1464,
+      900
+    ],
+    "scrollWidth": 1464,
+    "container": {
+      "left": 32,
+      "right": 1432,
+      "width": 1400,
+      "top": 0
+    },
+    "primary": null,
+    "recommended": null,
+    "article": null,
+    "video": null,
+    "h1Size": 48,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": null,
+    "desktopNav": "flex",
+    "mobileMenu": "none",
+    "primaryOrder": []
+  },
+  {
+    "route": "/",
+    "viewportName": "tablet",
+    "title": "Play Helping Your Boyfriend Online | Game Guide",
+    "ready": "complete",
+    "viewport": [
+      1024,
+      900
+    ],
+    "scrollWidth": 1024,
+    "container": {
+      "left": 24,
+      "right": 1000,
+      "width": 976,
+      "top": 0
+    },
+    "primary": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 287.484375
+    },
+    "recommended": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 746.609375
+    },
+    "article": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 1948.765625
+    },
+    "video": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 6739.34375
+    },
+    "h1Size": 40.96,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 287.484375
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 746.609375
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1948.765625
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6654.953125
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6739.34375
+      }
+    ]
+  },
+  {
+    "route": "/games/going-live",
+    "viewportName": "tablet",
+    "title": "Going Live! Online — Manage the Fan Account",
+    "ready": "complete",
+    "viewport": [
+      1024,
+      900
+    ],
+    "scrollWidth": 1024,
+    "container": {
+      "left": 24,
+      "right": 1000,
+      "width": 976,
+      "top": 0
+    },
+    "primary": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 335.25
+    },
+    "recommended": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 794.375
+    },
+    "article": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 1975.65625
+    },
+    "video": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 6620.484375
+    },
+    "h1Size": 40.96,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 335.25
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 794.375
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1975.65625
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6536.09375
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6620.484375
+      }
+    ]
+  },
+  {
+    "route": "/games/first-base",
+    "viewportName": "tablet",
+    "title": "Play First Base Online — Six-Ending Survival",
+    "ready": "complete",
+    "viewport": [
+      1024,
+      900
+    ],
+    "scrollWidth": 1024,
+    "container": {
+      "left": 24,
+      "right": 1000,
+      "width": 976,
+      "top": 0
+    },
+    "primary": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 335.25
+    },
+    "recommended": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 794.375
+    },
+    "article": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 1996.53125
+    },
+    "video": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 6421.46875
+    },
+    "h1Size": 40.96,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 335.25
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 794.375
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1996.53125
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6337.078125
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6421.46875
+      }
+    ]
+  },
+  {
+    "route": "/games/the-stranger-from-the-bus-stop",
+    "viewportName": "tablet",
+    "title": "The stranger from the bus stop — Play Online",
+    "ready": "complete",
+    "viewport": [
+      1024,
+      900
+    ],
+    "scrollWidth": 1024,
+    "container": {
+      "left": 24,
+      "right": 1000,
+      "width": 976,
+      "top": 0
+    },
+    "primary": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 306.234375
+    },
+    "recommended": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 765.359375
+    },
+    "article": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 1967.515625
+    },
+    "video": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 6310.09375
+    },
+    "h1Size": 40.96,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 306.234375
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 765.359375
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1967.515625
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6225.703125
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6310.09375
+      }
+    ]
+  },
+  {
+    "route": "/games/trapped-with-jester",
+    "viewportName": "tablet",
+    "title": "Play Trapped with Jester — Six Voiced Endings",
+    "ready": "complete",
+    "viewport": [
+      1024,
+      900
+    ],
+    "scrollWidth": 1024,
+    "container": {
+      "left": 24,
+      "right": 1000,
+      "width": 976,
+      "top": 0
+    },
+    "primary": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 335.25
+    },
+    "recommended": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 794.375
+    },
+    "article": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 1996.53125
+    },
+    "video": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 6187.21875
+    },
+    "h1Size": 40.96,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 335.25
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 794.375
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1996.53125
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6102.828125
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6187.21875
+      }
+    ]
+  },
+  {
+    "route": "/games/today-im-harvesting-you",
+    "viewportName": "tablet",
+    "title": "Today, I'm Harvesting You! — Play Online",
+    "ready": "complete",
+    "viewport": [
+      1024,
+      900
+    ],
+    "scrollWidth": 1024,
+    "container": {
+      "left": 24,
+      "right": 1000,
+      "width": 976,
+      "top": 0
+    },
+    "primary": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 306.234375
+    },
+    "recommended": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 765.359375
+    },
+    "article": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 1967.515625
+    },
+    "video": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 6362.109375
+    },
+    "h1Size": 40.96,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 306.234375
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 765.359375
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1967.515625
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6277.71875
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6362.109375
+      }
+    ]
+  },
+  {
+    "route": "/games/my-own-sweet-dionaea",
+    "viewportName": "tablet",
+    "title": "Play My Own Sweet Dionaea Demo and Make Care Choices",
+    "ready": "complete",
+    "viewport": [
+      1024,
+      900
+    ],
+    "scrollWidth": 1024,
+    "container": {
+      "left": 24,
+      "right": 1000,
+      "width": 976,
+      "top": 0
+    },
+    "primary": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 306.234375
+    },
+    "recommended": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 765.359375
+    },
+    "article": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 1967.515625
+    },
+    "video": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 6365
+    },
+    "h1Size": 40.96,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 306.234375
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 765.359375
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1967.515625
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6280.609375
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6365
+      }
+    ]
+  },
+  {
+    "route": "/games/overdose",
+    "viewportName": "tablet",
+    "title": "Play OVERD0SE Online — Track Every Status",
+    "ready": "complete",
+    "viewport": [
+      1024,
+      900
+    ],
+    "scrollWidth": 1024,
+    "container": {
+      "left": 24,
+      "right": 1000,
+      "width": 976,
+      "top": 0
+    },
+    "primary": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 335.25
+    },
+    "recommended": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 794.375
+    },
+    "article": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 1996.53125
+    },
+    "video": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 6418.484375
+    },
+    "h1Size": 40.96,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 335.25
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 794.375
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1996.53125
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6334.09375
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6418.484375
+      }
+    ]
+  },
+  {
+    "route": "/games/devour-me-gently",
+    "viewportName": "tablet",
+    "title": "Play Devour Me Gently Online — Short Demo",
+    "ready": "complete",
+    "viewport": [
+      1024,
+      900
+    ],
+    "scrollWidth": 1024,
+    "container": {
+      "left": 24,
+      "right": 1000,
+      "width": 976,
+      "top": 0
+    },
+    "primary": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 335.25
+    },
+    "recommended": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 794.375
+    },
+    "article": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 1996.53125
+    },
+    "video": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 6340.046875
+    },
+    "h1Size": 40.96,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 335.25
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 794.375
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1996.53125
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6255.65625
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6340.046875
+      }
+    ]
+  },
+  {
+    "route": "/games/dystopia-the-jesters-obsession",
+    "viewportName": "tablet",
+    "title": "Play Dystopia: The Jester's Obsession Demo",
+    "ready": "complete",
+    "viewport": [
+      1024,
+      900
+    ],
+    "scrollWidth": 1024,
+    "container": {
+      "left": 24,
+      "right": 1000,
+      "width": 976,
+      "top": 0
+    },
+    "primary": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 306.234375
+    },
+    "recommended": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 765.359375
+    },
+    "article": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 1946.640625
+    },
+    "video": {
+      "left": 24,
+      "right": 668,
+      "width": 644,
+      "top": 6204.4375
+    },
+    "h1Size": 40.96,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 0,
+        "top": 306.234375
+      },
+      {
+        "className": "recommended-section",
+        "order": 0,
+        "top": 765.359375
+      },
+      {
+        "className": "game-article",
+        "order": 0,
+        "top": 1946.640625
+      },
+      {
+        "className": "content-links",
+        "order": 0,
+        "top": 6120.046875
+      },
+      {
+        "className": "video-section",
+        "order": 0,
+        "top": 6204.4375
+      }
+    ]
+  },
+  {
+    "route": "/games",
+    "viewportName": "tablet",
+    "title": "More Horror Visual Novel Games to Play Online",
+    "ready": "complete",
+    "viewport": [
+      1024,
+      900
+    ],
+    "scrollWidth": 1024,
+    "container": {
+      "left": 24,
+      "right": 1000,
+      "width": 976,
+      "top": 0
+    },
+    "primary": null,
+    "recommended": null,
+    "article": null,
+    "video": null,
+    "h1Size": 40,
+    "gamesColumns": 4,
+    "guideColumns": null,
+    "sidebarColumns": null,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": []
+  },
+  {
+    "route": "/guides",
+    "viewportName": "tablet",
+    "title": "Helping Your Boyfriend Guides and Walkthroughs",
+    "ready": "complete",
+    "viewport": [
+      1024,
+      900
+    ],
+    "scrollWidth": 1024,
+    "container": {
+      "left": 24,
+      "right": 1000,
+      "width": 976,
+      "top": 0
+    },
+    "primary": null,
+    "recommended": null,
+    "article": null,
+    "video": null,
+    "h1Size": 40,
+    "gamesColumns": null,
+    "guideColumns": 2,
+    "sidebarColumns": null,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": []
+  },
+  {
+    "route": "/guides/helping-your-boyfriend-controls-minigames",
+    "viewportName": "tablet",
+    "title": "Helping Your Boyfriend Controls and Minigames Guide",
+    "ready": "complete",
+    "viewport": [
+      1024,
+      900
+    ],
+    "scrollWidth": 1024,
+    "container": {
+      "left": 24,
+      "right": 1000,
+      "width": 976,
+      "top": 0
+    },
+    "primary": null,
+    "recommended": null,
+    "article": null,
+    "video": null,
+    "h1Size": 40,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": null,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": []
+  },
+  {
+    "route": "/guides/helping-your-boyfriend-endings-walkthrough",
+    "viewportName": "tablet",
+    "title": "Helping Your Boyfriend Endings Walkthrough Guide",
+    "ready": "complete",
+    "viewport": [
+      1024,
+      900
+    ],
+    "scrollWidth": 1024,
+    "container": {
+      "left": 24,
+      "right": 1000,
+      "width": 976,
+      "top": 0
+    },
+    "primary": null,
+    "recommended": null,
+    "article": null,
+    "video": null,
+    "h1Size": 40,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": null,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": []
+  },
+  {
+    "route": "/privacy",
+    "viewportName": "tablet",
+    "title": "Privacy Policy | Helping Your Boyfriend Site",
+    "ready": "complete",
+    "viewport": [
+      1024,
+      900
+    ],
+    "scrollWidth": 1024,
+    "container": {
+      "left": 24,
+      "right": 1000,
+      "width": 976,
+      "top": 0
+    },
+    "primary": null,
+    "recommended": null,
+    "article": null,
+    "video": null,
+    "h1Size": 40,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": null,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": []
+  },
+  {
+    "route": "/contact",
+    "viewportName": "tablet",
+    "title": "Contact the Helping Your Boyfriend Player Site",
+    "ready": "complete",
+    "viewport": [
+      1024,
+      900
+    ],
+    "scrollWidth": 1024,
+    "container": {
+      "left": 24,
+      "right": 1000,
+      "width": 976,
+      "top": 0
+    },
+    "primary": null,
+    "recommended": null,
+    "article": null,
+    "video": null,
+    "h1Size": 40,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": null,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": []
+  },
+  {
+    "route": "/",
+    "viewportName": "mobile",
+    "title": "Play Helping Your Boyfriend Online | Game Guide",
+    "ready": "complete",
+    "viewport": [
+      768,
+      900
+    ],
+    "scrollWidth": 768,
+    "container": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 0
+    },
+    "primary": {
+      "left": 0,
+      "right": 0,
+      "width": 0,
+      "top": 0
+    },
+    "recommended": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 556.875
+    },
+    "article": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 1861.65625
+    },
+    "video": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 6604.28125
+    },
+    "h1Size": 40,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 1,
+        "top": 270.421875
+      },
+      {
+        "className": "recommended-section",
+        "order": 2,
+        "top": 556.875
+      },
+      {
+        "className": "game-article",
+        "order": 3,
+        "top": 1861.65625
+      },
+      {
+        "className": "content-links",
+        "order": 4,
+        "top": 6469.890625
+      },
+      {
+        "className": "video-section",
+        "order": 5,
+        "top": 6604.28125
+      }
+    ]
+  },
+  {
+    "route": "/games/going-live",
+    "viewportName": "mobile",
+    "title": "Going Live! Online — Manage the Fan Account",
+    "ready": "complete",
+    "viewport": [
+      768,
+      900
+    ],
+    "scrollWidth": 768,
+    "container": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 0
+    },
+    "primary": {
+      "left": 0,
+      "right": 0,
+      "width": 0,
+      "top": 0
+    },
+    "recommended": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 559.484375
+    },
+    "article": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 1864.265625
+    },
+    "video": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 6487.296875
+    },
+    "h1Size": 40,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 1,
+        "top": 318.1875
+      },
+      {
+        "className": "recommended-section",
+        "order": 2,
+        "top": 559.484375
+      },
+      {
+        "className": "game-article",
+        "order": 3,
+        "top": 1864.265625
+      },
+      {
+        "className": "content-links",
+        "order": 4,
+        "top": 6352.90625
+      },
+      {
+        "className": "video-section",
+        "order": 5,
+        "top": 6487.296875
+      }
+    ]
+  },
+  {
+    "route": "/games/first-base",
+    "viewportName": "mobile",
+    "title": "Play First Base Online — Six-Ending Survival",
+    "ready": "complete",
+    "viewport": [
+      768,
+      900
+    ],
+    "scrollWidth": 768,
+    "container": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 0
+    },
+    "primary": {
+      "left": 0,
+      "right": 0,
+      "width": 0,
+      "top": 0
+    },
+    "recommended": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 554.109375
+    },
+    "article": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 1858.890625
+    },
+    "video": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 6289.453125
+    },
+    "h1Size": 40,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 1,
+        "top": 318.1875
+      },
+      {
+        "className": "recommended-section",
+        "order": 2,
+        "top": 554.109375
+      },
+      {
+        "className": "game-article",
+        "order": 3,
+        "top": 1858.890625
+      },
+      {
+        "className": "content-links",
+        "order": 4,
+        "top": 6155.0625
+      },
+      {
+        "className": "video-section",
+        "order": 5,
+        "top": 6289.453125
+      }
+    ]
+  },
+  {
+    "route": "/games/the-stranger-from-the-bus-stop",
+    "viewportName": "mobile",
+    "title": "The stranger from the bus stop — Play Online",
+    "ready": "complete",
+    "viewport": [
+      768,
+      900
+    ],
+    "scrollWidth": 768,
+    "container": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 0
+    },
+    "primary": {
+      "left": 0,
+      "right": 0,
+      "width": 0,
+      "top": 0
+    },
+    "recommended": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 634.640625
+    },
+    "article": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 1939.421875
+    },
+    "video": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 6397.4375
+    },
+    "h1Size": 40,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 1,
+        "top": 318.1875
+      },
+      {
+        "className": "recommended-section",
+        "order": 2,
+        "top": 634.640625
+      },
+      {
+        "className": "game-article",
+        "order": 3,
+        "top": 1939.421875
+      },
+      {
+        "className": "content-links",
+        "order": 4,
+        "top": 6263.046875
+      },
+      {
+        "className": "video-section",
+        "order": 5,
+        "top": 6397.4375
+      }
+    ]
+  },
+  {
+    "route": "/games/trapped-with-jester",
+    "viewportName": "mobile",
+    "title": "Play Trapped with Jester — Six Voiced Endings",
+    "ready": "complete",
+    "viewport": [
+      768,
+      900
+    ],
+    "scrollWidth": 768,
+    "container": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 0
+    },
+    "primary": {
+      "left": 0,
+      "right": 0,
+      "width": 0,
+      "top": 0
+    },
+    "recommended": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 591.015625
+    },
+    "article": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 1895.796875
+    },
+    "video": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 6081.765625
+    },
+    "h1Size": 40,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 1,
+        "top": 318.1875
+      },
+      {
+        "className": "recommended-section",
+        "order": 2,
+        "top": 591.015625
+      },
+      {
+        "className": "game-article",
+        "order": 3,
+        "top": 1895.796875
+      },
+      {
+        "className": "content-links",
+        "order": 4,
+        "top": 5947.375
+      },
+      {
+        "className": "video-section",
+        "order": 5,
+        "top": 6081.765625
+      }
+    ]
+  },
+  {
+    "route": "/games/today-im-harvesting-you",
+    "viewportName": "mobile",
+    "title": "Today, I'm Harvesting You! — Play Online",
+    "ready": "complete",
+    "viewport": [
+      768,
+      900
+    ],
+    "scrollWidth": 768,
+    "container": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 0
+    },
+    "primary": {
+      "left": 0,
+      "right": 0,
+      "width": 0,
+      "top": 0
+    },
+    "recommended": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 617.078125
+    },
+    "article": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 1921.859375
+    },
+    "video": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 6266.734375
+    },
+    "h1Size": 40,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 1,
+        "top": 318.1875
+      },
+      {
+        "className": "recommended-section",
+        "order": 2,
+        "top": 617.078125
+      },
+      {
+        "className": "game-article",
+        "order": 3,
+        "top": 1921.859375
+      },
+      {
+        "className": "content-links",
+        "order": 4,
+        "top": 6132.34375
+      },
+      {
+        "className": "video-section",
+        "order": 5,
+        "top": 6266.734375
+      }
+    ]
+  },
+  {
+    "route": "/games/my-own-sweet-dionaea",
+    "viewportName": "mobile",
+    "title": "Play My Own Sweet Dionaea Demo and Make Care Choices",
+    "ready": "complete",
+    "viewport": [
+      768,
+      900
+    ],
+    "scrollWidth": 768,
+    "container": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 0
+    },
+    "primary": {
+      "left": 0,
+      "right": 0,
+      "width": 0,
+      "top": 0
+    },
+    "recommended": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 605.40625
+    },
+    "article": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 1910.1875
+    },
+    "video": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 6340.75
+    },
+    "h1Size": 40,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 1,
+        "top": 318.1875
+      },
+      {
+        "className": "recommended-section",
+        "order": 2,
+        "top": 605.40625
+      },
+      {
+        "className": "game-article",
+        "order": 3,
+        "top": 1910.1875
+      },
+      {
+        "className": "content-links",
+        "order": 4,
+        "top": 6206.359375
+      },
+      {
+        "className": "video-section",
+        "order": 5,
+        "top": 6340.75
+      }
+    ]
+  },
+  {
+    "route": "/games/overdose",
+    "viewportName": "mobile",
+    "title": "Play OVERD0SE Online — Track Every Status",
+    "ready": "complete",
+    "viewport": [
+      768,
+      900
+    ],
+    "scrollWidth": 768,
+    "container": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 0
+    },
+    "primary": {
+      "left": 0,
+      "right": 0,
+      "width": 0,
+      "top": 0
+    },
+    "recommended": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 559.046875
+    },
+    "article": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 1863.828125
+    },
+    "video": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 6286.890625
+    },
+    "h1Size": 40,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 1,
+        "top": 318.1875
+      },
+      {
+        "className": "recommended-section",
+        "order": 2,
+        "top": 559.046875
+      },
+      {
+        "className": "game-article",
+        "order": 3,
+        "top": 1863.828125
+      },
+      {
+        "className": "content-links",
+        "order": 4,
+        "top": 6152.5
+      },
+      {
+        "className": "video-section",
+        "order": 5,
+        "top": 6286.890625
+      }
+    ]
+  },
+  {
+    "route": "/games/devour-me-gently",
+    "viewportName": "mobile",
+    "title": "Play Devour Me Gently Online — Short Demo",
+    "ready": "complete",
+    "viewport": [
+      768,
+      900
+    ],
+    "scrollWidth": 768,
+    "container": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 0
+    },
+    "primary": {
+      "left": 0,
+      "right": 0,
+      "width": 0,
+      "top": 0
+    },
+    "recommended": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 583.796875
+    },
+    "article": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 1888.578125
+    },
+    "video": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 6155.484375
+    },
+    "h1Size": 40,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 1,
+        "top": 318.1875
+      },
+      {
+        "className": "recommended-section",
+        "order": 2,
+        "top": 583.796875
+      },
+      {
+        "className": "game-article",
+        "order": 3,
+        "top": 1888.578125
+      },
+      {
+        "className": "content-links",
+        "order": 4,
+        "top": 6021.09375
+      },
+      {
+        "className": "video-section",
+        "order": 5,
+        "top": 6155.484375
+      }
+    ]
+  },
+  {
+    "route": "/games/dystopia-the-jesters-obsession",
+    "viewportName": "mobile",
+    "title": "Play Dystopia: The Jester's Obsession Demo",
+    "ready": "complete",
+    "viewport": [
+      768,
+      900
+    ],
+    "scrollWidth": 768,
+    "container": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 0
+    },
+    "primary": {
+      "left": 0,
+      "right": 0,
+      "width": 0,
+      "top": 0
+    },
+    "recommended": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 689.5
+    },
+    "article": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 1994.28125
+    },
+    "video": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 6312.234375
+    },
+    "h1Size": 40,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": 2,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": [
+      {
+        "className": "player-shell",
+        "order": 1,
+        "top": 362.984375
+      },
+      {
+        "className": "recommended-section",
+        "order": 2,
+        "top": 689.5
+      },
+      {
+        "className": "game-article",
+        "order": 3,
+        "top": 1994.28125
+      },
+      {
+        "className": "content-links",
+        "order": 4,
+        "top": 6177.84375
+      },
+      {
+        "className": "video-section",
+        "order": 5,
+        "top": 6312.234375
+      }
+    ]
+  },
+  {
+    "route": "/games",
+    "viewportName": "mobile",
+    "title": "More Horror Visual Novel Games to Play Online",
+    "ready": "complete",
+    "viewport": [
+      768,
+      900
+    ],
+    "scrollWidth": 768,
+    "container": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 0
+    },
+    "primary": null,
+    "recommended": null,
+    "article": null,
+    "video": null,
+    "h1Size": 34,
+    "gamesColumns": 2,
+    "guideColumns": null,
+    "sidebarColumns": null,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": []
+  },
+  {
+    "route": "/guides",
+    "viewportName": "mobile",
+    "title": "Helping Your Boyfriend Guides and Walkthroughs",
+    "ready": "complete",
+    "viewport": [
+      768,
+      900
+    ],
+    "scrollWidth": 768,
+    "container": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 0
+    },
+    "primary": null,
+    "recommended": null,
+    "article": null,
+    "video": null,
+    "h1Size": 34,
+    "gamesColumns": null,
+    "guideColumns": 1,
+    "sidebarColumns": null,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": []
+  },
+  {
+    "route": "/guides/helping-your-boyfriend-controls-minigames",
+    "viewportName": "mobile",
+    "title": "Helping Your Boyfriend Controls and Minigames Guide",
+    "ready": "complete",
+    "viewport": [
+      768,
+      900
+    ],
+    "scrollWidth": 768,
+    "container": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 0
+    },
+    "primary": null,
+    "recommended": null,
+    "article": null,
+    "video": null,
+    "h1Size": 34,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": null,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": []
+  },
+  {
+    "route": "/guides/helping-your-boyfriend-endings-walkthrough",
+    "viewportName": "mobile",
+    "title": "Helping Your Boyfriend Endings Walkthrough Guide",
+    "ready": "complete",
+    "viewport": [
+      768,
+      900
+    ],
+    "scrollWidth": 768,
+    "container": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 0
+    },
+    "primary": null,
+    "recommended": null,
+    "article": null,
+    "video": null,
+    "h1Size": 34,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": null,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": []
+  },
+  {
+    "route": "/privacy",
+    "viewportName": "mobile",
+    "title": "Privacy Policy | Helping Your Boyfriend Site",
+    "ready": "complete",
+    "viewport": [
+      768,
+      900
+    ],
+    "scrollWidth": 768,
+    "container": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 0
+    },
+    "primary": null,
+    "recommended": null,
+    "article": null,
+    "video": null,
+    "h1Size": 34,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": null,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": []
+  },
+  {
+    "route": "/contact",
+    "viewportName": "mobile",
+    "title": "Contact the Helping Your Boyfriend Player Site",
+    "ready": "complete",
+    "viewport": [
+      768,
+      900
+    ],
+    "scrollWidth": 768,
+    "container": {
+      "left": 16,
+      "right": 752,
+      "width": 736,
+      "top": 0
+    },
+    "primary": null,
+    "recommended": null,
+    "article": null,
+    "video": null,
+    "h1Size": 34,
+    "gamesColumns": null,
+    "guideColumns": null,
+    "sidebarColumns": null,
+    "desktopNav": "none",
+    "mobileMenu": "block",
+    "primaryOrder": []
+  }
+]

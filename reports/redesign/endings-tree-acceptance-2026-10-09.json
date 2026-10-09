@@ -1,0 +1,230 @@
+{
+  "date": "2026-10-09",
+  "scope": "Implement the approved Endings scrapbook route tree in the existing Next.js project; no new pages, compatibility redirects, other games, service startup/restart, deployment or Git operations.",
+  "result": {
+    "nodes": 16,
+    "routeConnections": 18,
+    "uniqueGameplayImages": 16,
+    "officialScreenshots": 2,
+    "walkthroughFrames": 14,
+    "bodyNonWhitespaceCharacters": 10777,
+    "endingAnchors": [
+      "ending-one",
+      "ending-two",
+      "ending-three",
+      "ending-four"
+    ],
+    "defaultExpanded": true,
+    "sharedInvestigation": "Morning number → Day 2 package address → second-evening medicine → early Ian replies/scalpel → confrontation → body key → locked room → phone → location answer → accumulated Ian epilogue direction",
+    "dataSource": "data/guides/helping-your-boyfriend-endings-walkthrough.json",
+    "unchanged": "Other topic-page structures, shared TDK, navigation, iframe address and additional-game data."
+  },
+  "verification": {
+    "lint": "passed",
+    "typecheck": "passed",
+    "contentContracts": "passed, including graph negative fixtures",
+    "data": "passed",
+    "media": "passed; every tree-node image linked to matching adopted provenance",
+    "publishValidation": "passed",
+    "sitemap": "passed, 9 public content routes; existing dates retained",
+    "productionBuild": "passed (Next.js 16.4.0 Turbopack)",
+    "productionStaticMarkup": "16 HTML nodes and all 18 destination links present before JavaScript execution; no details/dialog content",
+    "noJavaScriptBrowser": "390px test: 16 nodes and 18 destinations remain readable; direct Ending 2 fragment positioned at 206px below the sticky header/padding; script execution restored afterwards",
+    "freshPreviewConsoleErrors": [],
+    "productionCspUnsafeEval": false,
+    "productionRuntime": "Not started. Existing localhost:3002 is a development service. The production-only HTTP audit rejects its intentional development unsafe-eval header, so that run is not reported as a production-runtime pass.",
+    "viewportMethod": "Browser DOM rectangles and sampled orthogonal SVG segments checked for card intersections. All images loaded in desktop preview; widths 1440/1024/768/390 inspected. Temporary viewport override reset.",
+    "viewports": [
+      {
+        "anchors": true,
+        "clientWidth": 1425,
+        "failedImages": [],
+        "height": 15328,
+        "lineCardCollisions": [],
+        "nodeCount": 16,
+        "nodeOverlaps": [],
+        "pathCount": 18,
+        "scrollWidth": 1425,
+        "spoilerCount": 1,
+        "treeDisplay": "grid",
+        "width": 1440
+      },
+      {
+        "anchors": true,
+        "clientWidth": 1009,
+        "failedImages": [],
+        "height": 15557,
+        "lineCardCollisions": [],
+        "nodeCount": 16,
+        "nodeOverlaps": [],
+        "pathCount": 18,
+        "scrollWidth": 1009,
+        "spoilerCount": 1,
+        "treeDisplay": "grid",
+        "width": 1024
+      },
+      {
+        "anchors": true,
+        "clientWidth": 753,
+        "failedImages": [],
+        "height": 19003,
+        "lineCardCollisions": [],
+        "nodeCount": 16,
+        "nodeOverlaps": [],
+        "pathCount": 0,
+        "scrollWidth": 753,
+        "spoilerCount": 1,
+        "treeDisplay": "flex",
+        "width": 768
+      },
+      {
+        "anchors": true,
+        "clientWidth": 375,
+        "failedImages": [],
+        "height": 21001,
+        "lineCardCollisions": [],
+        "nodeCount": 16,
+        "nodeOverlaps": [],
+        "pathCount": 0,
+        "scrollWidth": 375,
+        "spoilerCount": 1,
+        "treeDisplay": "flex",
+        "width": 390
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://zieelane.itch.io/helping-your-boyfriend",
+      "role": "Official creator media for the first-night pill choice and morning arm clue; official game identity and ending count."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7zchW01Vr4o",
+      "publisher": "Sammi",
+      "published": "2026-10-03",
+      "role": "Visibly inspected English gameplay frames: separate medicine/scalpel choices, package address, complete phone digits, locked door, body investigation, hospital scene and all four numbered ending titles.",
+      "version": "Exact filmed build is not displayed; not claimed to be 1.0.1.",
+      "timecodes": [
+        {
+          "frame": "address",
+          "seconds": 3660.107623,
+          "path": "/images/guides/route-address.webp"
+        },
+        {
+          "frame": "confrontation",
+          "seconds": 2768.117206,
+          "path": "/images/guides/route-confrontation.webp"
+        },
+        {
+          "frame": "ending-four",
+          "seconds": 4521.183664,
+          "path": "/images/guides/route-ending-four.webp"
+        },
+        {
+          "frame": "ending-one",
+          "seconds": 3181.033322,
+          "path": "/images/guides/route-ending-one.webp"
+        },
+        {
+          "frame": "ending-three",
+          "seconds": 3956.269058,
+          "path": "/images/guides/route-ending-three.webp"
+        },
+        {
+          "frame": "ending-two",
+          "seconds": 3085,
+          "path": "/images/guides/route-ending-two.webp"
+        },
+        {
+          "frame": "ian-relationship",
+          "seconds": 4102.283885,
+          "path": "/images/guides/route-ian-relationship.webp"
+        },
+        {
+          "frame": "key",
+          "seconds": 3491.408071,
+          "path": "/images/guides/route-key.webp"
+        },
+        {
+          "frame": "locked-room",
+          "seconds": 3558.887892,
+          "path": "/images/guides/route-locked-room.webp"
+        },
+        {
+          "frame": "medicine",
+          "seconds": 1675.1197,
+          "path": "/images/guides/route-medicine.webp"
+        },
+        {
+          "frame": "package",
+          "seconds": 1379.411471,
+          "path": "/images/guides/route-package.webp"
+        },
+        {
+          "frame": "phone",
+          "seconds": 3619.403283,
+          "path": "/images/guides/route-phone.webp"
+        },
+        {
+          "frame": "rescue",
+          "seconds": 3851.300448,
+          "path": "/images/guides/route-rescue.webp"
+        },
+        {
+          "frame": "scalpel",
+          "seconds": 2281.022402,
+          "path": "/images/guides/route-scalpel.webp"
+        }
+      ]
+    },
+    {
+      "url": "https://sammiotomeaddicted.wordpress.com/2026/10/04/helping-your-boyfriend-guide/",
+      "role": "Player-authored relationship directions and prerequisite cross-check; not developer source for exact hidden thresholds."
+    },
+    {
+      "url": "https://zieelane.itch.io/helping-your-boyfriend/devlog/1686354/update-101-choose-your-gameplay-difficulty",
+      "role": "Creator announcement of the newer difficulty setting; not proof of the walkthrough or iframe build."
+    }
+  ],
+  "confirmedVisibleFacts": [
+    "All four numbered title cards are shown with the named outcomes.",
+    "Adrian’s second-evening medicine offers pretending to swallow and spitting it out; it is distinct from Ian’s first-night pill.",
+    "The package shows 742 Silverwood Creek Lane, Silverwood Springs, CA 95401.",
+    "The completed telephone digits shown before confirmation are 015767438.",
+    "The correct location is the third of three displayed English answers in the inspected scene.",
+    "The hospital aftermath differs: the supportive Ian run describes psychiatric care and continued telephone contact."
+  ],
+  "pendingConfirmation": [
+    {
+      "item": "Exact hidden affection thresholds and a complete response-to-score table",
+      "handling": "Not stated as public numeric rules. Relationship directions are qualitative and the body-search condition is described as state-dependent."
+    },
+    {
+      "item": "Full end-to-end reproduction of every branch in the website’s current iframe build",
+      "handling": "No local four-route playthrough claimed. Footage and guides were checked; alternate refusal/medicine directions are guide-backed rather than exhaustive current-build proofs."
+    },
+    {
+      "item": "Filmed-build versus current creator 1.0.1 and third-party iframe equivalence",
+      "handling": "No version equality claimed. Visible clues and wording should be matched in the actual run."
+    },
+    {
+      "item": "Express republication permission for the walkthrough frame excerpts",
+      "handling": "Licence remains unverified; limited editorial context recorded, streamer overlay and watermark retained. Do not treat internal publish validation as a licence grant. Review before public launch."
+    }
+  ],
+  "screenshots": {
+    "desktop": "reports/redesign/endings-tree-ending-split-desktop.jpg",
+    "desktopFull": "reports/redesign/endings-tree-desktop-full.jpg",
+    "mobile": "reports/redesign/endings-tree-mobile.jpg",
+    "mobileFull": "reports/redesign/endings-tree-mobile-full.jpg",
+    "width1024": "reports/redesign/endings-tree-1024.jpg",
+    "width768": "reports/redesign/endings-tree-768.jpg",
+    "noJs": "reports/redesign/endings-tree-no-js.jpg"
+  },
+  "notes": [
+    "SVG lines progressively enhance server-rendered HTML; labels and destination anchors remain available without JavaScript.",
+    "Project CSS loader rewrites .css extensions; tree styles use the project’s scoped global-CSS convention without changing Next configuration.",
+    "Generated legacy diagram cover is no longer used for Endings metadata or visible content; historical asset retained and marked superseded.",
+    "No services were started, stopped or restarted; no deployment, Git commit or remote operations."
+  ]
+}

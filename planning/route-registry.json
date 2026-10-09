@@ -1,0 +1,123 @@
+{
+  "origin": "https://helpingyourboyfriend.org",
+  "trailingSlash": false,
+  "mainGameRoutePolicy": "The main game is published only at / and never at /games/helping-your-boyfriend.",
+  "staticRoutes": [
+    {
+      "id": "home",
+      "path": "/",
+      "kind": "main-game",
+      "source": "data/games/main-game.json",
+      "canonical": "https://helpingyourboyfriend.org",
+      "sitemap": true
+    },
+    {
+      "id": "privacy",
+      "path": "/privacy",
+      "kind": "legal",
+      "source": "app/privacy/page.tsx",
+      "canonical": "https://helpingyourboyfriend.org/privacy",
+      "sitemap": true
+    },
+    {
+      "id": "terms",
+      "path": "/terms",
+      "kind": "legal",
+      "source": "app/terms/page.tsx",
+      "canonical": "https://helpingyourboyfriend.org/terms",
+      "sitemap": true
+    },
+    {
+      "id": "copyright",
+      "path": "/copyright",
+      "kind": "legal",
+      "source": "app/copyright/page.tsx",
+      "canonical": "https://helpingyourboyfriend.org/copyright",
+      "sitemap": true
+    },
+    {
+      "id": "about",
+      "path": "/about",
+      "kind": "legal",
+      "source": "app/about/page.tsx",
+      "canonical": "https://helpingyourboyfriend.org/about",
+      "sitemap": true
+    },
+    {
+      "id": "contact",
+      "path": "/contact",
+      "kind": "legal",
+      "source": "app/contact/page.tsx",
+      "canonical": "https://helpingyourboyfriend.org/contact",
+      "sitemap": true
+    },
+    {
+      "id": "endings",
+      "path": "/endings",
+      "kind": "topic",
+      "source": "data/guides/helping-your-boyfriend-endings-walkthrough.json",
+      "canonical": "https://helpingyourboyfriend.org/endings",
+      "sitemap": true
+    },
+    {
+      "id": "characters",
+      "path": "/characters",
+      "kind": "topic",
+      "source": "data/guides/helping-your-boyfriend-characters.json",
+      "canonical": "https://helpingyourboyfriend.org/characters",
+      "sitemap": true
+    },
+    {
+      "id": "controls",
+      "path": "/controls",
+      "kind": "topic",
+      "source": "data/guides/helping-your-boyfriend-controls-minigames.json",
+      "canonical": "https://helpingyourboyfriend.org/controls",
+      "sitemap": true
+    }
+  ],
+  "dynamicRoutes": [],
+  "nonPublicPaths": [
+    {
+      "path": "/games",
+      "reason": "additional games stay in data and are not public pages",
+      "expected": 404
+    },
+    {
+      "path": "/games/*",
+      "reason": "additional game records are not published as pages",
+      "expected": 404
+    },
+    {
+      "path": "/guides",
+      "reason": "topic pages replace the old Guides index",
+      "expected": 404
+    },
+    {
+      "path": "/guides/*",
+      "reason": "topic pages replace old Guide detail URLs",
+      "expected": 404
+    },
+    {
+      "path": "/legal/*",
+      "reason": "Legal source organization must not leak into public URLs",
+      "expected": 404
+    },
+    {
+      "path": "/__draft-preview/*",
+      "reason": "draft preview exists only in test harness fixtures",
+      "expected": 404
+    }
+  ],
+  "generatedMetadataRoutes": [
+    {
+      "path": "/sitemap.xml",
+      "source": "app/sitemap.ts"
+    },
+    {
+      "path": "/robots.txt",
+      "source": "app/robots.ts"
+    }
+  ],
+  "plannedPublicCanonicalCount": 9
+}

@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "signature": "prescription-tab",
+    "description": "A rounded paper tab with a tiny perforation/notch and a single clinical rule line, derived from the game's sweet stationery, doctor setting, bell/menu UI, and later threat rather than copied game art."
+  },
+  "colors": {
+    "canvas": { "value": "#FFF7FA", "use": "page background", "text": "#211722", "contrast": 16.47 },
+    "surface": { "value": "#FFFFFF", "use": "player surround, cards, article surfaces", "text": "#211722", "contrast": 17.17 },
+    "surfaceTint": { "value": "#F7D8E3", "use": "section tabs, selected cards, subtle separators", "text": "#211722", "contrast": 13.13 },
+    "ink": { "value": "#211722", "use": "primary text and dark player/footer surface", "inverseText": "#FFFFFF", "contrastOnWhite": 17.17 },
+    "mutedInk": { "value": "#745D6D", "use": "secondary text on light surfaces", "contrastOnCanvas": 5.65 },
+    "roseAction": { "value": "#B61950", "use": "Play Now, active navigation, links, primary focus accents", "text": "#FFFFFF", "contrast": 6.47 },
+    "warningGold": { "value": "#F3C44E", "use": "warning labels and failure/status edge paired with text/icon", "text": "#211722", "contrast": 10.59 },
+    "danger": { "value": "#8B1E32", "use": "explicit destructive or content warning states", "text": "#FFFFFF", "contrast": 8.78 }
+  },
+  "typography": {
+    "heading": { "family": "Newsreader, Georgia, serif", "weights": [600, 700], "role": "editorial tension and story headings" },
+    "body": { "family": "Roboto, Arial, sans-serif", "weights": [400, 500, 700], "role": "controls, long-form instructions, cards, navigation" },
+    "data": { "family": "ui-monospace, SFMono-Regular, Consolas, monospace", "weights": [500, 700], "role": "status, control keys, version and compact metadata" },
+    "scalePx": { "xs": 12, "sm": 14, "body": 17, "bodyLarge": 19, "h4": 20, "h3": 24, "h2": 32, "innerH1Desktop": 44, "homeH1Desktop": 56, "innerH11024": 40, "homeH11024": 50, "innerH1768": 32, "homeH1768": 38 },
+    "lineHeight": { "tight": 1.08, "heading": 1.16, "body": 1.68, "compact": 1.4 },
+    "gameArticleMaxWidth": "none; always the complete left grid track",
+    "guideReadingMeasure": "68ch default, fluid to full mobile width"
+  },
+  "spacingPx": { "1": 4, "2": 8, "3": 12, "4": 16, "5": 20, "6": 24, "8": 32, "10": 40, "12": 48, "16": 64, "20": 80 },
+  "layout": {
+    "containerMaxPx": 1400,
+    "desktopPageGutterPx": 24,
+    "tabletPageGutterPx": 20,
+    "mobilePageGutterPx": 16,
+    "desktopColumns": "minmax(0, 1fr) 400px",
+    "desktopGapPx": 28,
+    "tabletColumns": "minmax(0, 1fr) 312px",
+    "tabletGapPx": 20,
+    "headerHeightDesktopPx": 72,
+    "headerHeightCompactPx": 64,
+    "stickyGapPx": 16,
+    "playerAspectRatio": "16 / 9",
+    "recommendedColumnsDesktop": 3,
+    "recommendedColumns1024": 2,
+    "sideCardColumns": 2
+  },
+  "shape": {
+    "radiusSmallPx": 8,
+    "radiusMediumPx": 14,
+    "radiusLargePx": 22,
+    "border": "1px solid #DFC4CF",
+    "borderStrong": "1px solid #B61950",
+    "shadowLow": "0 8px 24px rgba(50, 27, 51, 0.08)",
+    "shadowPlayer": "0 20px 52px rgba(50, 27, 51, 0.18)"
+  },
+  "icons": { "viewBox": "0 0 24 24", "strokeWidth": 1.8, "sizesPx": [18, 20, 24], "touchTargetMinPx": 44, "style": "rounded line SVG, no emoji" },
+  "interaction": {
+    "focus": "3px solid #F3C44E with 3px #211722 offset on light surfaces; inverse ring on dark surfaces",
+    "hover": "color, border, and shadow only; no scale or layout shift",
+    "pressed": "inset shadow plus 1px translateY, removed under reduced motion",
+    "disabled": "55% opacity plus disabled cursor and explicit text state",
+    "loading": "reserved geometry, status text, and subtle 900ms opacity pulse",
+    "error": "warningGold/danger edge, failure icon, plain-language reason, and retry button",
+    "durationMs": { "fast": 150, "normal": 220, "slow": 320 },
+    "easing": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+    "reducedMotion": "remove pulse, transforms, smooth scrolling, and non-essential transitions"
+  },
+  "zIndex": { "base": 0, "card": 10, "sticky": 30, "header": 50, "menu": 60, "webpageFullscreen": 80, "browserFullscreenControl": 90 },
+  "breakpointsPx": [1024, 768],
+  "forbidden": ["generic neon/cyberpunk", "CRT scanlines", "stock keyboards/controllers", "per-game theme recoloring", "emoji UI icons", "hover-only controls", "third width breakpoint", "narrow game prose wrapper"]
+}

@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-09",
+  "scope": "Player recovery, above-fold media, publication validation, page-local revision dates, resource sizes and creator credit",
+  "checksPassed": [
+    "ESLint and TypeScript",
+    "Content contracts and negative fixtures",
+    "Development, media and public-page publication validation",
+    "Page-local date fingerprint regression tests",
+    "Production build and static CSP (no unsafe-eval)",
+    "Brand, legal, endings tree and notebook build audits",
+    "Nine live page SEO signals, sitemap and removed route 404s",
+    "Four main pages at 390, 768, 1024 and 1440px: no horizontal overflow or broken local anchors",
+    "Characters first-screen images: eager loading, first image high fetch priority",
+    "Player reload confirmation shown; cancellation preserves player and acceptance restarts Unity loading"
+  ],
+  "resourceBytes": {
+    "logoBefore": 189857,
+    "logoAfter": 16092,
+    "fontsBefore": 680580,
+    "fontsAfter": 274392
+  },
+  "productionHttpAudit": "The existing localhost:3002 service is a development server. The production HTTP CSP audit rejects its development-only unsafe-eval as expected; production build CSP was separately checked from routes-manifest.json. No production service was started.",
+  "dateMigration": "Page-local fingerprint algorithm initialized with preserved editorial dates; later updates refresh only affected content records or static pages. Visible dates remain year-month.",
+  "pending": [
+    "Real production deployment HTTP behavior and support mailbox delivery",
+    "Operator identity, hosting and email providers, applicable retention periods",
+    "Full embedded-game input, minigame and four-ending completion testing",
+    "Media permission review before public launch"
+  ],
+  "screenshots": ["reports/fixes/player-desktop.png", "reports/fixes/player-mobile.png"],
+  "boundaries": "No service startup or restart, deployment, Git commit or remote changes. Archived game JSON retained. No new routes or compatibility redirects."
+}

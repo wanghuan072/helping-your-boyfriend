@@ -1,0 +1,243 @@
+{
+  "id": "helping-your-boyfriend-characters",
+  "slug": "helping-your-boyfriend-characters",
+  "status": "published",
+  "title": "Helping Your Boyfriend Characters",
+  "summary": "We meet our protagonist, Adrian, Ian and Oliver, then look beyond first impressions to understand their place in the story.",
+  "tags": [
+    "Characters",
+    "Adrian",
+    "Ian",
+    "Oliver"
+  ],
+  "authorId": null,
+  "spoilerPolicy": "marked",
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-09",
+  "cover": {
+    "src": "/images/guides/helping-your-boyfriend-characters-cover.webp",
+    "alt": "Adrian character artwork beside the Characters and Relationships guide title",
+    "width": 1280,
+    "height": 720
+  },
+  "sections": [
+    {
+      "id": "meet-the-cast",
+      "title": "Who is connected to us?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We enter Helping Your Boyfriend inside an existing relationship, not a line-up of possible dates. Adrian belongs to our everyday routine; Ian interrupts its familiar rhythm; Oliver connects us with a world beyond the house. Their different roles help us read a scene without treating every conversation as the same kind of choice."
+        },
+        {
+          "type": "paragraph",
+          "text": "The relationships below describe where each person fits into our experience of the story. They are not a promise that somebody is safe, a list of romance routes or a score to maximise. We pay attention to what a person does as well as what they say."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Character",
+            "Connection to us"
+          ],
+          "rows": [
+            [
+              "Our protagonist",
+              "Our viewpoint"
+            ],
+            [
+              "Dr. Adrian Winchester",
+              "Opening relationship"
+            ],
+            [
+              "Ian",
+              "Later exchanges"
+            ],
+            [
+              "Oliver",
+              "Outside contact"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adrian",
+      "title": "Dr. Adrian Winchester",
+      "summary": "The boyfriend we already know",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/helping-your-boyfriend-characters-adrian.webp",
+          "alt": "Dr. Adrian Winchester in a white coat, from the game’s character art.",
+          "width": 560,
+          "height": 720,
+          "caption": "Adrian’s character art shows the doctor boyfriend in his white coat."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "First impressions",
+          "body": "We meet Adrian as our doctor boyfriend: a white coat, affectionate language and a return home that marks the beginning of our waking evening. We are already living with him and depending on his care. That starting intimacy matters—we are answering someone familiar, not deciding whether to date a stranger."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "What we notice",
+          "body": "His visits, questions about our sleep and the doll work create a recognisable routine. The sleep conversation lets us answer neutrally, show affection or admit that we feel terrible. We notice how much of our day is organised around his presence, and how quickly ordinary reassurance can become uncomfortable when new information changes its meaning."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "Care and dependence",
+          "body": "Adrian supplies both attention and the activity that keeps us occupied. Taking apart dolls turns that relationship into something we perform with our hands, rather than a romance described only in dialogue. We read the warmth of his words alongside the limits of our situation: who decides the routine, what we can inspect, and how much we understand about the house."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "Reading him on a replay",
+          "body": "We can approach the same familiar scene differently after learning more. An affectionate answer shows our response in that moment; it does not settle every later action or guarantee a safe outcome. We compare his behaviour across scenes instead of reducing the character to one approving reply. The Endings page keeps the route decisions separate from this character reading."
+        }
+      ]
+    },
+    {
+      "id": "ian",
+      "title": "Ian",
+      "summary": "A different direction of trust",
+      "blocks": [
+        {
+          "type": "callout",
+          "tone": "warning",
+          "label": "Spoilers ahead",
+          "body": "Later encounters and their place in the story are discussed below. Read after a first blind run if you would rather meet these characters in the game."
+        },
+        {
+          "type": "image",
+          "src": "/images/guides/helping-your-boyfriend-characters-ian.webp",
+          "alt": "Ian sitting on the bed during a later night scene.",
+          "width": 620,
+          "height": 530,
+          "caption": "Ian appears in person after the first night, once the investigation route is open."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "When we meet him",
+          "body": "Ian breaks the comfortable pattern built around Adrian. His early encounter involves a pill offer under pressure; a later conversation gives us more room to listen and respond. We keep those moments distinct. The visitor's urgency and the later exchange are not simply another version of Adrian's nightly reassurance."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "What changes",
+          "body": "His presence gives us a different perspective on the household. We can listen to what he says without assuming that an alternative to Adrian is automatically trustworthy. We look at his actions, the pressure around an encounter and the information that follows it. That uncertainty is part of reading the character, not a problem we solve by labelling him good or bad."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "What we watch for",
+          "body": "The way we answer Ian matters across earlier exchanges, not only at the final scene. A supportive direction and a more distant direction lead us to read his later involvement differently. We let the conversation finish, notice its wording and keep our response to him separate from our response to Adrian. Exact route conditions belong on the Endings page."
+        }
+      ]
+    },
+    {
+      "id": "oliver",
+      "title": "Oliver",
+      "summary": "Contact beyond the house",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/helping-your-boyfriend-characters-oliver.webp",
+          "alt": "Oliver beside the hospital bed after the investigation call.",
+          "width": 520,
+          "height": 560,
+          "caption": "Oliver is the contact reached by phone, and he is present when that route reaches the hospital."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "When we meet him",
+          "body": "Oliver belongs to the contact we make beyond the household during the investigation. He is not introduced as another part of Adrian's nightly routine. The hospital scene places him beside the protagonist after help has been reached, changing both the setting and the people available to us."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "What changes",
+          "body": "With Oliver, the story is no longer contained entirely within the familiar bedroom and Adrian's care. We can speak to someone outside that arrangement. His presence gives the later scenes a different practical focus: what has happened, what support is available and what comes after leaving the house."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "What we watch for",
+          "body": "We distinguish making contact from understanding the whole aftermath. Reaching a hospital does not make every uncertainty disappear. We listen to the exchange and read the remaining scenes before deciding how settled an outcome feels. Oliver's role is outside support, not an affection meter we need to fill through repeated friendly replies."
+        }
+      ]
+    },
+    {
+      "id": "our-protagonist",
+      "title": "Our protagonist, our perspective",
+      "summary": "The viewpoint inside the routine",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/helping-your-boyfriend-characters-protagonist.webp",
+          "alt": "The opening body-type customisation offers two illustrated options.",
+          "width": 1120,
+          "height": 517,
+          "caption": "The opening body-type customisation offers two illustrated options."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "A personal starting point",
+          "body": "We choose our name, pronouns and body type. The illustrated body options change the presentation of the character whose viewpoint we follow; they are not the same thing as choosing gameplay difficulty. We can decide how we want to appear without treating that screen as a relationship choice."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "What the opening tells us",
+          "body": "The opening presents a protagonist unable to walk because of a leg illness, living with Adrian and waking late at night. We begin with that account of our situation. As the story reveals more, we can reconsider the routine instead of treating the opening explanation as the final word on everything that is happening."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "Our choices still matter",
+          "body": "A restricted viewpoint does not mean a passive character. We answer conversations, perform the doll work and act on discoveries. We experience the house through what the protagonist can notice at each moment, rather than importing everything we remember from a different run. That gap between what we know and what the character has encountered gives a replay its own tension."
+        }
+      ]
+    },
+    {
+      "id": "voice-cast",
+      "title": "The voices behind the story",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We can let voiced moments finish before advancing when sound is comfortable. Delivery adds another layer to the written dialogue: reassurance, hesitation or pressure can change how a familiar line feels. For a quick reread, we use the dialogue history rather than assuming we caught every word."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Character",
+            "Voice performer"
+          ],
+          "rows": [
+            [
+              "Adrian",
+              "Vertin Vii"
+            ],
+            [
+              "Ian",
+              "BigG"
+            ],
+            [
+              "Oliver",
+              "Omong"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "relatedGuideIds": [
+    "helping-your-boyfriend-controls-minigames",
+    "helping-your-boyfriend-endings-walkthrough"
+  ]
+}

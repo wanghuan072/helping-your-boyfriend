@@ -1,0 +1,2270 @@
+{
+  "version": 1,
+  "rules": {
+    "gameMinimumVisibleNonWhitespaceAfterPlayer": 4000,
+    "gameContentMaximum": null,
+    "videoPlacement": "after the complete independent article",
+    "videoCountPerGame": "1-3",
+    "videoFallback": "replace an unavailable candidate; never publish an empty required video section",
+    "spoilerDefault": "Keep major outcomes, solutions, identities, and late-game imagery out of cards, leads, TDK, alt text, and unmarked video descriptions."
+  },
+  "pages": [
+    {
+      "page_id": "home",
+      "content_id": "helping-your-boyfriend",
+      "primary_task": "Start the configured player safely and understand the verified main game well enough to complete a first run.",
+      "excludes": [
+        "Exact four-ending solutions belong to the endings Guide",
+        "Detailed per-minigame execution belongs to the controls Guide",
+        "Do not describe test.com as an official browser build"
+      ],
+      "chapters": [
+        {
+          "section_id": "the-nightly-routine",
+          "player_question": "The night starts with Adrian coming home",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "our-first-run",
+          "player_question": "Before the first conversation",
+          "format": [
+            "paragraph",
+            "image",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [
+            "/images/games/helping-your-boyfriend-customisation.webp"
+          ],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "dialogue-and-choices",
+          "player_question": "A simple question, three very different replies",
+          "format": [
+            "paragraph",
+            "image",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [
+            "/images/games/helping-your-boyfriend-dialogue-choice.webp"
+          ],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "dolls-and-timing",
+          "player_question": "The doll work is part of the game—not background decoration",
+          "format": [
+            "paragraph",
+            "image",
+            "paragraph",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [
+            "/images/games/helping-your-boyfriend-doll-task.webp"
+          ],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "reading-the-characters",
+          "player_question": "Adrian is the beginning. He is not the whole cast.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "replaying-four-endings",
+          "player_question": "What changes when we come back for another ending?",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "edition-and-controls",
+          "player_question": "Release details and playing here",
+          "format": [
+            "paragraph",
+            "table",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "late-scene-examples",
+          "player_question": "When we are ready: optional late-scene examples",
+          "format": [
+            "callout",
+            "image",
+            "image",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/helping-your-boyfriend-interface.webp",
+            "/images/games/helping-your-boyfriend-mechanic.webp",
+            "/images/games/helping-your-boyfriend-feedback.webp"
+          ],
+          "spoiler": {
+            "involved": true,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "gameplay-video",
+          "player_question": "Watch a run after reading the guide",
+          "format": [
+            "video"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        }
+      ],
+      "flow07": {
+        "contentStatus": "complete-awaiting-media",
+        "visibleNonWhitespaceBeforeVideo": 6581,
+        "checkedAt": "2026-10-08",
+        "videoAnalysisId": "video-analysis-helping-your-boyfriend"
+      }
+    },
+    {
+      "page_id": "game-going-live",
+      "content_id": "going-live",
+      "primary_task": "Manage the verified prototype's fan choices and understand its three-ending replay and canceled scope.",
+      "excludes": [
+        "Do not imply active development",
+        "Do not reveal severe ending outcomes in unmarked copy"
+      ],
+      "chapters": [
+        {
+          "section_id": "story-and-scope",
+          "player_question": "A romance told through the stream",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/going-live-interface.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "read-the-scene",
+          "player_question": "Read the window, not an imagined score",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/going-live-mechanic.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "replay-and-version",
+          "player_question": "What this prototype does—and does not promise",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/going-live-feedback.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "first-reading",
+          "player_question": "Take a first stream slowly",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "input-and-recovery",
+          "player_question": "Controls for dialogue and chat",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "content-warning",
+          "player_question": "When the cheerful surface gets uncomfortable",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "player-questions",
+          "player_question": "Before you start: player questions",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "faq"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "gameplay-video",
+          "player_question": "Gameplay video",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "video"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        }
+      ],
+      "flow07": {
+        "contentStatus": "complete-awaiting-media",
+        "visibleNonWhitespaceBeforeVideo": 5942,
+        "checkedAt": "2026-10-08",
+        "videoAnalysisId": "video-analysis-going-live"
+      }
+    },
+    {
+      "page_id": "game-first-base",
+      "content_id": "first-base",
+      "primary_task": "Use version 1.6's customization and relationship choices to survive and plan six-ending replays.",
+      "excludes": [
+        "Do not publish death-route conditions outside marked sections",
+        "Do not transfer facts from an older video without 1.6 confirmation"
+      ],
+      "chapters": [
+        {
+          "section_id": "story-and-scope",
+          "player_question": "Dakota Cly, beyond the baseball field",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/first-base-interface.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "read-the-scene",
+          "player_question": "Customise the protagonist, then start reading",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/first-base-mechanic.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "replay-and-version",
+          "player_question": "Six endings are not six final buttons",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "first-reading",
+          "player_question": "Read your first college encounter",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "input-and-recovery",
+          "player_question": "Mouse, menus and name entry",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "content-warning",
+          "player_question": "Before the romance turns threatening",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "optional-scene-example",
+          "player_question": "Optional later-scene example",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "callout",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/first-base-feedback.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": true,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "player-questions",
+          "player_question": "Before you start: player questions",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "faq"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "gameplay-video",
+          "player_question": "Gameplay video",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "video"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        }
+      ],
+      "flow07": {
+        "contentStatus": "complete-awaiting-media",
+        "visibleNonWhitespaceBeforeVideo": 5361,
+        "checkedAt": "2026-10-08",
+        "videoAnalysisId": "video-analysis-first-base"
+      }
+    },
+    {
+      "page_id": "game-the-stranger-from-the-bus-stop",
+      "content_id": "the-stranger-from-the-bus-stop",
+      "primary_task": "Complete browser version 1.1's short encounter, notice clue context, and replay four endings without an unmarked solution.",
+      "excludes": [
+        "Do not reveal the number clue in card, lead, metadata, alt, or unmarked copy"
+      ],
+      "chapters": [
+        {
+          "section_id": "story-and-scope",
+          "player_question": "One ordinary stop, four possible outcomes",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/the-stranger-from-the-bus-stop-interface.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "read-the-scene",
+          "player_question": "Notice the setting as well as the stranger",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/the-stranger-from-the-bus-stop-mechanic.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "replay-and-version",
+          "player_question": "Replay a short story without spoiling its clues",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/the-stranger-from-the-bus-stop-feedback.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "first-reading",
+          "player_question": "Begin with one uninterrupted encounter",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "input-and-recovery",
+          "player_question": "Small menus and deliberate clicks",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "content-warning",
+          "player_question": "Stalking themes and the launcher quirk",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "player-questions",
+          "player_question": "Before you start: player questions",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "faq"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "gameplay-video",
+          "player_question": "Gameplay video",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "video"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        }
+      ],
+      "flow07": {
+        "contentStatus": "complete-awaiting-media",
+        "visibleNonWhitespaceBeforeVideo": 5192,
+        "checkedAt": "2026-10-08",
+        "videoAnalysisId": "video-analysis-the-stranger-from-the-bus-stop"
+      }
+    },
+    {
+      "page_id": "game-trapped-with-jester",
+      "content_id": "trapped-with-jester",
+      "primary_task": "Navigate the voiced carriage encounter and replay four main plus two alternate endings without exposing its identity reveal.",
+      "excludes": [
+        "Do not reveal the protagonist or stranger's identity outside marked content"
+      ],
+      "chapters": [
+        {
+          "section_id": "story-and-scope",
+          "player_question": "A captive conversation, not a carnival game",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/trapped-with-jester-interface.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "read-the-scene",
+          "player_question": "Let the voice and expression finish",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/trapped-with-jester-mechanic.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "replay-and-version",
+          "player_question": "Use the ending gallery as a replay record",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/trapped-with-jester-feedback.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "first-reading",
+          "player_question": "Start with a short voiced run",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "input-and-recovery",
+          "player_question": "Dialogue input and browser performance",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "content-warning",
+          "player_question": "Warnings behind the playful delivery",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "player-questions",
+          "player_question": "Before you start: player questions",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "faq"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "gameplay-video",
+          "player_question": "Gameplay video",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "video"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        }
+      ],
+      "flow07": {
+        "contentStatus": "complete-awaiting-media",
+        "visibleNonWhitespaceBeforeVideo": 4745,
+        "checkedAt": "2026-10-08",
+        "videoAnalysisId": "video-analysis-trapped-with-jester"
+      }
+    },
+    {
+      "page_id": "game-today-im-harvesting-you",
+      "content_id": "today-im-harvesting-you",
+      "primary_task": "Complete the jam build's dialogue, choices, and point-and-click harvest while recovering from documented web issues.",
+      "excludes": [
+        "No graphic harvest imagery",
+        "No exact ending count until verified"
+      ],
+      "chapters": [
+        {
+          "section_id": "story-and-scope",
+          "player_question": "Dating, debt and the harvest theme",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/today-im-harvesting-you-interface.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "read-the-scene",
+          "player_question": "Click choices—and recognise item selection",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/today-im-harvesting-you-mechanic.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "replay-and-version",
+          "player_question": "Reading the collector screen carefully",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "callout",
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/today-im-harvesting-you-feedback.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": true,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "first-reading",
+          "player_question": "Choose a first date at your own pace",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "input-and-recovery",
+          "player_question": "When an old instruction or hitbox misleads you",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "paragraph",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "content-warning",
+          "player_question": "Graphic content beyond the soft character art",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "player-questions",
+          "player_question": "Before you start: player questions",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "faq"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "gameplay-video",
+          "player_question": "Gameplay video",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "video"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        }
+      ],
+      "flow07": {
+        "contentStatus": "complete-awaiting-media",
+        "visibleNonWhitespaceBeforeVideo": 5189,
+        "checkedAt": "2026-10-08",
+        "videoAnalysisId": "video-analysis-today-im-harvesting-you"
+      }
+    },
+    {
+      "page_id": "game-my-own-sweet-dionaea",
+      "content_id": "my-own-sweet-dionaea",
+      "primary_task": "Navigate demo 1.01's care-versus-risk choices and understand what is current rather than planned.",
+      "excludes": [
+        "No planned full-game feature presented as shipped",
+        "No suggestive imagery in cards or metadata"
+      ],
+      "chapters": [
+        {
+          "section_id": "story-and-scope",
+          "player_question": "A greenhouse story about marriage and change",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/my-own-sweet-dionaea-interface.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "read-the-scene",
+          "player_question": "Read the botanical setting without inventing a simulator",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/my-own-sweet-dionaea-mechanic.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "replay-and-version",
+          "player_question": "A demo has a different completion goal",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/my-own-sweet-dionaea-feedback.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "first-reading",
+          "player_question": "Start with the botanist’s situation",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "input-and-recovery",
+          "player_question": "Readable dialogue and accessibility choices",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "content-warning",
+          "player_question": "Know the demo’s unsettling themes",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "player-questions",
+          "player_question": "Before you start: player questions",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "faq"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "gameplay-video",
+          "player_question": "Gameplay video",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "video"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        }
+      ],
+      "flow07": {
+        "contentStatus": "complete-awaiting-media",
+        "visibleNonWhitespaceBeforeVideo": 5316,
+        "checkedAt": "2026-10-08",
+        "videoAnalysisId": "video-analysis-my-own-sweet-dionaea"
+      }
+    },
+    {
+      "page_id": "game-overdose",
+      "content_id": "overdose",
+      "primary_task": "Use the current browser build's customization and state systems to progress through the hospital mystery without confusing older footage with current features.",
+      "excludes": [
+        "No graphic self-harm imagery",
+        "No older-video fact without current-build confirmation"
+      ],
+      "chapters": [
+        {
+          "section_id": "story-and-scope",
+          "player_question": "A doctor-romance game with several kinds of state",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "read-the-scene",
+          "player_question": "Read affinity, anxiety and awareness separately",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/overdose-mechanic.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "replay-and-version",
+          "player_question": "Use inventory as its own interface",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/overdose-feedback.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "first-reading",
+          "player_question": "Begin at the current day-one opening",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "input-and-recovery",
+          "player_question": "Day-based saves and build changes",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "content-warning",
+          "player_question": "Strong medical and psychological horror warnings",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "optional-scene-example",
+          "player_question": "Optional later-scene example",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "callout",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/overdose-interface.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": true,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "player-questions",
+          "player_question": "Before you start: player questions",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "faq"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "gameplay-video",
+          "player_question": "Gameplay video",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "video"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        }
+      ],
+      "flow07": {
+        "contentStatus": "complete-awaiting-media",
+        "visibleNonWhitespaceBeforeVideo": 5387,
+        "checkedAt": "2026-10-08",
+        "videoAnalysisId": "video-analysis-overdose"
+      }
+    },
+    {
+      "page_id": "game-devour-me-gently",
+      "content_id": "devour-me-gently",
+      "primary_task": "Start the current demo, use name/dialogue input, and judge controlling caretaker signals without romanticizing confinement.",
+      "excludes": [
+        "No claim that the caretaker is safe",
+        "No exact branch count until verified"
+      ],
+      "chapters": [
+        {
+          "section_id": "story-and-scope",
+          "player_question": "An apartment, an injury and a caretaker’s story",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/devour-me-gently-interface.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "read-the-scene",
+          "player_question": "Read the actual responses you are offered",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/devour-me-gently-mechanic.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "replay-and-version",
+          "player_question": "Where this short demo ends",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/devour-me-gently-feedback.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "first-reading",
+          "player_question": "Give the opening a complete reading",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "input-and-recovery",
+          "player_question": "Name entry, taps and dialogue",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "content-warning",
+          "player_question": "Gentle delivery does not mean a safe premise",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "player-questions",
+          "player_question": "Before you start: player questions",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "faq"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "gameplay-video",
+          "player_question": "Gameplay video",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "video"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        }
+      ],
+      "flow07": {
+        "contentStatus": "complete-awaiting-media",
+        "visibleNonWhitespaceBeforeVideo": 4868,
+        "checkedAt": "2026-10-08",
+        "videoAnalysisId": "video-analysis-devour-me-gently"
+      }
+    },
+    {
+      "page_id": "game-dystopia",
+      "content_id": "dystopia-the-jesters-obsession",
+      "primary_task": "Use demo v1's name, affection, and hidden-point feedback to explore four endings while separating current from announced features.",
+      "excludes": [
+        "No optional NSFW plan described as shipped",
+        "No ending thresholds in metadata"
+      ],
+      "chapters": [
+        {
+          "section_id": "story-and-scope",
+          "player_question": "Fai’s friendship in a monochrome void",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/dystopia-the-jesters-obsession-interface.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "read-the-scene",
+          "player_question": "Affection and points are two named systems",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/dystopia-the-jesters-obsession-mechanic.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "replay-and-version",
+          "player_question": "Four endings now; future routes later",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image"
+          ],
+          "media_slots": [
+            "/images/games/dystopia-the-jesters-obsession-feedback.webp"
+          ],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "first-reading",
+          "player_question": "Set a name and begin the conversation",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "input-and-recovery",
+          "player_question": "Observe unlocked dialogue without guessing thresholds",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "content-warning",
+          "player_question": "An unsettling demo, not its planned adult route",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "paragraph"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "player-questions",
+          "player_question": "Before you start: player questions",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "faq"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        },
+        {
+          "section_id": "gameplay-video",
+          "player_question": "Gameplay video",
+          "why_here": "Specific reading, input or replay question, not a repeated template.",
+          "format": [
+            "video"
+          ],
+          "media_slots": [],
+          "completion_criterion": "Reader understands the actual scene and release; no invented hidden values.",
+          "spoiler": {
+            "involved": false,
+            "label": "Story spoilers",
+            "default_expanded": false,
+            "metadata_exclusion": [
+              "Ending details",
+              "Later clue solution"
+            ]
+          }
+        }
+      ],
+      "flow07": {
+        "contentStatus": "complete-awaiting-media",
+        "visibleNonWhitespaceBeforeVideo": 4945,
+        "checkedAt": "2026-10-08",
+        "videoAnalysisId": "video-analysis-dystopia-the-jesters-obsession"
+      }
+    },
+    {
+      "page_id": "guide-controls",
+      "content_id": "helping-your-boyfriend-controls-minigames",
+      "primary_task": "Execute every confirmed control family and recover when dialogue, dragging, or a QTE does not respond.",
+      "excludes": [
+        "No ending path instructions",
+        "No assumed touch equivalence"
+      ],
+      "chapters": [
+        {
+          "section_id": "before-you-start",
+          "player_question": "Set Up a Recoverable First Run",
+          "format": [
+            "paragraph",
+            "callout",
+            "paragraph",
+            "steps",
+            "image"
+          ],
+          "media_slots": [
+            "/images/guides/helping-your-boyfriend-controls-minigames-step-3.webp"
+          ],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "dialogue-and-menu",
+          "player_question": "Control Dialogue and the Bell Menu",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "table",
+            "image"
+          ],
+          "media_slots": [
+            "/images/guides/helping-your-boyfriend-controls-minigames-step-2.webp"
+          ],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "drag-actions",
+          "player_question": "Doll work: tools, sorting slots and dragging",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "paragraph",
+            "steps",
+            "image"
+          ],
+          "media_slots": [
+            "/images/guides/helping-your-boyfriend-controls-minigames-step-1.webp"
+          ],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "qte-controls",
+          "player_question": "Prepare for Arrow-Key and Space QTEs",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "callout"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "saves-skipping-and-recovery",
+          "player_question": "Save, Skip, and Recover Without Losing the Route",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "list"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "device-questions",
+          "player_question": "Handle Desktop and Android Differences",
+          "format": [
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "questions",
+          "player_question": "Questions before our next run",
+          "format": [
+            "callout",
+            "callout",
+            "callout",
+            "callout"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        }
+      ],
+      "flow07": {
+        "contentStatus": "complete-awaiting-media",
+        "checkedAt": "2026-10-08",
+        "guideBriefId": "helping-your-boyfriend-controls-minigames"
+      }
+    },
+    {
+      "page_id": "guide-endings",
+      "content_id": "helping-your-boyfriend-endings-walkthrough",
+      "primary_task": "Reach all four endings after a blind run using verified checkpoints and explicitly marked route conditions.",
+      "excludes": [
+        "No route outcomes in card, summary, TDK, cover, alt, or unmarked media copy",
+        "No guessed condition"
+      ],
+      "chapters": [
+        {
+          "section_id": "plan-our-replay",
+          "player_question": "Before we start another ending run",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "spoiler-boundary",
+          "player_question": "How the four routes split",
+          "format": [
+            "paragraph",
+            "callout",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": true,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "reusable-checkpoints",
+          "player_question": "Create Three Reusable Checkpoints",
+          "format": [
+            "callout",
+            "steps",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": true,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "ending-one",
+          "player_question": "Ending 1 Route",
+          "format": [
+            "callout",
+            "steps",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": true,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "ending-two",
+          "player_question": "Ending 2 Route",
+          "format": [
+            "callout",
+            "steps",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": true,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "investigation-setup",
+          "player_question": "Prepare the Investigation for Endings 3 and 4",
+          "format": [
+            "callout",
+            "steps",
+            "image",
+            "callout"
+          ],
+          "media_slots": [
+            "/images/guides/helping-your-boyfriend-endings-walkthrough-step-2.webp"
+          ],
+          "spoiler": {
+            "involved": true,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "ending-three",
+          "player_question": "Ending 3 Route",
+          "format": [
+            "callout",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": true,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "ending-four",
+          "player_question": "Ending 4 Route",
+          "format": [
+            "callout",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": true,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "missed-ending-diagnosis",
+          "player_question": "Diagnose a Missed Ending",
+          "format": [
+            "callout",
+            "table",
+            "image",
+            "paragraph"
+          ],
+          "media_slots": [
+            "/images/guides/helping-your-boyfriend-endings-walkthrough-step-3.webp"
+          ],
+          "spoiler": {
+            "involved": true,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "completion-checklist",
+          "player_question": "The four-route checklist",
+          "format": [
+            "callout",
+            "list",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": true,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "questions",
+          "player_question": "Questions before our next run",
+          "format": [
+            "callout",
+            "callout",
+            "callout",
+            "callout",
+            "callout"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": true,
+            "default_expanded": false
+          }
+        }
+      ],
+      "flow07": {
+        "contentStatus": "complete-awaiting-media",
+        "checkedAt": "2026-10-08",
+        "guideBriefId": "helping-your-boyfriend-endings-walkthrough"
+      }
+    },
+    {
+      "page_id": "helping-your-boyfriend-characters",
+      "content_id": "helping-your-boyfriend-characters",
+      "primary_task": "We meet the protagonist and Adrian first, then unpack how Ian and Oliver change our reading of the story—with later relationships kept behind spoiler warnings.",
+      "chapters": [
+        {
+          "section_id": "meet-the-cast",
+          "player_question": "The people inside—and beyond—the house",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "table"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "our-protagonist",
+          "player_question": "Our protagonist: care, dependence and choice",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "image",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [
+            "/images/guides/helping-your-boyfriend-controls-minigames-step-3.webp"
+          ],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "adrian",
+          "player_question": "Dr. Adrian Winchester: the boyfriend we already know",
+          "format": [
+            "paragraph",
+            "paragraph",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "ian",
+          "player_question": "Ian: a pill offer and a different direction of trust",
+          "format": [
+            "callout",
+            "paragraph",
+            "paragraph",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": true,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "oliver",
+          "player_question": "Oliver: making contact outside the routine",
+          "format": [
+            "callout",
+            "paragraph",
+            "paragraph",
+            "paragraph",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": true,
+            "default_expanded": false
+          }
+        },
+        {
+          "section_id": "voice-cast",
+          "player_question": "The voices behind Adrian, Ian and Oliver",
+          "format": [
+            "paragraph",
+            "table",
+            "paragraph"
+          ],
+          "media_slots": [],
+          "spoiler": {
+            "involved": false,
+            "default_expanded": false
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "observedAt": "2026-10-08",
+  "method": "Each candidate watch page was opened and playback was started. The recorded range is deliberately limited to the visually checked opening; later route claims are supported by current official pages and runtime checks rather than inferred from unseen footage.",
+  "records": [
+    {
+      "analysis_id": "video-analysis-helping-your-boyfriend",
+      "video_id": "F-ouLW_MDkY",
+      "game_id": "helping-your-boyfriend",
+      "candidate_query_ids": [
+        "helping-your-boyfriend-query-1",
+        "helping-your-boyfriend-query-2",
+        "helping-your-boyfriend-query-3"
+      ],
+      "identity_status": "exact-game",
+      "content_form": "full-session",
+      "version_scope": "2026 launch build",
+      "reviewed_ranges": [
+        {
+          "range_id": "helping-your-boyfriend-opening-identity",
+          "start": "00:00:00",
+          "end": "00:00:24",
+          "game_state": "The Helping Your Boyfriend title screen and Adrian are visible",
+          "player_action": "Playback starts at the game's opening interface",
+          "visible_result": "The visible title, characters, interface, and opening state match the named game.",
+          "reasoning_value": "Confirms exact game identity and presentational UI before the walkthrough proceeds",
+          "supports_claim_ids": [
+            "claim-hyb-001"
+          ],
+          "limitations": [
+            "The opening identity check cannot establish every later route condition or device behavior.",
+            "Narration, captions, and video description are not copied into public text."
+          ],
+          "page_section_ids": [
+            "what-you-are-playing",
+            "watch-the-current-game"
+          ]
+        }
+      ],
+      "research_decision": "used-for-content",
+      "embed_candidate": true,
+      "decision_reason": "The visible opening establishes the exact Helping Your Boyfriend identity and the full-session format complements, but does not replace, the independent article. Version-sensitive facts remain bounded by the official current page and runtime check."
+    },
+    {
+      "analysis_id": "video-analysis-going-live",
+      "video_id": "O4b30uS8QL0",
+      "game_id": "going-live",
+      "candidate_query_ids": [
+        "going-live-query-1",
+        "going-live-query-2"
+      ],
+      "identity_status": "exact-game",
+      "content_form": "full-session",
+      "version_scope": "current itch browser prototype",
+      "reviewed_ranges": [
+        {
+          "range_id": "going-live-opening-identity",
+          "start": "00:00:00",
+          "end": "00:00:20",
+          "game_state": "A black-and-white Going Live! opening is visible",
+          "player_action": "Playback enters the warning and title flow",
+          "visible_result": "The visible title, characters, interface, and opening state match the named game.",
+          "reasoning_value": "Confirms exact prototype identity and suitability for a complete-route video",
+          "supports_claim_ids": [
+            "claim-going-001"
+          ],
+          "limitations": [
+            "The opening identity check cannot establish every later route condition or device behavior.",
+            "Narration, captions, and video description are not copied into public text."
+          ],
+          "page_section_ids": [
+            "what-you-are-playing",
+            "watch-the-current-game"
+          ]
+        }
+      ],
+      "research_decision": "used-for-content",
+      "embed_candidate": true,
+      "decision_reason": "The visible opening establishes the exact Going Live! identity and the full-session format complements, but does not replace, the independent article. Version-sensitive facts remain bounded by the official current page and runtime check."
+    },
+    {
+      "analysis_id": "video-analysis-first-base",
+      "video_id": "T_BrGwWYwDI",
+      "game_id": "first-base",
+      "candidate_query_ids": [
+        "first-base-query-1",
+        "first-base-query-2"
+      ],
+      "identity_status": "different-version",
+      "content_form": "full-session",
+      "version_scope": "older demo footage; compare with 1.6",
+      "reviewed_ranges": [
+        {
+          "range_id": "first-base-opening-identity",
+          "start": "00:00:00",
+          "end": "00:00:20",
+          "game_state": "First Base title and older presentation are visible",
+          "player_action": "Playback starts the campus/baseball visual novel",
+          "visible_result": "The visible title, characters, interface, and opening state match the named game.",
+          "reasoning_value": "Confirms game identity but not current 1.6 route parity",
+          "supports_claim_ids": [
+            "claim-first-001"
+          ],
+          "limitations": [
+            "Older footage cannot establish current-version route values or complete feature parity.",
+            "Narration, captions, and video description are not copied into public text."
+          ],
+          "page_section_ids": [
+            "what-you-are-playing",
+            "watch-the-current-game"
+          ]
+        }
+      ],
+      "research_decision": "used-for-content",
+      "embed_candidate": true,
+      "decision_reason": "The visible opening establishes the exact First Base identity and the full-session format complements, but does not replace, the independent article. Version-sensitive facts remain bounded by the official current page and runtime check."
+    },
+    {
+      "analysis_id": "video-analysis-the-stranger-from-the-bus-stop",
+      "video_id": "f2dXK0nw5zE",
+      "game_id": "the-stranger-from-the-bus-stop",
+      "candidate_query_ids": [
+        "the-stranger-from-the-bus-stop-query-1",
+        "the-stranger-from-the-bus-stop-query-2"
+      ],
+      "identity_status": "exact-game",
+      "content_form": "full-session",
+      "version_scope": "browser version 1.1",
+      "reviewed_ranges": [
+        {
+          "range_id": "the-stranger-from-the-bus-stop-opening-identity",
+          "start": "00:00:00",
+          "end": "00:00:20",
+          "game_state": "Matching title and bus-stop presentation are visible",
+          "player_action": "Playback advances the opening encounter",
+          "visible_result": "The visible title, characters, interface, and opening state match the named game.",
+          "reasoning_value": "Confirms exact game identity without exposing the number solution",
+          "supports_claim_ids": [
+            "claim-bus-001"
+          ],
+          "limitations": [
+            "The opening identity check cannot establish every later route condition or device behavior.",
+            "Narration, captions, and video description are not copied into public text."
+          ],
+          "page_section_ids": [
+            "what-you-are-playing",
+            "watch-the-current-game"
+          ]
+        }
+      ],
+      "research_decision": "used-for-content",
+      "embed_candidate": true,
+      "decision_reason": "The visible opening establishes the exact The stranger from the bus stop identity and the full-session format complements, but does not replace, the independent article. Version-sensitive facts remain bounded by the official current page and runtime check."
+    },
+    {
+      "analysis_id": "video-analysis-trapped-with-jester",
+      "video_id": "smqy6ZgsZXU",
+      "game_id": "trapped-with-jester",
+      "candidate_query_ids": [
+        "trapped-with-jester-query-1",
+        "trapped-with-jester-query-2"
+      ],
+      "identity_status": "exact-game",
+      "content_form": "full-session",
+      "version_scope": "itch browser release",
+      "reviewed_ranges": [
+        {
+          "range_id": "trapped-with-jester-opening-identity",
+          "start": "00:00:00",
+          "end": "00:00:20",
+          "game_state": "Trapped with Jester branding and the enclosed encounter appear",
+          "player_action": "Playback begins the voiced opening",
+          "visible_result": "The visible title, characters, interface, and opening state match the named game.",
+          "reasoning_value": "Confirms exact game and shows why audio matters",
+          "supports_claim_ids": [
+            "claim-jester-001"
+          ],
+          "limitations": [
+            "The opening identity check cannot establish every later route condition or device behavior.",
+            "Narration, captions, and video description are not copied into public text."
+          ],
+          "page_section_ids": [
+            "what-you-are-playing",
+            "watch-the-current-game"
+          ]
+        }
+      ],
+      "research_decision": "used-for-content",
+      "embed_candidate": true,
+      "decision_reason": "The visible opening establishes the exact Trapped with Jester identity and the full-session format complements, but does not replace, the independent article. Version-sensitive facts remain bounded by the official current page and runtime check."
+    },
+    {
+      "analysis_id": "video-analysis-today-im-harvesting-you",
+      "video_id": "EAAR2KzU43s",
+      "game_id": "today-im-harvesting-you",
+      "candidate_query_ids": [
+        "today-im-harvesting-you-query-1",
+        "today-im-harvesting-you-query-2"
+      ],
+      "identity_status": "exact-game",
+      "content_form": "full-session",
+      "version_scope": "jam browser build",
+      "reviewed_ranges": [
+        {
+          "range_id": "today-im-harvesting-you-opening-identity",
+          "start": "00:00:00",
+          "end": "00:00:20",
+          "game_state": "Matching title card and macabre interface appear",
+          "player_action": "Playback begins the point-and-click sequence",
+          "visible_result": "The visible title, characters, interface, and opening state match the named game.",
+          "reasoning_value": "Confirms exact game and the pointer-led interaction context",
+          "supports_claim_ids": [
+            "claim-harvest-001"
+          ],
+          "limitations": [
+            "The opening identity check cannot establish every later route condition or device behavior.",
+            "Narration, captions, and video description are not copied into public text."
+          ],
+          "page_section_ids": [
+            "what-you-are-playing",
+            "watch-the-current-game"
+          ]
+        }
+      ],
+      "research_decision": "used-for-content",
+      "embed_candidate": true,
+      "decision_reason": "The visible opening establishes the exact Today, I'm Harvesting You! identity and the full-session format complements, but does not replace, the independent article. Version-sensitive facts remain bounded by the official current page and runtime check."
+    },
+    {
+      "analysis_id": "video-analysis-my-own-sweet-dionaea",
+      "video_id": "x-zH-44dWqQ",
+      "game_id": "my-own-sweet-dionaea",
+      "candidate_query_ids": [
+        "my-own-sweet-dionaea-query-1",
+        "my-own-sweet-dionaea-query-2"
+      ],
+      "identity_status": "exact-game",
+      "content_form": "full-session",
+      "version_scope": "demo 1.01",
+      "reviewed_ranges": [
+        {
+          "range_id": "my-own-sweet-dionaea-opening-identity",
+          "start": "00:00:00",
+          "end": "00:00:20",
+          "game_state": "Dionaea character art and matching UI appear",
+          "player_action": "Playback advances the demo setup",
+          "visible_result": "The visible title, characters, interface, and opening state match the named game.",
+          "reasoning_value": "Confirms demo identity and its care-choice presentation",
+          "supports_claim_ids": [
+            "claim-dionaea-001"
+          ],
+          "limitations": [
+            "The opening identity check cannot establish every later route condition or device behavior.",
+            "Narration, captions, and video description are not copied into public text."
+          ],
+          "page_section_ids": [
+            "what-you-are-playing",
+            "watch-the-current-game"
+          ]
+        }
+      ],
+      "research_decision": "used-for-content",
+      "embed_candidate": true,
+      "decision_reason": "The visible opening establishes the exact My Own Sweet Dionaea identity and the full-session format complements, but does not replace, the independent article. Version-sensitive facts remain bounded by the official current page and runtime check."
+    },
+    {
+      "analysis_id": "video-analysis-overdose",
+      "video_id": "yKAlXh4ZToU",
+      "game_id": "overdose",
+      "candidate_query_ids": [
+        "overdose-query-1",
+        "overdose-query-2"
+      ],
+      "identity_status": "different-version",
+      "content_form": "full-session",
+      "version_scope": "earlier 2026 demo; compare with September web upload",
+      "reviewed_ranges": [
+        {
+          "range_id": "overdose-opening-identity",
+          "start": "00:00:00",
+          "end": "00:00:20",
+          "game_state": "The monochrome hospital interface and state indicators appear",
+          "player_action": "Playback begins an earlier 2026 demo route",
+          "visible_result": "The visible title, characters, interface, and opening state match the named game.",
+          "reasoning_value": "Confirms game identity but cannot prove parity with the newer web upload",
+          "supports_claim_ids": [
+            "claim-overdose-001"
+          ],
+          "limitations": [
+            "Older footage cannot establish current-version route values or complete feature parity.",
+            "Narration, captions, and video description are not copied into public text."
+          ],
+          "page_section_ids": [
+            "what-you-are-playing",
+            "watch-the-current-game"
+          ]
+        }
+      ],
+      "research_decision": "used-for-content",
+      "embed_candidate": true,
+      "decision_reason": "The visible opening establishes the exact OVERD0SE identity and the full-session format complements, but does not replace, the independent article. Version-sensitive facts remain bounded by the official current page and runtime check."
+    },
+    {
+      "analysis_id": "video-analysis-devour-me-gently",
+      "video_id": "v4_QrTQxdvc",
+      "game_id": "devour-me-gently",
+      "candidate_query_ids": [
+        "devour-me-gently-query-1",
+        "devour-me-gently-query-2"
+      ],
+      "identity_status": "exact-game",
+      "content_form": "full-session",
+      "version_scope": "current short demo",
+      "reviewed_ranges": [
+        {
+          "range_id": "devour-me-gently-opening-identity",
+          "start": "00:00:00",
+          "end": "00:00:20",
+          "game_state": "Matching title artwork and UI appear",
+          "player_action": "Playback moves into the short demo setup",
+          "visible_result": "The visible title, characters, interface, and opening state match the named game.",
+          "reasoning_value": "Confirms current demo identity and short-session form",
+          "supports_claim_ids": [
+            "claim-devour-001"
+          ],
+          "limitations": [
+            "The opening identity check cannot establish every later route condition or device behavior.",
+            "Narration, captions, and video description are not copied into public text."
+          ],
+          "page_section_ids": [
+            "what-you-are-playing",
+            "watch-the-current-game"
+          ]
+        }
+      ],
+      "research_decision": "used-for-content",
+      "embed_candidate": true,
+      "decision_reason": "The visible opening establishes the exact Devour Me Gently identity and the full-session format complements, but does not replace, the independent article. Version-sensitive facts remain bounded by the official current page and runtime check."
+    },
+    {
+      "analysis_id": "video-analysis-dystopia-the-jesters-obsession",
+      "video_id": "f_Ti-tCX5Lo",
+      "game_id": "dystopia-the-jesters-obsession",
+      "candidate_query_ids": [
+        "dystopia-the-jesters-obsession-query-1",
+        "dystopia-the-jesters-obsession-query-2"
+      ],
+      "identity_status": "exact-game",
+      "content_form": "full-session",
+      "version_scope": "demo v1",
+      "reviewed_ranges": [
+        {
+          "range_id": "dystopia-the-jesters-obsession-opening-identity",
+          "start": "00:00:00",
+          "end": "00:00:20",
+          "game_state": "Black-and-white jester interface and demo framing appear",
+          "player_action": "Playback begins the name-entry and opening flow",
+          "visible_result": "The visible title, characters, interface, and opening state match the named game.",
+          "reasoning_value": "Confirms exact demo identity without proving planned features",
+          "supports_claim_ids": [
+            "claim-dystopia-001"
+          ],
+          "limitations": [
+            "The opening identity check cannot establish every later route condition or device behavior.",
+            "Narration, captions, and video description are not copied into public text."
+          ],
+          "page_section_ids": [
+            "what-you-are-playing",
+            "watch-the-current-game"
+          ]
+        }
+      ],
+      "research_decision": "used-for-content",
+      "embed_candidate": true,
+      "decision_reason": "The visible opening establishes the exact Dystopia: The Jester's Obsession identity and the full-session format complements, but does not replace, the independent article. Version-sensitive facts remain bounded by the official current page and runtime check."
+    }
+  ]
+}

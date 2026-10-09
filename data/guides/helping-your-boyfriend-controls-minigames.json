@@ -1,0 +1,284 @@
+{
+  "id": "helping-your-boyfriend-controls-minigames",
+  "slug": "helping-your-boyfriend-controls-minigames",
+  "title": "Helping Your Boyfriend Controls",
+  "summary": "We find the right input, follow the on-screen prompt and keep a useful checkpoint for dialogue, doll work and timed tasks.",
+  "status": "published",
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-09",
+  "authorId": null,
+  "tags": [
+    "Controls",
+    "Minigames",
+    "QTE",
+    "Troubleshooting"
+  ],
+  "spoilerPolicy": "marked",
+  "sections": [
+    {
+      "id": "before-you-start",
+      "title": "Quick reference",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": [
+            "Input",
+            "Action",
+            "Where we use it"
+          ],
+          "rows": [
+            [
+              "Mouse",
+              "Point, choose and drag",
+              "Select an object or carry a loose piece to its slot."
+            ],
+            [
+              "Click / Enter",
+              "Read and choose",
+              "Advance dialogue or select a visible response."
+            ],
+            [
+              "Arrows / Space",
+              "Follow timed prompts",
+              "Use the input and rhythm shown by the current task."
+            ],
+            [
+              "Bell menu",
+              "Save, Load and Settings",
+              "Open the bell at the top of the game."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "label": "Start inside the game",
+          "body": "We click inside the embedded game before using the keyboard. Controls can differ between builds; the current task's visible instruction takes priority."
+        },
+        {
+          "type": "callout",
+          "tone": "warning",
+          "label": "Before we play",
+          "body": "The game contains jumpscares, loud sounds, flashing and disturbing imagery, blood and cartoon gore, violence, drug use, obsessive behaviour, toxic relationships and crude language. We choose a comfortable volume and stop if the experience becomes too much."
+        }
+      ]
+    },
+    {
+      "id": "dialogue-and-menu",
+      "title": "Dialogue & the bell menu",
+      "summary": "Read the conversation; open the menu when we need it.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/helping-your-boyfriend-controls-minigames-step-2.webp",
+          "alt": "A dialogue scene offers three labelled responses.",
+          "width": 1245,
+          "height": 720,
+          "caption": "A dialogue scene offers three labelled responses."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Read before choosing",
+              "body": "We let the current line finish and read the visible responses. Left click or Enter advances text; when a response is available, we select the one we mean to choose rather than clicking repeatedly through the scene."
+            },
+            {
+              "title": "Use the dialogue tools",
+              "body": "In the official controls, Space hides or restores the dialogue box, L opens history and A toggles auto-play. We use history for a missed line and hide the box when we want a clearer view of the artwork."
+            },
+            {
+              "title": "Open the bell for menu options",
+              "body": "We click the bell at the top of the game for Save, Load and Settings. Before an interactive sequence, we check that our checkpoint exists and that we know which slot we intend to return to."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "label": "Reading is not a timed task",
+          "body": "Space can hide dialogue during ordinary reading and serve as an input during a QTE. We follow the current screen rather than assuming one key always does the same thing."
+        },
+        {
+          "type": "paragraph",
+          "text": "Holding Ctrl or pressing Tab skips text in the official controls. We use skip for familiar dialogue on a replay, not as a way to rush an unfamiliar instruction. We stop skipping when a choice, object or timed task appears. History can recover wording, but it cannot perform a physical interaction that we passed over."
+        }
+      ]
+    },
+    {
+      "id": "drag-actions",
+      "title": "Doll work: tools, pieces & slots",
+      "summary": "Choose the tool, move the loose piece and check its slot.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/helping-your-boyfriend-controls-minigames-step-1.webp",
+          "alt": "A doll-workspace minigame with tools and instructions.",
+          "width": 1280,
+          "height": 703,
+          "caption": "A doll-workspace minigame with tools and instructions."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Choose the active tool",
+              "body": "We read the tutorial for the tool currently selected. The scissors, pointed tool and hand have different jobs; clicking the same part with another tool is not necessarily the same action."
+            },
+            {
+              "title": "Hold and carry the loose piece",
+              "body": "Once the piece is ready to move, we begin near its centre, hold the primary mouse button and carry it in a continuous motion. We watch the piece itself rather than only the pointer."
+            },
+            {
+              "title": "Release inside its matching slot",
+              "body": "We move the object into the labelled receiving area before releasing. A loose part needs its matching slot; dropping it beside the slot is not enough."
+            },
+            {
+              "title": "Check the counter before continuing",
+              "body": "We look for the receiving slot or counter to change. If it did not, we first check the selected tool, starting position and destination before trying again."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The pictured workspace has the doll on the left and labelled collecting slots on the right. Eyes, ears, arms and legs each have a two-piece counter; cotton and the mystery slot each have one. Those counters give us a useful visible check: the task is progressing when the expected piece is registered, not merely when our pointer reaches the box."
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "label": "A useful retry",
+          "body": "We keep browser zoom stable, return to the expected piece and repeat the active tool's instruction. We do not replace a deliberate drag with repeated taps. If the task still cannot continue, a nearby checkpoint lets us retry without changing earlier story decisions."
+        }
+      ]
+    },
+    {
+      "id": "qte-controls",
+      "title": "Timed tasks",
+      "summary": "Different prompts can require different rhythms.",
+      "blocks": [
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "Directional prompts",
+          "body": "We watch the arrow currently shown and use that direction. We do not replay a memorised sequence from another attempt. Dedicated arrow keys can be easier to reach than a compact keyboard's function layer."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "Space prompts",
+          "body": "We use Space when the task asks for it, watching its instruction and feedback. A timing task and a repeated-input task are not interchangeable: one press, a held key or repeated presses should not be treated as a universal rule."
+        },
+        {
+          "type": "paragraph",
+          "text": "We prepare our hand position before the prompt begins, then keep our attention on the current symbol, timing indicator or progress feedback. If input does not seem to register, we check that the embedded game has focus before concluding that we missed the timing. Pressing another key repeatedly can make the original problem harder to recognise."
+        },
+        {
+          "type": "paragraph",
+          "text": "Version 1.0.1 adds selectable gameplay difficulty. If the available setting makes timed actions uncomfortable, we choose a less demanding level and retry. We check the difficulty options actually shown in our build; a separately hosted browser player should not be assumed to have the same settings as the official download."
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "label": "Read what happens next",
+          "body": "A missed input, a continued scene and a game-over screen need different responses. We read the result first. If the story continues, we follow that state; if a game-over screen appears, we use the nearest suitable checkpoint. A minigame failure is not an additional route ending."
+        }
+      ]
+    },
+    {
+      "id": "saves-skipping-and-recovery",
+      "title": "Save, retry & continue",
+      "summary": "Keep story decisions separate from mechanical retries.",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Before the task",
+              "body": "We save before an interactive sequence when the menu allows it. We keep a separate earlier slot for a relationship or investigation decision rather than overwriting our only useful checkpoint."
+            },
+            {
+              "title": "Check the result",
+              "body": "We look at the next screen and ask whether the task completed, the story continued or a game-over screen appeared. A missing sound alone does not establish that our input failed."
+            },
+            {
+              "title": "Load the nearest checkpoint",
+              "body": "For an execution mistake, we return to the task checkpoint. For an earlier story choice, we return to the slot before that choice. Repeating a late save cannot undo a decision already recorded in it."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "We label our slots by purpose: before doll work, before a timed task or before a story decision. That makes recovery clearer than a list of almost identical saves. We keep a completed run separate from a working attempt, so experimenting does not erase the result we wanted to revisit."
+        },
+        {
+          "type": "list",
+          "style": "unordered",
+          "items": [
+            "Save before a difficult task when the menu is available.",
+            "Read the result on screen before choosing a recovery step.",
+            "Keep the early story checkpoint instead of overwriting every slot.",
+            "Stop skip or auto-play before following a new task instruction."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "title": "Common issues",
+      "blocks": [
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "A drag did not register",
+          "body": "We check the active tool, start near the movable piece's centre and hold continuously. We release only when the object is inside its matching slot, then look for counter feedback."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "A key did not respond",
+          "body": "We click inside the game window, check the requested key and try the current prompt. On a compact keyboard, we check whether the arrow is behind a function layer; we do not guess a different input."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "The scene seems paused",
+          "body": "We look for a response waiting to be selected or an instruction waiting for an action. During ordinary dialogue, we check the dialogue box, auto-play and menu state rather than applying a QTE key blindly."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "The task failed",
+          "body": "We read the requirement again and check the result. If a game-over screen appears, we load the nearest task checkpoint. If the scene continues, we follow its state before deciding to retry."
+        }
+      ]
+    },
+    {
+      "id": "device-questions",
+      "title": "Version & device notes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The official release supports Windows, macOS and Android. We use the controls displayed by the version we are playing. A touch interface can differ from the keyboard layout; we do not assume that every arrow prompt has an invisible swipe equivalent or that a desktop shortcut applies on a phone."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a keyboard-based timed task, we check our input device and any function layer before the scene. If difficulty choices are available, we use them to make the required input more manageable. We check Settings for the options our build actually offers rather than assuming a remapping feature is present."
+        },
+        {
+          "type": "paragraph",
+          "text": "Before refreshing or leaving the browser, we check our saved progress in the game's menu. We do not assume that a fresh browser, private window or different device shares the same save slots. When an interaction is the problem, we try the current screen's instructions and Load before treating a full restart as the first solution."
+        }
+      ]
+    }
+  ],
+  "relatedGuideIds": [
+    "helping-your-boyfriend-endings-walkthrough",
+    "helping-your-boyfriend-characters"
+  ],
+  "cover": {
+    "src": "/images/guides/helping-your-boyfriend-controls-minigames-cover-v2.webp",
+    "alt": "Mouse, arrow keys, Space, and save controls arranged as a task flow",
+    "width": 1280,
+    "height": 720
+  }
+}

@@ -1,0 +1,1745 @@
+{
+  "schemaVersion": 2,
+  "acceptedAt": "2026-10-08T14:57:13+08:00",
+  "environment": "Final local standalone production preview at http://127.0.0.1:3139; formal origin https://test.com; no deployment performed",
+  "summary": {
+    "requirements": 96,
+    "passed": 96,
+    "failed": 0,
+    "mainGameRuntime": "provisional-safe-rejection",
+    "additionalGameRuntimes": "9 verified",
+    "viewportObservations": 48
+  },
+  "checks": [
+    {
+      "requirementId": "01",
+      "route": [
+        "internal"
+      ],
+      "contentId": "workflow",
+      "viewport": "n/a",
+      "method": "README.md and SKILL.md read completely; flows executed in order",
+      "evidencePaths": [
+        "handoff/flow-01-brief.md",
+        "handoff/flow-09-brief.md",
+        "reports/flow-09-seo-report.md"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "02",
+      "route": [
+        "internal"
+      ],
+      "contentId": "workflow",
+      "viewport": "n/a",
+      "method": "verified sequential stage artifacts and handoffs",
+      "evidencePaths": [
+        "handoff",
+        "reports"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "03",
+      "route": [
+        "all"
+      ],
+      "contentId": "scope",
+      "viewport": "n/a",
+      "method": "workspace output inventory",
+      "evidencePaths": [
+        "project.yaml"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "04",
+      "route": [
+        "/",
+        "/guides",
+        "/games"
+      ],
+      "contentId": "navigation",
+      "viewport": "1440,1024,375",
+      "method": "DOM and mobile keyboard menu inspection",
+      "evidencePaths": [
+        "config/navigation.ts",
+        "reports/seo-runtime-audit.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "05",
+      "route": [
+        "/guides",
+        "/guides/helping-your-boyfriend-controls-minigames",
+        "/guides/helping-your-boyfriend-endings-walkthrough"
+      ],
+      "contentId": "guides",
+      "viewport": "1440,768,375",
+      "method": "data validation and production DOM inspection",
+      "evidencePaths": [
+        "data/guides/guides.json",
+        "reports/page-inventory.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "06",
+      "route": [
+        "/",
+        "/games/*"
+      ],
+      "contentId": "game-data",
+      "viewport": "n/a",
+      "method": "publish validator and runtime URL audit",
+      "evidencePaths": [
+        "data/games/main-game.json",
+        "data/games/games.json",
+        "reports/player-runtime-results.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "07",
+      "route": [
+        "/",
+        "/games/*"
+      ],
+      "contentId": "player",
+      "viewport": "1440,375",
+      "method": "Play Now, retry, iframe-count, loading, full-screen-icon and lifecycle tests",
+      "evidencePaths": [
+        "reports/player-runtime-results.json"
+      ],
+      "firstResult": "pass",
+      "issue": "main address is provisional",
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "08",
+      "route": [
+        "/",
+        "/games/*"
+      ],
+      "contentId": "indexed-content",
+      "viewport": "n/a",
+      "method": "pre-video article character audit",
+      "evidencePaths": [
+        "reports/flow-07-content-report.md",
+        "reports/page-inventory.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "09",
+      "route": [
+        "/",
+        "/games/*"
+      ],
+      "contentId": "long-articles",
+      "viewport": "n/a",
+      "method": "visible non-whitespace character count before video",
+      "evidencePaths": [
+        "reports/flow-07-content-report.md"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "10",
+      "route": [
+        "/",
+        "/games/*"
+      ],
+      "contentId": "layout",
+      "viewport": "1440x900,1024x768,768x900,375x812",
+      "method": "computed-grid, overflow, order and sticky-boundary inspection",
+      "evidencePaths": [
+        "components/game/HeightAwareSidebar.tsx",
+        "app/globals.css"
+      ],
+      "firstResult": "failed",
+      "issue": "initial tall sidebar used a fixed top offset",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "11",
+      "route": [
+        "/",
+        "/games/*"
+      ],
+      "contentId": "recommendations",
+      "viewport": "1440,768",
+      "method": "DOM card counts and responsive-order inspection",
+      "evidencePaths": [
+        "reports/page-inventory.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "12",
+      "route": [
+        "internal"
+      ],
+      "contentId": "technical-decisions",
+      "viewport": "n/a",
+      "method": "decision-file review",
+      "evidencePaths": [
+        "project.yaml",
+        "planning/site-capabilities.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "13",
+      "route": [
+        "all"
+      ],
+      "contentId": "research-build",
+      "viewport": "n/a",
+      "method": "research and command audit",
+      "evidencePaths": [
+        "research",
+        "reports/command-results.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "14",
+      "route": [
+        "/",
+        "/games/*"
+      ],
+      "contentId": "media",
+      "viewport": "1440,375",
+      "method": "media-ledger, SHA-256 uniqueness, contact sheets and runtime embeds",
+      "evidencePaths": [
+        "research/media-ledger.json",
+        "reports/game-media-contact-sheet.png",
+        "reports/guide-media-contact-sheet.png",
+        "reports/player-runtime-results.json"
+      ],
+      "firstResult": "failed",
+      "issue": null,
+      "fixFiles": [
+        "public/images/games",
+        "public/images/guides"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "15",
+      "route": [
+        "all"
+      ],
+      "contentId": "branding-headings",
+      "viewport": "1440,375",
+      "method": "visual and H1 audit",
+      "evidencePaths": [
+        "public/images/site-logo.png",
+        "reports/seo-runtime-audit.json"
+      ],
+      "firstResult": "failed",
+      "issue": null,
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "16",
+      "route": [
+        "/privacy",
+        "/terms",
+        "/copyright",
+        "/about",
+        "/contact"
+      ],
+      "contentId": "legal",
+      "viewport": "1440,375",
+      "method": "route and footer-link audit",
+      "evidencePaths": [
+        "config/navigation.ts",
+        "reports/seo-runtime-audit.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "17",
+      "route": [
+        "all"
+      ],
+      "contentId": "tdk",
+      "viewport": "n/a",
+      "method": "runtime title and description length/match audit",
+      "evidencePaths": [
+        "seo/tdk.js",
+        "reports/seo-runtime-audit.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "18",
+      "route": [
+        "all"
+      ],
+      "contentId": "seo-sitemap",
+      "viewport": "n/a",
+      "method": "production SEO and sitemap fingerprint audits",
+      "evidencePaths": [
+        "app/sitemap.ts",
+        "seo/page-lastmod.json",
+        "seo/content-fingerprints.json",
+        "reports/seo-runtime-audit.json"
+      ],
+      "firstResult": "failed",
+      "issue": null,
+      "fixFiles": [
+        "config/site.ts",
+        "planning/route-registry.json"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "19",
+      "route": [
+        "all"
+      ],
+      "contentId": "breakpoints",
+      "viewport": "1024,768,375",
+      "method": "computed CSS inspection",
+      "evidencePaths": [
+        "app/globals.css"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "20",
+      "route": [
+        "all"
+      ],
+      "contentId": "public-language",
+      "viewport": "n/a",
+      "method": "public copy and prohibited-phrase audit",
+      "evidencePaths": [
+        "reports/flow-07-content-report.md"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "21",
+      "route": [
+        "internal"
+      ],
+      "contentId": "readme",
+      "viewport": "n/a",
+      "method": "README review",
+      "evidencePaths": [
+        "README.md"
+      ],
+      "firstResult": "failed",
+      "issue": "FAQ and explicit guide links were missing",
+      "fixFiles": [
+        "README.md"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "22",
+      "route": [
+        "all"
+      ],
+      "contentId": "delivery-boundary",
+      "viewport": "n/a",
+      "method": "operation audit",
+      "evidencePaths": [
+        "project.yaml"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "23",
+      "route": [
+        "/",
+        "/games/*"
+      ],
+      "contentId": "identity",
+      "viewport": "1440",
+      "method": "stable ID and cross-surface identity audit",
+      "evidencePaths": [
+        "reports/game-media-contact-sheet.png",
+        "reports/page-inventory.json",
+        "reports/player-runtime-results.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "24",
+      "route": [
+        "/"
+      ],
+      "contentId": "helping-your-boyfriend",
+      "viewport": "1440,375",
+      "method": "main player safe-policy test",
+      "evidencePaths": [
+        "reports/player-runtime-results.json"
+      ],
+      "firstResult": "pass",
+      "issue": "test.com remains provisional and is not verified playable",
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "25",
+      "route": [
+        "all"
+      ],
+      "contentId": "runtime-quality",
+      "viewport": "1440,1024,768,375",
+      "method": "production navigation, console and CSP audit",
+      "evidencePaths": [
+        "reports/command-results.json",
+        "reports/player-runtime-results.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "26",
+      "route": [
+        "internal"
+      ],
+      "contentId": "research-traceability",
+      "viewport": "n/a",
+      "method": "required research-file review",
+      "evidencePaths": [
+        "research/keyword-video-map.json",
+        "research/game-claim-matrix.json",
+        "research/video-analysis.json",
+        "planning/page-content-blueprints.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "27",
+      "route": [
+        "all"
+      ],
+      "contentId": "release-gate",
+      "viewport": "mobile,desktop",
+      "method": "build, runtime, media, SEO and Lighthouse gate",
+      "evidencePaths": [
+        "reports/command-results.json",
+        "reports/player-runtime-results.json",
+        "reports/lighthouse-summary.json"
+      ],
+      "firstResult": "pass",
+      "issue": "formal test.com deployment not authorized",
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "28",
+      "route": [
+        "all game cards"
+      ],
+      "contentId": "cover-crops",
+      "viewport": "1440,1024,768,375",
+      "method": "context contact-sheet and object-fit review",
+      "evidencePaths": [
+        "reports/cover-context-contact-sheet.png",
+        "reports/game-media-contact-sheet.png"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "29",
+      "route": [
+        "/"
+      ],
+      "contentId": "design-research",
+      "viewport": "wide",
+      "method": "three-site review and high-fidelity concept audit",
+      "evidencePaths": [
+        "planning/design-reference-matrix.md",
+        "planning/high-fidelity-wide.png",
+        "handoff/flow-04-brief.md"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "30",
+      "route": [
+        "/guides/*"
+      ],
+      "contentId": "guide-toc",
+      "viewport": "1024x768,768x900",
+      "method": "computed sticky/max-height/overflow inspection",
+      "evidencePaths": [
+        "components/guide/GuideArticle.tsx",
+        "app/globals.css"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "31",
+      "route": [
+        "all"
+      ],
+      "contentId": "capabilities-spoilers",
+      "viewport": "n/a",
+      "method": "capability and spoiler-policy data audit",
+      "evidencePaths": [
+        "planning/site-capabilities.json",
+        "planning/page-content-blueprints.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "32",
+      "route": [
+        "all"
+      ],
+      "contentId": "acceptance-evidence",
+      "viewport": "1440,1024,768,375",
+      "method": "manifest and contact-sheet audit",
+      "evidencePaths": [
+        "reports/acceptance-manifest.json",
+        "reports/game-media-contact-sheet.png",
+        "reports/guide-media-contact-sheet.png",
+        "reports/cover-context-contact-sheet.png"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "33",
+      "route": [
+        "/guides/*"
+      ],
+      "contentId": "guide-briefs",
+      "viewport": "1440,375",
+      "method": "brief, identity, cover and visible-header audit",
+      "evidencePaths": [
+        "research/guide-content-briefs.json",
+        "reports/guide-media-contact-sheet.png"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "34",
+      "route": [
+        "all game routes"
+      ],
+      "contentId": "runtime-records",
+      "viewport": "1440",
+      "method": "command and player runtime record audit",
+      "evidencePaths": [
+        "reports/command-results.json",
+        "reports/player-runtime-results.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "35",
+      "route": [
+        "/games/going-live",
+        "/games/first-base"
+      ],
+      "contentId": "navigation-lifecycle",
+      "viewport": "1440x900",
+      "method": "start Going Live!, navigate through card, inspect new route state",
+      "evidencePaths": [
+        "reports/player-runtime-results.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "36",
+      "route": [
+        "/"
+      ],
+      "contentId": "lighthouse",
+      "viewport": "Lighthouse mobile and desktop",
+      "method": "three runs per mode on the same standalone build",
+      "evidencePaths": [
+        "reports/lighthouse-summary.json",
+        "reports/acceptance-evidence/lighthouse-mobile-1.json",
+        "reports/acceptance-evidence/lighthouse-mobile-2.json",
+        "reports/acceptance-evidence/lighthouse-mobile-3.json",
+        "reports/acceptance-evidence/lighthouse-desktop-1.json",
+        "reports/acceptance-evidence/lighthouse-desktop-2.json",
+        "reports/acceptance-evidence/lighthouse-desktop-3.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-home-wide",
+      "route": "/",
+      "contentId": "home",
+      "viewport": "1464x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/home--wide.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--going-live-wide",
+      "route": "/games/going-live",
+      "contentId": "games--going-live",
+      "viewport": "1464x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--going-live--wide.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--first-base-wide",
+      "route": "/games/first-base",
+      "contentId": "games--first-base",
+      "viewport": "1464x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--first-base--wide.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--the-stranger-from-the-bus-stop-wide",
+      "route": "/games/the-stranger-from-the-bus-stop",
+      "contentId": "games--the-stranger-from-the-bus-stop",
+      "viewport": "1464x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--the-stranger-from-the-bus-stop--wide.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--trapped-with-jester-wide",
+      "route": "/games/trapped-with-jester",
+      "contentId": "games--trapped-with-jester",
+      "viewport": "1464x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--trapped-with-jester--wide.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--today-im-harvesting-you-wide",
+      "route": "/games/today-im-harvesting-you",
+      "contentId": "games--today-im-harvesting-you",
+      "viewport": "1464x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--today-im-harvesting-you--wide.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--my-own-sweet-dionaea-wide",
+      "route": "/games/my-own-sweet-dionaea",
+      "contentId": "games--my-own-sweet-dionaea",
+      "viewport": "1464x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--my-own-sweet-dionaea--wide.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--overdose-wide",
+      "route": "/games/overdose",
+      "contentId": "games--overdose",
+      "viewport": "1464x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--overdose--wide.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--devour-me-gently-wide",
+      "route": "/games/devour-me-gently",
+      "contentId": "games--devour-me-gently",
+      "viewport": "1464x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--devour-me-gently--wide.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--dystopia-the-jesters-obsession-wide",
+      "route": "/games/dystopia-the-jesters-obsession",
+      "contentId": "games--dystopia-the-jesters-obsession",
+      "viewport": "1464x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--dystopia-the-jesters-obsession--wide.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games-wide",
+      "route": "/games",
+      "contentId": "games",
+      "viewport": "1464x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--wide.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Inner-page H1 initially exceeded the viewport-specific size cap.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-guides-wide",
+      "route": "/guides",
+      "contentId": "guides",
+      "viewport": "1464x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/guides--wide.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Inner-page H1 initially exceeded the viewport-specific size cap.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-guides--helping-your-boyfriend-controls-minigames-wide",
+      "route": "/guides/helping-your-boyfriend-controls-minigames",
+      "contentId": "guides--helping-your-boyfriend-controls-minigames",
+      "viewport": "1464x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/guides--helping-your-boyfriend-controls-minigames--wide.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Inner-page H1 initially exceeded the viewport-specific size cap.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-guides--helping-your-boyfriend-endings-walkthrough-wide",
+      "route": "/guides/helping-your-boyfriend-endings-walkthrough",
+      "contentId": "guides--helping-your-boyfriend-endings-walkthrough",
+      "viewport": "1464x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/guides--helping-your-boyfriend-endings-walkthrough--wide.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Inner-page H1 initially exceeded the viewport-specific size cap.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-privacy-wide",
+      "route": "/privacy",
+      "contentId": "privacy",
+      "viewport": "1464x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/privacy--wide.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Inner-page H1 initially exceeded the viewport-specific size cap.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-contact-wide",
+      "route": "/contact",
+      "contentId": "contact",
+      "viewport": "1464x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/contact--wide.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Inner-page H1 initially exceeded the viewport-specific size cap.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-home-tablet",
+      "route": "/",
+      "contentId": "home",
+      "viewport": "1024x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/home--tablet.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--going-live-tablet",
+      "route": "/games/going-live",
+      "contentId": "games--going-live",
+      "viewport": "1024x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--going-live--tablet.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--first-base-tablet",
+      "route": "/games/first-base",
+      "contentId": "games--first-base",
+      "viewport": "1024x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--first-base--tablet.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--the-stranger-from-the-bus-stop-tablet",
+      "route": "/games/the-stranger-from-the-bus-stop",
+      "contentId": "games--the-stranger-from-the-bus-stop",
+      "viewport": "1024x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--the-stranger-from-the-bus-stop--tablet.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--trapped-with-jester-tablet",
+      "route": "/games/trapped-with-jester",
+      "contentId": "games--trapped-with-jester",
+      "viewport": "1024x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--trapped-with-jester--tablet.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--today-im-harvesting-you-tablet",
+      "route": "/games/today-im-harvesting-you",
+      "contentId": "games--today-im-harvesting-you",
+      "viewport": "1024x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--today-im-harvesting-you--tablet.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--my-own-sweet-dionaea-tablet",
+      "route": "/games/my-own-sweet-dionaea",
+      "contentId": "games--my-own-sweet-dionaea",
+      "viewport": "1024x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--my-own-sweet-dionaea--tablet.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--overdose-tablet",
+      "route": "/games/overdose",
+      "contentId": "games--overdose",
+      "viewport": "1024x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--overdose--tablet.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--devour-me-gently-tablet",
+      "route": "/games/devour-me-gently",
+      "contentId": "games--devour-me-gently",
+      "viewport": "1024x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--devour-me-gently--tablet.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--dystopia-the-jesters-obsession-tablet",
+      "route": "/games/dystopia-the-jesters-obsession",
+      "contentId": "games--dystopia-the-jesters-obsession",
+      "viewport": "1024x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--dystopia-the-jesters-obsession--tablet.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games-tablet",
+      "route": "/games",
+      "contentId": "games",
+      "viewport": "1024x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--tablet.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Inner-page H1 initially exceeded the viewport-specific size cap.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-guides-tablet",
+      "route": "/guides",
+      "contentId": "guides",
+      "viewport": "1024x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/guides--tablet.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Inner-page H1 initially exceeded the viewport-specific size cap.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-guides--helping-your-boyfriend-controls-minigames-tablet",
+      "route": "/guides/helping-your-boyfriend-controls-minigames",
+      "contentId": "guides--helping-your-boyfriend-controls-minigames",
+      "viewport": "1024x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/guides--helping-your-boyfriend-controls-minigames--tablet.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Inner-page H1 initially exceeded the viewport-specific size cap.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-guides--helping-your-boyfriend-endings-walkthrough-tablet",
+      "route": "/guides/helping-your-boyfriend-endings-walkthrough",
+      "contentId": "guides--helping-your-boyfriend-endings-walkthrough",
+      "viewport": "1024x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/guides--helping-your-boyfriend-endings-walkthrough--tablet.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Inner-page H1 initially exceeded the viewport-specific size cap.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-privacy-tablet",
+      "route": "/privacy",
+      "contentId": "privacy",
+      "viewport": "1024x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/privacy--tablet.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Inner-page H1 initially exceeded the viewport-specific size cap.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-contact-tablet",
+      "route": "/contact",
+      "contentId": "contact",
+      "viewport": "1024x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/contact--tablet.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Inner-page H1 initially exceeded the viewport-specific size cap.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-home-mobile",
+      "route": "/",
+      "contentId": "home",
+      "viewport": "768x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/home--mobile.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Continue links initially preceded the player in single-column flex order.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--going-live-mobile",
+      "route": "/games/going-live",
+      "contentId": "games--going-live",
+      "viewport": "768x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--going-live--mobile.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Continue links initially preceded the player in single-column flex order.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--first-base-mobile",
+      "route": "/games/first-base",
+      "contentId": "games--first-base",
+      "viewport": "768x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--first-base--mobile.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Continue links initially preceded the player in single-column flex order.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--the-stranger-from-the-bus-stop-mobile",
+      "route": "/games/the-stranger-from-the-bus-stop",
+      "contentId": "games--the-stranger-from-the-bus-stop",
+      "viewport": "768x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--the-stranger-from-the-bus-stop--mobile.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Continue links initially preceded the player in single-column flex order.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--trapped-with-jester-mobile",
+      "route": "/games/trapped-with-jester",
+      "contentId": "games--trapped-with-jester",
+      "viewport": "768x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--trapped-with-jester--mobile.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Continue links initially preceded the player in single-column flex order.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--today-im-harvesting-you-mobile",
+      "route": "/games/today-im-harvesting-you",
+      "contentId": "games--today-im-harvesting-you",
+      "viewport": "768x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--today-im-harvesting-you--mobile.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Continue links initially preceded the player in single-column flex order.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--my-own-sweet-dionaea-mobile",
+      "route": "/games/my-own-sweet-dionaea",
+      "contentId": "games--my-own-sweet-dionaea",
+      "viewport": "768x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--my-own-sweet-dionaea--mobile.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Continue links initially preceded the player in single-column flex order.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--overdose-mobile",
+      "route": "/games/overdose",
+      "contentId": "games--overdose",
+      "viewport": "768x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--overdose--mobile.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Continue links initially preceded the player in single-column flex order.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--devour-me-gently-mobile",
+      "route": "/games/devour-me-gently",
+      "contentId": "games--devour-me-gently",
+      "viewport": "768x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--devour-me-gently--mobile.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Continue links initially preceded the player in single-column flex order.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games--dystopia-the-jesters-obsession-mobile",
+      "route": "/games/dystopia-the-jesters-obsession",
+      "contentId": "games--dystopia-the-jesters-obsession",
+      "viewport": "768x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--dystopia-the-jesters-obsession--mobile.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Continue links initially preceded the player in single-column flex order.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-games-mobile",
+      "route": "/games",
+      "contentId": "games",
+      "viewport": "768x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/games--mobile.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Inner-page H1 initially exceeded the viewport-specific size cap.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-guides-mobile",
+      "route": "/guides",
+      "contentId": "guides",
+      "viewport": "768x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/guides--mobile.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Inner-page H1 initially exceeded the viewport-specific size cap.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-guides--helping-your-boyfriend-controls-minigames-mobile",
+      "route": "/guides/helping-your-boyfriend-controls-minigames",
+      "contentId": "guides--helping-your-boyfriend-controls-minigames",
+      "viewport": "768x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/guides--helping-your-boyfriend-controls-minigames--mobile.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Inner-page H1 initially exceeded the viewport-specific size cap.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-guides--helping-your-boyfriend-endings-walkthrough-mobile",
+      "route": "/guides/helping-your-boyfriend-endings-walkthrough",
+      "contentId": "guides--helping-your-boyfriend-endings-walkthrough",
+      "viewport": "768x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/guides--helping-your-boyfriend-endings-walkthrough--mobile.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Inner-page H1 initially exceeded the viewport-specific size cap.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-privacy-mobile",
+      "route": "/privacy",
+      "contentId": "privacy",
+      "viewport": "768x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/privacy--mobile.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Inner-page H1 initially exceeded the viewport-specific size cap.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "viewport-contact-mobile",
+      "route": "/contact",
+      "contentId": "contact",
+      "viewport": "768x900",
+      "method": "Chrome DevTools Protocol screenshot plus computed geometry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/contact--mobile.png",
+        "reports/acceptance-evidence/viewport-measurements.json"
+      ],
+      "firstResult": "failed",
+      "issue": "Inner-page H1 initially exceeded the viewport-specific size cap.",
+      "fixFiles": [
+        "app/globals.css"
+      ],
+      "retestResult": "pass",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "player-helping-your-boyfriend",
+      "route": "/",
+      "contentId": "helping-your-boyfriend",
+      "viewport": "1464x900",
+      "method": "real-browser Play Now safe rejection and Retry",
+      "evidencePaths": [
+        "reports/acceptance-evidence/home--wide.png"
+      ],
+      "firstResult": "pass",
+      "issue": "Main-game playability remains unverified because test.com is not a safe absolute iframe URL.",
+      "fixFiles": [],
+      "retestResult": "provisional",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "player-going-live",
+      "route": "/games/going-live",
+      "contentId": "going-live",
+      "viewport": "1464x900",
+      "method": "clean-context final-route launch, visual identity, unique frame, and input dispatch",
+      "evidencePaths": [
+        "reports/acceptance-evidence/player-going-live.png",
+        "reports/acceptance-evidence/player-going-live-after-input.png"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "verified",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "player-first-base",
+      "route": "/games/first-base",
+      "contentId": "first-base",
+      "viewport": "1464x900",
+      "method": "clean-context final-route launch, visual identity, unique frame, and input dispatch",
+      "evidencePaths": [
+        "reports/acceptance-evidence/player-first-base.png",
+        "reports/acceptance-evidence/player-first-base-after-input.png"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "verified",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "player-the-stranger-from-the-bus-stop",
+      "route": "/games/the-stranger-from-the-bus-stop",
+      "contentId": "the-stranger-from-the-bus-stop",
+      "viewport": "1464x900",
+      "method": "clean-context final-route launch, visual identity, unique frame, and input dispatch",
+      "evidencePaths": [
+        "reports/acceptance-evidence/player-the-stranger-from-the-bus-stop.png",
+        "reports/acceptance-evidence/player-the-stranger-from-the-bus-stop-after-input.png"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "verified",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "player-trapped-with-jester",
+      "route": "/games/trapped-with-jester",
+      "contentId": "trapped-with-jester",
+      "viewport": "1464x900",
+      "method": "clean-context final-route launch, visual identity, unique frame, and input dispatch",
+      "evidencePaths": [
+        "reports/acceptance-evidence/player-trapped-with-jester.png",
+        "reports/acceptance-evidence/player-trapped-with-jester-after-input.png"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "verified",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "player-today-im-harvesting-you",
+      "route": "/games/today-im-harvesting-you",
+      "contentId": "today-im-harvesting-you",
+      "viewport": "1464x900",
+      "method": "clean-context final-route launch, visual identity, unique frame, and input dispatch",
+      "evidencePaths": [
+        "reports/acceptance-evidence/player-today-im-harvesting-you.png",
+        "reports/acceptance-evidence/player-today-im-harvesting-you-after-input.png"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "verified",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "player-my-own-sweet-dionaea",
+      "route": "/games/my-own-sweet-dionaea",
+      "contentId": "my-own-sweet-dionaea",
+      "viewport": "1464x900",
+      "method": "clean-context final-route launch, visual identity, unique frame, and input dispatch",
+      "evidencePaths": [
+        "reports/acceptance-evidence/player-my-own-sweet-dionaea.png",
+        "reports/acceptance-evidence/player-my-own-sweet-dionaea-after-input.png"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "verified",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "player-overdose",
+      "route": "/games/overdose",
+      "contentId": "overdose",
+      "viewport": "1464x900",
+      "method": "clean-context final-route launch, visual identity, unique frame, and input dispatch",
+      "evidencePaths": [
+        "reports/acceptance-evidence/player-overdose.png",
+        "reports/acceptance-evidence/player-overdose-after-input.png"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "verified",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "player-devour-me-gently",
+      "route": "/games/devour-me-gently",
+      "contentId": "devour-me-gently",
+      "viewport": "1464x900",
+      "method": "clean-context final-route launch, visual identity, unique frame, and input dispatch",
+      "evidencePaths": [
+        "reports/acceptance-evidence/player-devour-me-gently.png",
+        "reports/acceptance-evidence/player-devour-me-gently-after-input.png"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "verified",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "player-dystopia-the-jesters-obsession",
+      "route": "/games/dystopia-the-jesters-obsession",
+      "contentId": "dystopia-the-jesters-obsession",
+      "viewport": "1464x900",
+      "method": "clean-context final-route launch, visual identity, unique frame, and input dispatch",
+      "evidencePaths": [
+        "reports/acceptance-evidence/player-dystopia-the-jesters-obsession.png",
+        "reports/acceptance-evidence/player-dystopia-the-jesters-obsession-after-input.png"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "verified",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "lighthouse-mobile",
+      "route": "/",
+      "contentId": "performance",
+      "viewport": "mobile",
+      "method": "Lighthouse 13.0.1, three runs on the same final standalone build",
+      "evidencePaths": [
+        "reports/acceptance-evidence/lighthouse-mobile-final-1.json",
+        "reports/acceptance-evidence/lighthouse-mobile-final-2.json",
+        "reports/acceptance-evidence/lighthouse-mobile-final-3.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass; median performance 99",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    },
+    {
+      "requirementId": "lighthouse-desktop",
+      "route": "/",
+      "contentId": "performance",
+      "viewport": "desktop",
+      "method": "Lighthouse 13.0.1, three runs on the same final standalone build",
+      "evidencePaths": [
+        "reports/acceptance-evidence/lighthouse-desktop-final-1.json",
+        "reports/acceptance-evidence/lighthouse-desktop-final-2.json",
+        "reports/acceptance-evidence/lighthouse-desktop-final-3.json"
+      ],
+      "firstResult": "pass",
+      "issue": null,
+      "fixFiles": [],
+      "retestResult": "pass; median performance 100",
+      "checkedAt": "2026-10-08T14:57:13+08:00"
+    }
+  ],
+  "latestRevision": {
+    "checkedAt": "2026-10-08",
+    "scope": "Direct-topic navigation and editorial redesign",
+    "report": "reports/redesign/direct-topics-acceptance.md",
+    "publicCanonicalCount": 19,
+    "topicPaths": [
+      "/endings",
+      "/characters",
+      "/controls"
+    ],
+    "removedCanonical": "/guides",
+    "legacyPolicy": "Four permanent redirects passed",
+    "productionOrigin": "http://127.0.0.1:3140",
+    "passed": [
+      "production-build",
+      "lint",
+      "typecheck",
+      "content-contracts",
+      "19-route-seo-and-sitemap",
+      "desktop-document-navigation",
+      "mobile-document-navigation",
+      "responsive-home-and-topics",
+      "keyboard-spoiler-disclosures",
+      "main-player-safe-rejection"
+    ],
+    "mainRuntime": "provisional; not verified playable",
+    "additionalRuntime": "preserved historical records; not re-tested in this revision"
+  }
+}

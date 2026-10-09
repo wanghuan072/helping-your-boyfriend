@@ -1,0 +1,366 @@
+{
+  "generatedAt": "2026-10-08",
+  "count": 19,
+  "pages": [
+    {
+      "pageId": "home",
+      "path": "/",
+      "pageType": "main-game",
+      "indexStatus": "index",
+      "title": "Play Helping Your Boyfriend Online | Game Guide",
+      "descriptionLength": 156,
+      "h1": "Play Helping Your Boyfriend Online",
+      "canonical": "https://test.com",
+      "openGraphUrl": "https://test.com",
+      "structuredDataTypes": [
+        "VideoGame",
+        "BreadcrumbList",
+        "WebSite"
+      ],
+      "lastModified": "2026-10-08",
+      "inSitemap": true,
+      "tdkSource": "main-game.json via seo/tdk.js",
+      "lastmodBasis": "game updatedAt"
+    },
+    {
+      "pageId": "games",
+      "path": "/games",
+      "pageType": "collection",
+      "indexStatus": "index",
+      "title": "More Horror Visual Novel Games to Play Online",
+      "descriptionLength": 152,
+      "h1": "More Games to Play",
+      "canonical": "https://test.com/games",
+      "openGraphUrl": "https://test.com/games",
+      "structuredDataTypes": [
+        "CollectionPage"
+      ],
+      "lastModified": "2026-10-08",
+      "inSitemap": true,
+      "tdkSource": "seo/tdk.js",
+      "lastmodBasis": "page-lastmod content fingerprint"
+    },
+    {
+      "pageId": "guides",
+      "path": "/guides",
+      "pageType": "collection",
+      "indexStatus": "index",
+      "title": "Helping Your Boyfriend Guides and Walkthroughs",
+      "descriptionLength": 149,
+      "h1": "Helping Your Boyfriend Guides",
+      "canonical": "https://test.com/guides",
+      "openGraphUrl": "https://test.com/guides",
+      "structuredDataTypes": [
+        "CollectionPage"
+      ],
+      "lastModified": "2026-10-08",
+      "inSitemap": true,
+      "tdkSource": "seo/tdk.js",
+      "lastmodBasis": "page-lastmod content fingerprint"
+    },
+    {
+      "pageId": "privacy",
+      "path": "/privacy",
+      "pageType": "legal",
+      "indexStatus": "index",
+      "title": "Privacy Policy | Helping Your Boyfriend Site",
+      "descriptionLength": 149,
+      "h1": "Privacy Policy",
+      "canonical": "https://test.com/privacy",
+      "openGraphUrl": "https://test.com/privacy",
+      "structuredDataTypes": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "lastModified": "2026-10-08",
+      "inSitemap": true,
+      "tdkSource": "seo/tdk.js",
+      "lastmodBasis": "page-lastmod content fingerprint"
+    },
+    {
+      "pageId": "terms",
+      "path": "/terms",
+      "pageType": "legal",
+      "indexStatus": "index",
+      "title": "Terms of Service | Helping Your Boyfriend Site",
+      "descriptionLength": 152,
+      "h1": "Terms of Service",
+      "canonical": "https://test.com/terms",
+      "openGraphUrl": "https://test.com/terms",
+      "structuredDataTypes": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "lastModified": "2026-10-08",
+      "inSitemap": true,
+      "tdkSource": "seo/tdk.js",
+      "lastmodBasis": "page-lastmod content fingerprint"
+    },
+    {
+      "pageId": "copyright",
+      "path": "/copyright",
+      "pageType": "legal",
+      "indexStatus": "index",
+      "title": "Copyright Policy | Helping Your Boyfriend Site",
+      "descriptionLength": 145,
+      "h1": "Copyright",
+      "canonical": "https://test.com/copyright",
+      "openGraphUrl": "https://test.com/copyright",
+      "structuredDataTypes": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "lastModified": "2026-10-08",
+      "inSitemap": true,
+      "tdkSource": "seo/tdk.js",
+      "lastmodBasis": "page-lastmod content fingerprint"
+    },
+    {
+      "pageId": "about",
+      "path": "/about",
+      "pageType": "legal",
+      "indexStatus": "index",
+      "title": "About the Helping Your Boyfriend Player Site",
+      "descriptionLength": 157,
+      "h1": "About Us",
+      "canonical": "https://test.com/about",
+      "openGraphUrl": "https://test.com/about",
+      "structuredDataTypes": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "lastModified": "2026-10-08",
+      "inSitemap": true,
+      "tdkSource": "seo/tdk.js",
+      "lastmodBasis": "page-lastmod content fingerprint"
+    },
+    {
+      "pageId": "contact",
+      "path": "/contact",
+      "pageType": "legal",
+      "indexStatus": "index",
+      "title": "Contact the Helping Your Boyfriend Player Site",
+      "descriptionLength": 149,
+      "h1": "Contact Us",
+      "canonical": "https://test.com/contact",
+      "openGraphUrl": "https://test.com/contact",
+      "structuredDataTypes": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "lastModified": "2026-10-08",
+      "inSitemap": true,
+      "tdkSource": "seo/tdk.js",
+      "lastmodBasis": "page-lastmod content fingerprint"
+    },
+    {
+      "pageId": "games--going-live",
+      "path": "/games/going-live",
+      "pageType": "game-detail",
+      "indexStatus": "index",
+      "title": "Going Live! Online — Manage the Fan Account",
+      "descriptionLength": 156,
+      "h1": "Play Going Live! Online",
+      "canonical": "https://test.com/games/going-live",
+      "openGraphUrl": "https://test.com/games/going-live",
+      "structuredDataTypes": [
+        "VideoGame",
+        "BreadcrumbList"
+      ],
+      "lastModified": "2026-10-08",
+      "inSitemap": true,
+      "tdkSource": "games.json",
+      "lastmodBasis": "game updatedAt"
+    },
+    {
+      "pageId": "games--first-base",
+      "path": "/games/first-base",
+      "pageType": "game-detail",
+      "indexStatus": "index",
+      "title": "Play First Base Online — Six-Ending Survival",
+      "descriptionLength": 153,
+      "h1": "Play First Base Online",
+      "canonical": "https://test.com/games/first-base",
+      "openGraphUrl": "https://test.com/games/first-base",
+      "structuredDataTypes": [
+        "VideoGame",
+        "BreadcrumbList"
+      ],
+      "lastModified": "2026-10-08",
+      "inSitemap": true,
+      "tdkSource": "games.json",
+      "lastmodBasis": "game updatedAt"
+    },
+    {
+      "pageId": "games--the-stranger-from-the-bus-stop",
+      "path": "/games/the-stranger-from-the-bus-stop",
+      "pageType": "game-detail",
+      "indexStatus": "index",
+      "title": "The stranger from the bus stop — Play Online",
+      "descriptionLength": 152,
+      "h1": "Play The stranger from the bus stop Online",
+      "canonical": "https://test.com/games/the-stranger-from-the-bus-stop",
+      "openGraphUrl": "https://test.com/games/the-stranger-from-the-bus-stop",
+      "structuredDataTypes": [
+        "VideoGame",
+        "BreadcrumbList"
+      ],
+      "lastModified": "2026-10-08",
+      "inSitemap": true,
+      "tdkSource": "games.json",
+      "lastmodBasis": "game updatedAt"
+    },
+    {
+      "pageId": "games--trapped-with-jester",
+      "path": "/games/trapped-with-jester",
+      "pageType": "game-detail",
+      "indexStatus": "index",
+      "title": "Play Trapped with Jester — Six Voiced Endings",
+      "descriptionLength": 150,
+      "h1": "Play Trapped with Jester Online",
+      "canonical": "https://test.com/games/trapped-with-jester",
+      "openGraphUrl": "https://test.com/games/trapped-with-jester",
+      "structuredDataTypes": [
+        "VideoGame",
+        "BreadcrumbList"
+      ],
+      "lastModified": "2026-10-08",
+      "inSitemap": true,
+      "tdkSource": "games.json",
+      "lastmodBasis": "game updatedAt"
+    },
+    {
+      "pageId": "games--today-im-harvesting-you",
+      "path": "/games/today-im-harvesting-you",
+      "pageType": "game-detail",
+      "indexStatus": "index",
+      "title": "Today, I'm Harvesting You! — Play Online",
+      "descriptionLength": 149,
+      "h1": "Play Today, I'm Harvesting You! Online",
+      "canonical": "https://test.com/games/today-im-harvesting-you",
+      "openGraphUrl": "https://test.com/games/today-im-harvesting-you",
+      "structuredDataTypes": [
+        "VideoGame",
+        "BreadcrumbList"
+      ],
+      "lastModified": "2026-10-08",
+      "inSitemap": true,
+      "tdkSource": "games.json",
+      "lastmodBasis": "game updatedAt"
+    },
+    {
+      "pageId": "games--my-own-sweet-dionaea",
+      "path": "/games/my-own-sweet-dionaea",
+      "pageType": "game-detail",
+      "indexStatus": "index",
+      "title": "Play My Own Sweet Dionaea Demo and Make Care Choices",
+      "descriptionLength": 159,
+      "h1": "Play My Own Sweet Dionaea Online",
+      "canonical": "https://test.com/games/my-own-sweet-dionaea",
+      "openGraphUrl": "https://test.com/games/my-own-sweet-dionaea",
+      "structuredDataTypes": [
+        "VideoGame",
+        "BreadcrumbList"
+      ],
+      "lastModified": "2026-10-08",
+      "inSitemap": true,
+      "tdkSource": "games.json",
+      "lastmodBasis": "game updatedAt"
+    },
+    {
+      "pageId": "games--overdose",
+      "path": "/games/overdose",
+      "pageType": "game-detail",
+      "indexStatus": "index",
+      "title": "Play OVERD0SE Online — Track Every Status",
+      "descriptionLength": 157,
+      "h1": "Play OVERD0SE Online",
+      "canonical": "https://test.com/games/overdose",
+      "openGraphUrl": "https://test.com/games/overdose",
+      "structuredDataTypes": [
+        "VideoGame",
+        "BreadcrumbList"
+      ],
+      "lastModified": "2026-10-08",
+      "inSitemap": true,
+      "tdkSource": "games.json",
+      "lastmodBasis": "game updatedAt"
+    },
+    {
+      "pageId": "games--devour-me-gently",
+      "path": "/games/devour-me-gently",
+      "pageType": "game-detail",
+      "indexStatus": "index",
+      "title": "Play Devour Me Gently Online — Short Demo",
+      "descriptionLength": 153,
+      "h1": "Play Devour Me Gently Online",
+      "canonical": "https://test.com/games/devour-me-gently",
+      "openGraphUrl": "https://test.com/games/devour-me-gently",
+      "structuredDataTypes": [
+        "VideoGame",
+        "BreadcrumbList"
+      ],
+      "lastModified": "2026-10-08",
+      "inSitemap": true,
+      "tdkSource": "games.json",
+      "lastmodBasis": "game updatedAt"
+    },
+    {
+      "pageId": "games--dystopia-the-jesters-obsession",
+      "path": "/games/dystopia-the-jesters-obsession",
+      "pageType": "game-detail",
+      "indexStatus": "index",
+      "title": "Play Dystopia: The Jester's Obsession Demo",
+      "descriptionLength": 150,
+      "h1": "Play Dystopia: The Jester's Obsession Online",
+      "canonical": "https://test.com/games/dystopia-the-jesters-obsession",
+      "openGraphUrl": "https://test.com/games/dystopia-the-jesters-obsession",
+      "structuredDataTypes": [
+        "VideoGame",
+        "BreadcrumbList"
+      ],
+      "lastModified": "2026-10-08",
+      "inSitemap": true,
+      "tdkSource": "games.json",
+      "lastmodBasis": "game updatedAt"
+    },
+    {
+      "pageId": "guides--helping-your-boyfriend-controls-minigames",
+      "path": "/guides/helping-your-boyfriend-controls-minigames",
+      "pageType": "guide-detail",
+      "indexStatus": "index",
+      "title": "Helping Your Boyfriend Controls and Minigames Guide",
+      "descriptionLength": 149,
+      "h1": "Helping Your Boyfriend Controls and Minigames",
+      "canonical": "https://test.com/guides/helping-your-boyfriend-controls-minigames",
+      "openGraphUrl": "https://test.com/guides/helping-your-boyfriend-controls-minigames",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "lastModified": "2026-10-08",
+      "inSitemap": true,
+      "tdkSource": "guides.json",
+      "lastmodBasis": "guide updatedAt"
+    },
+    {
+      "pageId": "guides--helping-your-boyfriend-endings-walkthrough",
+      "path": "/guides/helping-your-boyfriend-endings-walkthrough",
+      "pageType": "guide-detail",
+      "indexStatus": "index",
+      "title": "Helping Your Boyfriend Endings Walkthrough Guide",
+      "descriptionLength": 153,
+      "h1": "Helping Your Boyfriend Endings Walkthrough",
+      "canonical": "https://test.com/guides/helping-your-boyfriend-endings-walkthrough",
+      "openGraphUrl": "https://test.com/guides/helping-your-boyfriend-endings-walkthrough",
+      "structuredDataTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "lastModified": "2026-10-08",
+      "inSitemap": true,
+      "tdkSource": "guides.json",
+      "lastmodBasis": "guide updatedAt"
+    }
+  ]
+}

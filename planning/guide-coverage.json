@@ -1,0 +1,43 @@
+{
+  "minimumPublished": 2,
+  "items": [
+    {
+      "guide_id": "helping-your-boyfriend-controls-minigames",
+      "slug": "helping-your-boyfriend-controls-minigames",
+      "intent_cluster_id": "cluster-controls-minigames",
+      "primary_task": "Use every confirmed input and recognize what each minigame asks the player to do without revealing route outcomes.",
+      "queries": ["Helping Your Boyfriend controls", "Helping Your Boyfriend minigames", "how to play Helping Your Boyfriend"],
+      "unique_scope": "Covers input, interface, QTE timing, drag actions, save/load access, and device troubleshooting; excludes ending conditions and story reveals.",
+      "required_sections": ["Before starting and content warning", "Dialogue and interface controls", "Drag and mouse tasks", "Arrow-key and Space QTEs", "Save, load, settings, and recovery", "Device and browser questions"],
+      "media_slots": [
+        { "slot_id": "guide-controls-cover", "purpose": "Show a non-spoiler active minigame with its relevant prompt." },
+        { "slot_id": "guide-controls-dialogue", "purpose": "Show dialogue navigation and the bell menu." },
+        { "slot_id": "guide-controls-drag", "purpose": "Show the visible start and target of one drag action." },
+        { "slot_id": "guide-controls-qte", "purpose": "Show arrow and Space feedback without a story reveal." }
+      ],
+      "freshness_risk": "Medium: control behavior must be rechecked if the official game build changes.",
+      "spoiler_policy": "marked",
+      "spoiler_exclusions": ["ending names", "route outcomes", "identity reveals", "late-game gore"],
+      "coverage_status": "planned"
+    },
+    {
+      "guide_id": "helping-your-boyfriend-endings-walkthrough",
+      "slug": "helping-your-boyfriend-endings-walkthrough",
+      "intent_cluster_id": "cluster-endings-walkthrough",
+      "primary_task": "Help a player deliberately reach and distinguish all four endings after a first blind playthrough.",
+      "queries": ["Helping Your Boyfriend endings", "Helping Your Boyfriend walkthrough", "Helping Your Boyfriend all endings"],
+      "unique_scope": "Documents route decisions, checkpoints, retry strategy, and four ending paths under explicit spoiler controls; excludes general control teaching except where a route depends on a minigame result.",
+      "required_sections": ["Spoiler boundary and preparation", "Reusable save checkpoints", "Route-decision map", "Four ending paths", "Missed ending diagnosis", "Completion checklist"],
+      "media_slots": [
+        { "slot_id": "guide-endings-cover", "purpose": "Show a neutral choice screen that signals branching without revealing an outcome." },
+        { "slot_id": "guide-endings-checkpoint", "purpose": "Show where to create the reusable save before routes diverge." },
+        { "slot_id": "guide-endings-route", "purpose": "Show a decision-state example behind a spoiler notice." },
+        { "slot_id": "guide-endings-confirmation", "purpose": "Show how the game visibly confirms an ending behind a spoiler notice." }
+      ],
+      "freshness_risk": "High: exact route conditions and ending labels require full-build verification in flow 07.",
+      "spoiler_policy": "full",
+      "spoiler_exclusions": ["ending conditions in title, summary, TDK, cover, alt, or unmarked video copy", "graphic late-game frames"],
+      "coverage_status": "planned"
+    }
+  ]
+}

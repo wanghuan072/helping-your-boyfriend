@@ -1,0 +1,358 @@
+{
+  "observedAt": "2026-10-08",
+  "claims": [
+    {
+      "id": "claim-hyb-001",
+      "gameId": "helping-your-boyfriend",
+      "claim": "Helping Your Boyfriend is a cute-turned-creepy horror visual novel created by Zieelane with four endings and five minigames.",
+      "scope": "official launch release",
+      "support": [
+        "evidence-001"
+      ],
+      "conflicts": [],
+      "conclusion": "confirmed",
+      "confidence": "high",
+      "publicLimit": "Do not reveal route outcomes in card, lead, TDK or unmarked copy.",
+      "flow07": "Confirm the count against the current downloadable build and full-session video.",
+      "flow07Resolution": {
+        "checkedAt": "2026-10-08",
+        "status": "rechecked",
+        "note": "Public wording was checked against the current official page and verified runtime identity."
+      }
+    },
+    {
+      "id": "claim-hyb-002",
+      "gameId": "helping-your-boyfriend",
+      "claim": "The official release offers Windows, macOS and Android downloads but no official browser build was observed.",
+      "scope": "official page on 2026-10-08",
+      "support": [
+        "evidence-001",
+        "evidence-002"
+      ],
+      "conflicts": [
+        "evidence-004"
+      ],
+      "conclusion": "confirmed-official-distribution; project iframe is unrelated and provisional",
+      "confidence": "high",
+      "publicLimit": "Do not claim the configured iframe is an official or verified web port.",
+      "flow07": "Recheck official platform list before publication.",
+      "flow07Resolution": {
+        "checkedAt": "2026-10-08",
+        "status": "resolved-with-public-boundary",
+        "note": "Public wording was checked against the current official page and verified runtime identity."
+      }
+    },
+    {
+      "id": "claim-hyb-003",
+      "gameId": "helping-your-boyfriend",
+      "claim": "Mouse input handles pointing and dragging; arrow keys and Space are used for QTEs; the bell menu provides Save, Load and Settings.",
+      "scope": "official launch controls",
+      "support": [
+        "evidence-001"
+      ],
+      "conflicts": [],
+      "conclusion": "confirmed",
+      "confidence": "high",
+      "publicLimit": "Touch equivalence is not yet confirmed.",
+      "flow07": "Map each of five minigames to its actual input.",
+      "flow07Resolution": {
+        "checkedAt": "2026-10-08",
+        "status": "rechecked",
+        "note": "Public wording was checked against the current official page and verified runtime identity."
+      }
+    },
+    {
+      "id": "claim-hyb-004",
+      "gameId": "helping-your-boyfriend",
+      "claim": "The game supports English and Thai and contains more than 8,000 English words.",
+      "scope": "official launch page",
+      "support": [
+        "evidence-001"
+      ],
+      "conflicts": [],
+      "conclusion": "confirmed",
+      "confidence": "high",
+      "publicLimit": "Avoid implying every platform build has separately verified language parity.",
+      "flow07": "Verify language selector location.",
+      "flow07Resolution": {
+        "checkedAt": "2026-10-08",
+        "status": "rechecked",
+        "note": "Public wording was checked against the current official page and verified runtime identity."
+      }
+    },
+    {
+      "id": "claim-hyb-005",
+      "gameId": "helping-your-boyfriend",
+      "claim": "The game contains jumpscares, loud sounds, flashing/disturbing imagery, blood, cartoon gore, violence, drug use, obsessive/toxic relationship behavior and crude language.",
+      "scope": "official launch warning",
+      "support": [
+        "evidence-001"
+      ],
+      "conflicts": [],
+      "conclusion": "confirmed",
+      "confidence": "high",
+      "publicLimit": "Warn plainly; do not use graphic thumbnails or sensational SEO.",
+      "flow07": "Locate warning screen and accessibility settings if present.",
+      "flow07Resolution": {
+        "checkedAt": "2026-10-08",
+        "status": "rechecked",
+        "note": "Public wording was checked against the current official page and verified runtime identity."
+      }
+    },
+    {
+      "id": "claim-hyb-006",
+      "gameId": "helping-your-boyfriend",
+      "claim": "The supplied test.com value cannot be safely instantiated as the first-version iframe URL.",
+      "scope": "project configuration",
+      "support": [
+        "evidence-004"
+      ],
+      "conflicts": [],
+      "conclusion": "confirmed provisional failure",
+      "confidence": "high",
+      "publicLimit": "Player must fail safely; do not expose configuration details publicly.",
+      "flow07": "None unless a replacement is supplied.",
+      "flow07Resolution": {
+        "checkedAt": "2026-10-08",
+        "status": "rechecked",
+        "note": "Public wording was checked against the current official page and verified runtime identity."
+      }
+    },
+    {
+      "id": "claim-embed-001",
+      "gameId": "candidate-set",
+      "claim": "Direct html-classic.itch.zone URLs show an anti-hotlink page when embedded from the project origin, while itch.io/embed-upload URLs are the usable external wrapper.",
+      "scope": "controlled localhost preflight 2026-10-08",
+      "support": [
+        "evidence-005"
+      ],
+      "conflicts": [],
+      "conclusion": "confirmed",
+      "confidence": "high",
+      "publicLimit": "Use only the final embed-upload URL in Game JSON; do not publish this implementation note.",
+      "flow07": "Reconfirm in the real non-public project preview."
+    },
+    {
+      "id": "claim-going-001",
+      "gameId": "going-live",
+      "claim": "Going Live! is a canceled HTML5 streamer/idol romance prototype. The creator feature list describes the full release, not guaranteed prototype counts.",
+      "scope": "current creator page",
+      "support": [
+        "evidence-006",
+        "evidence-018"
+      ],
+      "conflicts": [],
+      "conclusion": "restricted",
+      "confidence": "high",
+      "publicLimit": "Omit unconfirmed prototype ending, CG and word counts and invented fan-management meters.",
+      "flow07": "Identify concrete popularity feedback and route failure examples.",
+      "flow07Resolution": {
+        "checkedAt": "2026-10-08",
+        "status": "restricted",
+        "note": "Re-read primary page; full-release qualifier invalidates earlier count assumption."
+      }
+    },
+    {
+      "id": "claim-first-001",
+      "gameId": "first-base",
+      "claim": "First Base 1.6 has 25k words and six endings split between survival and death outcomes.",
+      "scope": "current full release",
+      "support": [
+        "evidence-007",
+        "evidence-019"
+      ],
+      "conflicts": [],
+      "conclusion": "confirmed",
+      "confidence": "high",
+      "publicLimit": "Keep specific ending conditions in marked spoiler content.",
+      "flow07": "The selected video is older; compare every video-derived fact with 1.6.",
+      "flow07Resolution": {
+        "checkedAt": "2026-10-08",
+        "status": "rechecked",
+        "note": "Current official build remains authoritative over older video footage."
+      }
+    },
+    {
+      "id": "claim-bus-001",
+      "gameId": "the-stranger-from-the-bus-stop",
+      "claim": "The stranger from the bus stop has four endings, four CGs and a short 15–20 minute structure where choices matter.",
+      "scope": "browser version 1.1",
+      "support": [
+        "evidence-008",
+        "evidence-020"
+      ],
+      "conflicts": [],
+      "conclusion": "confirmed",
+      "confidence": "high",
+      "publicLimit": "Do not expose the number clue solution outside marked Guide content.",
+      "flow07": "Verify the creator-reported phone text-box limitation.",
+      "flow07Resolution": {
+        "checkedAt": "2026-10-08",
+        "status": "rechecked",
+        "note": "Public wording was checked against the current official page and verified runtime identity."
+      }
+    },
+    {
+      "id": "claim-jester-001",
+      "gameId": "trapped-with-jester",
+      "claim": "Trapped with Jester has four main and two alternate endings and is fully voiced in English.",
+      "scope": "current itch release",
+      "support": [
+        "evidence-009",
+        "evidence-021"
+      ],
+      "conflicts": [],
+      "conclusion": "confirmed",
+      "confidence": "high",
+      "publicLimit": "Avoid naming ending reveals in cards and lead text.",
+      "flow07": "Measure actual web stutter/audio behavior and current save support.",
+      "flow07Resolution": {
+        "checkedAt": "2026-10-08",
+        "status": "rechecked",
+        "note": "Public wording was checked against the current official page and verified runtime identity."
+      }
+    },
+    {
+      "id": "claim-harvest-001",
+      "gameId": "today-im-harvesting-you",
+      "claim": "Today, I'm Harvesting You! uses clicking for text, choices and harvest items, and its creator documents web SFX and point-and-click placement bugs.",
+      "scope": "jam browser build",
+      "support": [
+        "evidence-010",
+        "evidence-022"
+      ],
+      "conflicts": [],
+      "conclusion": "confirmed",
+      "confidence": "high",
+      "publicLimit": "Describe workarounds without mocking creator wording or copying it.",
+      "flow07": "Reproduce one placement failure and recovery path.",
+      "flow07Resolution": {
+        "checkedAt": "2026-10-08",
+        "status": "rechecked",
+        "note": "Public wording was checked against the current official page and verified runtime identity."
+      }
+    },
+    {
+      "id": "claim-dionaea-001",
+      "gameId": "my-own-sweet-dionaea",
+      "claim": "My Own Sweet Dionaea 1.01 is a 5–6k-word HTML5 demo with keyboard/mouse support and a 17+ warning.",
+      "scope": "demo 1.01",
+      "support": [
+        "evidence-011",
+        "evidence-023"
+      ],
+      "conflicts": [],
+      "conclusion": "confirmed",
+      "confidence": "high",
+      "publicLimit": "Do not present planned full-game content as shipped; screen media for suggestive imagery.",
+      "flow07": "Map current demo endings and accessibility controls.",
+      "flow07Resolution": {
+        "checkedAt": "2026-10-08",
+        "status": "rechecked",
+        "note": "Public wording was checked against the current official page and verified runtime identity."
+      }
+    },
+    {
+      "id": "claim-overdose-001",
+      "gameId": "overdose",
+      "claim": "OVERD0SE uses affinity, inventory, protagonist customization, anxiety and awareness feedback in a multi-day browser demo.",
+      "scope": "September 2026 web build",
+      "support": [
+        "evidence-012",
+        "evidence-024"
+      ],
+      "conflicts": [],
+      "conclusion": "confirmed at feature level",
+      "confidence": "high",
+      "publicLimit": "Version-bound every route claim and avoid graphic self-harm imagery.",
+      "flow07": "Reconcile the selected older video with the current Day 8 upload and official mechanics guide.",
+      "flow07Resolution": {
+        "checkedAt": "2026-10-08",
+        "status": "rechecked",
+        "note": "Current official build remains authoritative over older video footage."
+      }
+    },
+    {
+      "id": "claim-devour-001",
+      "gameId": "devour-me-gently",
+      "claim": "Devour Me Gently is a short in-development HTML5 visual novel where an injured protagonist wakes in a stranger's apartment and enters a name before making choices.",
+      "scope": "current demo",
+      "support": [
+        "evidence-013",
+        "evidence-025"
+      ],
+      "conflicts": [],
+      "conclusion": "confirmed",
+      "confidence": "high",
+      "publicLimit": "Avoid romanticizing confinement or presenting the caretaker as safe.",
+      "flow07": "Confirm exact branches and touch behavior.",
+      "flow07Resolution": {
+        "checkedAt": "2026-10-08",
+        "status": "rechecked",
+        "note": "Public wording was checked against the current official page and verified runtime identity."
+      }
+    },
+    {
+      "id": "claim-dystopia-001",
+      "gameId": "dystopia-the-jesters-obsession",
+      "claim": "Dystopia: The Jester's Obsession demo v1 has four endings and uses affection/points to unlock dialogue.",
+      "scope": "demo v1",
+      "support": [
+        "evidence-014",
+        "evidence-026"
+      ],
+      "conflicts": [],
+      "conclusion": "confirmed",
+      "confidence": "high",
+      "publicLimit": "Clearly separate current features from announced future routes, including optional NSFW plans.",
+      "flow07": "Map current point feedback without exposing all ending thresholds.",
+      "flow07Resolution": {
+        "checkedAt": "2026-10-08",
+        "status": "rechecked",
+        "note": "Public wording was checked against the current official page and verified runtime identity."
+      }
+    },
+    {
+      "id": "claim-silver-001",
+      "gameId": "silver-thread-episode-i",
+      "claim": "Silver Thread : Episode I loaded its current title screen, but valid keyboard/menu input was not confirmed in the external embed.",
+      "scope": "upload 19061468",
+      "support": [
+        "evidence-015"
+      ],
+      "conflicts": [],
+      "conclusion": "open",
+      "confidence": "high",
+      "publicLimit": "Do not publish until a production-like input check passes.",
+      "flow07": "Retry with explicit iframe focus and movement/action sequence."
+    },
+    {
+      "id": "claim-vampire-001",
+      "gameId": "my-vampire-boyfriend-smokes-lucky-strikes",
+      "claim": "The creator documents a browser build, but the external embed remained black in the initial controlled test.",
+      "scope": "upload 15767271",
+      "support": [
+        "evidence-016"
+      ],
+      "conflicts": [],
+      "conclusion": "open",
+      "confidence": "high",
+      "publicLimit": "Keep candidate unpublished until real visuals and input pass.",
+      "flow07": "Inspect console/network and retry in project preview."
+    },
+    {
+      "id": "claim-welcome-001",
+      "gameId": "welcome-dear-human",
+      "claim": "The current Godot external embed fails because Cross-Origin Isolation and SharedArrayBuffer requirements are not met.",
+      "scope": "upload 16211268",
+      "support": [
+        "evidence-017"
+      ],
+      "conflicts": [],
+      "conclusion": "excluded",
+      "confidence": "high",
+      "publicLimit": "Do not publish or suggest weakening isolation/security headers for one game.",
+      "flow07": "No action unless the creator publishes a compatible embed."
+    }
+  ]
+}

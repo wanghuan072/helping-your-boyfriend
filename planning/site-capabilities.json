@@ -1,0 +1,17 @@
+{
+  "features": {
+    "accounts": { "enabled": false, "implementation": "", "notes": "No account system is planned." },
+    "contactForm": { "enabled": false, "implementation": "", "notes": "Contact details will be plain text only." },
+    "commentsOrRatings": { "enabled": false, "implementation": "", "notes": "No comments, scores, or user ratings are planned." },
+    "analytics": { "enabled": false, "implementation": "", "notes": "No first-party or third-party analytics are enabled in the current project." },
+    "localStorage": { "enabled": false, "implementation": "", "notes": "The site will not create first-party local-storage records." },
+    "cookies": { "enabled": false, "implementation": "", "notes": "The site itself will not set cookies; embedded providers may operate under their own policies." },
+    "gameIframes": { "enabled": true, "implementation": "Shared game player on the homepage and published additional-game routes", "notes": "Frames are created only after a player action. The provisional main source is rejected safely until replaced; additional games use verified itch.io wrappers." },
+    "youtubeIframes": { "enabled": true, "implementation": "Lazy youtube-nocookie.com embeds after each game article", "notes": "No autoplay; third-party requests begin when the deferred iframe loads." },
+    "payments": { "enabled": false, "implementation": "", "notes": "No checkout, donation, or payment collection is planned." },
+    "uploads": { "enabled": false, "implementation": "", "notes": "No file upload feature is planned." },
+    "subscriptions": { "enabled": false, "implementation": "", "notes": "No email subscription is planned." },
+    "advertising": { "enabled": false, "implementation": "", "notes": "No advertising scripts or ad placeholders are planned." }
+  },
+  "identities": []
+}
