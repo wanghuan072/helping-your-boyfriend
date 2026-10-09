@@ -6,6 +6,7 @@ import { resolve } from "node:path";
 import sharp from "sharp";
 import { staticTdk } from "../seo/tdk.js";
 import { validateRecord, visibleBodyCharacters } from './content-contract.mjs';
+import { isWithinDirectory } from './path-policy.mjs';
 
 const mode = process.argv[2] ?? "development";
 if (!["development", "media", "publish"].includes(mode)) throw new Error(`Unknown validation mode: ${mode}`);
@@ -33,7 +34,7 @@ function resolvePublicImage(src, owner, requiredPrefix) {
     return null;
   }
   const file = resolve("public", src.replace(/^\//, ""));
-  if (!file.startsWith(`${publicRoot}\\`) && file !== publicRoot) {
+  if (!isWithinDirectory(publicRoot, file)) {
     errors.push(`${owner}: image path escapes public directory`);
     return null;
   }

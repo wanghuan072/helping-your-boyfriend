@@ -12,6 +12,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 - The only writable project boundary is `D:\wh\202610\Helping Your Boyfriend\Helping Your Boyfriend\helping-your-boyfriend`; do not read or copy from other game projects.
 - Preserve the existing Next.js architecture and user changes. Do not deploy or commit to Git without a separate explicit request.
+- GitHub upload authorization is limited to the current request. Keep all subsequent edits local; commit or push them only when the user explicitly requests it again.
 - Latest user revision: the shared navigation contains only Home (`/`), Endings (`/endings`), Characters (`/characters`), and Controls (`/controls`). No More Games or Guides navigation. Old Guide URLs are removed and return 404; do not add compatibility redirects during development.
 - The main game exists only at `/`. Additional game records stay in `data/games/games.json` and are not public routes, sitemap entries, or on-page links. `/games` and `/games/[slug]` return 404. All game identity, player, media, content, SEO, and recommendation data comes from `data/games/main-game.json` and `data/games/games.json`; the three topic pages use one JSON source shared by all consumers.
 - Each game owns exactly one `player.iframeSrc`. Derive iframe configuration and CSP from Game JSON. A provisional main-game address may fail safely; every published additional game must be verified in the final site with visible gameplay and valid input.
