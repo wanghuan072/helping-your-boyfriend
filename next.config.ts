@@ -27,11 +27,11 @@ const contentSecurityPolicy = [
   "object-src 'none'",
   "frame-ancestors 'self'",
   `frame-src ${frameSources.join(" ")}`,
-  "img-src 'self' data: blob:",
+  "img-src 'self' data: blob: https://*.google-analytics.com https://www.googletagmanager.com",
   "font-src 'self'",
   "style-src 'self' 'unsafe-inline'",
-  `script-src 'self' 'unsafe-inline'${developmentScriptSource}`,
-  "connect-src 'self'",
+  `script-src 'self' 'unsafe-inline' https://www.googletagmanager.com${developmentScriptSource}`,
+  "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com",
   "form-action 'self'",
 ].join("; ");
 

@@ -15,5 +15,25 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang={siteConfig.language}><body><a className="skip-link" href="#main-content">Skip to main content</a><SiteHeader />{children}<SiteFooter /></body></html>;
+  return (
+    <html lang={siteConfig.language}>
+      <head>
+        {/* Use the requested plain Google tag without an additional integration package. */}
+        {/* eslint-disable-next-line @next/next/next-script-for-ga */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JPZNPH2TYE" />
+        <script dangerouslySetInnerHTML={{ __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-JPZNPH2TYE');
+        ` }} />
+      </head>
+      <body>
+        <a className="skip-link" href="#main-content">Skip to main content</a>
+        <SiteHeader />
+        {children}
+        <SiteFooter />
+      </body>
+    </html>
+  );
 }
