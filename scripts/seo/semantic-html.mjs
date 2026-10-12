@@ -1,7 +1,7 @@
 import { parse } from 'parse5';
 import { createHash } from 'node:crypto';
 
-export const fingerprintVersion = 'semantic-html-v1';
+export const fingerprintVersion = 'semantic-html-v2';
 const space = value => value.replace(/\s+/g, ' ').trim();
 const assetUrl = value => {
   if (!value) return '';
@@ -23,7 +23,7 @@ const stable = value => Array.isArray(value) ? value.map(stable) : value && type
 
 // Parse real prerendered HTML, never React flight scripts or raw source/CSS.
 // This also follows cross-page dependencies actually rendered by shared templates.
-export function seoInputs(html) {
+export function seoInputs(html, { includeChrome = false } = {}) {
   const result = { language: '', title: '', metadata: [], links: [], headings: [], media: [], structuredData: [], body: '' };
   const text = [];
   let canonical;
@@ -32,6 +32,8 @@ export function seoInputs(html) {
     const tag = node.tagName;
     const a = Object.fromEntries((node.attrs ?? []).map(attr => [attr.name, attr.value]));
     const children = node.childNodes ?? [];
+    // Shared navigation is not an editorial revision of every destination page.
+    if (!includeChrome && ((tag === 'header' && a.class?.split(' ').includes('site-header')) || (tag === 'footer' && a.class?.split(' ').includes('site-footer')))) return;
     const contents = n => email(n) ?? (n.nodeName === '#text' ? n.value : (n.childNodes ?? []).map(contents).join(''));
     if (tag === 'html') result.language = a.lang ?? '';
     if (tag === 'script') {
@@ -74,6 +76,6 @@ export function coreImages(html, origin) {
   return [...new Set(images.map(src => new URL(src, origin)).filter(url => url.origin === origin && url.pathname.startsWith('/images/')).map(url => url.pathname))].sort();
 }
 
-export function fingerprint(html, mediaDigests = {}) {
-  return `sha256:${createHash('sha256').update(JSON.stringify({ ...seoInputs(html).inputs, mediaDigests })).digest('hex')}`;
+export function fingerprint(html, mediaDigests = {}, options = {}) {
+  return `sha256:${createHash('sha256').update(JSON.stringify({ ...seoInputs(html, options).inputs, mediaDigests })).digest('hex')}`;
 }

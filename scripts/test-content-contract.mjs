@@ -15,8 +15,8 @@ for(const name of fs.readdirSync('data/guides'))if(name.endsWith('.json'))assert
 for(const game of [main,...games]){const errors=[];validateRecord(game,'game',errors);assert.deepEqual(errors,[]);assert(visibleBodyCharacters(game)>=4000);}
 const guides=readGuides();
 const topics=readTopicRoutes();
-assert.deepEqual(topics.map(topic=>topic.path),['/endings','/characters','/controls']);
-assert.equal(new Set(topics.map(topic=>topic.id)).size,3);
+assert.deepEqual(topics.map(topic=>topic.path),['/endings','/characters','/controls','/phone-number-and-address']);
+assert.equal(new Set(topics.map(topic=>topic.id)).size,4);
 for(const topic of topics)assert.deepEqual(Object.keys(topic).sort(),['id','label','path']);
 assert(!fs.readFileSync('config/navigation.ts','utf8').includes('More Games'));
 assert(!fs.readFileSync('next.config.ts','utf8').includes('redirects'));
@@ -28,8 +28,14 @@ assert(!fs.readFileSync("components/game/ContentSection.tsx", "utf8").includes("
 assert(!fs.readFileSync("components/game/ContentRenderer.tsx", "utf8").includes("<details"));
 assert(!mainPage.includes('story-hero'));
 for(const guide of guides)assert(!topicPath(guide.id).startsWith('/guides'));
-assert.equal(guides.length,3);
+assert.equal(guides.length,4);
 const endings=guides.find(guide=>guide.id==='helping-your-boyfriend-endings-walkthrough');
+const phone=guides.find(guide=>guide.id==='helping-your-boyfriend-phone-number-and-address');
+assert(visibleBodyCharacters({content:phone.sections})>=4000);
+const answers=phone.sections.find(section=>section.id==='quick-answers').blocks.filter(block=>block.type==='callout'&&block.tone==='tip');
+assert.deepEqual(answers.map(block=>block.body),['015767438','742 Silverwood Creek Lane, Silverwood Springs, CA 95401']);
+for(const answer of answers)assert(JSON.stringify(endings.sections).includes(answer.body),'Puzzle answers must agree with the ending walkthrough');
+assert.equal(phone.sections.flatMap(section=>section.blocks).filter(block=>block.type==='image').length,4);
 const namedRoutes=endings.sections.filter(section=>/^ending-(one|two|three|four)$/.test(section.id));
 assert.deepEqual(namedRoutes.map(section=>section.title),['Ending 1: My Boyfriend Is the Best','Ending 2: Nobody’s Home','Ending 3: The Empty Cage','Ending 4: Moving Forward']);
 for(const section of namedRoutes){assert(section.summary.length>80);assert(section.blocks.some(block=>block.type==='steps'));assert(section.blocks.some(block=>block.type==='paragraph'));}

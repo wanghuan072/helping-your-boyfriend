@@ -1,0 +1,331 @@
+{
+  "id": "helping-your-boyfriend-phone-number-and-address",
+  "slug": "helping-your-boyfriend-phone-number-and-address",
+  "title": "Helping Your Boyfriend Phone Number and Address",
+  "summary": "We find both clues, reach the locked-room phone and give Oliver the right location. Start with the answers, then follow the illustrated steps.",
+  "status": "published",
+  "publishedAt": "2026-10-12",
+  "updatedAt": "2026-10-12",
+  "authorId": null,
+  "tags": [
+    "Phone puzzle",
+    "Address answer",
+    "Checkpoints"
+  ],
+  "spoilerPolicy": "full",
+  "cover": {
+    "src": "/images/guides/route-phone.webp",
+    "alt": "The locked-room phone with the nine-digit number entered",
+    "width": 980,
+    "height": 551
+  },
+  "relatedGuideIds": [
+    "helping-your-boyfriend-endings-walkthrough",
+    "helping-your-boyfriend-controls-minigames"
+  ],
+  "sections": [
+    {
+      "id": "quick-answers",
+      "title": "The two answers we need",
+      "blocks": [
+        {
+          "type": "callout",
+          "tone": "warning",
+          "label": "Spoilers ahead",
+          "body": "This page reveals the phone number, the correct address and the investigation needed to make the call. For a blind run, return to the game before reading further."
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "label": "Helping Your Boyfriend phone number",
+          "body": "015767438"
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "label": "Helping Your Boyfriend address",
+          "body": "742 Silverwood Creek Lane, Silverwood Springs, CA 95401"
+        },
+        {
+          "type": "paragraph",
+          "text": "We enter the number inside the game to reach Oliver Freeman, then choose the address that matches the package. These are fictional puzzle answers, not real contact details. We do not dial the number on a real phone or look for the house on a map."
+        },
+        {
+          "type": "paragraph",
+          "text": "Knowing the answers and reaching the call are different tasks. We still need the investigation scenes and access to the locked room within our current run. If we are already at the phone, jump to the dialing instructions below; if the phone is missing, work through the preparation first."
+        }
+      ]
+    },
+    {
+      "id": "arm-number",
+      "title": "Where we find the phone number",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/helping-your-boyfriend-endings-walkthrough-step-2.webp",
+          "alt": "The protagonist notices handwritten digits on their arm",
+          "caption": "Record the arm clue before the later scenes obscure it.",
+          "width": 1280,
+          "height": 704
+        },
+        {
+          "type": "paragraph",
+          "text": "On the investigation direction, we accept the visitor’s pill on the first night. The next morning, the writing on our arm gives us a number to remember. We pause here and record the full clue rather than assuming that the remaining marks will be enough later."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Keep a clue checkpoint",
+              "body": "We save around the morning scene and note the complete number separately. A screenshot or a written note is easier to check than trying to recall each handwritten shape during the final sequence."
+            },
+            {
+              "title": "Continue the investigation",
+              "body": "We cannot place the call from this bedroom scene. We continue until Adrian leaves and exploration becomes available. The clue prepares us for the later phone, not an immediate dialogue choice."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "At the phone, the complete input is 015767438. We keep the initial zero: this is a nine-digit puzzle, not a number to shorten or reformat. The phone display is the useful place to check our final input when the handwriting is difficult to read."
+        }
+      ]
+    },
+    {
+      "id": "package-address",
+      "title": "Where we find the correct address",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/route-package.webp",
+          "alt": "The package displays 742 Silverwood Creek Lane, Silverwood Springs, CA 95401",
+          "caption": "Inspect the package in Adrian’s room during exploration.",
+          "width": 980,
+          "height": 551
+        },
+        {
+          "type": "paragraph",
+          "text": "During the Day 2 exploration, we inspect the package in Adrian’s room. Its label supplies the location Oliver needs. We read the interaction itself instead of simply spotting the box and leaving; the address is part of our investigation, not just background decoration."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Read the entire label",
+              "body": "We record 742 Silverwood Creek Lane, Silverwood Springs, CA 95401. We keep the house number, street, town, state and ZIP together. The later alternatives resemble it closely enough that one familiar word is not a reliable match."
+            },
+            {
+              "title": "Keep a save before moving on",
+              "body": "We preserve a checkpoint before the investigation ends. If we later discover that we missed the package interaction, this gives us somewhere useful to return without restarting every early conversation."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The number and address solve separate parts of the call. The number gets us a conversation; the address tells Oliver where we are. We gather both clues before treating the investigation as complete. A late phone save is convenient for input mistakes, but cannot replace an earlier save for missed exploration."
+        }
+      ]
+    },
+    {
+      "id": "reach-the-phone",
+      "title": "How we reach the locked-room phone",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The call belongs to the later investigation route. We continue the relevant pill and scalpel choices, survive the confrontation and search Adrian’s body for the key when that interaction is available. We enter the locked room before taking the exit outside."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Prepare the route, not just the answer",
+              "body": "For the rescue direction, we take Ian’s pill, avoid Adrian’s later medicine and use the scalpel when the story offers that choice. We keep an earlier relationship checkpoint as well as a save before the confrontation."
+            },
+            {
+              "title": "Find the key after surviving",
+              "body": "We inspect Adrian’s body during the investigation and wait for the key pickup. If we cannot search him, we return to earlier choices and try a less trusting direction with Adrian; repeating the same late scene does not rewrite those replies."
+            },
+            {
+              "title": "Enter the locked room",
+              "body": "We use the key and complete the intervening scene. Once inside, we inspect the desk phone. We do not assume that unlocking the room or walking toward the outside has already called for help."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This is a compact checklist for reaching the puzzle, not a replacement for the full ending walkthrough. If our run branches away before the key or phone, we use the Endings page to compare the preceding choices. We avoid treating a missed route prerequisite as an incorrect telephone number."
+        }
+      ]
+    },
+    {
+      "id": "dial-the-number",
+      "title": "How we enter 015767438",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/route-phone.webp",
+          "alt": "The phone puzzle shows 015767438 with arrows above and below the digits",
+          "caption": "Check all nine digits, then use the confirmation tick.",
+          "width": 980,
+          "height": 551
+        },
+        {
+          "type": "paragraph",
+          "text": "At the phone, we use the arrows to set the digits. The completed display should read 0 1 5 7 6 7 4 3 8. Some digits are already present in the shown scene; we check the entire display rather than changing every position automatically."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Adjust one position at a time",
+              "body": "We select the arrow for the digit we want to change, then wait for the display to update. Repeated rapid clicks can carry a position past the value we intended."
+            },
+            {
+              "title": "Compare the complete sequence",
+              "body": "We read from left to right and check the leading zero and final 438. We do not insert spaces, country codes or an extra digit: the individual positions on screen make up the full answer."
+            },
+            {
+              "title": "Confirm and stay in the conversation",
+              "body": "We use the tick once the display matches. When Oliver answers, we continue to his location question; a successful connection alone is not the end of the puzzle."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "If an arrow does not respond, we click inside the game frame and try one deliberate input. If the game is still responding but a digit is wrong, we correct that position before confirming. We save before reloading the entire player, because a webpage reload can discard unsaved progress."
+        }
+      ]
+    },
+    {
+      "id": "choose-the-address",
+      "title": "Which address we give Oliver",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/route-address.webp",
+          "alt": "Three address choices appear; the third matches the package label",
+          "caption": "Match the full package address, not just the word Silverwood.",
+          "width": 980,
+          "height": 551
+        },
+        {
+          "type": "paragraph",
+          "text": "We choose 742 Silverwood Creek Lane, Silverwood Springs, CA 95401. In the English scene pictured here, this is the third option. We use the wording as our rule, not the position alone, so a different layout or translation does not turn our memory of “third” into a wrong answer."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Address in the shown scene",
+            "Our check"
+          ],
+          "rows": [
+            [
+              "721 Silverwood Ridge Road, Silverwood Springs, CA 98401",
+              "Wrong house number, street and ZIP."
+            ],
+            [
+              "771 Silverwood Creek Way, Silverwood Valley, CA 98431",
+              "Wrong house number, street ending, town and ZIP."
+            ],
+            [
+              "742 Silverwood Creek Lane, Silverwood Springs, CA 95401",
+              "Matches the package label. Choose this answer."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "We check three parts before clicking: 742, Creek Lane, and Silverwood Springs with ZIP 95401. The wrong lines share several words with the correct one, which is why scanning only the start or the town name is risky."
+        },
+        {
+          "type": "paragraph",
+          "text": "After choosing, we let Oliver’s response finish and continue the story. We do not reload simply because the scene does not immediately show an ending title. The call is one part of the route, and the remaining scenes still matter."
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "When the call does not go as planned",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "We cannot find the phone",
+              "body": "We check whether we collected the key and entered the locked room. Taking the outside exit before this detour is not the same as completing the call. Load a checkpoint before choosing where to go."
+            },
+            {
+              "title": "The body-search interaction is unavailable",
+              "body": "We check our earlier direction with Adrian rather than guessing another phone number. Keep the late save, but return to the relationship checkpoint for a genuinely different route attempt."
+            },
+            {
+              "title": "We do not reach the address question",
+              "body": "We review whether we inspected the package in Adrian’s room and completed its dialogue. If we skipped that interaction, return to the exploration checkpoint and read the label. We do not assume that knowing an answer outside the game substitutes for every in-game step."
+            },
+            {
+              "title": "We selected the wrong address",
+              "body": "We load the checkpoint before the call and compare the whole line with the package. If that save already contains the wrong selection, use an earlier slot instead of overwriting our only useful checkpoint."
+            },
+            {
+              "title": "The phone digits are hard to press",
+              "body": "We enlarge the player using fullscreen and use deliberate pointer input. We follow the controls visible in our build, and avoid browser gestures or repeated taps near small arrows."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "We keep clue, confrontation and phone checkpoints in different slots. Each solves a different problem: the clue save lets us revisit investigation, the confrontation save helps us retry timed input, and the phone save helps us correct dialing or an address choice. Saving only after a disappointing outcome can leave us with no practical way to change the missed step."
+        }
+      ]
+    },
+    {
+      "id": "after-the-call",
+      "title": "What we do after the call",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The completed call is part of the paths toward The Empty Cage and Moving Forward. The relationship we built with Ian earlier helps distinguish their later outcomes; Oliver does not give us a final button that erases every prior choice."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a targeted replay, we choose our goal before loading. If we only want to fix the phone puzzle, we use the nearest useful phone save. If we want to compare the two rescue outcomes, we keep our completed run separate and return to the earlier relationship checkpoint."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Endings page follows these choices through the remaining scenes and explains all four named outcomes. A failed timed interaction is a game-over, not an additional story ending or proof that our address was wrong."
+        }
+      ]
+    },
+    {
+      "id": "common-questions",
+      "title": "Phone number and address questions",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "What is the phone number in Helping Your Boyfriend?",
+              "body": "We enter 015767438 in the in-game phone puzzle. Keep all nine digits, including the first zero."
+            },
+            {
+              "title": "What is the correct address in Helping Your Boyfriend?",
+              "body": "The package gives 742 Silverwood Creek Lane, Silverwood Springs, CA 95401. We choose that complete line when Oliver asks where we are."
+            },
+            {
+              "title": "Is the right address always the third option?",
+              "body": "It is third in the English scene shown here. We match the actual text rather than relying on its position in every edition."
+            },
+            {
+              "title": "Can the answers alone unlock Ending 4?",
+              "body": "No. We still need to reach the phone through the investigation, complete the call and follow the earlier relationship direction. Knowing the number does not create a missing key or change our replies to Ian."
+            },
+            {
+              "title": "Should we call the number outside the game?",
+              "body": "No. Both answers belong to the fictional puzzle. We use the number only on the game’s telephone and the address only in the game’s dialogue."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

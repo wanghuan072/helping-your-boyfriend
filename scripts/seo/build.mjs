@@ -32,7 +32,7 @@ function localFingerprint(html) {
   }));
   return fingerprint(html, digests);
 }
-async function productionFingerprint(html) {
+async function productionFingerprint(html, options = {}) {
   const digests = {};
   for (const image of coreImages(html, origin)) {
     if (!imageCache.has(image)) {
@@ -44,7 +44,7 @@ async function productionFingerprint(html) {
     }
     digests[image] = imageCache.get(image);
   }
-  return fingerprint(html, digests);
+  return fingerprint(html, digests, options);
 }
 const headers = process.env.SEO_PRODUCTION_BYPASS_SECRET ? { 'x-vercel-protection-bypass': process.env.SEO_PRODUCTION_BYPASS_SECRET } : {};
 
@@ -135,6 +135,19 @@ async function loadPreviousManifest() {
 }
 
 const routes = discoverRoutes();
+// Verify the known v1 -> v2 migration against live HTML before preserving dates.
+async function pageScopedBaseline(previous) {
+  if (previous.fingerprintVersion === fingerprintVersion) return previous;
+  if (previous.fingerprintVersion !== 'semantic-html-v1') throw new Error('Unsupported fingerprint migration');
+  const entries = [];
+  for (const entry of previous.entries) {
+    const html = await resource(entry.path, 'text/html');
+    if (!html || await productionFingerprint(html, { includeChrome: true }) !== entry.contentFingerprint) throw new Error(`Live page differs from v1 baseline: ${entry.path}; audit baseline before migration`);
+    entries.push({ ...entry, contentFingerprint: await productionFingerprint(html) });
+  }
+  console.log(`Verified page-scoped fingerprint migration; ${entries.length} historical timestamps preserved.`);
+  return { ...previous, fingerprintVersion, entries };
+}
 if (mode === 'validate') {
   const manifest = read(manifestFile);
   validate(manifest, origin);
@@ -146,7 +159,7 @@ if (mode === 'validate') {
   }
   console.log(`Semantic manifest verified against ${routes.length} rendered pages.`);
 } else {
-  const previous = await loadPreviousManifest();
+  const previous = await pageScopedBaseline(await loadPreviousManifest());
   if (mode === 'migrate') {
     write(baselineFile, { source: `${origin}/sitemap.xml + production HTML (read-only audit)`, observedAt: previous.generatedAt, purpose: 'Local migration recovery only; production builds always fetch the live successful production manifest.', manifest: previous });
     write(manifestFile, previous);

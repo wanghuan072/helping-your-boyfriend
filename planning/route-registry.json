@@ -4,6 +4,16 @@
   "mainGameRoutePolicy": "The main game is published only at / and never at /games/helping-your-boyfriend.",
   "staticRoutes": [
     {
+      "id": "phone-number-and-address",
+      "changeFrequency": "monthly",
+      "priority": 0.8,
+      "path": "/phone-number-and-address",
+      "kind": "topic",
+      "source": "data/guides/helping-your-boyfriend-phone-number-and-address.json",
+      "canonical": "https://helpingyourboyfriend.org/phone-number-and-address",
+      "sitemap": true
+    },
+    {
       "id": "home",
       "changeFrequency": "weekly",
       "priority": 1,
@@ -137,5 +147,5 @@
       "source": "app/robots.ts"
     }
   ],
-  "plannedPublicCanonicalCount": 9
+  "plannedPublicCanonicalCount": 10
 }

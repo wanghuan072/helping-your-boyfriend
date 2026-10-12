@@ -2,6 +2,17 @@
   "observedAt": "2026-10-08",
   "records": [
     {
+      "guide_id": "helping-your-boyfriend-phone-number-and-address",
+      "unique_player_task": "Find both clues, operate the phone and match the package address without reading every ending.",
+      "screenshot_tasks": [
+        { "task": "Read the arm clue", "adopted_media_id": "media-guide-endings-step-2" },
+        { "task": "Read the package", "adopted_media_id": "media-endings-route-package" },
+        { "task": "Dial the phone", "adopted_media_id": "media-endings-route-phone" },
+        { "task": "Match the address", "adopted_media_id": "media-endings-route-address" }
+      ],
+      "verification_notes": "Existing arm/phone/package/address images inspected 2026-10-12. Stream frame build unknown and republication licence unverified; no new permission claim. Exact affection thresholds and missed-package disconnect not independently tested."
+    },
+    {
       "guide_id": "helping-your-boyfriend-controls-minigames",
       "unique_player_task": "Choose the correct input for dialogue, dragging, and directional QTEs, then recover when an interaction does not register.",
       "completion_result": "The player can finish each input family without revealing route outcomes.",

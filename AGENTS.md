@@ -10,6 +10,8 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## Project execution rules
 
+- Latest user revision (2026-10-12): also publish `/phone-number-and-address` and include Phone & Address in the shared navigation. There are four topic pages and ten public pages. This supersedes the earlier four-item navigation and nine-page limits below; keep all old Games/Guides routes removed.
+
 - The only writable project boundary is `D:\wh\202610\Helping Your Boyfriend\Helping Your Boyfriend\helping-your-boyfriend`; do not read or copy from other game projects.
 - Preserve the existing Next.js architecture and user changes. Do not deploy or commit to Git without a separate explicit request.
 - GitHub upload authorization is limited to the current request. Keep all subsequent edits local; commit or push them only when the user explicitly requests it again.

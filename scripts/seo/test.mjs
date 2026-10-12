@@ -9,6 +9,10 @@ const html = (path, body = 'A useful player guide') => `<html lang="en"><head><t
 const entry = (path, content = html(path)) => ({ path, canonicalUrl: `${origin}${path}`, indexable: seoInputs(content).indexable, contentFingerprint: fingerprint(content), siteUrl: origin, contentTime: t1, priority: path === '/' ? 1 : .8, changeFrequency: 'monthly' });
 const candidates = [entry('/'), entry('/characters'), entry('/controls'), entry('/endings')];
 const first = buildManifest(candidates, null, t1);
+const chrome = html('/').replace('<body>', '<body><header class="site-header"><a href="/">Home</a></header>');
+const newNavigation = chrome.replace('>Home</a>', '>Home</a><a href="/phone-number-and-address">Phone &amp; Address</a>');
+assert.equal(fingerprint(chrome), fingerprint(newNavigation), 'Shared navigation must not refresh unrelated page dates');
+assert.notEqual(fingerprint(chrome, {}, { includeChrome: true }), fingerprint(newNavigation, {}, { includeChrome: true }), 'Legacy migration retains v1 hashing');
 const same = buildManifest(candidates, first, t2);
 assert.deepEqual(same.entries, first.entries, 'Unchanged dates survive later build');
 assert.equal(diff(first, same).unchanged.length, 4);

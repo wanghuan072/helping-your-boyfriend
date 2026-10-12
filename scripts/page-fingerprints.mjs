@@ -31,7 +31,7 @@ export function publicFingerprints(readText = file => fs.readFileSync(file, 'utf
   for (const { path, record } of topics.filter(topic => topic.record.status === 'published')) {
     const related = topics.filter(topic => record.relatedGuideIds.includes(topic.id)).map(({ id, path, record }) => ({ id, path, title: record.title, summary: record.summary, cover: record.cover }));
     content[path] = hash({ chrome, renderer, record: clean(record), related,
-      source: source(record.routeMap ? ['components/guide/EndingsTree.tsx', 'components/guide/RouteConnections.tsx'] : ['components/guide/NotebookTopic.tsx']) });
+      source: source(record.routeMap ? ['components/guide/EndingsTree.tsx', 'components/guide/RouteConnections.tsx'] : ['/characters', '/controls'].includes(path) ? ['components/guide/NotebookTopic.tsx'] : ['components/guide/GuideArticle.tsx']) });
   }
   const pages = Object.fromEntries(['privacy', 'terms', 'copyright', 'about', 'contact'].map(name => [`/${name}`, hash({ chrome, contactEmail,
     source: source([`app/${name}/page.tsx`, 'components/chrome/LegalPage.tsx']),

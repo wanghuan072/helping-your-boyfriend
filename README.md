@@ -52,7 +52,12 @@ Meet our protagonist, Dr. Adrian Winchester, Ian and Oliver through illustrated 
 
 Find dialogue shortcuts, illustrated doll-work instructions, timed-input guidance and save-and-retry advice. We use this page when the next action is unclear, rather than reading an entire ending route just to find one key. The instruction in our current game always takes priority if a build or device behaves differently.
 
+### [Phone Number & Address](https://helpingyourboyfriend.org/phone-number-and-address)
+
+Find the nine-digit phone number, read the package address and follow the locked-room call step by step. We compare the three address choices, use separate checkpoints for clues and the phone, and troubleshoot a missing key or an unfinished call. This page reveals puzzle answers; use it when we are ready for spoilers.
+
 ## A few habits that help
+
 
 - We read every visible answer before confirming it. A warmer-sounding reply is not automatically the right choice for the route we want.
 - We separate story saves from task saves. Loading just before a minigame helps with input practice; changing an earlier relationship choice needs an earlier checkpoint.

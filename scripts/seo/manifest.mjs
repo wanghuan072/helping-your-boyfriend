@@ -1,6 +1,6 @@
 import { assertManifest, assertManifestPair, assertCheckpointPair, eligibleEntries } from './manifest-contract.mjs';
 import { partitionSitemap } from '../../seo/sitemap-policy.js';
-const fingerprintVersion = 'semantic-html-v1';
+import { fingerprintVersion } from './semantic-html.mjs';
 
 export function validate(manifest, origin) {
   assertManifest(manifest);

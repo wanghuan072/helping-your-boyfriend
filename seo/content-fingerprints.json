@@ -1,14 +1,17 @@
 {
   "/": {
-    "fingerprint": "4b72acb20fbac23d9dafa5864325c1e8b0f2cea7fb51485584dd1a660b1fd766"
+    "fingerprint": "e27fa67f3812a873b442b091a1bd085e19ed2327ff717ee80558b2122ad75ef8"
   },
   "/endings": {
-    "fingerprint": "f22242f2924a3927a9d1865eeae5031ba9ca3c8002c28ce89c4a8bf00a59b890"
+    "fingerprint": "2bb6598b5dee2f59237ec158723a6a59f082e4db0a090e8fafabd25003a297ab"
   },
   "/characters": {
-    "fingerprint": "41de5791c23f52773487814d9018f0f955765986378c1932f9618f9ba55cb737"
+    "fingerprint": "4632335dd255697cd3b2dae214ec3c88d87fc7b29b15f59bcc51a6a2b80b1926"
   },
   "/controls": {
-    "fingerprint": "a62ed31766382a3a900e53fd05a20f52925fcd6905c2195d0333ffcef4e9cfc6"
+    "fingerprint": "6e7c2030a01bb142ca8baff53dec6b6a049734bd196fd5d418f7c92505d35ec8"
+  },
+  "/phone-number-and-address": {
+    "fingerprint": "8fd91298ecbfe8eeed6346e3302cc916cb618e2127f8c731b77a04693e8ab11d"
   }
 }

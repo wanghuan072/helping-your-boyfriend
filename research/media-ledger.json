@@ -1860,6 +1860,7 @@
       "height": 704,
       "fileBytes": 60314,
       "usedOn": [
+        "/phone-number-and-address",
         "/endings",
         "/"
       ],
@@ -2583,6 +2584,7 @@
       "height": 551,
       "fileBytes": 33284,
       "usedOn": [
+        "/phone-number-and-address",
         "/endings"
       ],
       "altDirection": "Oliver’s address question offers three answers; the third matches the package label",
@@ -2993,6 +2995,7 @@
       "height": 551,
       "fileBytes": 30182,
       "usedOn": [
+        "/phone-number-and-address",
         "/endings"
       ],
       "altDirection": "The package scene displays 742 Silverwood Creek Lane, Silverwood Springs, CA 95401",
@@ -3034,6 +3037,7 @@
       "height": 551,
       "fileBytes": 26110,
       "usedOn": [
+        "/phone-number-and-address",
         "/endings"
       ],
       "altDirection": "The telephone puzzle uses individual arrows to set its nine digits",

@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import path from 'node:path';
 import { artifactPath } from './build-artifacts.mjs';
 const root = path.resolve('reports/runtime/artifact-fixture');
-const routes = ['/', '/endings', '/characters', '/controls', '/privacy', '/terms', '/copyright', '/about', '/contact'];
+const routes = ['/', '/endings', '/characters', '/controls', '/phone-number-and-address', '/privacy', '/terms', '/copyright', '/about', '/contact'];
 const machine = ['/sitemap.xml', '/robots.txt', '/.well-known/seo-url-manifest.json'];
 const owners = Object.fromEntries([...routes.map(route => [`${route === '/' ? '' : route}/page`,route]), ...machine.map(route => [`${route}/route`,route])]);
 function fixture(adapter, missing = false) {
@@ -23,4 +23,4 @@ for(const route of machine) assert.match(artifactPath(route,'route',root,fixture
 assert.throws(()=>artifactPath('/','page',root,fixture(true,true)),/artifact missing/);
 assert.throws(()=>artifactPath('/unregistered','page',root,fixture(true)),/prerender missing/);
 assert.throws(()=>artifactPath('/../outside','page',root,fixture(true)),/Invalid/);
-console.log('Next output resolution passed: nine pages + three machine routes, legacy and adapter layouts, missing/foreign route rejection.');
+console.log('Next output resolution passed: ten pages + three machine routes, legacy and adapter layouts, missing/foreign route rejection.');

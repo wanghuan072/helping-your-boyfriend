@@ -148,7 +148,7 @@ if (mode !== "development") {
 if (mode !== "publish") for (const game of games) for (const id of game.relatedGameIds) if (!ids.has(id)) errors.push(`${game.id}: unknown related game ${id}`);
 if (mode === "publish") {
   if (main.status !== "published") errors.push("main game is not published");
-  if (guides.filter((guide) => guide.status === "published").length !== 3) errors.push("expected three published topic pages");
+  if (guides.filter((guide) => guide.status === "published").length !== read("data/topics/routes.json").length) errors.push("published topics must match the topic registry");
   for (const [key, value] of Object.entries(staticTdk)) {
     const titleLength = Array.from(value.title ?? "").length;
     const descriptionLength = Array.from(value.description ?? "").length;
