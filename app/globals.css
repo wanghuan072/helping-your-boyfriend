@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+/* 广告不显示标题；上下外边距各 10px，不缩放固定尺寸素材。 */
+.advertising-slot{display:flex;justify-content:center;align-items:center;width:100%;margin:10px 0;padding:0;min-width:728px;position:relative;left:50%;transform:translateX(-50%);z-index:1}
+.advertising-slot iframe{display:block;border:0;flex:none;width:728px;height:90px}
+.advertising-slot+*{margin-top:0!important}
+/* 清除广告位置继承的网格间距，正文块之间仍保留原来的阅读间距。 */
+.scrapbook-body:has(>.advertising-slot){gap:0}
+.scrapbook-body:has(>.advertising-slot)>:not(.advertising-slot)+:not(.advertising-slot){margin-top:26px}
+@media(max-width:768px){.advertising-slot{min-width:300px}.advertising-slot iframe{width:300px;height:250px}}
+
 :root{--canvas:#f7f3ef;--surface:#fffdfb;--surface-tint:#f0e1df;--ink:#2b2530;--muted:#70606a;--rose:#974353;--rose-dark:#74323e;--warning:#d7ad49;--danger:#8b293d;--line:#ded3ce;--header-height:76px;--container-pad:32px}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:96px}

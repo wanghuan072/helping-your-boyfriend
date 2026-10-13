@@ -50,6 +50,14 @@ const nextConfig: NextConfig = {
           { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
         ],
       },
+      {
+        // 宽松资源策略只用于隔离的广告文档；主站 CSP 不扩大。
+        source: "/ad-frame/:file",
+        headers: [
+          { key: "Content-Security-Policy", value: "default-src https:; script-src https: 'unsafe-inline'; style-src 'unsafe-inline'; img-src https: data:; frame-src https:; connect-src https:; base-uri 'none'; object-src 'none'; frame-ancestors 'self'" },
+          { key: "X-Robots-Tag", value: "noindex, nofollow" },
+        ],
+      },
     ];
   },
   experimental: {

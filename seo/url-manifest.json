@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "fingerprintVersion": "semantic-html-v2",
   "siteUrl": "https://helpingyourboyfriend.org",
-  "generatedAt": "2026-10-12T10:28:01.283Z",
+  "generatedAt": "2026-10-13T04:03:24.506Z",
   "entries": [
     {
       "path": "/",
@@ -80,10 +80,10 @@
       "path": "/privacy",
       "canonicalUrl": "https://helpingyourboyfriend.org/privacy",
       "indexable": true,
-      "contentFingerprint": "sha256:7c4beb5fe115dfee5e0359c857ab5e89409ec060eb09d266b56d7bc3c31166e7",
+      "contentFingerprint": "sha256:083618d2d0b18d849f8b5a49ad390bed66843b970499522a2040dc636b96a6ae",
       "changeFrequency": "yearly",
       "priority": 0.3,
-      "lastModified": "2026-10-09T00:00:00.000Z"
+      "lastModified": "2026-10-13T00:00:00.000Z"
     },
     {
       "path": "/terms",

@@ -17,7 +17,7 @@ export default function Page() {
       <p>The written pages do not ask you to provide a name, profile, payment details or game save. We do not operate an account database or a public upload system. A game embedded from another service may process additional information under that service&apos;s own practices.</p>
     </section>
     <section><h2>Cookies, browser storage and measurement</h2>
-      <p>The current site application does not intentionally set first-party tracking cookies, create persistent visitor profiles or include advertising or audience-analytics integrations. This statement concerns our application; it does not guarantee that a hosting provider or an external service uses no cookies or similar technology.</p>
+      <p>This site uses Google Analytics to measure visits and third-party banner advertising to support its operation. When their scripts or frames load, providers may receive technical connection information, page or referrer information, device details and interaction data, and may use cookies or similar technologies according to their own practices and your browser settings. Advertising can load while you read the page; starting the game is not required.</p>
       <p>External games may use browser storage for preferences or progress. Browser settings, private browsing, clearing site data or switching devices can affect that information. We do not receive a copy of a game&apos;s save merely because its player appears on our page.</p>
     </section>
     <section><h2>External game player</h2>

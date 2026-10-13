@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { PageAdvertising } from "@/components/ads/PageAdvertising";
 import { SiteFooter } from "@/components/chrome/SiteFooter";
 import { SiteHeader } from "@/components/chrome/SiteHeader";
 import { siteConfig } from "@/config/site";
@@ -33,6 +34,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <SiteHeader />
         {children}
         <SiteFooter />
+        {/* 广告仅挂载在完整内容后；GA 保留现有一份，不重复统计。 */}
+        <PageAdvertising />
       </body>
     </html>
   );
